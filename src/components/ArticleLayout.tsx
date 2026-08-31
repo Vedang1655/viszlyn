@@ -5,6 +5,7 @@ type ArticleLayoutProps = {
   title: string;
   dek: string;
   publishedDate: string;
+  lastUpdated?: string;
   dataPeriod?: string;
   children: ReactNode;
 };
@@ -14,6 +15,7 @@ export function ArticleLayout({
   title,
   dek,
   publishedDate,
+  lastUpdated,
   dataPeriod,
   children,
 }: ArticleLayoutProps) {
@@ -28,6 +30,7 @@ export function ArticleLayout({
       <p className="font-body text-lg text-stone leading-relaxed mb-4">{dek}</p>
       <div className="flex flex-wrap gap-x-4 gap-y-1 font-data text-xs text-stone border-t border-b border-stone-light py-3 mb-10">
         <span>Published {publishedDate}</span>
+        {lastUpdated && <span>Updated {lastUpdated}</span>}
         {dataPeriod && <span>Data period: {dataPeriod}</span>}
       </div>
 
@@ -57,13 +60,43 @@ export function ArticleSection({
   );
 }
 
-export function SourceNote({ children }: { children: ReactNode }) {
+export function SourceNote({
+  dataPeriod,
+  lastUpdated,
+  sources,
+  methodology,
+}: {
+  dataPeriod: string;
+  lastUpdated: string;
+  sources: string;
+  methodology: string;
+}) {
   return (
     <div className="bg-ink/[0.03] border border-stone-light rounded-lg p-5">
-      <span className="font-body text-xs font-semibold tracking-widest text-stone uppercase block mb-2">
+      <span className="font-body text-xs font-semibold tracking-widest text-stone uppercase block mb-3">
         Data Sources &amp; Methodology
       </span>
-      <p className="font-body text-sm text-stone leading-relaxed">{children}</p>
+      <dl className="flex flex-col gap-2 mb-3">
+        <div className="flex gap-2 text-sm">
+          <dt className="font-body font-medium text-ink shrink-0">Data period:</dt>
+          <dd className="font-data text-stone">{dataPeriod}</dd>
+        </div>
+        <div className="flex gap-2 text-sm">
+          <dt className="font-body font-medium text-ink shrink-0">Last updated:</dt>
+          <dd className="font-data text-stone">{lastUpdated}</dd>
+        </div>
+        <div className="flex gap-2 text-sm">
+          <dt className="font-body font-medium text-ink shrink-0">Sources:</dt>
+          <dd className="font-body text-stone">{sources}</dd>
+        </div>
+      </dl>
+      <p className="font-body text-sm text-stone leading-relaxed border-t border-stone-light pt-3">
+        {methodology}
+      </p>
+      <p className="font-body text-xs text-stone/80 leading-relaxed mt-2 italic">
+        Figures marked as estimates are based on publicly available
+        information and may vary from other published sources.
+      </p>
     </div>
   );
 }

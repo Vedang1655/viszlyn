@@ -7,6 +7,8 @@ import {
   SourceNote,
 } from "@/components/ArticleLayout";
 import { RankEntry } from "@/components/RankEntry";
+import { FAQ } from "@/components/FAQ";
+import { RelatedRankings } from "@/components/RelatedRankings";
 
 const CHART_ITEMS = [
   { rank: 1, name: "MrBeast", value: "$300M", raw: 300 },
@@ -96,6 +98,36 @@ const DETAILED_ENTRIES = [
   },
 ];
 
+const FAQ_ITEMS = [
+  {
+    question: "Who is the highest-earning creator in 2026?",
+    answer:
+      "MrBeast tops the list with an estimated $300 million, driven by advertising, his snack brand Feastables, Beast Industries, merchandise, and licensing deals.",
+  },
+  {
+    question: "Is this ranking YouTube-only?",
+    answer:
+      "No. This ranking uses Forbes' Top Creators 2026 methodology, which covers creators across multiple platforms, not just YouTube. It's a creator-earnings ranking rather than a platform-specific one.",
+  },
+  {
+    question: "How are these earnings estimated?",
+    answer:
+      "Figures are Forbes' estimates for the period March 2025 to March 2026, based on publicly available information including ad revenue, brand deals, and business ventures. They are not audited or self-reported exact figures.",
+  },
+  {
+    question: "Why isn't subscriber count included?",
+    answer:
+      "Audience figures vary significantly by platform and change frequently, so cross-platform follower totals aren't presented here as YouTube subscriber counts to avoid misleading comparisons.",
+  },
+];
+
+const RELATED_LINKS = [
+  { title: "World's Most Valuable Companies", href: "/rankings/most-valuable-companies" },
+  { title: "Highest-Paid Athletes", href: "/rankings/highest-paid-athletes" },
+  { title: "Richest People in the World", href: "/rankings/richest-people" },
+  { title: "Biggest AI Companies", href: "/rankings/biggest-ai-companies" },
+];
+
 export default function HighestEarningCreators2026() {
   return (
     <>
@@ -106,8 +138,18 @@ export default function HighestEarningCreators2026() {
           title="The 10 Highest-Earning Creators in 2026"
           dek="Estimated earnings, audience size, and the businesses behind today's biggest creators."
           publishedDate="August 29, 2026"
+          lastUpdated="August 31, 2026"
           dataPeriod="March 2025–March 2026"
         >
+          <ArticleSection title="Quick Answer">
+            <p>
+              MrBeast is the highest-earning creator in 2026 with an
+              estimated $300 million, more than four times the combined
+              earnings of the next four creators on this list. Dhar Mann
+              ($65M) and Steven Bartlett ($52M) round out the top three.
+            </p>
+          </ArticleSection>
+
           <ArticleSection>
             <p>
               Creator income has grown into a major media business. The
@@ -145,15 +187,20 @@ export default function HighestEarningCreators2026() {
             </p>
           </ArticleSection>
 
-          <SourceNote>
-            Primary source: Forbes, Top Creators 2026. Visual Capitalist also
-            publishes a visualization of the Forbes ranking. Forbes&apos;
-            creator ranking covers multiple platforms and uses estimated
-            annual earnings rather than publicly reported creator income.
-            Audience figures can vary by platform and date, so this article
-            avoids presenting cross-platform follower totals as YouTube
-            subscriber counts. Prepared for Viszlyn.io.
-          </SourceNote>
+          <SourceNote
+            dataPeriod="March 2025–March 2026"
+            lastUpdated="August 31, 2026"
+            sources="Forbes, Top Creators 2026"
+            methodology="Primary source: Forbes, Top Creators 2026. Visual Capitalist also publishes a visualization of the Forbes ranking. Forbes' creator ranking covers multiple platforms and uses estimated annual earnings rather than publicly reported creator income. Audience figures can vary by platform and date, so this article avoids presenting cross-platform follower totals as YouTube subscriber counts. Prepared for Viszlyn.io."
+          />
+
+          <ArticleSection title="Frequently Asked Questions">
+            <FAQ items={FAQ_ITEMS} />
+          </ArticleSection>
+
+          <ArticleSection title="Related Rankings">
+            <RelatedRankings links={RELATED_LINKS} />
+          </ArticleSection>
         </ArticleLayout>
       </main>
       <SiteFooter />
