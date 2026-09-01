@@ -1,14 +1,28 @@
-import Link from "next/link";
 import { RankList } from "./RankBar";
+import { RankEntry } from "./RankEntry";
+import { ChartHeader } from "./ChartHeader";
+
+type DetailedEntry = {
+  rank: number;
+  name: string;
+  earnings: string;
+  category: string;
+  revenueSources: string;
+};
 
 type FeaturedStoryProps = {
   eyebrow: string;
   title: string;
-  href: string;
   items: { rank: number; name: string; value: string; raw: number }[];
+  detailedEntries: DetailedEntry[];
 };
 
-export function FeaturedStory({ eyebrow, title, href, items }: FeaturedStoryProps) {
+export function FeaturedStory({
+  eyebrow,
+  title,
+  items,
+  detailedEntries,
+}: FeaturedStoryProps) {
   return (
     <section className="max-w-6xl mx-auto px-5 md:px-8 pt-12 pb-4">
       <span className="font-body text-xs font-semibold tracking-widest text-signal uppercase">
@@ -19,16 +33,18 @@ export function FeaturedStory({ eyebrow, title, href, items }: FeaturedStoryProp
       </h1>
 
       <div className="bg-ink/[0.02] border border-stone-light rounded-lg p-5 md:p-8">
-        <RankList items={items} />
+        <ChartHeader
+          title="Estimated Creator Earnings — 2026 · USD millions"
+          source="Forbes"
+        />
+        <RankList items={items} linkable />
       </div>
 
-      <Link
-        href={href}
-        className="inline-flex items-center gap-1.5 mt-5 font-body font-medium text-sm text-ink hover:text-signal transition-colors group"
-      >
-        Explore the full ranking
-        <span className="transition-transform group-hover:translate-x-0.5">→</span>
-      </Link>
+      <div className="max-w-3xl mt-2">
+        {detailedEntries.map((entry) => (
+          <RankEntry key={entry.rank} {...entry} />
+        ))}
+      </div>
     </section>
   );
 }
