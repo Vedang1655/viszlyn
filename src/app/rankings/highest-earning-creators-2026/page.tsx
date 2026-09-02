@@ -159,17 +159,17 @@ const FAQ_ITEMS = [
   {
     question: "Is this ranking YouTube-only?",
     answer:
-      "No. This ranking uses Forbes' Top Creators 2026 methodology, which covers creators across multiple platforms, not just YouTube. It's a creator-earnings ranking rather than a platform-specific one.",
+      "No. Forbes' 2026 Top Creators ranking covers creators across multiple platforms, including YouTube, TikTok, Instagram, podcasts, and other media businesses.",
   },
   {
     question: "How are these earnings estimated?",
     answer:
-      "Figures are Forbes' estimates for the period March 2025 to March 2026, based on publicly available information including ad revenue, brand deals, and business ventures. They are not audited or self-reported exact figures.",
+      "Forbes estimates creator earnings using publicly available information and reporting on revenue from advertising, sponsorships, products, businesses, licensing, and other ventures during the March 2025–March 2026 period.",
   },
   {
     question: "Why isn't subscriber count included?",
     answer:
-      "Audience figures vary significantly by platform and change frequently, so cross-platform follower totals aren't presented here as YouTube subscriber counts to avoid misleading comparisons.",
+      "Subscriber counts are not directly comparable across platforms, and audience sizes can change over time. Since this ranking covers multiple platforms, Viszlyn focuses on estimated earnings rather than presenting a misleading YouTube-only subscriber comparison.",
   },
 ];
 
