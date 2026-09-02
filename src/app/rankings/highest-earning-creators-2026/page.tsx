@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { RankList } from "@/components/RankBar";
@@ -11,6 +12,29 @@ import {
 import { RankEntry } from "@/components/RankEntry";
 import { FAQ } from "@/components/FAQ";
 import { RelatedRankings } from "@/components/RelatedRankings";
+
+export const metadata: Metadata = {
+  title: "The 10 Highest-Earning Creators in 2026 | Viszlyn",
+  description:
+    "MrBeast leads with an estimated $300M. See how the 10 highest-earning creators in 2026 make their money, ranked with earnings, categories, and revenue sources.",
+  alternates: {
+    canonical: "https://viszlyn.io/rankings/highest-earning-creators-2026",
+  },
+  openGraph: {
+    title: "The 10 Highest-Earning Creators in 2026",
+    description:
+      "MrBeast leads with an estimated $300M. See the full ranking, revenue breakdowns, and what the numbers reveal about the creator economy.",
+    url: "https://viszlyn.io/rankings/highest-earning-creators-2026",
+    siteName: "Viszlyn",
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The 10 Highest-Earning Creators in 2026",
+    description:
+      "MrBeast leads with an estimated $300M. See the full ranking and revenue breakdowns.",
+  },
+};
 
 const CHART_ITEMS = [
   { rank: 1, name: "MrBeast", value: "$300M", raw: 300 },
