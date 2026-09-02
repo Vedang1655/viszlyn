@@ -180,9 +180,26 @@ const RELATED_LINKS = [
   { title: "Biggest AI Companies", href: "/rankings/biggest-ai-companies" },
 ];
 
+const FAQ_JSON_LD = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: FAQ_ITEMS.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+};
+
 export default function HighestEarningCreators2026() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_JSON_LD) }}
+      />
       <SiteHeader />
       <main className="flex-1">
         <ArticleLayout
@@ -196,9 +213,9 @@ export default function HighestEarningCreators2026() {
           <ArticleSection title="Quick Answer">
             <p>
               MrBeast is the highest-earning creator in 2026 with an
-              estimated $300 million — about 1.6 times the combined $192
-              million earned by the next four creators on this list. Dhar
-              Mann ($65M) and Steven Bartlett ($52M) round out the top three.
+              estimated $300 million, about 1.6× the combined earnings of
+              the next four creators on this list ($192 million: Dhar Mann,
+              Steven Bartlett, Markiplier, and Rhett &amp; Link).
             </p>
           </ArticleSection>
 

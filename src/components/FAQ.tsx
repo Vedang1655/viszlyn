@@ -32,11 +32,13 @@ export function FAQ({ items }: { items: FAQItem[] }) {
                 +
               </span>
             </button>
-            {isOpen && (
-              <p className="font-body text-sm text-stone leading-relaxed pb-4 pr-8">
-                {item.answer}
-              </p>
-            )}
+            <p
+              className={`font-body text-sm text-stone leading-relaxed pr-8 ${
+                isOpen ? "pb-4" : "hidden"
+              }`}
+            >
+              {item.answer}
+            </p>
           </div>
         );
       })}
