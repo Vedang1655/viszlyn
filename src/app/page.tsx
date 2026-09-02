@@ -131,7 +131,7 @@ const DETAILED_ENTRIES = [
     revenueSources:
       "Advertising, Feastables, Beast Industries, merchandise and licensing",
     blurb:
-      "MrBeast's earnings are more than four times the next-highest creator, built on a media holding company, Beast Industries, that treats his YouTube channel as a production line feeding multiple businesses.",
+      "MrBeast's earnings are more than four-and-a-half times Dhar Mann's, the next-highest individual creator, built on a media holding company, Beast Industries, that treats his YouTube channel as a production line feeding multiple businesses.",
     standoutFact:
       "His chocolate brand Feastables generated about $250 million in revenue in 2024, out-earning his entire YouTube and Amazon media operation, which lost money on production costs that same year.",
   },

@@ -144,7 +144,7 @@ const DETAILED_ENTRIES = [
     revenueSources:
       "Advertising, Feastables, Beast Industries, merchandise and licensing",
     blurb:
-      "MrBeast's earnings are more than four times the next-highest creator, built on a media holding company, Beast Industries, that treats his YouTube channel as a production line feeding multiple businesses.",
+      "MrBeast's earnings are more than four-and-a-half times Dhar Mann's, the next-highest individual creator, built on a media holding company, Beast Industries, that treats his YouTube channel as a production line feeding multiple businesses.",
     standoutFact:
       "His chocolate brand Feastables generated about $250 million in revenue in 2024, out-earning his entire YouTube and Amazon media operation, which lost money on production costs that same year.",
   },
@@ -196,9 +196,9 @@ export default function HighestEarningCreators2026() {
           <ArticleSection title="Quick Answer">
             <p>
               MrBeast is the highest-earning creator in 2026 with an
-              estimated $300 million, more than four times the combined
-              earnings of the next four creators on this list. Dhar Mann
-              ($65M) and Steven Bartlett ($52M) round out the top three.
+              estimated $300 million — about 1.6 times the combined $192
+              million earned by the next four creators on this list. Dhar
+              Mann ($65M) and Steven Bartlett ($52M) round out the top three.
             </p>
           </ArticleSection>
 
@@ -239,9 +239,9 @@ export default function HighestEarningCreators2026() {
             <KeyTakeaway
               stat="$300M"
               label="MrBeast's estimated earnings alone"
-              comparisonStat="$296M"
+              comparisonStat="$334M"
               comparisonLabel="Combined earnings of the other 9 creators"
-              note="Creator businesses increasingly extend beyond a single platform: media companies, products, sponsorships, podcasts, and other ventures can all contribute to creator income."
+              note="Even at $300 million, MrBeast's earnings are slightly less than the combined $334 million made by the other nine creators on this list — a sign of how many separate, high-earning creator businesses now exist beyond any single top figure. Creator income increasingly comes from a mix of media companies, products, sponsorships, and podcasts, not ad revenue alone."
             />
           </ArticleSection>
 
