@@ -28,6 +28,14 @@ export function SiteFooter() {
               {link.label}
             </Link>
           ))}
+          <a
+            href="https://www.instagram.com/viszlyn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-body text-sm text-stone hover:text-ink transition-colors"
+          >
+            Instagram
+          </a>
         </nav>
       </div>
     </footer>

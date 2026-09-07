@@ -140,7 +140,7 @@ const DETAILED_ENTRIES = [
 const LATEST_RANKINGS = [
   { title: "The 10 Highest-Earning Creators in 2026", href: "/rankings/highest-earning-creators-2026" },
   { title: "World's Most Valuable Companies", href: "/rankings/most-valuable-companies" },
-  { title: "Highest-Paid Athletes", href: "/rankings/highest-paid-athletes" },
+  { title: "Highest-Paid Athletes in 2026", href: "/rankings/highest-paid-athletes-2026" },
   { title: "World's Largest Cities", href: "/rankings/largest-cities" },
   { title: "Most Visited Countries", href: "/rankings/most-visited-countries" },
 ];

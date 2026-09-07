@@ -22,5 +22,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.8,
     },
+    {
+      url: `${BASE_URL}/rankings/highest-paid-athletes-2026`,
+      lastModified: new Date("2026-09-05"),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${BASE_URL}/links`,
+      lastModified: new Date("2026-09-05"),
+      changeFrequency: "weekly",
+      priority: 0.5,
+    },
   ];
 }

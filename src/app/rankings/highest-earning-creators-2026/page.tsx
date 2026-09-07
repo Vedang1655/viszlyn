@@ -199,7 +199,7 @@ const FAQ_ITEMS = [
 
 const RELATED_LINKS = [
   { title: "World's Most Valuable Companies", href: "/rankings/most-valuable-companies" },
-  { title: "Highest-Paid Athletes", href: "/rankings/highest-paid-athletes" },
+  { title: "Highest-Paid Athletes in 2026", href: "/rankings/highest-paid-athletes-2026" },
   { title: "Richest People in the World", href: "/rankings/richest-people" },
   { title: "Biggest AI Companies", href: "/rankings/biggest-ai-companies" },
 ];
