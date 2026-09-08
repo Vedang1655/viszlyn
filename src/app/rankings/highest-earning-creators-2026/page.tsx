@@ -61,6 +61,7 @@ const DETAILED_ENTRIES = [
       "Jesse Riedel built a basketball-challenge and NBA-collaboration channel into a formal holding company, JesserCo, launched in April 2026 to unite his content business with his apparel brand.",
     standoutFact:
       "His streetwear label Bucketsquad crossed eight figures in annual revenue and now sells in Dick's Sporting Goods, alongside brand deals with Lowe's, Google, and Adidas.",
+    sourceTag: "Forbes",
   },
   {
     rank: 9,
@@ -73,6 +74,8 @@ const DETAILED_ENTRIES = [
       "Rachel Griffin Accurso, a former teacher, turned research-backed \"parentese\" speech techniques into Songs for Littles, one of the biggest children's education brands on the internet.",
     standoutFact:
       "Her Netflix series became the platform's most-watched children's program at launch, and a 2024 toy line with Spin Master had the most successful presale in Walmart's history.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Ms._Rachel",
   },
   {
     rank: 8,
@@ -85,6 +88,8 @@ const DETAILED_ENTRIES = [
       "A former NASA JPL engineer, Rober built CrunchLabs, a STEM subscription-box company, rather than relying on ad revenue or brand deals alone.",
     standoutFact:
       "CrunchLabs hit over 100,000 paying subscribers within its first six months and now reports annual revenue in the $25–50 million range, largely independent of his YouTube ad income.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Mark_Rober",
   },
   {
     rank: 7,
@@ -97,6 +102,8 @@ const DETAILED_ENTRIES = [
       "Darren Watkins Jr. turned unfiltered, high-energy livestreams into a global sponsorship magnet, including a first-of-its-kind creator performance at the World Cup 2026 closing ceremony.",
     standoutFact:
       "His year-long Expedia partnership as \"Official Travel Partner\" reportedly lifted destination search demand by up to 70% for the locations he streamed from.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/IShowSpeed",
   },
   {
     rank: 6,
@@ -109,6 +116,7 @@ const DETAILED_ENTRIES = [
       "A former Wall Street investor, Sanchez built Contrarian Thinking around a contrarian thesis: that buying small, unglamorous \"boring businesses\" builds more real wealth than tech startups.",
     standoutFact:
       "She personally owns a portfolio of more than two dozen small businesses — laundromats, car washes, and service operations — and runs three separate companies including an acquisition marketplace, BizScout, which raised $5M in 2026.",
+    sourceTag: "Forbes",
   },
   {
     rank: 5,
@@ -122,6 +130,8 @@ const DETAILED_ENTRIES = [
       "Rhett McLaughlin and Link Neal have run their daily talk show Good Mythical Morning for over a decade, building it into Mythical Entertainment, a full production studio with multiple channels and podcasts.",
     standoutFact:
       "In 2026, Good Mythical Morning struck a deal to stream on Netflix the same day episodes go live on YouTube, adding a major distribution channel after their show passed 3,000 episodes.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Rhett_%26_Link",
   },
   {
     rank: 4,
@@ -134,6 +144,8 @@ const DETAILED_ENTRIES = [
       "Mark Fischbach, long known for gaming commentary, self-financed and directed a horror film, Iron Lung, that became one of the most profitable movies of 2026 relative to its budget.",
     standoutFact:
       "Iron Lung cost roughly $3 million to make and earned over $50 million worldwide, a 15x-plus return that beat several major studio releases at the box office.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Markiplier",
   },
   {
     rank: 3,
@@ -146,6 +158,8 @@ const DETAILED_ENTRIES = [
       "Bartlett built The Diary of a CEO into one of the world's most popular podcasts, then used its platform to launch or back multiple companies rather than relying on podcast ad revenue alone.",
     standoutFact:
       "His venture steven.com closed an eight-figure funding round in October 2025 at a $425 million valuation, with Bartlett retaining over 90% ownership.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Steven_Bartlett",
   },
   {
     rank: 2,
@@ -158,6 +172,8 @@ const DETAILED_ENTRIES = [
       "Mann built Dhar Mann Studios around short, moral-lesson scripted videos, then expanded the format into television through deals with Samsung and Fox Entertainment.",
     standoutFact:
       "In January 2026, Fox Entertainment partnered with Dhar Mann Studios to produce 40 vertical drama titles, marking one of the first major traditional-studio deals built around a creator's short-form format.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Dhar_Mann",
   },
   {
     rank: 1,
@@ -171,6 +187,8 @@ const DETAILED_ENTRIES = [
       "MrBeast's earnings are more than four-and-a-half times Dhar Mann's, the next-highest individual creator, built on a media holding company, Beast Industries, that treats his YouTube channel as a production line feeding multiple businesses.",
     standoutFact:
       "His chocolate brand Feastables generated about $250 million in revenue in 2024, out-earning his entire YouTube and Amazon media operation, which lost money on production costs that same year.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/MrBeast",
   },
 ];
 

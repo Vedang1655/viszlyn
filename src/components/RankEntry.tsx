@@ -9,6 +9,8 @@ type RankEntryProps = {
   origin?: string;
   blurb?: string;
   standoutFact?: string;
+  sourceTag?: string;
+  wikipediaUrl?: string;
 };
 
 export function RankEntry({
@@ -20,6 +22,8 @@ export function RankEntry({
   origin,
   blurb,
   standoutFact,
+  sourceTag,
+  wikipediaUrl,
 }: RankEntryProps) {
   const isFirst = rank === 1;
 
@@ -37,7 +41,18 @@ export function RankEntry({
       </span>
       <div className="flex-1 min-w-0">
         <div className="flex flex-wrap items-baseline gap-x-2">
-          <h3 className="font-display font-semibold text-lg text-ink">{name}</h3>
+          {wikipediaUrl ? (
+            <a
+              href={wikipediaUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-display font-semibold text-lg text-ink hover:text-signal transition-colors underline decoration-stone-light underline-offset-2"
+            >
+              {name}
+            </a>
+          ) : (
+            <h3 className="font-display font-semibold text-lg text-ink">{name}</h3>
+          )}
           {origin && (
             <span className="font-body text-xs text-stone">{origin}</span>
           )}
@@ -72,6 +87,11 @@ export function RankEntry({
             <p className="font-body text-sm text-stone leading-relaxed">
               {standoutFact}
             </p>
+            {sourceTag && (
+              <p className="font-body text-xs text-stone/70 mt-1 uppercase tracking-wide">
+                Source: {sourceTag}
+              </p>
+            )}
           </div>
         )}
       </div>

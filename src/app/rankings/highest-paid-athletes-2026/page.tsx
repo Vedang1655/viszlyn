@@ -61,6 +61,8 @@ const DETAILED_ENTRIES = [
       "The seven-time world champion drives for Ferrari, combining his team salary with a wide portfolio of personal endorsement deals.",
     standoutFact:
       "Hamilton became the first F1 driver to earn $100 million in a single year, driven by his Ferrari salary plus endorsement deals.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Lewis_Hamilton",
   },
   {
     rank: 9,
@@ -73,6 +75,8 @@ const DETAILED_ENTRIES = [
       "Durant's off-court income is nearly even with his playing salary, split across brand partnerships and his own media and investment ventures.",
     standoutFact:
       "Boosted by partnerships with CeraVe, Dick's Sporting Goods, and FanDuel, alongside his media company Boardroom and his investment firm 35V (Thirty Five Ventures).",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Kevin_Durant",
   },
   {
     rank: 8,
@@ -85,6 +89,8 @@ const DETAILED_ENTRIES = [
       "Like Ronaldo, Benzema's move to Saudi Arabia's top league has come with a nine-figure salary far above typical European club pay.",
     standoutFact:
       "Benzema is one of two Saudi Pro League players in this year's top 10, alongside Ronaldo.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Karim_Benzema",
   },
   {
     rank: 7,
@@ -97,6 +103,8 @@ const DETAILED_ENTRIES = [
       "Rahm's move to LIV Golf came with one of the largest guaranteed contracts in golf history, on top of his tournament earnings.",
     standoutFact:
       "Rahm's LIV Golf move came with a reportedly $300 million guarantee; he also won LIV's $18 million season-long individual title bonus in 2025.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Jon_Rahm",
   },
   {
     rank: 6,
@@ -109,6 +117,8 @@ const DETAILED_ENTRIES = [
       "Curry Brand split from longtime partner Under Armour in November 2025, with Curry retaining full ownership of the brand.",
     standoutFact:
       "He announced a new 10-year, $400M+ partnership with Chinese sportswear giant Li-Ning in 2026, alongside personal endorsement deals with Chase, Google, and Rakuten.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Stephen_Curry",
   },
   {
     rank: 5,
@@ -121,6 +131,8 @@ const DETAILED_ENTRIES = [
       "Most of Ohtani's historic 10-year, $700 million Dodgers contract is deferred until 2034, leaving him with just $2.6M in on-field earnings during the period.",
     standoutFact:
       "His remaining $125M in earnings comes from a mix of endorsements, appearances, licensing, memorabilia, and other business ventures.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Shohei_Ohtani",
   },
   {
     rank: 4,
@@ -133,6 +145,8 @@ const DETAILED_ENTRIES = [
       "$85M of James's earnings came from off-court income, making business ventures and endorsements a larger source of income than his playing salary.",
     standoutFact:
       "Forbes previously identified James as the first active NBA player to become a billionaire.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/LeBron_James",
   },
   {
     rank: 3,
@@ -145,6 +159,8 @@ const DETAILED_ENTRIES = [
       "Now with Inter Miami, Messi's earnings are split evenly between his playing contract and a wide portfolio of endorsement and business ventures.",
     standoutFact:
       "This highlights the continued strength of his commercial earnings alongside his MLS income.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Lionel_Messi",
   },
   {
     rank: 2,
@@ -157,6 +173,8 @@ const DETAILED_ENTRIES = [
       "Álvarez's earnings jumped this year off a massive payday from his fight against Terence Crawford.",
     standoutFact:
       "Part of a four-fight deal with Saudi-backed Riyadh Season reportedly worth as much as $400 million.",
+    sourceTag: "Forbes",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Canelo_%C3%81lvarez",
   },
   {
     rank: 1,
@@ -169,6 +187,8 @@ const DETAILED_ENTRIES = [
       "Playing for Saudi Arabia's Al-Nassr, Ronaldo's on-field income has more than tripled since leaving the English Premier League in 2023.",
     standoutFact:
       "This year's $300M ties Floyd Mayweather Jr.'s 2015 figure for the largest single-year total Forbes has recorded for an active athlete, before inflation adjustment.",
+    sourceTag: "Forbes; Robb Report",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
   },
 ];
 
