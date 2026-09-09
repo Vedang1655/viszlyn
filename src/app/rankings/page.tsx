@@ -3,6 +3,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { LatestRankings } from "@/components/LatestRankings";
 
 const ALL_RANKINGS = [
+  { title: "The 10 Highest-Paid CEOs in 2026", href: "/rankings/highest-paid-ceos-2026" },
   { title: "The 10 Highest-Paid Athletes in 2026", href: "/rankings/highest-paid-athletes-2026" },
   { title: "The 10 Highest-Earning Creators in 2026", href: "/rankings/highest-earning-creators-2026" },
   { title: "World's Most Valuable Companies", href: "/rankings/most-valuable-companies" },

@@ -29,6 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${BASE_URL}/rankings/highest-paid-ceos-2026`,
+      lastModified: new Date("2026-09-08"),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
       url: `${BASE_URL}/links`,
       lastModified: new Date("2026-09-05"),
       changeFrequency: "weekly",

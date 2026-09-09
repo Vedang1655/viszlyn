@@ -8,6 +8,10 @@ export const metadata: Metadata = {
 
 const ARTICLES = [
   {
+    title: "The 10 Highest-Paid CEOs in 2026",
+    href: "/rankings/highest-paid-ceos-2026",
+  },
+  {
     title: "The 10 Highest-Paid Athletes in 2026",
     href: "/rankings/highest-paid-athletes-2026",
   },
