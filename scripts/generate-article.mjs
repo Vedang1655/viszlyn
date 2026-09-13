@@ -99,7 +99,7 @@ async function generateArticle() {
 
   const response = await client.messages.create({
     model: "claude-sonnet-5",
-    max_tokens: 16000,
+    max_tokens: 32000,
     system: SYSTEM_PROMPT,
     tools: [{ type: "web_search_20250305", name: "web_search" }],
     messages: [
@@ -119,9 +119,25 @@ async function generateArticle() {
   console.log(textBlocks);
   console.log("\n===============================================\n");
 
+  if (response.stop_reason === "max_tokens") {
+    console.error(
+      "ERROR: The response was cut off because it hit the max_tokens limit before finishing.\n" +
+      "This usually means the research notes + full JSON article together exceeded the token budget.\n" +
+      "Try increasing max_tokens further in scripts/generate-article.mjs, or try a topic with fewer entries."
+    );
+    process.exit(1);
+  }
+
   const jsonMatch = textBlocks.match(/```json\s*([\s\S]*?)\s*```/);
   if (!jsonMatch) {
-    console.error("ERROR: Could not find a ```json code block in Claude's response.");
+    if (textBlocks.includes("```json")) {
+      console.error(
+        "ERROR: Found the start of a ```json block but no closing ``` — the response was likely truncated mid-JSON.\n" +
+        "See the max_tokens note above."
+      );
+    } else {
+      console.error("ERROR: Could not find a ```json code block in Claude's response.");
+    }
     console.error("Nothing was written. Review the notes above and try again.");
     process.exit(1);
   }
