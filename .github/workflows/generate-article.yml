@@ -1,0 +1,74 @@
+name: Generate Ranking Article Draft
+
+# This workflow drafts a new article and opens a PR for human review.
+# It NEVER merges or publishes anything by itself — merging is a manual
+# step you do after reviewing the Vercel preview deploy on the PR.
+on:
+  workflow_dispatch:
+    inputs:
+      topic:
+        description: "Article topic (e.g. 'Highest-Paid Musicians in 2026')"
+        required: true
+        type: string
+
+jobs:
+  generate-draft:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate article draft
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run generate-article -- "${{ inputs.topic }}"
+
+      - name: Verify the site still builds with the new article
+        run: npm run build
+
+      - name: Create branch and commit
+        id: commit
+        run: |
+          SLUG=$(git status --porcelain src/data/rankings/ | grep '^??' | sed -E 's/.*rankings\/(.*)\.ts/\1/' | head -1)
+          if [ -z "$SLUG" ]; then
+            echo "No new article file detected — aborting."
+            exit 1
+          fi
+          BRANCH="article/${SLUG}-$(date +%Y%m%d-%H%M%S)"
+          echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
+          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
+          git config user.name "viszlyn-bot"
+          git config user.email "bot@viszlyn.io"
+          git checkout -b "$BRANCH"
+          git add src/data/rankings/
+          git commit -m "Draft article: ${{ inputs.topic }}"
+          git push origin "$BRANCH"
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: ${{ steps.commit.outputs.branch }}
+          base: main
+          title: "Draft article: ${{ inputs.topic }}"
+          body: |
+            Auto-drafted article for topic: **${{ inputs.topic }}**
+
+            Slug: `${{ steps.commit.outputs.slug }}`
+
+            **This is a draft — review before merging.**
+            - Check the Vercel preview deploy link below (once it appears) to see the rendered page.
+            - Read through the sourcing, arithmetic, and Wikipedia links carefully — this script
+              validates schema/structure only, it does NOT independently verify facts or math.
+            - Confirm entry count, sources, and any callout content make sense.
+            - Merge only when you're satisfied this meets the same bar as the manually-written articles.
