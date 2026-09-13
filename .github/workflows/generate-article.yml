@@ -37,34 +37,28 @@ jobs:
       - name: Verify the site still builds with the new article
         run: npm run build
 
-      - name: Create branch and commit
-        id: commit
+      - name: Detect generated article slug
+        id: detect
         run: |
           SLUG=$(git status --porcelain src/data/rankings/ | grep '^??' | sed -E 's/.*rankings\/(.*)\.ts/\1/' | head -1)
           if [ -z "$SLUG" ]; then
             echo "No new article file detected — aborting."
             exit 1
           fi
-          BRANCH="article/${SLUG}-$(date +%Y%m%d-%H%M%S)"
           echo "slug=$SLUG" >> "$GITHUB_OUTPUT"
-          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
-          git config user.name "viszlyn-bot"
-          git config user.email "bot@viszlyn.io"
-          git checkout -b "$BRANCH"
-          git add src/data/rankings/
-          git commit -m "Draft article: ${{ inputs.topic }}"
-          git push origin "$BRANCH"
 
       - name: Open pull request
         uses: peter-evans/create-pull-request@v6
         with:
-          branch: ${{ steps.commit.outputs.branch }}
+          commit-message: "Draft article: ${{ inputs.topic }}"
+          branch: "article/${{ steps.detect.outputs.slug }}"
           base: main
           title: "Draft article: ${{ inputs.topic }}"
+          author: "viszlyn-bot <bot@viszlyn.io>"
           body: |
             Auto-drafted article for topic: **${{ inputs.topic }}**
 
-            Slug: `${{ steps.commit.outputs.slug }}`
+            Slug: `${{ steps.detect.outputs.slug }}`
 
             **This is a draft — review before merging.**
             - Check the Vercel preview deploy link below (once it appears) to see the rendered page.
