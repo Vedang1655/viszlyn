@@ -226,7 +226,7 @@ export const highestPaidAthletes2026: RankingArticle = {
   relatedLinks: [
     { title: "The 10 Highest-Paid CEOs in 2026", href: "/rankings/highest-paid-ceos-2026" },
     { title: "The 10 Highest-Earning Creators in 2026", href: "/rankings/highest-earning-creators-2026" },
-    { title: "World's Most Valuable Companies", href: "/rankings/most-valuable-companies" },
-    { title: "Richest People in the World", href: "/rankings/richest-people" },
+    { title: "World's Most Valuable Companies", href: "/rankings/most-valuable-companies", comingSoon: true },
+    { title: "Richest People in the World", href: "/rankings/richest-people", comingSoon: true },
   ],
 };

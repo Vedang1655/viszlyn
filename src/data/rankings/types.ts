@@ -26,6 +26,7 @@ export type FaqItem = {
 export type RelatedLink = {
   title: string;
   href: string;
+  comingSoon?: boolean;
 };
 
 export type CalloutBox = {
