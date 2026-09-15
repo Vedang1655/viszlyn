@@ -1,17 +1,26 @@
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { LatestRankings } from "@/components/LatestRankings";
+import { ALL_RANKING_ARTICLES } from "@/data/rankings";
 
-const ALL_RANKINGS = [
-  { title: "The 10 Highest-Paid CEOs in 2026", href: "/rankings/highest-paid-ceos-2026" },
-  { title: "The 10 Highest-Paid Athletes in 2026", href: "/rankings/highest-paid-athletes-2026" },
-  { title: "The 10 Highest-Earning Creators in 2026", href: "/rankings/highest-earning-creators-2026" },
-  { title: "World's Most Valuable Companies", href: "/rankings/most-valuable-companies", comingSoon: true },
-  { title: "World's Largest Cities", href: "/rankings/largest-cities", comingSoon: true },
-  { title: "Most Visited Countries", href: "/rankings/most-visited-countries", comingSoon: true },
+// Topics we plan to write but haven't built yet. Once a topic is generated
+// (via the pipeline or manually) and appears in ALL_RANKING_ARTICLES, remove
+// it from this list — it'll then show up automatically as a real entry above.
+const COMING_SOON = [
+  { title: "World's Largest Cities", href: "/rankings/largest-cities", comingSoon: true as const },
+  { title: "Most Visited Countries", href: "/rankings/most-visited-countries", comingSoon: true as const },
+  { title: "Biggest AI Companies", href: "/rankings/biggest-ai-companies", comingSoon: true as const },
+  { title: "Richest People in the World", href: "/rankings/richest-people", comingSoon: true as const },
 ];
 
 export default function RankingsIndex() {
+  const realRankings = ALL_RANKING_ARTICLES.map((article) => ({
+    title: article.title,
+    href: `/rankings/${article.slug}`,
+  }));
+
+  const rankings = [...realRankings, ...COMING_SOON];
+
   return (
     <>
       <SiteHeader />
@@ -28,7 +37,7 @@ export default function RankingsIndex() {
             added regularly.
           </p>
         </section>
-        <LatestRankings rankings={ALL_RANKINGS} />
+        <LatestRankings rankings={rankings} />
       </main>
       <SiteFooter />
     </>
