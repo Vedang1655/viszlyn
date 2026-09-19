@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${label} Rankings | Viszlyn`,
     description: `Browse every Viszlyn ranking and data story tagged ${label}.`,
     alternates: {
-      canonical: `https://viszlyn.io/category/${slug}`,
+      canonical: `https://www.viszlyn.io/category/${slug}`,
     },
   };
 }

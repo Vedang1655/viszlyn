@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const article = getRankingArticle(slug);
   if (!article) return {};
 
-  const url = `https://viszlyn.io/rankings/${article.slug}`;
+  const url = `https://www.viszlyn.io/rankings/${article.slug}`;
 
   return {
     title: article.metaTitle,

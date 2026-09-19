@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://viszlyn.io/sitemap.xml",
+    sitemap: "https://www.viszlyn.io/sitemap.xml",
   };
 }

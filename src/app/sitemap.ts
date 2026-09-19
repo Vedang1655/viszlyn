@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { ALL_RANKING_ARTICLES } from "@/data/rankings";
 
-const BASE_URL = "https://viszlyn.io";
+const BASE_URL = "https://www.viszlyn.io";
 
 function safeDate(value: string): Date {
   const parsed = new Date(value);
