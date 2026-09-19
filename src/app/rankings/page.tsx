@@ -10,7 +10,6 @@ const COMING_SOON = [
   { title: "World's Largest Cities", href: "/rankings/largest-cities", comingSoon: true as const },
   { title: "Most Visited Countries", href: "/rankings/most-visited-countries", comingSoon: true as const },
   { title: "Biggest AI Companies", href: "/rankings/biggest-ai-companies", comingSoon: true as const },
-  { title: "Richest People in the World", href: "/rankings/richest-people", comingSoon: true as const },
 ];
 
 export default function RankingsIndex() {

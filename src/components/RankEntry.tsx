@@ -4,6 +4,7 @@ type RankEntryProps = {
   rank: number;
   name: string;
   earnings: string;
+  earningsLabel?: string;
   category: string;
   revenueSources: string;
   origin?: string;
@@ -17,6 +18,7 @@ export function RankEntry({
   rank,
   name,
   earnings,
+  earningsLabel = "Estimated earnings:",
   category,
   revenueSources,
   origin,
@@ -60,7 +62,7 @@ export function RankEntry({
         <dl className="mt-1.5 flex flex-col gap-1">
           <div className="flex gap-2 text-sm">
             <dt className="font-body font-medium text-ink shrink-0">
-              Estimated earnings:
+              {earningsLabel}
             </dt>
             <dd className="font-data text-ink">{earnings}</dd>
           </div>

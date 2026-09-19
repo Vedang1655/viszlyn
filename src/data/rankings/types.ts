@@ -78,6 +78,9 @@ export type RankingArticle = {
   chartSource: string;
   chartItems: ChartItem[];
   chartTapNote: string;
+  /** Optional override for the DetailedEntry value's label (defaults to "Estimated earnings:").
+   * Use this when the ranked value isn't earnings/compensation - e.g. "Market capitalization:" for a companies ranking. */
+  entryValueLabel?: string;
 
   detailedEntries: DetailedEntry[];
 

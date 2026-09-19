@@ -120,7 +120,7 @@ export default async function RankingArticlePage({ params }: PageProps) {
           <ArticleSection title="Ranked #10 to #1">
             <div>
               {article.detailedEntries.map((entry) => (
-                <RankEntry key={entry.rank} {...entry} />
+                <RankEntry key={entry.rank} {...entry} earningsLabel={article.entryValueLabel} />
               ))}
             </div>
           </ArticleSection>
