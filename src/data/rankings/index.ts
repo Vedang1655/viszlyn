@@ -4,8 +4,10 @@ import { highestPaidAthletes2026 } from "./highest-paid-athletes-2026";
 import { highestPaidCeos2026 } from "./highest-paid-ceos-2026";
 import { worldsMostValuableCompanies2026 } from "./worlds-most-valuable-companies-2026";
 import { richestPeople2026 } from "./richest-people-2026";
+import { mostVisitedCountries2026 } from "./most-visited-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  mostVisitedCountries2026,
   richestPeople2026,
   worldsMostValuableCompanies2026,
   highestEarningCreators2026,

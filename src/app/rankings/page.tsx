@@ -8,7 +8,6 @@ import { ALL_RANKING_ARTICLES } from "@/data/rankings";
 // it from this list — it'll then show up automatically as a real entry above.
 const COMING_SOON = [
   { title: "World's Largest Cities", href: "/rankings/largest-cities", comingSoon: true as const },
-  { title: "Most Visited Countries", href: "/rankings/most-visited-countries", comingSoon: true as const },
   { title: "Biggest AI Companies", href: "/rankings/biggest-ai-companies", comingSoon: true as const },
 ];
 
