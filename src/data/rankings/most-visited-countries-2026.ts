@@ -218,6 +218,6 @@ export const mostVisitedCountries2026: RankingArticle = {
     { title: "The 10 Richest People in the World", href: "/rankings/richest-people-2026" },
     { title: "The World's Most Valuable Companies", href: "/rankings/worlds-most-valuable-companies-2026" },
     { title: "World's Largest Cities", href: "/rankings/largest-cities", comingSoon: true },
-    { title: "Biggest AI Companies", href: "/rankings/biggest-ai-companies", comingSoon: true },
+    { title: "The Most Valuable AI Companies", href: "/rankings/most-valuable-ai-companies-2026" },
   ],
 };

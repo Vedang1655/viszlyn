@@ -218,6 +218,6 @@ export const highestPaidCeos2026: RankingArticle = {
     { title: "The 10 Highest-Paid Athletes in 2026", href: "/rankings/highest-paid-athletes-2026" },
     { title: "The 10 Highest-Earning Creators in 2026", href: "/rankings/highest-earning-creators-2026" },
     { title: "World's Most Valuable Companies", href: "/rankings/most-valuable-companies", comingSoon: true },
-    { title: "Biggest AI Companies", href: "/rankings/biggest-ai-companies", comingSoon: true },
+    { title: "The Most Valuable AI Companies", href: "/rankings/most-valuable-ai-companies-2026" },
   ],
 };
