@@ -13,6 +13,16 @@ const CATEGORY_LABELS: Record<string, string> = {
   world: "World",
 };
 
+// Unique intro copy per category so each page has real, distinct content.
+const CATEGORY_INTROS: Record<string, string> = {
+  money:
+    "Who earns the most, who owns the most, and where the money goes. Our Money rankings cover CEO pay, athlete and creator earnings, and the richest people in the world, with every figure traced back to its source and the period it covers.",
+  tech:
+    "The companies and markets shaping technology. Our Tech rankings track valuations, funding rounds, and market leaders across AI and beyond, with clear notes on how each number was set and what was left out.",
+  world:
+    "Countries, places, and global comparisons, ranked. Our World rankings turn official statistics into short, scannable stories, from the most visited countries to how nations stack up against each other.",
+};
+
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
@@ -28,7 +38,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   return {
     title: `${label} Rankings | Viszlyn`,
-    description: `Browse every Viszlyn ranking and data story tagged ${label}.`,
+    description:
+      CATEGORY_INTROS[slug] ??
+      `Browse every Viszlyn ranking and data story tagged ${label}.`,
     alternates: {
       canonical: `https://www.viszlyn.io/category/${slug}`,
     },
@@ -64,7 +76,8 @@ export default async function CategoryPage({ params }: PageProps) {
             {label} Rankings
           </h1>
           <p className="font-body text-stone max-w-2xl">
-            Every published Viszlyn ranking and data story tagged {label}.
+            {CATEGORY_INTROS[slug] ??
+              `Every published Viszlyn ranking and data story tagged ${label}.`}
           </p>
         </section>
 

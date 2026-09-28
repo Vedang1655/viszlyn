@@ -1,27 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { ALL_RANKING_ARTICLES } from "@/data/rankings";
 
 export const metadata: Metadata = {
   title: "Links | Viszlyn",
   description: "All Viszlyn articles and rankings in one place.",
+  robots: { index: false, follow: true },
 };
 
-const ARTICLES = [
-  {
-    title: "The 10 Highest-Paid CEOs in 2026",
-    href: "/rankings/highest-paid-ceos-2026",
-  },
-  {
-    title: "The 10 Highest-Paid Athletes in 2026",
-    href: "/rankings/highest-paid-athletes-2026",
-  },
-  {
-    title: "The 10 Highest-Earning Creators in 2026",
-    href: "/rankings/highest-earning-creators-2026",
-  },
-  // Add a new entry here each time you publish a new article —
-  // most recent article should go at the top of this list.
-];
+const ARTICLES = ALL_RANKING_ARTICLES.map((article) => ({
+  title: article.title,
+  href: `/rankings/${article.slug}`,
+}));
 
 export default function LinksPage() {
   return (
