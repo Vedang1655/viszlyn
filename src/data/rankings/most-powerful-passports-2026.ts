@@ -30,7 +30,7 @@ export const mostPowerfulPassports2026: RankingArticle = {
   chartTapNote: "Tap any tier to jump to its full breakdown below.",
   entryValueLabel: "Visa-free destinations:",
   chartItems: [
-    { rank: 1, name: "Singapore", value: "192", raw: 192 },
+    { rank: 1, name: "Singapore", value: "192", raw: 192, countries: [{ name: "Singapore", flagCode: "sg" }] },
     {
       rank: 2,
       rankLabel: "=2",
@@ -43,7 +43,7 @@ export const mostPowerfulPassports2026: RankingArticle = {
         { name: "UAE", flagCode: "ae" },
       ],
     },
-    { rank: 3, rankLabel: "=3", name: "Sweden", value: "187", raw: 187 },
+    { rank: 3, rankLabel: "=3", name: "Sweden", value: "187", raw: 187, countries: [{ name: "Sweden", flagCode: "se" }] },
     {
       rank: 4,
       rankLabel: "=4",
@@ -134,6 +134,7 @@ export const mostPowerfulPassports2026: RankingArticle = {
       earnings: "187",
       category: "Rank tier 3",
       revenueSources: "Sole holder of this rank",
+      countries: [{ name: "Sweden", flagCode: "se" }],
       blurb:
         "Sweden is the only country holding its rank outright in the entire top 5 tiers \u2014 every other position is shared by at least three countries.",
       standoutFact:
