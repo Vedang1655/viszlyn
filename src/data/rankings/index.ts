@@ -6,8 +6,10 @@ import { worldsMostValuableCompanies2026 } from "./worlds-most-valuable-companie
 import { richestPeople2026 } from "./richest-people-2026";
 import { mostVisitedCountries2026 } from "./most-visited-countries-2026";
 import { mostValuableAiCompanies2026 } from "./most-valuable-ai-companies-2026";
+import { mostPowerfulPassports2026 } from "./most-powerful-passports-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  mostPowerfulPassports2026,
   mostValuableAiCompanies2026,
   mostVisitedCountries2026,
   richestPeople2026,

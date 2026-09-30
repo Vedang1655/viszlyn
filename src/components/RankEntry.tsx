@@ -1,4 +1,5 @@
 import { slugify } from "./RankBar";
+import { CountryFlag } from "@/data/rankings/types";
 
 type RankEntryProps = {
   rank: number;
@@ -12,6 +13,8 @@ type RankEntryProps = {
   standoutFact?: string;
   sourceTag?: string;
   wikipediaUrl?: string;
+  rankLabel?: string;
+  countries?: CountryFlag[];
 };
 
 export function RankEntry({
@@ -26,6 +29,8 @@ export function RankEntry({
   standoutFact,
   sourceTag,
   wikipediaUrl,
+  rankLabel,
+  countries,
 }: RankEntryProps) {
   const isFirst = rank === 1;
 
@@ -35,30 +40,45 @@ export function RankEntry({
       className="flex gap-4 py-5 border-b border-stone-light/60 last:border-0 scroll-mt-20"
     >
       <span
-        className={`font-display font-bold text-2xl w-10 shrink-0 ${
+        className={`font-display font-bold text-2xl w-12 shrink-0 ${
           isFirst ? "text-signal" : "text-stone-light"
         }`}
       >
-        {rank}
+        {rankLabel ?? rank}
       </span>
       <div className="flex-1 min-w-0">
-        <div className="flex flex-wrap items-baseline gap-x-2">
-          {wikipediaUrl ? (
-            <a
-              href={wikipediaUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-display font-semibold text-lg text-ink hover:text-signal transition-colors underline decoration-stone-light underline-offset-2"
-            >
-              {name}
-            </a>
-          ) : (
-            <h3 className="font-display font-semibold text-lg text-ink">{name}</h3>
-          )}
-          {origin && (
-            <span className="font-body text-xs text-stone">{origin}</span>
-          )}
-        </div>
+        {countries && countries.length > 0 ? (
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 mb-1">
+            {countries.map((c) => (
+              <span key={c.flagCode} className="inline-flex items-center gap-1.5">
+                <span
+                  className={`fi fi-${c.flagCode} rounded-[2px] shrink-0`}
+                  style={{ width: "20px", height: "14px" }}
+                  aria-hidden="true"
+                />
+                <span className="font-display font-semibold text-base text-ink">{c.name}</span>
+              </span>
+            ))}
+          </div>
+        ) : (
+          <div className="flex flex-wrap items-baseline gap-x-2">
+            {wikipediaUrl ? (
+              <a
+                href={wikipediaUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-display font-semibold text-lg text-ink hover:text-signal transition-colors underline decoration-stone-light underline-offset-2"
+              >
+                {name}
+              </a>
+            ) : (
+              <h3 className="font-display font-semibold text-lg text-ink">{name}</h3>
+            )}
+            {origin && (
+              <span className="font-body text-xs text-stone">{origin}</span>
+            )}
+          </div>
+        )}
         <dl className="mt-1.5 flex flex-col gap-1">
           <div className="flex gap-2 text-sm">
             <dt className="font-body font-medium text-ink shrink-0">

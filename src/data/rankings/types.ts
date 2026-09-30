@@ -1,8 +1,18 @@
+export type CountryFlag = {
+  name: string;
+  /** two-letter ISO 3166-1 alpha-2 code, lowercase, matching flag-icons classes (e.g. "sg" for Singapore) */
+  flagCode: string;
+};
+
 export type ChartItem = {
   rank: number;
   name: string;
   value: string;
   raw: number;
+  /** Display label overriding the numeric rank (e.g. "=2" for a tied rank). Falls back to `rank` when absent. */
+  rankLabel?: string;
+  /** When set, this item represents a tied group of countries — rendered as flags + names instead of a single name. */
+  countries?: CountryFlag[];
 };
 
 export type DetailedEntry = {
@@ -16,6 +26,8 @@ export type DetailedEntry = {
   standoutFact?: string;
   sourceTag?: string;
   wikipediaUrl?: string;
+  rankLabel?: string;
+  countries?: CountryFlag[];
 };
 
 export type FaqItem = {
