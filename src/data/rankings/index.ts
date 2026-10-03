@@ -8,9 +8,11 @@ import { mostVisitedCountries2026 } from "./most-visited-countries-2026";
 import { mostValuableAiCompanies2026 } from "./most-valuable-ai-companies-2026";
 import { mostPowerfulPassports2026 } from "./most-powerful-passports-2026";
 import { indiaMostPopulousCities2026 } from "./india-populous-cities-2026";
+import { indiaHighestPaidCeos2026 } from "./india-highest-paid-ceos-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
   indiaMostPopulousCities2026,
+  indiaHighestPaidCeos2026,
   mostPowerfulPassports2026,
   mostValuableAiCompanies2026,
   mostVisitedCountries2026,
