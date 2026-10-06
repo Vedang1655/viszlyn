@@ -21,7 +21,7 @@ export function SiteHeader() {
           className="flex items-baseline gap-2 group"
           onClick={() => setMenuOpen(false)}
         >
-          <span className="font-display font-bold text-xl tracking-tight text-ink">
+          <span className="font-display font-bold text-xl tracking-tight text-signal">
             VISZLYN
           </span>
           <span className="hidden sm:inline font-body text-xs text-stone">

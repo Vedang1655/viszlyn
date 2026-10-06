@@ -14,6 +14,8 @@ export default function RankingsIndex() {
   const realRankings = ALL_RANKING_ARTICLES.map((article) => ({
     title: article.title,
     href: `/rankings/${article.slug}`,
+    eyebrow: article.eyebrow,
+    dek: article.dek,
   }));
 
   const rankings = [...realRankings, ...COMING_SOON];

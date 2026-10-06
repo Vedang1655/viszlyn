@@ -12,7 +12,7 @@ export function SiteFooter() {
     <footer className="border-t border-stone-light mt-20">
       <div className="max-w-6xl mx-auto px-5 md:px-8 py-10 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         <div>
-          <span className="font-display font-bold text-lg text-ink">
+          <span className="font-display font-bold text-lg text-signal">
             VISZLYN
           </span>
           <p className="font-body text-sm text-stone mt-1">Data. Visualized.</p>

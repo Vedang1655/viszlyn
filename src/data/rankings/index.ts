@@ -12,9 +12,9 @@ import { indiaHighestPaidCeos2026 } from "./india-highest-paid-ceos-2026";
 import { costliestCitiesWorld2026 } from "./costliest-cities-world-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
-  indiaMostPopulousCities2026,
-  indiaHighestPaidCeos2026,
   costliestCitiesWorld2026,
+  indiaHighestPaidCeos2026,
+  indiaMostPopulousCities2026,
   mostPowerfulPassports2026,
   mostValuableAiCompanies2026,
   mostVisitedCountries2026,
