@@ -10,6 +10,7 @@
     "generate-article": "node scripts/generate-article.mjs"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.3.0",
     "flag-icons": "^7.5.0",
     "next": "16.3.3",
     "react": "19.2.8",

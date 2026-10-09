@@ -4,6 +4,7 @@ import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { RankList } from "@/components/RankBar";
 import { ChartHeader } from "@/components/ChartHeader";
+import { HeroBanner } from "@/components/HeroBanner";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import {
   ArticleLayout,
@@ -88,6 +89,15 @@ export default async function RankingArticlePage({ params }: PageProps) {
           lastUpdated={article.lastUpdated}
           dataPeriod={article.dataPeriod}
         >
+          <ArticleSection>
+            <HeroBanner
+              eyebrow={article.eyebrow}
+              title={article.title}
+              items={article.chartItems}
+              source={article.chartSource}
+            />
+          </ArticleSection>
+
           <ArticleSection title="Quick Answer">
             <p>{article.quickAnswer}</p>
           </ArticleSection>

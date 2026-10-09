@@ -10,8 +10,12 @@ import { mostPowerfulPassports2026 } from "./most-powerful-passports-2026";
 import { indiaMostPopulousCities2026 } from "./india-populous-cities-2026";
 import { indiaHighestPaidCeos2026 } from "./india-highest-paid-ceos-2026";
 import { costliestCitiesWorld2026 } from "./costliest-cities-world-2026";
+import { largestEconomiesWorld2026 } from "./largest-economies-world-2026";
+import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-capita-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  richestCountriesGdpPerCapita2026,
+  largestEconomiesWorld2026,
   costliestCitiesWorld2026,
   indiaHighestPaidCeos2026,
   indiaMostPopulousCities2026,

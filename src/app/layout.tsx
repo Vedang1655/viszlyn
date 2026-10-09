@@ -22,6 +22,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.viszlyn.io"),
   title: "Viszlyn — Data. Visualized.",
   description:
     "Rankings, stats, and data stories on the world's biggest numbers — visualized simply.",
