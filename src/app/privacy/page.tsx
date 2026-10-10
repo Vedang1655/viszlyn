@@ -13,7 +13,7 @@ export default function PrivacyPage() {
     <LegalPage
       title="Privacy Policy"
       intro="This policy explains what information is collected when you visit viszlyn.io and how it is used."
-      updated="September 28, 2026"
+      updated="October 9, 2026"
     >
       <LegalHeading>Information we collect</LegalHeading>
       <p>
@@ -39,9 +39,11 @@ export default function PrivacyPage() {
         the internet.
       </p>
       <p>
-        You can opt out of personalized advertising by visiting{" "}
+        Ads may be personalized or non-personalized, depending on your Google
+        settings and where you are. You can opt out of personalized advertising
+        by visiting{" "}
         <a
-          href="https://www.google.com/settings/ads"
+          href="https://adssettings.google.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-signal underline underline-offset-2"
@@ -51,7 +53,7 @@ export default function PrivacyPage() {
         . You can also opt out of some third-party vendors&apos; use of cookies
         for personalized advertising at{" "}
         <a
-          href="https://www.aboutads.info"
+          href="https://www.aboutads.info/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-signal underline underline-offset-2"
@@ -80,6 +82,11 @@ export default function PrivacyPage() {
         We use Google Search Console to understand how our pages appear in
         Google Search. This provides aggregated search performance data and does
         not identify individual visitors to us.
+      </p>
+      <p>
+        The site does not currently run on-site analytics scripts such as Google
+        Analytics. If that changes, this policy will be updated to name the
+        service and describe what it collects.
       </p>
 
       <LegalHeading>Links to other sites</LegalHeading>

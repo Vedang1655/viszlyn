@@ -1,25 +1,27 @@
+import Link from "next/link";
 import { RankList } from "./RankBar";
 import { RankEntry } from "./RankEntry";
 import { ChartHeader } from "./ChartHeader";
-
-type DetailedEntry = {
-  rank: number;
-  name: string;
-  earnings: string;
-  category: string;
-  revenueSources: string;
-};
+import type { ChartItem, DetailedEntry } from "@/data/rankings/types";
 
 type FeaturedStoryProps = {
   eyebrow: string;
   title: string;
-  items: { rank: number; name: string; value: string; raw: number }[];
+  chartTitle: string;
+  chartSource: string;
+  entryValueLabel?: string;
+  href?: string;
+  items: ChartItem[];
   detailedEntries: DetailedEntry[];
 };
 
 export function FeaturedStory({
   eyebrow,
   title,
+  chartTitle,
+  chartSource,
+  entryValueLabel,
+  href,
   items,
   detailedEntries,
 }: FeaturedStoryProps) {
@@ -33,18 +35,30 @@ export function FeaturedStory({
       </h1>
 
       <div className="bg-ink/[0.02] border border-stone-light rounded-lg p-5 md:p-8">
-        <ChartHeader
-          title="Estimated Creator Earnings — 2026 · USD millions"
-          source="Forbes"
-        />
+        <ChartHeader title={chartTitle} source={chartSource} />
         <RankList items={items} linkable />
       </div>
 
       <div className="max-w-3xl mt-2">
         {detailedEntries.map((entry) => (
-          <RankEntry key={entry.rank} {...entry} />
+          <RankEntry
+            key={entry.rank}
+            {...entry}
+            earningsLabel={entryValueLabel}
+          />
         ))}
       </div>
+
+      {href && (
+        <p className="max-w-3xl mt-4">
+          <Link
+            href={href}
+            className="font-body text-sm font-semibold text-signal underline underline-offset-2"
+          >
+            Read the full article with methodology and FAQ
+          </Link>
+        </p>
+      )}
     </section>
   );
 }

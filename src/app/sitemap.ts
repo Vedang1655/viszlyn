@@ -34,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  const legalEntries: MetadataRoute.Sitemap = ["about", "contact", "privacy", "terms"].map(
+  const legalEntries: MetadataRoute.Sitemap = ["about", "contact", "methodology", "privacy", "terms"].map(
     (slug) => ({
       url: `${BASE_URL}/${slug}`,
       lastModified: new Date("2026-09-28"),

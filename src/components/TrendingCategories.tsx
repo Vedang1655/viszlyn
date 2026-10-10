@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const CATEGORIES = [
-  { label: "Highest-Paid Jobs", href: "/category/money", tag: "MONEY" },
-  { label: "Most Expensive Cities", href: "/category/world", tag: "WORLD" },
-  { label: "Biggest AI Companies", href: "/category/tech", tag: "TECH" },
+  { label: "Highest-Paid CEOs", href: "/rankings/highest-paid-ceos-2026", tag: "MONEY" },
+  { label: "Costliest Cities", href: "/rankings/costliest-cities-world-2026", tag: "WORLD" },
+  { label: "Most Valuable AI Companies", href: "/rankings/most-valuable-ai-companies-2026", tag: "TECH" },
 ];
 
 export function TrendingCategories() {
