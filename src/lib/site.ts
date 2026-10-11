@@ -6,4 +6,5 @@ export const CONTACT_EMAIL = "khamarvedang04@gmail.com";
 export const SOCIAL_LINKS = [
   { label: "Instagram", href: "https://www.instagram.com/viszlyn" },
   { label: "YouTube", href: "https://www.youtube.com/@viszlyn" },
+  { label: "TikTok", href: "https://www.tiktok.com/@viszlyn" },
 ];
