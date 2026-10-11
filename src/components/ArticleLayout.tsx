@@ -65,11 +65,13 @@ export function SourceNote({
   lastUpdated,
   sources,
   methodology,
+  sourceLinks,
 }: {
   dataPeriod: string;
   lastUpdated: string;
   sources: string;
   methodology: string;
+  sourceLinks?: { label: string; href: string }[];
 }) {
   return (
     <div className="bg-ink/[0.03] border border-stone-light rounded-lg p-5">
@@ -89,6 +91,27 @@ export function SourceNote({
           <dt className="font-body font-medium text-ink shrink-0">Sources:</dt>
           <dd className="font-body text-stone">{sources}</dd>
         </div>
+        {sourceLinks && sourceLinks.length > 0 && (
+          <div className="flex gap-2 text-sm">
+            <dt className="font-body font-medium text-ink shrink-0">Source links:</dt>
+            <dd className="font-body text-stone">
+              <ul className="flex flex-col gap-1">
+                {sourceLinks.map((link) => (
+                  <li key={link.href}>
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline underline-offset-2 hover:text-ink"
+                    >
+                      {link.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </dd>
+          </div>
+        )}
       </dl>
       <p className="font-body text-sm text-stone leading-relaxed border-t border-stone-light pt-3">
         {methodology}

@@ -54,11 +54,18 @@ export type KeyTakeawayData = {
   note: string;
 };
 
+export type SourceLink = {
+  label: string;
+  href: string;
+};
+
 export type SourceNoteData = {
   dataPeriod: string;
   lastUpdated: string;
   sources: string;
   methodology: string;
+  /** Optional list of direct source links shown under the Sources line. */
+  sourceLinks?: SourceLink[];
 };
 
 export type RankingArticle = {

@@ -150,6 +150,7 @@ export default async function RankingArticlePage({ params }: PageProps) {
             lastUpdated={article.sourceNote.lastUpdated}
             sources={article.sourceNote.sources}
             methodology={article.sourceNote.methodology}
+            sourceLinks={article.sourceNote.sourceLinks}
           />
 
           <ArticleSection title="Frequently Asked Questions">

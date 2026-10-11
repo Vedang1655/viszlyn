@@ -1,4 +1,6 @@
 import { RankingArticle } from "./types";
+import { bigMacIndexMostExpensiveCountries2026 } from "./big-mac-index-most-expensive-countries-2026";
+import { iphone18ProPriceByCountry2026 } from "./iphone-18-pro-price-by-country-2026";
 import { highestEarningCreators2026 } from "./highest-earning-creators-2026";
 import { highestPaidAthletes2026 } from "./highest-paid-athletes-2026";
 import { highestPaidCeos2026 } from "./highest-paid-ceos-2026";
@@ -14,6 +16,8 @@ import { largestEconomiesWorld2026 } from "./largest-economies-world-2026";
 import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-capita-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  bigMacIndexMostExpensiveCountries2026,
+  iphone18ProPriceByCountry2026,
   richestCountriesGdpPerCapita2026,
   largestEconomiesWorld2026,
   costliestCitiesWorld2026,
