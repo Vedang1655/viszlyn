@@ -250,8 +250,7 @@ export const worldsMostValuableCompanies2026: RankingArticle = {
     },
     {
       "title": "The Richest People in the World in 2026",
-      "href": "/rankings/richest-people-2026",
-      "comingSoon": true
+      "href": "/rankings/richest-people-2026"
     }
   ]
 };
