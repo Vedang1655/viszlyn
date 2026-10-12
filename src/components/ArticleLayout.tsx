@@ -27,7 +27,7 @@ export function ArticleLayout({
       <h1 className="font-display font-bold text-3xl md:text-4xl text-ink mt-3 mb-4 leading-[1.15]">
         {title}
       </h1>
-      <p className="font-body text-lg text-stone leading-relaxed mb-4">{dek}</p>
+      <p className="font-body text-lg text-ink-soft leading-relaxed mb-4">{dek}</p>
       <div className="flex flex-wrap gap-x-4 gap-y-1 font-data text-xs text-stone border-t border-b border-stone-light py-3 mb-10">
         <span>Published {publishedDate}</span>
         {lastUpdated && <span>Updated {lastUpdated}</span>}

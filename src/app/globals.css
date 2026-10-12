@@ -7,7 +7,8 @@
   --paper: #f7f5f0;       /* warm paper white */
   --signal: #ff5d3a;      /* signal orange — primary accent, use sparingly */
   --data-teal: #2e7d6b;   /* secondary series color for charts */
-  --stone: #8a8578;       /* muted stone — captions, metadata, sources */
+  --stone: #3f3d38;       /* warm near-black — captions, metadata, sources */
+  --ink-soft: #26241f;    /* subtitle under headlines */
   --stone-light: #d8d4c9; /* hairlines, dividers */
 
   --background: var(--paper);
@@ -20,6 +21,7 @@
   --color-signal: var(--signal);
   --color-data-teal: var(--data-teal);
   --color-stone: var(--stone);
+  --color-ink-soft: var(--ink-soft);
   --color-stone-light: var(--stone-light);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
