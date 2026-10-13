@@ -14,7 +14,8 @@ import {
 import { RankEntry } from "@/components/RankEntry";
 import { FAQ } from "@/components/FAQ";
 import { RelatedRankings } from "@/components/RelatedRankings";
-import { getAllRankingSlugs, getRankingArticle } from "@/data/rankings";
+import { ALL_RANKING_ARTICLES, getAllRankingSlugs, getRankingArticle } from "@/data/rankings";
+import { SITE_NAME, SITE_URL, toIsoDate } from "@/lib/seo";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -29,7 +30,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const article = getRankingArticle(slug);
   if (!article) return {};
 
-  const url = `https://www.viszlyn.io/rankings/${article.slug}`;
+  const url = `${SITE_URL}/rankings/${article.slug}`;
+  const publishedTime = toIsoDate(article.publishedDate);
+  const modifiedTime = toIsoDate(article.lastUpdated);
 
   return {
     title: article.metaTitle,
@@ -41,8 +44,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: article.ogTitle,
       description: article.ogDescription,
       url,
-      siteName: "Viszlyn",
+      siteName: SITE_NAME,
+      locale: "en_US",
       type: "article",
+      publishedTime,
+      modifiedTime,
+      section: article.eyebrow,
     },
     twitter: {
       card: "summary_large_image",
@@ -73,12 +80,75 @@ export default async function RankingArticlePage({ params }: PageProps) {
     })),
   };
 
+  const url = `${SITE_URL}/rankings/${article.slug}`;
+  const publisher = { "@type": "Organization", name: SITE_NAME, url: SITE_URL };
+
+  const ARTICLE_JSON_LD = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.metaDescription,
+    mainEntityOfPage: url,
+    url,
+    datePublished: toIsoDate(article.publishedDate),
+    dateModified: toIsoDate(article.lastUpdated),
+    articleSection: article.eyebrow,
+    inLanguage: "en",
+    author: publisher,
+    publisher,
+  };
+
+  const ITEM_LIST_JSON_LD = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: article.chartTitle,
+    itemListOrder: "https://schema.org/ItemListOrderAscending",
+    numberOfItems: article.chartItems.length,
+    itemListElement: [...article.chartItems]
+      .sort((x, y) => x.rank - y.rank)
+      .map((item) => ({
+        "@type": "ListItem",
+        position: item.rank,
+        name: item.name,
+      })),
+  };
+
+  const BREADCRUMB_JSON_LD = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+      { "@type": "ListItem", position: 2, name: "Rankings", item: `${SITE_URL}/rankings` },
+      { "@type": "ListItem", position: 3, name: article.title, item: url },
+    ],
+  };
+
+  // Related links: keep the article's own live links, then top up to four with
+  // other articles (same section first, newest first) so there are no dead ends.
+  const liveRelated = article.relatedLinks.filter((l) => !l.comingSoon);
+  const relatedLinks = [...liveRelated];
+  if (relatedLinks.length < 4) {
+    const taken = new Set([`/rankings/${article.slug}`, ...relatedLinks.map((l) => l.href)]);
+    const candidates = ALL_RANKING_ARTICLES.filter((a) => !taken.has(`/rankings/${a.slug}`)).sort(
+      (x, y) =>
+        Number(y.eyebrow === article.eyebrow) - Number(x.eyebrow === article.eyebrow) ||
+        (toIsoDate(y.publishedDate) ?? "").localeCompare(toIsoDate(x.publishedDate) ?? ""),
+    );
+    for (const c of candidates) {
+      if (relatedLinks.length >= 4) break;
+      relatedLinks.push({ title: c.title, href: `/rankings/${c.slug}` });
+    }
+  }
+
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(FAQ_JSON_LD) }}
-      />
+      {[ARTICLE_JSON_LD, ITEM_LIST_JSON_LD, BREADCRUMB_JSON_LD, FAQ_JSON_LD].map((data, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+        />
+      ))}
       <SiteHeader />
       <main className="flex-1">
         <ArticleLayout
@@ -158,7 +228,7 @@ export default async function RankingArticlePage({ params }: PageProps) {
           </ArticleSection>
 
           <ArticleSection title="Related Rankings">
-            <RelatedRankings links={article.relatedLinks} />
+            <RelatedRankings links={relatedLinks} />
           </ArticleSection>
         </ArticleLayout>
       </main>

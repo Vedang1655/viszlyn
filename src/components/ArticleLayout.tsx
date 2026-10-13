@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import Link from "next/link";
 
 type ArticleLayoutProps = {
   eyebrow: string;
@@ -22,6 +23,13 @@ export function ArticleLayout({
   return (
     <article className="max-w-6xl mx-auto px-5 md:px-8 py-12">
       <div>
+      <nav aria-label="Breadcrumb" className="font-body text-xs text-stone mb-4">
+        <Link href="/" className="hover:text-signal">Home</Link>
+        <span aria-hidden="true"> / </span>
+        <Link href="/rankings" className="hover:text-signal">Rankings</Link>
+        <span aria-hidden="true"> / </span>
+        <Link href={`/category/${eyebrow.toLowerCase()}`} className="hover:text-signal">{eyebrow}</Link>
+      </nav>
       <span className="font-body text-xs font-semibold tracking-widest text-signal uppercase">
         {eyebrow}
       </span>
