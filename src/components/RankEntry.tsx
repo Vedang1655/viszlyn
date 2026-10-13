@@ -41,7 +41,7 @@ export function RankEntry({
     >
       <span
         className={`font-display font-bold text-2xl w-12 shrink-0 ${
-          isFirst ? "text-signal" : "text-stone-light"
+          isFirst ? "text-signal" : "text-ink"
         }`}
       >
         {rankLabel ?? rank}
@@ -99,7 +99,7 @@ export function RankEntry({
         </dl>
 
         {blurb && (
-          <p className="font-body text-sm text-ink/80 leading-relaxed mt-3">
+          <p className="font-body text-sm text-ink-soft leading-relaxed mt-3">
             {blurb}
           </p>
         )}
@@ -110,7 +110,7 @@ export function RankEntry({
               {standoutFact}
             </p>
             {sourceTag && (
-              <p className="font-body text-xs text-stone/70 mt-1 uppercase tracking-wide">
+              <p className="font-body text-xs text-stone mt-1 uppercase tracking-wide">
                 Source: {sourceTag}
               </p>
             )}

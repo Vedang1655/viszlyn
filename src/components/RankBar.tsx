@@ -38,7 +38,7 @@ export function RankBar({ rank, name, value, widthPercent, meta, linkTo, rankLab
     <div className="flex items-start gap-3 md:gap-4 py-3 border-b border-stone-light/60 last:border-0">
       <span
         className={`font-display font-semibold text-lg w-9 shrink-0 text-right pt-0.5 ${
-          isFirst ? "text-signal" : "text-stone"
+          isFirst ? "text-signal" : "text-ink"
         }`}
       >
         {rankLabel ?? rank}

@@ -20,7 +20,8 @@ export function ArticleLayout({
   children,
 }: ArticleLayoutProps) {
   return (
-    <article className="max-w-3xl mx-auto px-5 md:px-8 py-12">
+    <article className="max-w-6xl mx-auto px-5 md:px-8 py-12">
+      <div>
       <span className="font-body text-xs font-semibold tracking-widest text-signal uppercase">
         {eyebrow}
       </span>
@@ -35,6 +36,7 @@ export function ArticleLayout({
       </div>
 
       <div className="flex flex-col gap-10">{children}</div>
+      </div>
     </article>
   );
 }
@@ -53,7 +55,7 @@ export function ArticleSection({
           {title}
         </h2>
       )}
-      <div className="font-body text-base text-ink/85 leading-relaxed flex flex-col gap-4">
+      <div className="font-body text-base text-ink-soft leading-relaxed flex flex-col gap-4">
         {children}
       </div>
     </section>
@@ -116,7 +118,7 @@ export function SourceNote({
       <p className="font-body text-sm text-stone leading-relaxed border-t border-stone-light pt-3">
         {methodology}
       </p>
-      <p className="font-body text-xs text-stone/80 leading-relaxed mt-2 italic">
+      <p className="font-body text-xs text-stone leading-relaxed mt-2 italic">
         Figures marked as estimates are based on publicly available
         information and may vary from other published sources.
       </p>

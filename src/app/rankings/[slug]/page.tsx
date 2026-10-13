@@ -112,7 +112,7 @@ export default async function RankingArticlePage({ params }: PageProps) {
                 <p className="font-body text-xs font-bold text-signal uppercase tracking-wide mb-2">
                   {article.calloutBox.label}
                 </p>
-                <p className="font-body text-sm text-ink/80 leading-relaxed">
+                <p className="font-body text-sm text-ink-soft leading-relaxed">
                   {article.calloutBox.body}
                 </p>
               </div>

@@ -31,7 +31,7 @@ export function LegalPage({
               Last updated {updated}
             </p>
           )}
-          <div className="font-body text-base text-ink/85 leading-relaxed flex flex-col gap-4">
+          <div className="font-body text-base text-ink-soft leading-relaxed flex flex-col gap-4">
             {children}
           </div>
         </article>

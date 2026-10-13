@@ -1,4 +1,6 @@
+import { highestNationalDebtToGdp2026 } from "./highest-national-debt-to-gdp-2026";
 import { RankingArticle } from "./types";
+import { highestMinimumWageByCountry2026 } from "./highest-minimum-wage-by-country-2026";
 import { bigMacIndexMostExpensiveCountries2026 } from "./big-mac-index-most-expensive-countries-2026";
 import { iphone18ProPriceByCountry2026 } from "./iphone-18-pro-price-by-country-2026";
 import { highestEarningCreators2026 } from "./highest-earning-creators-2026";
@@ -16,6 +18,8 @@ import { largestEconomiesWorld2026 } from "./largest-economies-world-2026";
 import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-capita-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  highestNationalDebtToGdp2026,
+  highestMinimumWageByCountry2026,
   bigMacIndexMostExpensiveCountries2026,
   iphone18ProPriceByCountry2026,
   richestCountriesGdpPerCapita2026,
