@@ -1,3 +1,4 @@
+import { countriesWithMostBillionaires2026 } from "./countries-with-most-billionaires-2026";
 import { highestNationalDebtToGdp2026 } from "./highest-national-debt-to-gdp-2026";
 import { RankingArticle } from "./types";
 import { highestMinimumWageByCountry2026 } from "./highest-minimum-wage-by-country-2026";
@@ -18,6 +19,7 @@ import { largestEconomiesWorld2026 } from "./largest-economies-world-2026";
 import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-capita-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  countriesWithMostBillionaires2026,
   highestNationalDebtToGdp2026,
   highestMinimumWageByCountry2026,
   bigMacIndexMostExpensiveCountries2026,
