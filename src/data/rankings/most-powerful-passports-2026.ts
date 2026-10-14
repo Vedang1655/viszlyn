@@ -5,7 +5,7 @@ export const mostPowerfulPassports2026: RankingArticle = {
 
   metaTitle: "The World's Most Powerful Passports in 2026 | Viszlyn",
   metaDescription:
-    "Singapore leads with visa-free access to 192 destinations. See the full tiered ranking of the world's most powerful passports \u2014 including the UAE's historic 20-year climb.",
+    "Singapore leads with visa-free access to 192 destinations. See the full ranking of the world's most powerful passports, including the UAE's 20-year climb.",
   ogTitle: "The World's Most Powerful Passports in 2026",
   ogDescription:
     "Singapore leads with visa-free access to 192 destinations. See the full tiered ranking, plus the UAE's remarkable 20-year rise from 62nd to joint 2nd.",

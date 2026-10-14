@@ -3,9 +3,9 @@ import { RankingArticle } from "./types";
 export const highestNationalDebtToGdp2026: RankingArticle = {
   slug: "highest-national-debt-to-gdp-2026",
 
-  metaTitle: "Countries with the Highest Debt-to-GDP Ratio (2026): Top 10 | Viszlyn",
+  metaTitle: "Highest Government Debt-to-GDP Ratios (2026) | Viszlyn",
   metaDescription:
-    "Japan has the highest government debt relative to its economy at 204.4% of GDP in 2026, ahead of Singapore (171.9%) and Sudan (169.1%). See the top 10, ranked using IMF data.",
+    "Japan's government debt is projected at 204.4% of GDP in 2026, ahead of Singapore (171.9%) and Sudan (169.1%). See the top 10 in the IMF's April 2026 data.",
   ogTitle: "The 10 Countries with the Highest Government Debt Relative to GDP (2026)",
   ogDescription:
     "Japan's government debt is projected at 204.4% of GDP in 2026. See the 10 countries with the highest debt-to-GDP ratios in the IMF's April 2026 data.",

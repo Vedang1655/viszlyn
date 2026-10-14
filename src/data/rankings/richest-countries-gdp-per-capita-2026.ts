@@ -3,9 +3,9 @@ import { RankingArticle } from "./types";
 export const richestCountriesGdpPerCapita2026: RankingArticle = {
   slug: "richest-countries-gdp-per-capita-2026",
 
-  metaTitle: "The 10 Countries with the Highest GDP Per Capita (2026) | Viszlyn",
+  metaTitle: "Highest GDP Per Capita by Country (2026, IMF) | Viszlyn",
   metaDescription:
-    "Liechtenstein leads GDP per capita at $226,809, about 2.4x the United States. See the full top 10 by nominal GDP per person, based on the IMF's April 2026 projections.",
+    "Liechtenstein leads at $226,809 per person, about 2.4x the US. See the top 10 sovereign countries by projected GDP per capita, using the IMF's April 2026 data.",
   ogTitle: "The 10 Countries with the Highest GDP Per Capita (2026)",
   ogDescription:
     "Liechtenstein tops the list at $226,809 per person, 2.8x #10 Netherlands. The US has the world's largest economy but ranks 8th per person.",

@@ -3,9 +3,9 @@ import { RankingArticle } from "./types";
 export const bigMacIndexMostExpensiveCountries2026: RankingArticle = {
   slug: "big-mac-index-most-expensive-countries-2026",
 
-  metaTitle: "Big Mac Index 2026: The 10 Most Expensive Countries | Viszlyn",
+  metaTitle: "Big Mac Index 2026: 10 Priciest Countries | Viszlyn",
   metaDescription:
-    "A Big Mac costs $9.04 in Switzerland, 45% more than in the US and 3.8x the price in Indonesia. See the 10 most expensive countries in The Economist's July 2026 Big Mac index.",
+    "A Big Mac costs $9.04 in Switzerland, 45% more than in the US and 3.8 times Indonesia's price. See the 10 priciest countries in The Economist's July 2026 index.",
   ogTitle: "The 10 Countries Where a Big Mac Costs the Most (2026)",
   ogDescription:
     "Switzerland's Big Mac is $9.04, the US price is $6.22, and Indonesia's is $2.38. See the 10 most expensive countries in the July 2026 Big Mac index.",

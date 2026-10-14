@@ -3,9 +3,9 @@ import { RankingArticle } from "./types";
 export const largestEconomiesWorld2026: RankingArticle = {
   slug: "largest-economies-world-2026",
 
-  metaTitle: "The 10 Largest Economies in the World (2026 GDP Ranking) | Viszlyn",
+  metaTitle: "10 Largest Economies in the World (2026 GDP) | Viszlyn",
   metaDescription:
-    "The United States leads the world's largest economies at $32.4 trillion, 1.55x China. See the full top 10 by nominal GDP, based on the IMF's April 2026 projections.",
+    "The United States leads the world's largest economies at $32.4 trillion, 1.55x China. See the top 10 by nominal GDP, using the IMF's April 2026 projections.",
   ogTitle: "The 10 Largest Economies in the World (2026)",
   ogDescription:
     "The US economy is worth $32.4 trillion, about 1.55x China's and 12x Brazil's at #10. See the full top 10 by nominal GDP and who moved up or down this year.",

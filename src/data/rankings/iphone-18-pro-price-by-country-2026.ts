@@ -3,7 +3,7 @@ import { RankingArticle } from "./types";
 export const iphone18ProPriceByCountry2026: RankingArticle = {
   slug: "iphone-18-pro-price-by-country-2026",
 
-  metaTitle: "iPhone 18 Pro Price by Country (2026): 10 Markets Ranked | Viszlyn",
+  metaTitle: "iPhone 18 Pro Prices in 10 Countries (2026) | Viszlyn",
   metaDescription:
     "The iPhone 18 Pro costs $1,199 in the US but about $2,817 in Türkiye, 2.35x as much. See 10 major markets ranked by price, with and without tax.",
   ogTitle: "iPhone 18 Pro Price by Country: 10 Markets Ranked (2026)",

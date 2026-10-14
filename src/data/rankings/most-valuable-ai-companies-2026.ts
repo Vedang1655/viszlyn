@@ -5,7 +5,7 @@ export const mostValuableAiCompanies2026: RankingArticle = {
 
   metaTitle: "The 10 Most Valuable AI Companies in 2026 | Viszlyn",
   metaDescription:
-    "Anthropic leads private AI valuations at $965B, ahead of OpenAI's $852B. See the full ranking of the world's most valuable AI companies, and why xAI isn't on it.",
+    "Anthropic leads private AI valuations at $965B, ahead of OpenAI's $852B. See the full ranking of the most valuable AI companies, and why xAI isn't on it.",
   ogTitle: "The 10 Most Valuable AI Companies in 2026",
   ogDescription:
     "Anthropic leads private AI valuations at $965B, ahead of OpenAI's $852B. See the full ranking and how two labs came to dominate the industry.",

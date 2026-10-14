@@ -5,7 +5,7 @@ export const costliestCitiesWorld2026: RankingArticle = {
 
   metaTitle: "The 10 Costliest Cities in the World (2026) | Viszlyn",
   metaDescription:
-    "Zurich leads the world's most expensive cities in 2026, and Switzerland claims 8 of the top 10 spots. See the full ranking, based on Numbeo's Cost of Living Index.",
+    "Zurich leads the world's most expensive cities in 2026, and Switzerland holds 8 of the top 10. See the full ranking, based on Numbeo's Cost of Living Index.",
   ogTitle: "The 10 Costliest Cities in the World in 2026",
   ogDescription:
     "Zurich leads, and Switzerland claims 8 of the top 10 spots on this year's cost of living index \u2014 a near-total sweep by one country.",
