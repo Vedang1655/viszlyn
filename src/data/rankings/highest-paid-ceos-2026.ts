@@ -5,7 +5,7 @@ export const highestPaidCeos2026: RankingArticle = {
 
   metaTitle: "The 10 Highest-Paid CEOs in 2026 | Viszlyn",
   metaDescription:
-    "Wayfair's Niraj Shah leads disclosed executive compensation at $280.8M. See the full ranking, what drives nine-figure CEO pay, and why Elon Musk isn't on this list.",
+    "Wayfair's Niraj Shah leads disclosed CEO compensation at $280.8M. See the full ranking, what drives nine-figure pay, and why Elon Musk isn't included.",
   ogTitle: "The 10 Highest-Paid CEOs in 2026",
   ogDescription:
     "Wayfair's Niraj Shah leads disclosed executive compensation at $280.8M. See the full ranking and what drives nine-figure CEO pay.",

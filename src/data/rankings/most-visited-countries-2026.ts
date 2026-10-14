@@ -5,7 +5,7 @@ export const mostVisitedCountries2026: RankingArticle = {
 
   metaTitle: "The 10 Most Visited Countries in the World (2026) | Viszlyn",
   metaDescription:
-    "France leads the world's most visited countries with 102 million international arrivals \u2014 nearly 2.8x the #10 spot. See the full top 10, verified against UN Tourism's official data.",
+    "France leads with 102 million international arrivals, nearly 2.8 times the tenth-ranked country. See the top 10, based on UN Tourism data.",
   ogTitle: "The 10 Most Visited Countries in the World",
   ogDescription:
     "France leads with 102 million international arrivals in 2024 \u2014 nearly 2.8x the #10 country. See the full top 10 and why the US earns the most despite ranking 3rd.",

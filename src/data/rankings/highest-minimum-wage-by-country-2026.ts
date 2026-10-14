@@ -3,9 +3,9 @@ import { RankingArticle } from "./types";
 export const highestMinimumWageByCountry2026: RankingArticle = {
   slug: "highest-minimum-wage-by-country-2026",
 
-  metaTitle: "Highest National Minimum Wages in 2026: Top 10 Reviewed | Viszlyn",
+  metaTitle: "Highest National Minimum Wages 2026: 10 Reviewed | Viszlyn",
   metaDescription:
-    "Luxembourg leads the countries reviewed at about $18.23 an hour, with Australia a close second at $18.22. Compare 10 national or federal minimum wages in 2026, converted to US dollars.",
+    "Luxembourg leads the countries reviewed at about $18.23 an hour, with Australia nearly tied at $18.22. Compare 10 national or federal minimum wages, in USD.",
   ogTitle: "The 10 Highest National Minimum Wages Among Countries Reviewed (2026)",
   ogDescription:
     "Luxembourg's minimum wage is about $18.23 an hour, and Australia's is about $18.22. See the 10 highest national minimum wages among the countries reviewed, in US dollars.",

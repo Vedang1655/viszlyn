@@ -5,7 +5,7 @@ export const indiaHighestPaidCeos2026: RankingArticle = {
 
   metaTitle: "India's Highest-Paid CEOs in 2026 | Viszlyn",
   metaDescription:
-    "India's highest-paid CEOs in FY26: Sandeep Kalra leads at \u20b9388.58 crore, followed by C. Vijayakumar at \u20b9171.93 crore. Explore the full top 10, equity pay, and industry breakdown.",
+    "India's highest-paid CEOs in FY26: Sandeep Kalra leads at \u20b9388.58 crore, ahead of C. Vijayakumar at \u20b9171.93 crore. Explore equity pay and industry breakdown.",
   ogTitle: "India's Highest-Paid CEOs in 2026",
   ogDescription:
     "Sandeep Kalra of Persistent Systems leads at \u20b9388.58 crore for FY26 \u2014 more than double the #2 spot. See the full top 10, verified against company annual reports.",
