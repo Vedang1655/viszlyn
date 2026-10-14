@@ -24,6 +24,15 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.viszlyn.io"),
   title: "Viszlyn — Data. Visualized.",
+  applicationName: "Viszlyn",
+  openGraph: {
+    siteName: "Viszlyn",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
   description:
     "Rankings, stats, and data stories on the world's biggest numbers — visualized simply.",
 };
