@@ -197,7 +197,9 @@ export default async function RankingArticlePage({ params }: PageProps) {
             </div>
           </ArticleSection>
 
-          <ArticleSection title="Ranked #10 to #1">
+          <ArticleSection
+            title={`Ranked #${Math.max(...article.detailedEntries.map((entry) => entry.rank))} to #1`}
+          >
             <div>
               {article.detailedEntries.map((entry) => (
                 <RankEntry key={entry.rank} {...entry} earningsLabel={article.entryValueLabel} />
