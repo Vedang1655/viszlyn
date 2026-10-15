@@ -6,10 +6,10 @@ export const biggestTechIpos2026: RankingArticle = {
   metaTitle: "Biggest US Tech IPOs & Listings of 2026 | Viszlyn",
   metaDescription:
     "SpaceX raised $75B in the biggest IPO ever. Explore six major US tech IPOs and listings of 2026, ranked by base-offering proceeds.",
-  ogTitle: "6 of the Biggest US Tech IPOs and Listings of 2026",
+  ogTitle: "6 of the Biggest US Tech IPOs and Listings of 2026 So Far",
   ogDescription:
     "SpaceX raised $75 billion in the largest IPO ever. See which tech companies raised the most in US debuts this year.",
-  twitterTitle: "6 of the Biggest US Tech IPOs and Listings of 2026",
+  twitterTitle: "6 of the Biggest US Tech IPOs and Listings of 2026 So Far",
   twitterDescription:
     "SpaceX's $75B IPO dwarfs the rest. See six of the biggest US tech IPOs and listings of 2026.",
 
@@ -112,7 +112,7 @@ export const biggestTechIpos2026: RankingArticle = {
       blurb:
         "SpaceX priced 555.6 million shares at $135 each and began trading on Nasdaq on June 12. Underwriters also hold an option on 83.3 million more shares, which could add about $11 billion if exercised.",
       standoutFact:
-        "The previous record was Saudi Aramco's 2019 base offering of about $25.6 billion (about $29.4 billion with its overallotment option), so SpaceX's base offering is nearly three times as large.",
+        "The previous record was Saudi Aramco's 2019 base offering of about $25.6 billion (about $29.4 billion with its overallotment option), per Visual Capitalist, so SpaceX's base offering is nearly three times as large. Some outlets cite a slightly lower figure of about $24.9 billion.",
       sourceTag: "TechCrunch; Visual Capitalist",
     },
   ],
@@ -139,6 +139,7 @@ export const biggestTechIpos2026: RankingArticle = {
       { label: "IPO Buzz: Quantinuum prices IPO at $60", href: "https://www.iposcoop.com/the-ipo-buzz-quantinuum-priced-upsized-ipo-at-60-5-above-range/" },
       { label: "IPO Buzz: X-energy upsizes IPO and prices at $23", href: "https://iposcoop.com/the-ipo-buzz-x-energy-xe-upsizes-ipo-prices-it-at-23-4-above-range" },
       { label: "Fervo Energy Form 10-Q (SEC), IPO share count and proceeds", href: "https://www.sec.gov/Archives/edgar/data/0001853868/000162828026056457/frvo-20260630.htm" },
+      { label: "CTVC: Fervo and X-energy IPOs draw clean firms' cost curve", href: "https://www.ctvc.co/fervo-and-x-energys-ipos-draw-clean-firms-cost-curve-295" },
       { label: "Axios Pro: Fervo prices above range at $27", href: "https://www.axios.com/pro/climate-deals/2026/05/13/fervo-prices-27-upsized" },
       { label: "Visual Capitalist: Ranked, the biggest IPOs in history", href: "https://www.visualcapitalist.com/ranked-the-biggest-ipos-in-history-spacex/" },
       { label: "Crunchbase News: A hard year for software IPOs", href: "https://news.crunchbase.com/public/energy-ai-defense-saas-ipos-2026/" },
