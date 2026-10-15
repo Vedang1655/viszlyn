@@ -21,8 +21,8 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
-  highestRentBurdenCountries2026,
   highestPayingJobsCanada2026,
+  highestRentBurdenCountries2026,
   countriesWithMostBillionaires2026,
   highestNationalDebtToGdp2026,
   highestMinimumWageByCountry2026,
