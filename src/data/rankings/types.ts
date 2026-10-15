@@ -20,7 +20,7 @@ export type DetailedEntry = {
   name: string;
   earnings: string;
   category: string;
-  revenueSources: string;
+  revenueSources?: string;
   origin?: string;
   blurb?: string;
   standoutFact?: string;

@@ -7,7 +7,7 @@ type RankEntryProps = {
   earnings: string;
   earningsLabel?: string;
   category: string;
-  revenueSources: string;
+  revenueSources?: string;
   origin?: string;
   blurb?: string;
   standoutFact?: string;
@@ -90,12 +90,14 @@ export function RankEntry({
             <dt className="font-body font-medium text-ink shrink-0">Category:</dt>
             <dd className="font-body text-stone">{category}</dd>
           </div>
-          <div className="flex gap-2 text-sm">
-            <dt className="font-body font-medium text-ink shrink-0">
-              Revenue sources:
-            </dt>
-            <dd className="font-body text-stone">{revenueSources}</dd>
-          </div>
+          {revenueSources && (
+            <div className="flex gap-2 text-sm">
+              <dt className="font-body font-medium text-ink shrink-0">
+                Revenue sources:
+              </dt>
+              <dd className="font-body text-stone">{revenueSources}</dd>
+            </div>
+          )}
         </dl>
 
         {blurb && (
