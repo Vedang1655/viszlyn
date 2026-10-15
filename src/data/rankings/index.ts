@@ -22,10 +22,10 @@ import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
   highestPayingJobsCanada2026,
+  highestRentBurdenCountries2026,
   countriesWithMostBillionaires2026,
   highestNationalDebtToGdp2026,
   highestMinimumWageByCountry2026,
-  highestRentBurdenCountries2026,
   bigMacIndexMostExpensiveCountries2026,
   iphone18ProPriceByCountry2026,
   richestCountriesGdpPerCapita2026,
