@@ -245,8 +245,7 @@ export const worldsMostValuableCompanies2026: RankingArticle = {
     },
     {
       "title": "The Biggest Tech IPOs of 2026",
-      "href": "/rankings/biggest-tech-ipos-2026",
-      "comingSoon": true
+      "href": "/rankings/biggest-tech-ipos-2026"
     },
     {
       "title": "The Richest People in the World in 2026",
