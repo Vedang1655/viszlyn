@@ -18,12 +18,14 @@ import { indiaHighestPaidCeos2026 } from "./india-highest-paid-ceos-2026";
 import { costliestCitiesWorld2026 } from "./costliest-cities-world-2026";
 import { largestEconomiesWorld2026 } from "./largest-economies-world-2026";
 import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-capita-2026";
+import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
   highestPayingJobsCanada2026,
   countriesWithMostBillionaires2026,
   highestNationalDebtToGdp2026,
   highestMinimumWageByCountry2026,
+  highestRentBurdenCountries2026,
   bigMacIndexMostExpensiveCountries2026,
   iphone18ProPriceByCountry2026,
   richestCountriesGdpPerCapita2026,
