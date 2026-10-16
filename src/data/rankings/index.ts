@@ -1,3 +1,4 @@
+import { biggestMilitarySpenders2026 } from "./biggest-military-spenders-2026";
 import { biggestTechIpos2026 } from "./biggest-tech-ipos-2026";
 import { highestPayingJobsCanada2026 } from "./highest-paying-jobs-canada-2026";
 import { countriesWithMostBillionaires2026 } from "./countries-with-most-billionaires-2026";
@@ -22,6 +23,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  biggestMilitarySpenders2026,
   biggestTechIpos2026,
   highestPayingJobsCanada2026,
   highestRentBurdenCountries2026,
