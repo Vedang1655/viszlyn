@@ -14,7 +14,7 @@ export const biggestMilitarySpenders2026: RankingArticle = {
     "The US spent $954B in 2025, nearly 3x China. See the top 10 military spenders ranked by SIPRI.",
 
   eyebrow: "World",
-  title: "The World's 10 Biggest Military Spenders",
+  title: "The World's 10 Biggest Military Spenders in 2025",
   dek: "World military spending reached $2.89 trillion in 2025, the highest share of global GDP since 2009. The United States still spent the most, but its spending fell while Germany's jumped 24%.",
   publishedDate: "October 16, 2026",
   lastUpdated: "October 16, 2026",
@@ -164,7 +164,7 @@ export const biggestMilitarySpenders2026: RankingArticle = {
       blurb:
         "The United States spent $954 billion in 2025, about 33% of the world total and nearly three times as much as China. Its spending fell 7.5% in real terms from 2024, mainly because no new military aid for Ukraine was approved in 2025.",
       standoutFact:
-        "SIPRI notes that spending approved by Congress for 2026 is over $1 trillion.",
+        "SIPRI notes that spending approved by Congress for 2026 is over $1 trillion, and that it could rise to $1.5 trillion in 2027 if the president's latest budget proposal is accepted.",
       sourceTag: "SIPRI Fact Sheet, April 2026",
     },
   ],
@@ -173,7 +173,7 @@ export const biggestMilitarySpenders2026: RankingArticle = {
     stat: "$954B",
     label: "US military spending in 2025, about 33% of the world total",
     comparisonStat: "$62.2B",
-    comparisonLabel: "Japan's spending at #10, about 15 times less",
+    comparisonLabel: "Japan's spending at #10; the US spent about 15 times as much",
     note: "The US spent about 2.8 times as much as China, and the US and China together accounted for about 45% of the world's $2,887 billion. The ten countries on this list spent about $2,073 billion combined, roughly 72% of the global total. SIPRI puts the top 15 at $2,304 billion, or 80%. Globally, military spending rose 2.9% in real terms in 2025 and reached 2.5% of world GDP, the highest share since 2009.",
   },
 
@@ -215,8 +215,8 @@ export const biggestMilitarySpenders2026: RankingArticle = {
   ],
 
   relatedLinks: [
-    { title: "The World's Largest Economies in 2026", href: "/rankings/largest-economies-world-2026" },
-    { title: "The Countries With the Highest National Debt to GDP in 2026", href: "/rankings/highest-national-debt-to-gdp-2026" },
-    { title: "The Richest Countries by GDP per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
+    { title: "The 10 Largest Economies in the World in 2026", href: "/rankings/largest-economies-world-2026" },
+    { title: "The 10 Countries with the Highest Government Debt Relative to GDP in 2026", href: "/rankings/highest-national-debt-to-gdp-2026" },
+    { title: "The 10 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
   ],
 };
