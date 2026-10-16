@@ -208,8 +208,8 @@ export const citiesWithMostBillionaires2026: RankingArticle = {
   ],
 
   relatedLinks: [
-    { title: "The Countries With the Most Billionaires in 2026", href: "/rankings/countries-with-most-billionaires-2026" },
-    { title: "The Richest People in the World in 2026", href: "/rankings/richest-people-2026" },
-    { title: "The World's Costliest Cities", href: "/rankings/costliest-cities-world-2026" },
+    { title: "The 10 Countries With the Most Billionaires in 2026", href: "/rankings/countries-with-most-billionaires-2026" },
+    { title: "The 10 Richest People in the World in 2026", href: "/rankings/richest-people-2026" },
+    { title: "The 10 Costliest Cities in the World in 2026", href: "/rankings/costliest-cities-world-2026" },
   ],
 };
