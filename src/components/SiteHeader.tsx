@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { label: "Money", href: "/category/money" },
   { label: "Tech", href: "/category/tech" },
   { label: "World", href: "/category/world" },
+  { label: "Environment", href: "/category/environment" },
 ];
 
 export function SiteHeader() {

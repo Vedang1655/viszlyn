@@ -11,6 +11,8 @@ const CATEGORY_LABELS: Record<string, string> = {
   money: "Money",
   tech: "Tech",
   world: "World",
+  environment: "Environment",
+  business: "Business",
 };
 
 // Unique intro copy per category so each page has real, distinct content.
@@ -21,6 +23,10 @@ const CATEGORY_INTROS: Record<string, string> = {
     "The companies and markets shaping technology. Our Tech rankings track valuations, funding rounds, and market leaders across AI and beyond, with clear notes on how each number was set and what was left out.",
   world:
     "Countries, places, and global comparisons, ranked. Our World rankings turn official statistics into short, scannable stories, from the most visited countries to how nations stack up against each other.",
+  environment:
+    "Emissions, energy and the planet, ranked. Our Environment rankings use official inventories and scientific datasets, with clear notes on what each figure includes, which year it covers and how it was measured.",
+  business:
+    "Companies, deals and markets, ranked. Our Business rankings cover listings, valuations and the biggest transactions, with notes on how each amount was calculated and what was left out.",
 };
 
 type PageProps = {
