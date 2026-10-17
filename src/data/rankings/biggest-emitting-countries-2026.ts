@@ -5,7 +5,7 @@ export const biggestEmittingCountries2026: RankingArticle = {
 
   metaTitle: "The 10 Biggest Greenhouse Gas Emitters in 2025 | Viszlyn",
   metaDescription:
-    "China emitted 15,981 million tonnes of greenhouse gases in 2025, 2.7x the US. See the 10 countries with the highest emissions, ranked with the EU's EDGAR data.",
+    "China emitted 15,981 million tonnes of greenhouse gases in 2025, about 2.7 times the US total. Explore the 10 biggest national emitters using the EU's EDGAR data.",
   ogTitle: "The 10 Biggest Greenhouse Gas Emitting Countries in 2025",
   ogDescription:
     "China emitted 29.5% of the world's greenhouse gases in 2025, about 2.7 times the United States. See the full top 10.",
@@ -15,7 +15,7 @@ export const biggestEmittingCountries2026: RankingArticle = {
 
   eyebrow: "Environment",
   title: "The 10 Biggest Greenhouse Gas Emitting Countries in 2025",
-  dek: "World greenhouse gas emissions hit a record 54.1 billion tonnes of CO2 equivalent in 2025. China produced nearly 30% of them, and the United States had the largest increase of any major emitter.",
+  dek: "World greenhouse gas emissions reached a record 54.1 billion tonnes of CO2 equivalent in 2025. China produced nearly 30% of the total, while the United States recorded the largest absolute increase in emissions worldwide.",
   publishedDate: "October 17, 2026",
   lastUpdated: "October 17, 2026",
   dataPeriod: "Calendar year 2025, EDGAR 2026 report (European Commission Joint Research Centre)",
@@ -23,10 +23,10 @@ export const biggestEmittingCountries2026: RankingArticle = {
   quickAnswer:
     "China emitted the most greenhouse gases in 2025 at 15,981 million tonnes of CO2 equivalent, about 29.5% of the world total. The United States was second at 6,018 million tonnes, followed by India (4,508), Russia (2,574) and Indonesia (1,359). The ten countries on this list produced about 66% of global emissions.",
   introParagraph:
-    "This ranking uses EDGAR, the Emissions Database for Global Atmospheric Research run by the European Commission's Joint Research Centre. Its 2026 report, published in September 2026, covers 2025 and counts all greenhouse gases, not just carbon dioxide: fossil CO2 made up 73.8% of the total, methane 17.6%, nitrous oxide 5.3% and fluorinated gases 3.3%. Everything is expressed in CO2 equivalent, which converts each gas into the amount of CO2 with the same warming effect. Figures are in million tonnes (Mt) of CO2 equivalent and exclude emissions and removals from land use, land-use change and forestry. They measure emissions released within each country, not those linked to the goods a country imports, and they are totals, not emissions per person.",
+    "This ranking uses EDGAR, the Emissions Database for Global Atmospheric Research run by the European Commission's Joint Research Centre. Its 2026 report, published in September 2026, covers 2025 and counts all greenhouse gases, not just carbon dioxide: fossil CO2 made up 73.8% of the total, methane 17.6%, nitrous oxide 5.3% and fluorinated gases 3.3%. The 2025 values are EDGAR estimates, not finalized national inventories. Everything is expressed in CO2 equivalent, which converts each gas into the amount of CO2 with the same warming effect. Figures are in million tonnes (Mt) of CO2 equivalent and exclude emissions and removals from land use, land-use change and forestry. They measure emissions released within each country, not those linked to the goods a country imports, and they are totals, not emissions per person.",
   calloutBox: {
     label: "Why the European Union is not on the list",
-    body: "The European Union is a group of 27 countries, not a single country. EDGAR counts it as 3,127 Mt of CO2 equivalent in 2025, which would put it fourth, behind India and ahead of Russia. We rank individual countries only, so the EU is mentioned here but not given a rank. International aviation (633 Mt) and international shipping (754 Mt) are reported separately and are not assigned to any country.",
+    body: "The EU's 3,127 Mt of CO2 equivalent in 2025 would place it fourth in a comparison with individual countries, behind China, the United States and India. Because the EU is a group of 27 countries, it is not included in the country ranking. International aviation (633 Mt) and international shipping (754 Mt) are reported separately and are not assigned to any country.",
   },
 
   chartTitle: "Greenhouse gas emissions in 2025, million tonnes of CO2 equivalent",
@@ -116,7 +116,7 @@ export const biggestEmittingCountries2026: RankingArticle = {
       blurb:
         "Indonesia emitted 1,359 million tonnes of CO2 equivalent, about 2.5% of the world total. Its emissions rose by about 16 Mt, or 1.2%, in 2025.",
       standoutFact:
-        "Indonesia is the only country ranked below Russia with more than 2.5% of world emissions.",
+        "Indonesia is the only country ranked below Russia whose share of global emissions exceeds 2.5%.",
       sourceTag: "EDGAR 2026 report",
     },
     {
@@ -152,7 +152,7 @@ export const biggestEmittingCountries2026: RankingArticle = {
       blurb:
         "The United States emitted 6,018 million tonnes of CO2 equivalent, about 11.1% of the world total. Its emissions rose 2.2% (about 132 Mt) in 2025, the largest absolute increase of any country in the world.",
       standoutFact:
-        "The US increase of about 132 Mt was roughly 14 times the increase of about 10 Mt reported for China.",
+        "The US increase of about 132 Mt was more than 13 times the increase of about 10 Mt reported for China.",
       sourceTag: "EDGAR 2026 report",
     },
     {
@@ -186,6 +186,8 @@ export const biggestEmittingCountries2026: RankingArticle = {
       "Countries are ranked by total greenhouse gas emissions in 2025, in million tonnes of CO2 equivalent, as reported in the EDGAR 2026 report. Totals include fossil CO2, methane, nitrous oxide and fluorinated gases from all human activities and exclude land use, land-use change and forestry. Figures are production-based totals for each country, not emissions per person and not emissions linked to imports. The European Union is an aggregate of 27 countries and is not ranked, and international aviation and shipping are reported separately. EDGAR figures differ from other datasets, such as the Global Carbon Budget, which covers fossil CO2 only. Shares of the world total and the combined top-10 figure are our own calculations from EDGAR's published values.",
     sourceLinks: [
       { label: "EDGAR: GHG emissions of all world countries, 2026 report", href: "https://edgar.jrc.ec.europa.eu/report_2026" },
+      { label: "EDGAR 2026 full report (PDF)", href: "https://edgar.jrc.ec.europa.eu/booklet/GHG_emissions_of_all_world_countries_booklet_2026report.pdf" },
+      { label: "EDGAR 2026 greenhouse gas emissions data by country (XLSX)", href: "https://edgar.jrc.ec.europa.eu/booklet/EDGAR_2026_GHG_booklet_2026.xlsx" },
       { label: "Joint Research Centre: Six of the 16 major emitters reduced their emissions in 2025", href: "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/six-16-major-emitters-reduced-their-emissions-2025-2026-09-07_en" },
     ],
   },
@@ -209,7 +211,7 @@ export const biggestEmittingCountries2026: RankingArticle = {
     {
       question: "Why is the European Union not ranked?",
       answer:
-        "The EU is a group of 27 countries, not one country. EDGAR counts it at 3,127 Mt of CO2 equivalent in 2025, which would rank fourth, but this list only ranks individual countries.",
+        "The EU is a group of 27 countries, not one country. EDGAR counts it at 3,127 Mt of CO2 equivalent in 2025, which would place it fourth in a comparison with individual countries, but this list ranks individual countries only.",
     },
   ],
 
