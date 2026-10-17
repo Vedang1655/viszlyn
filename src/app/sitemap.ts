@@ -25,7 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   );
 
-  const categoryEntries: MetadataRoute.Sitemap = ["money", "tech", "world"].map(
+  const categoryEntries: MetadataRoute.Sitemap = ["money", "tech", "world", "environment", "business"].map(
     (slug) => ({
       url: `${BASE_URL}/category/${slug}`,
       lastModified: latestArticleDate,
