@@ -15,7 +15,7 @@ export const emissionsPerPersonMajorEmitters2026: RankingArticle = {
 
   eyebrow: "Environment",
   title: "Greenhouse Gas Emissions Per Person: The 10 Highest Among Major Emitters",
-  dek: "Saudi Arabia, Australia and Canada emit the most per person among the world's biggest emitting countries. India has the lowest figure of the 15 countries in the source table, at less than half the world average.",
+  dek: "Saudi Arabia, Australia and Canada have the highest emissions per person among the 15 major emitters listed by EDGAR. India has the lowest figure in the table, at less than half the world average.",
   publishedDate: "October 17, 2026",
   lastUpdated: "October 17, 2026",
   dataPeriod: "Calendar year 2025, EDGAR 2026 report (European Commission Joint Research Centre)",
@@ -54,9 +54,9 @@ export const emissionsPerPersonMajorEmitters2026: RankingArticle = {
       category: "Europe and Asia",
       origin: "611 Mt total · 1.1% of world emissions",
       blurb:
-        "Türkiye emits 7.1 tonnes of CO2 equivalent per person, the same as the EU27 average and just above the world average of 6.6. The European Commission reported that Türkiye had the highest relative increase in emissions among major emitters in 2025, at 4.2%.",
+        "Türkiye emits 7.1 tonnes of CO2 equivalent per person, approximately equal to the EU27 average and just above the world average of 6.6. The European Commission reported that Türkiye had the highest relative increase in emissions among major emitters in 2025, at 4.2%.",
       standoutFact:
-        "Türkiye's per-person figure is the same as the EU27's, but its total emissions grew 4.2% in 2025 while the EU's fell 0.2%.",
+        "Türkiye's per-person figure is approximately equal to the EU27's at the displayed precision, but its total emissions rose 4.2% in 2025 while the EU's fell 0.2%.",
       sourceTag: "EDGAR 2026 report; Joint Research Centre",
     },
     {
@@ -116,7 +116,7 @@ export const emissionsPerPersonMajorEmitters2026: RankingArticle = {
       blurb:
         "The United States emits 17.5 tonnes per person, about 2.7 times the world average. Its total emissions rose 2.2% in 2025, the largest absolute increase of any country worldwide, according to the European Commission.",
       standoutFact:
-        "EDGAR's report says India's per-person emissions are six times lower than those of Russia and the United States.",
+        "India emits 3.1 tonnes per person, compared with 18.1 in Russia and 17.5 in the United States, so Russia's figure is about 5.8 times India's and the US figure about 5.6 times.",
       sourceTag: "EDGAR 2026 report; Joint Research Centre",
     },
     {
@@ -147,7 +147,7 @@ export const emissionsPerPersonMajorEmitters2026: RankingArticle = {
       rank: 2,
       name: "Australia",
       earnings: "21.5 t",
-      category: "Asia and Oceania",
+      category: "Oceania",
       origin: "578 Mt total · 1.1% of world emissions",
       blurb:
         "Australia emits 21.5 tonnes per person, more than three times the world average. The European Commission lists Australia among the major emitters that reduced emissions in 2025.",
@@ -174,7 +174,7 @@ export const emissionsPerPersonMajorEmitters2026: RankingArticle = {
     label: "of CO2 equivalent per person in Saudi Arabia, the highest of the 15 countries listed",
     comparisonStat: "3.1 t",
     comparisonLabel: "per person in India, the lowest of the 15",
-    note: "Saudi Arabia emits about 7.3 times as much per person as India. The world average is 6.6 tonnes per person, up from 6.0 in 1990, and the EU27 average is 7.1 tonnes. Of the 15 countries in EDGAR's table, nine emit more than the world average by at least 2 tonnes per person, and India, Indonesia, Mexico, Vietnam and Brazil emit less than it.",
+    note: "Saudi Arabia emits about 7.3 times as much per person as India. The world average is 6.6 tonnes per person, up from 6.0 in 1990, and the EU27 average is 7.1 tonnes. Nine of the 15 countries in EDGAR's table have reported per-person emissions at least about 2 tonnes above the displayed world average, while India, Indonesia, Mexico, Vietnam and Brazil are below it.",
   },
 
   sourceNote: {
