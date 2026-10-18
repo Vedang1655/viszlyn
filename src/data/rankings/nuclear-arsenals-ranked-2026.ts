@@ -15,7 +15,7 @@ export const nuclearArsenalsRanked2026: RankingArticle = {
 
   eyebrow: "World",
   title: "The World's Nuclear Arsenals, Ranked (2026)",
-  dek: "Nine countries hold roughly 12,187 nuclear warheads, and two of them hold 86%. Russia tops the ranking at about 5,420, and FAS says military stockpiles are growing again even as old warheads are dismantled.",
+  dek: "Nine countries are estimated to hold roughly 12,187 nuclear warheads, and Russia and the United States account for about 86% of them. FAS says military stockpiles are growing again even as retired warheads continue to be dismantled.",
   publishedDate: "October 18, 2026",
   lastUpdated: "October 18, 2026",
   dataPeriod: "Beginning of 2026, FAS Status of World Nuclear Forces 2026",
@@ -23,7 +23,7 @@ export const nuclearArsenalsRanked2026: RankingArticle = {
   quickAnswer:
     "Russia has the world's largest nuclear arsenal with an estimated 5,420 warheads, ahead of the United States at 5,042. Together they hold about 86% of the world's roughly 12,187 warheads. China is a distant third at 620, and the remaining six states \u2014 France, the United Kingdom, India, Pakistan, Israel and North Korea \u2014 hold 1,105 combined.",
   introParagraph:
-    "This ranking uses the Federation of American Scientists' Status of World Nuclear Forces 2026, one of the most widely cited public estimates of global nuclear arsenals. Countries are ranked by total inventory: every warhead a country possesses, including retired but still intact weapons awaiting dismantlement. That is a bigger number than the military stockpile (warheads earmarked for use, about 9,745 worldwide) and much bigger than the deployed count (about 3,912 on missiles and bomber bases). The exact size of each arsenal is a closely held national secret, so every figure here is an estimate \u2014 and the uncertainty is large for the most secretive states.",
+    "This ranking uses the Federation of American Scientists' Status of World Nuclear Forces 2026, one of the most widely cited public estimates of global nuclear arsenals. Countries are ranked by total inventory: every warhead a country possesses, including retired but still intact weapons awaiting dismantlement. That is a bigger number than the military stockpile (warheads earmarked for use, about 9,745 worldwide) and much bigger than the deployed count (about 3,912 on missiles and bomber bases). The exact size of each arsenal is a closely held national secret, so every figure here is an estimate, and the uncertainty is large for the most secretive states. FAS counts warheads at bomber bases as deployed even when they are not loaded on aircraft, and about 100 of the deployed warheads are nonstrategic weapons rather than strategic ones.",
   calloutBox: {
     label: "Estimates, not exact counts",
     body: "No nuclear-armed state publishes a complete, audited count of its arsenal. The United States has declassified its stockpile size in some years but not others, the United Kingdom stopped disclosing figures for its operational stockpile in 2021, and France said in early 2026 that it would no longer disclose figures for its arsenal. The figures below are the Federation of American Scientists' best estimates from public information, historical records and analysis, and they come with significant uncertainty, especially for Israel, Pakistan, India and North Korea.",
@@ -55,7 +55,7 @@ export const nuclearArsenalsRanked2026: RankingArticle = {
       blurb:
         "North Korea has an estimated 60 assembled nuclear warheads, the smallest arsenal of the nine nuclear-armed states, and none are thought to be deployed on launchers.",
       standoutFact:
-        "FAS says North Korea might have produced enough fissile material for at least 90 warheads, and lists it among the countries increasing their stockpiles.",
+        "FAS says North Korea might have produced enough fissile material for at least 90 warheads, but estimates its assembled arsenal at about 60. Fissile material and finished weapons are not the same thing.",
       sourceTag: "FAS, Status of World Nuclear Forces 2026",
     },
     {
@@ -89,7 +89,7 @@ export const nuclearArsenalsRanked2026: RankingArticle = {
       category: "Asia",
       origin: "Deployed: ~0 \u00b7 stockpile: 190",
       blurb:
-        "India has an estimated 190 nuclear warheads, putting it ahead of Pakistan. FAS estimates that none are deployed on launchers.",
+        "India has an estimated 190 nuclear warheads, putting it ahead of Pakistan. FAS lists no Indian warheads as deployed in its main table, although it notes that a small number might occasionally be carried on a submarine on deterrent patrol.",
       standoutFact:
         "FAS lists India among the countries increasing their stockpiles, along with China, North Korea, Pakistan and the United Kingdom, and possibly Russia.",
       sourceTag: "FAS, Status of World Nuclear Forces 2026",
@@ -127,7 +127,7 @@ export const nuclearArsenalsRanked2026: RankingArticle = {
       blurb:
         "China has an estimated 620 nuclear warheads, a distant third behind the US and Russia but growing fast. Only a small number are thought to be deployed; the vast majority sit in central storage.",
       standoutFact:
-        "The US Department of Defense has projected that China will have about 1,000 operational warheads by 2030, a claim FAS says depends on many uncertain factors. Even that would be less than a fifth of Russia's current inventory.",
+        "In 2022, the US Department of Defense projected that China will have about 1,000 operational warheads by 2030. FAS says the claim depends on uncertain factors, including how many missile silos are built and future fissile material production. Even 1,000 would be less than a fifth of Russia's current inventory.",
       sourceTag: "FAS, Status of World Nuclear Forces 2026",
     },
     {
@@ -149,7 +149,7 @@ export const nuclearArsenalsRanked2026: RankingArticle = {
       category: "Europe",
       origin: "Deployed: ~1,796 strategic \u00b7 stockpile: 4,400",
       blurb:
-        "Russia has the world's largest nuclear arsenal at an estimated 5,420 warheads, including about 1,796 deployed strategic warheads \u2014 more than any other country. Roughly 1,020 retired warheads are still awaiting dismantlement.",
+        "Russia has the world's largest total nuclear inventory, estimated at 5,420 warheads. FAS estimates that 1,796 of them are deployed strategic warheads, compared with 1,670 for the United States. The total also includes about 2,604 warheads in reserve and roughly 1,020 retired warheads awaiting dismantlement.",
       standoutFact:
         "The other seven nuclear-armed states combined hold 1,725 warheads \u2014 fewer than the 1,796 Russia already has deployed.",
       sourceTag: "FAS, Status of World Nuclear Forces 2026",
