@@ -1,3 +1,4 @@
+import { busiestAirportsWorld2026 } from "./busiest-airports-world-2026";
 import { nuclearArsenalsRanked2026 } from "./nuclear-arsenals-ranked-2026";
 import { emissionsPerPersonMajorEmitters2026 } from "./emissions-per-person-major-emitters-2026";
 import { biggestEmittingCountries2026 } from "./biggest-emitting-countries-2026";
@@ -27,6 +28,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  busiestAirportsWorld2026,
   nuclearArsenalsRanked2026,
   emissionsPerPersonMajorEmitters2026,
   biggestEmittingCountries2026,
