@@ -5,23 +5,23 @@ export const largestGoldReserves2026: RankingArticle = {
 
   metaTitle: "The 10 Countries With the Largest Gold Reserves in 2026 | Viszlyn",
   metaDescription:
-    "The US holds 8,133.5 tonnes of gold, more than Germany and Italy combined. See the 10 countries with the largest official gold reserves, ranked with World Gold Council data.",
+    "The US holds 8,133.4 tonnes of gold, more than Germany and Italy combined. See the 10 countries with the largest official gold reserves, ranked with World Gold Council data.",
   ogTitle: "The 10 Countries With the Largest Gold Reserves in 2026",
   ogDescription:
-    "The US holds 8,133.5 tonnes of gold, and China has added gold for 22 months in a row. See the full top 10.",
+    "The US holds 8,133.4 tonnes of gold, and China has added gold for 22 months in a row. See the full top 10.",
   twitterTitle: "Ranked: The 10 Largest Gold Reserves in 2026",
   twitterDescription:
-    "US: 8,133.5 tonnes. Germany: 3,350.3. Italy: 2,451.8. The 10 countries with the most official gold, ranked.",
+    "US: 8,133.4 tonnes. Germany: 3,350.3. Italy: 2,451.8. The 10 countries with the most official gold, ranked.",
 
   eyebrow: "Money",
   title: "The 10 Countries With the Largest Gold Reserves in 2026",
-  dek: "The United States holds 8,133.5 tonnes of gold, more than Germany and Italy combined. China and Poland are buying fast, while Russia has been selling.",
+  dek: "The United States holds 8,133.4 tonnes of gold, more than Germany and Italy combined. China and Poland are buying fast, while Russia has been selling.",
   publishedDate: "October 20, 2026",
   lastUpdated: "October 20, 2026",
   dataPeriod: "Official gold holdings reported to the World Gold Council, latest available in September and October 2026",
 
   quickAnswer:
-    "The United States has the largest official gold reserves in the world, with 8,133.5 tonnes. Germany is second with 3,350.3 tonnes, followed by Italy (2,451.8), France (2,437.0) and China (about 2,387). The ten countries on this list hold about 24,400 tonnes combined.",
+    "The United States has the largest official gold reserves in the world, with 8,133.4 tonnes. Germany is second with 3,350.3 tonnes, followed by Italy (2,451.8), France (2,437.0) and China (about 2,387). The ten countries on this list hold about 24,400 tonnes combined.",
   introParagraph:
     "This ranking covers official gold reserves: gold held by a country's central bank or government, as reported to the International Monetary Fund and compiled by the World Gold Council (WGC). It does not include gold owned by households, companies or investment funds. International bodies are left out, even though the IMF holds about 2,814 tonnes, which would put it third. For China, Russia and Poland, which are actively buying or selling, we use the WGC's October 2026 update with holdings at the end of August 2026. For the other seven countries, whose holdings have barely changed, we use the WGC's table as published in September 2026. Holdings are measured in metric tonnes.",
   calloutBox: {
@@ -34,7 +34,7 @@ export const largestGoldReserves2026: RankingArticle = {
   chartTapNote: "Tap any country to jump to its full breakdown below.",
   entryValueLabel: "Official gold reserves:",
   chartItems: [
-    { rank: 1, name: "United States", value: "8,133.5 t", raw: 8133.5 },
+    { rank: 1, name: "United States", value: "8,133.4 t", raw: 8133.4 },
     { rank: 2, name: "Germany", value: "3,350.3 t", raw: 3350.3 },
     { rank: 3, name: "Italy", value: "2,451.8 t", raw: 2451.8 },
     { rank: 4, name: "France", value: "2,437.0 t", raw: 2437.0 },
@@ -158,11 +158,11 @@ export const largestGoldReserves2026: RankingArticle = {
     {
       rank: 1,
       name: "United States",
-      earnings: "8,133.5 t",
+      earnings: "8,133.4 t",
       category: "North America",
       origin: "About 81.4% of reserves",
       blurb:
-        "The United States holds 8,133.5 tonnes of gold, by far the largest official reserve in the world and about 2.4 times Germany's.",
+        "The United States holds 8,133.4 tonnes of gold, by far the largest official reserve in the world and about 2.4 times Germany's.",
       standoutFact:
         "The US holds more gold than Germany and Italy combined (5,802.1 tonnes).",
       sourceTag: "World Gold Council, September 2026",
@@ -170,7 +170,7 @@ export const largestGoldReserves2026: RankingArticle = {
   ],
 
   keyTakeaway: {
-    stat: "8,133.5 t",
+    stat: "8,133.4 t",
     label: "official US gold reserves, the largest in the world",
     comparisonStat: "648 t",
     comparisonLabel: "Poland's reserves at #10; the US holds about 12.6 times as much",
@@ -195,7 +195,7 @@ export const largestGoldReserves2026: RankingArticle = {
     {
       question: "Which country has the most gold?",
       answer:
-        "The United States, with 8,133.5 tonnes of official gold reserves according to the World Gold Council. That is about 2.4 times Germany's 3,350.3 tonnes and more than Germany and Italy combined.",
+        "The United States, with 8,133.4 tonnes of official gold reserves according to the World Gold Council. That is about 2.4 times Germany's 3,350.3 tonnes and more than Germany and Italy combined.",
     },
     {
       question: "Is China buying gold?",
