@@ -1,3 +1,4 @@
+import { indiaRichestPeople2026 } from "./india-richest-people-2026";
 import { mostPeacefulCountries2026 } from "./most-peaceful-countries-2026";
 import { largestGoldReserves2026 } from "./largest-gold-reserves-2026";
 import { busiestAirportsWorld2026 } from "./busiest-airports-world-2026";
@@ -30,6 +31,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  indiaRichestPeople2026,
   mostPeacefulCountries2026,
   largestGoldReserves2026,
   busiestAirportsWorld2026,
