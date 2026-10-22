@@ -26,7 +26,7 @@ export const mostPeacefulCountries2026: RankingArticle = {
     "This ranking uses the Global Peace Index (GPI), produced by the Institute for Economics & Peace (IEP). The index scores 163 independent states and territories \u2014 covering 99.7% of the world's population \u2014 across 23 indicators grouped into three domains: societal safety and security, ongoing domestic and international conflict, and militarisation. Scores run from 1 to 5, and a lower score means a more peaceful country. The 2026 edition is the index's 20th, and its headline finding is grim: global peacefulness has deteriorated for the 12th consecutive year, and 99 countries became less peaceful \u2014 the most in a single year since the index began.",
   calloutBox: {
     label: "The world is getting less peaceful",
-    body: "IEP counts 61 active state-based conflicts, the highest number it has recorded, and puts the global economic impact of violence at US$21.81 trillion in 2025, up 3.2% on the year \u2014 10.5% of global GDP. In the ten least peaceful countries, the economic cost of violence averages 23.4% of GDP, compared with just 2.2% in the ten most peaceful.",
+    body: "IEP counts 61 active state-based conflicts, the highest number it has recorded, and puts the global economic impact of violence at US$21.8 trillion in 2025 in purchasing-power terms, equivalent to 10.5% of global GDP. In the ten countries most affected by violence, its economic cost averaged 23.4% of GDP, compared with just 2.2% in the ten least affected.",
   },
 
   chartTitle: "Global Peace Index 2026 score (lower = more peaceful)",
@@ -181,11 +181,12 @@ export const mostPeacefulCountries2026: RankingArticle = {
     dataPeriod: "Global Peace Index 2026; IEP report released June 9, 2026",
     lastUpdated: "October 21, 2026",
     sources:
-      "Institute for Economics & Peace, Global Peace Index 2026 (released June 9, 2026), via Vision of Humanity; reporting by The Spokesman-Review and Ukrainian News on the US and Russia rankings",
+      "Institute for Economics & Peace, Global Peace Index 2026 report (released June 9, 2026) and Vision of Humanity; reporting by The Spokesman-Review and Ukrainian News on the US and Russia rankings",
     methodology:
       "Countries are ranked by their overall Global Peace Index score: a lower score means a more peaceful country. The index, produced by the Institute for Economics & Peace, scores 163 independent states and territories across 23 indicators grouped into three domains \u2014 societal safety and security, ongoing domestic and international conflict, and militarisation \u2014 on a scale of 1 to 5. The 2026 edition is the index's 20th. This list shows the ten most peaceful countries; the lowest-ranked country in the 2026 index is Russia (163rd), last for the second year in a row. Score differences and gaps quoted in the entries are our own calculations from IEP's published scores.",
     sourceLinks: [
-      { label: "IEP: Global Peace Index 2026 (interactive map and report)", href: "https://www.visionofhumanity.org/maps/global-peace-index/" },
+      { label: "IEP: Global Peace Index 2026 report (PDF)", href: "https://www.visionofhumanity.org/wp-content/uploads/2026/06/Global-Peace-Index-2026-Report.pdf" },
+      { label: "IEP: Global Peace Index 2026 (interactive map)", href: "https://www.visionofhumanity.org/maps/global-peace-index/" },
       { label: "Vision of Humanity: Global Peace Index 2026 country rankings", href: "https://www.visionofhumanity.org/?p=17886" },
       { label: "The Spokesman-Review: US falls again in global peace rankings while Iceland stays on top", href: "https://www.spokesman.com/stories/2026/jun/11/us-falls-again-in-global-peace-rankings-while-icel/" },
       { label: "Ukrainian News: For the second year in a row, Russia named least peaceful country", href: "https://ukranews.com/en/news/1157504-it-s-hardly-surprising-for-second-year-in-a-row-russia-named-least-peaceful-country-in-world" },
