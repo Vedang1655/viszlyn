@@ -3,13 +3,13 @@ import { RankingArticle } from "./types";
 export const mostValuableAiCompanies2026: RankingArticle = {
   slug: "most-valuable-ai-companies-2026",
 
-  metaTitle: "The 10 Most Valuable AI Companies in 2026 | Viszlyn",
+  metaTitle: "Most Valuable AI Companies 2026: Anthropic Tops OpenAI | Viszlyn",
   metaDescription:
-    "Anthropic leads private AI valuations at $965B, ahead of OpenAI's $852B. See the full ranking of the most valuable AI companies, and why xAI isn't on it.",
-  ogTitle: "The 10 Most Valuable AI Companies in 2026",
+    "Anthropic is now valued at $965B, ahead of OpenAI at $852B, and the two labs hold 82% of the top 10's combined value. See all 10 AI companies ranked, and why xAI isn't on the list.",
+  ogTitle: "Anthropic Tops OpenAI: The 10 Most Valuable AI Companies in 2026",
   ogDescription:
     "Anthropic leads private AI valuations at $965B, ahead of OpenAI's $852B. See the full ranking and how two labs came to dominate the industry.",
-  twitterTitle: "The 10 Most Valuable AI Companies in 2026",
+  twitterTitle: "Anthropic Tops OpenAI: The 10 Most Valuable AI Companies in 2026",
   twitterDescription:
     "Anthropic leads private AI valuations at $965B, ahead of OpenAI's $852B. See the full ranking of the world's most valuable AI companies.",
 

@@ -3,13 +3,13 @@ import { RankingArticle } from "./types";
 export const highestEarningCreators2026: RankingArticle = {
   slug: "highest-earning-creators-2026",
 
-  metaTitle: "The 10 Highest-Earning Creators in 2026 | Viszlyn",
+  metaTitle: "Highest-Earning Creators 2026: MrBeast Makes $300M | Viszlyn",
   metaDescription:
-    "MrBeast leads with an estimated $300M. See how the 10 highest-earning creators in 2026 make their money, ranked with earnings, categories, and revenue sources.",
-  ogTitle: "The 10 Highest-Earning Creators in 2026",
+    "MrBeast earns an estimated $300M, more than 4 times Dhar Mann at #2. See the 10 highest-earning YouTubers and creators of 2026, ranked by earnings, and how each one makes money.",
+  ogTitle: "MrBeast Makes $300M: The 10 Highest-Earning Creators in 2026",
   ogDescription:
     "MrBeast leads with an estimated $300M. See the full ranking, revenue breakdowns, and what the numbers reveal about the creator economy.",
-  twitterTitle: "The 10 Highest-Earning Creators in 2026",
+  twitterTitle: "MrBeast Makes $300M: The 10 Highest-Earning Creators in 2026",
   twitterDescription:
     "MrBeast leads with an estimated $300M. See the full ranking and revenue breakdowns.",
 
