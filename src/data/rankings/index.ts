@@ -1,3 +1,4 @@
+import { canadaMinimumWageByProvince2026 } from "./canada-minimum-wage-by-province-2026";
 import { leastPeacefulCountries2026 } from "./least-peaceful-countries-2026";
 import { averageCreditScoreCanadaCities2026 } from "./average-credit-score-canada-cities-2026";
 import { indiaRichestPeople2026 } from "./india-richest-people-2026";
@@ -33,6 +34,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  canadaMinimumWageByProvince2026,
   leastPeacefulCountries2026,
   averageCreditScoreCanadaCities2026,
   indiaRichestPeople2026,
