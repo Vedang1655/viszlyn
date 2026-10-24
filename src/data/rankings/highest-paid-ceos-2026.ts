@@ -5,13 +5,13 @@ export const highestPaidCeos2026: RankingArticle = {
 
   metaTitle: "Top 10 Highest-Paid CEOs at US Companies (2026) | Viszlyn",
   metaDescription:
-    "Wayfair's Niraj Shah leads disclosed 2025 CEO compensation at $280.8M. See the ranking based on SEC proxy filings and why Elon Musk is excluded.",
+    "The highest-paid CEOs at US public companies, ranked by disclosed total compensation from SEC proxy filings, and why Elon Musk is excluded.",
   ogTitle: "The 10 Highest-Paid CEOs in 2026",
   ogDescription:
-    "Wayfair's Niraj Shah leads disclosed executive compensation at $280.8M. See the full ranking and what drives nine-figure CEO pay.",
+    "The highest-paid CEOs at US public companies, ranked by disclosed total compensation from SEC proxy filings. See the full ranking and what drives nine-figure CEO pay.",
   twitterTitle: "The 10 Highest-Paid CEOs in 2026",
   twitterDescription:
-    "Wayfair's Niraj Shah leads disclosed executive compensation at $280.8M. See the full ranking and what drives nine-figure CEO pay.",
+    "The highest-paid CEOs at US public companies, ranked by disclosed total compensation from SEC proxy filings. See the full ranking and what drives nine-figure CEO pay.",
 
   eyebrow: "Money",
   title: "The 10 Highest-Paid CEOs in 2026",
@@ -21,7 +21,7 @@ export const highestPaidCeos2026: RankingArticle = {
   dataPeriod: "Most recent annual proxy disclosures as of 2026",
 
   quickAnswer:
-    "Wayfair co-founder and CEO Niraj Shah leads this year's ranking of disclosed executive compensation at $280.8 million, driven by a multi-year stock award reaching a vesting milestone. The top 5 executives on this list earned a combined $1.02 billion \u2014 2.08x the bottom 5 combined. Elon Musk is deliberately excluded from this ranked list; see below for why.",
+    "This ranking lists the highest-paid CEOs at US public companies, ranked by disclosed total compensation from SEC proxy filings. The top 5 executives on this list earned a combined $1.02 billion \u2014 2.08x the bottom 5 combined. Elon Musk is deliberately excluded from this ranked list; see below for why.",
   introParagraph:
     "CEO compensation at America's largest public companies \u2014 reported annually on SEC Form DEF 14A proxy filings \u2014 is overwhelmingly driven by equity, not salary. Direct cash pay rarely exceeds $2 million annually for any executive on this list \u2014 the rest of their reported compensation comes from stock options, performance stock units, and other long-dated equity awards, most of it valued at grant rather than cash actually received that year. Onboarding packages for externally hired CEOs, and major vesting milestones for founder-CEOs, both show up as outsized single-year totals in company proxy filings.",
   calloutBox: {
