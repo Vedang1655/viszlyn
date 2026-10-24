@@ -56,7 +56,7 @@ export const leastPeacefulCountries2026: RankingArticle = {
       blurb:
         "Mali scores 2.996 and ranks 154th, unchanged from last year, though its score worsened by 0.056 points. IEP says the Sahel region continues to record some of the world's highest death tolls from terrorism.",
       standoutFact:
-        "IEP counts more than 9,000 deaths from security incidents across Burkina Faso, Mali and Niger in 2025.",
+        "Citing UN figures, IEP reports more than 9,000 deaths from security incidents across Burkina Faso, Mali and Niger in 2025.",
       sourceTag: "IEP, Global Peace Index 2026",
     },
     {
