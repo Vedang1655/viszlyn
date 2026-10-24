@@ -3,9 +3,9 @@ import { RankingArticle } from "./types";
 export const indiaHighestPaidCeos2026: RankingArticle = {
   slug: "india-highest-paid-ceos-2026",
 
-  metaTitle: "India's Highest-Paid CEOs in 2026 | Viszlyn",
+  metaTitle: "Highest-Paid CEOs in India 2026: Sandeep Kalra Leads | Viszlyn",
   metaDescription:
-    "India's highest-paid CEOs in FY26: Sandeep Kalra leads at \u20b9388.58 crore, ahead of C. Vijayakumar at \u20b9171.93 crore. Explore equity pay and industry breakdown.",
+    "Persistent Systems CEO Sandeep Kalra topped FY26 executive pay at \u20b9388.58 crore, ahead of HCLTech's C. Vijayakumar at \u20b9171.93 crore. See the top 10.",
   ogTitle: "India's Highest-Paid CEOs in 2026",
   ogDescription:
     "Sandeep Kalra of Persistent Systems leads at \u20b9388.58 crore for FY26 \u2014 more than double the #2 spot. See the full top 10, verified against company annual reports.",

@@ -3,9 +3,9 @@ import { RankingArticle } from "./types";
 export const highestPaidCeos2026: RankingArticle = {
   slug: "highest-paid-ceos-2026",
 
-  metaTitle: "The 10 Highest-Paid CEOs in 2026 | Viszlyn",
+  metaTitle: "Top 10 Highest-Paid CEOs at US Companies (2026) | Viszlyn",
   metaDescription:
-    "Wayfair's Niraj Shah leads disclosed CEO compensation at $280.8M. See the full ranking, what drives nine-figure pay, and why Elon Musk isn't included.",
+    "Wayfair's Niraj Shah leads disclosed 2025 CEO compensation at $280.8M. See the ranking based on SEC proxy filings and why Elon Musk is excluded.",
   ogTitle: "The 10 Highest-Paid CEOs in 2026",
   ogDescription:
     "Wayfair's Niraj Shah leads disclosed executive compensation at $280.8M. See the full ranking and what drives nine-figure CEO pay.",
