@@ -8,14 +8,14 @@ export const canadaMinimumWageByProvince2026: RankingArticle = {
     "Nunavut has Canada's highest minimum wage at $20.17 an hour, while Alberta has the lowest at $15.00. Compare all 13 provinces and territories, including the October 2026 increases.",
   ogTitle: "Canada's Minimum Wage by Province and Territory, Ranked (2026)",
   ogDescription:
-    "Nunavut $20.17, Yukon $18.51, B.C. $18.25, Ontario $17.95, and Alberta last at $15.00, unchanged since 2018. Every rate, ranked.",
+    "Nunavut $20.17, Yukon $18.51, B.C. $18.25, Ontario $17.95, and Alberta last at $15.00, unchanged since October 1, 2018. Every rate, ranked.",
   twitterTitle: "Ranked: Canada's Minimum Wage by Province (2026)",
   twitterDescription:
-    "Nunavut $20.17. Ontario $17.95. Alberta $15.00, unchanged since 2018. Every Canadian minimum wage, ranked.",
+    "Nunavut $20.17. Ontario $17.95. Alberta $15.00, unchanged since Oct. 2018. Every Canadian minimum wage, ranked.",
 
   eyebrow: "Money",
   title: "Canada's Minimum Wage by Province and Territory in 2026",
-  dek: "Nunavut has Canada's highest general minimum wage at $20.17 an hour, while Alberta's $15.00 rate has been unchanged since 2018. Five provinces increased their rates on October 1, 2026.",
+  dek: "Nunavut has Canada's highest general minimum wage at $20.17 an hour, while Alberta's $15.00 rate has been unchanged since October 1, 2018. Five provinces increased their rates on October 1, 2026.",
   publishedDate: "October 24, 2026",
   lastUpdated: "October 24, 2026",
   dataPeriod: "General adult minimum wage rates in effect as of October 2026",
@@ -26,11 +26,11 @@ export const canadaMinimumWageByProvince2026: RankingArticle = {
     "Each province and territory in Canada sets its own general minimum wage, and many adjust it once a year, often linked to inflation. This ranking lists the general adult minimum wage in all 13 provinces and territories as of October 2026, from highest to lowest. Some jurisdictions set different rates for particular groups, such as students or liquor servers, which are not included here. Rates are in Canadian dollars per hour. Five provinces raised their minimum wage on October 1, 2026: Ontario, Prince Edward Island, Nova Scotia, Manitoba and Saskatchewan. Nunavut and the Northwest Territories raised theirs on September 1.",
   calloutBox: {
     label: "The federal minimum wage: $18.15",
-    body: "The federal minimum wage is $18.15 an hour, in effect since April 1, 2026, for employees in federally regulated private-sector workplaces such as banks, airlines, interprovincial trucking and telecommunications. Where the provincial or territorial minimum wage is higher, federally regulated employers must pay the higher rate. As of October 2026, the general rates in British Columbia, Yukon and Nunavut exceed the federal rate.",
+    body: "The federal minimum wage is $18.15 an hour, in effect since April 1, 2026, for employees in federally regulated private-sector workplaces such as banks, airlines, interprovincial transportation and telecommunications. Where the provincial or territorial minimum wage is higher, federally regulated employers must pay the higher rate. As of October 2026, the general rates in British Columbia, Yukon and Nunavut exceed the federal rate.",
   },
 
   chartTitle: "General minimum wage, C$ per hour, October 2026",
-  chartSource: "Provincial and territorial rates, compiled from Canooq and CalculatorHub (October 2026)",
+  chartSource: "Official provincial, territorial and federal government sources; rates in effect in October 2026",
   chartTapNote: "Tap any province or territory to jump to its full breakdown below.",
   entryValueLabel: "Minimum wage per hour:",
   chartItems: [
@@ -57,7 +57,7 @@ export const canadaMinimumWageByProvince2026: RankingArticle = {
       category: "Province",
       origin: "Unchanged since Oct 1, 2018",
       blurb:
-        "Alberta has the lowest general minimum wage in Canada at $15.00 an hour, a rate that has applied since October 1, 2018. Alberta also has a separate $13 rate for students under 18, introduced on June 26, 2019.",
+        "Alberta's general minimum wage is $15.00 an hour, the lowest in Canada. The rate reached $15.00 on October 1, 2018, and has remained at that level since. Alberta also has a separate $13.00 minimum wage for eligible students under 18, introduced on June 26, 2019.",
       standoutFact:
         "Alberta's general minimum wage has not changed in eight years, while Ontario's has risen to $17.95.",
       sourceTag: "Official government sources, October 2026",
@@ -131,7 +131,7 @@ export const canadaMinimumWageByProvince2026: RankingArticle = {
       blurb:
         "Nova Scotia's minimum wage reached $17.00 an hour on October 1, 2026, its second increase of the year after a rise to $16.75 on April 1.",
       standoutFact:
-        "Nova Scotia has the highest minimum wage in Atlantic Canada after P.E.I.",
+        "Nova Scotia has the second-highest minimum wage in Atlantic Canada, behind Prince Edward Island's $17.30.",
       sourceTag: "Official government sources, October 2026",
     },
     {
@@ -212,8 +212,8 @@ export const canadaMinimumWageByProvince2026: RankingArticle = {
     stat: "$20.17",
     label: "Nunavut's minimum wage per hour, the highest in Canada",
     comparisonStat: "$15.00",
-    comparisonLabel: "Alberta's minimum wage, the lowest, unchanged since 2018",
-    note: "A full-time minimum-wage worker (40 hours a week, 52 weeks a year) would earn about $41,950 a year in Nunavut, $37,340 in Ontario and $31,200 in Alberta, before tax. Nunavut's rate is about 34% higher than Alberta's. Seven of the 13 provinces and territories raised their minimum wage in September or October 2026.",
+    comparisonLabel: "Alberta's minimum wage, the lowest, unchanged since October 1, 2018",
+    note: "A full-time minimum-wage worker (40 hours a week, 52 weeks a year) would earn about $41,950 a year in Nunavut, $37,340 in Ontario and $31,200 in Alberta, before tax. Nunavut's rate is about 34.5% higher than Alberta's. Seven of the 13 provinces and territories raised their minimum wage in September or October 2026.",
   },
 
   sourceNote: {
