@@ -217,6 +217,7 @@ export const mostPeacefulCountries2026: RankingArticle = {
   ],
 
   relatedLinks: [
+    { title: "The 10 Least Peaceful Countries in the World in 2026", href: "/rankings/least-peaceful-countries-2026" },
     { title: "The World's Nuclear Arsenals, Ranked (2026)", href: "/rankings/nuclear-arsenals-ranked-2026" },
     { title: "The World's 10 Biggest Military Spenders in 2025", href: "/rankings/biggest-military-spenders-2026" },
     { title: "The World's Most Powerful Passports in 2026", href: "/rankings/most-powerful-passports-2026" },
