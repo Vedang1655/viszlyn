@@ -15,202 +15,209 @@ export const highestPaidCeos2026: RankingArticle = {
 
   eyebrow: "Money",
   title: "The 10 Highest-Paid CEOs in 2026",
-  dek: "Disclosed executive compensation, what drives nine-figure pay packages, and why one name isn't on this ranked list.",
+  dek: "Figma's Dylan Field leads disclosed 2025 CEO pay at $864.4 million, almost none of it cash. What drives nine-figure pay packages, and why one name isn't on this ranked list.",
   publishedDate: "September 8, 2026",
-  lastUpdated: "September 8, 2026",
-  dataPeriod: "Most recent annual proxy disclosures as of 2026",
+  lastUpdated: "October 24, 2026",
+  dataPeriod: "Most recent fiscal years ending in 2025 to January 2026, per SEC proxy filings",
 
   quickAnswer:
-    "This ranking lists the highest-paid CEOs at US public companies, ranked by disclosed total compensation from SEC proxy filings. The top 5 executives on this list earned a combined $1.02 billion \u2014 2.08x the bottom 5 combined. Elon Musk is deliberately excluded from this ranked list; see below for why.",
+    "Figma CEO Dylan Field has the largest disclosed CEO pay package at a US public company after Elon Musk, at $864.4 million for 2025, ahead of Welltower's Shankh Mitra at $821.1 million and Opendoor's Kaz Nejatian at $741.1 million. Those three account for 61.1% of this top 10's $3.97 billion combined total. Almost all of each package is stock awards valued when granted, not cash paid in 2025. Elon Musk is deliberately excluded from this ranked list; see below for why.",
   introParagraph:
-    "CEO compensation at America's largest public companies \u2014 reported annually on SEC Form DEF 14A proxy filings \u2014 is overwhelmingly driven by equity, not salary. Direct cash pay rarely exceeds $2 million annually for any executive on this list \u2014 the rest of their reported compensation comes from stock options, performance stock units, and other long-dated equity awards, most of it valued at grant rather than cash actually received that year. Onboarding packages for externally hired CEOs, and major vesting milestones for founder-CEOs, both show up as outsized single-year totals in company proxy filings.",
+    "CEO pay at US public companies is reported in SEC proxy statements, and the headline totals are dominated by equity awards, which SEC rules value on the day they are granted. A large multi-year award therefore shows up entirely in the year it was granted — which is how a CEO with a salary under $1 million can appear here with a total in the hundreds of millions. This ranking uses each CEO's total from the Summary Compensation Table for the most recent fiscal year ending between early 2025 and January 2026, cross-checked against Equilar and The New York Times, The Wall Street Journal and the AFL-CIO Executive Paywatch database.",
   calloutBox: {
     label: "A note on Elon Musk",
-    body: "Some trackers report Musk's combined Tesla and SpaceX compensation at well over $100 billion \u2014 dwarfing every other executive package on record. We've left him out of the ranked chart below because that figure blends Tesla equity (publicly disclosed via SEC filings, like every other entry here) with SpaceX holdings (a private company with no equivalent public disclosure), making it fundamentally different from \u2014 and not directly comparable to \u2014 the standard proxy-disclosed compensation the rest of this ranking is built on.",
+    body: "Elon Musk is not ranked. His 2025 Tesla performance award is valued at $132.3 billion by Equilar and about $158 billion by The Wall Street Journal and the AFL-CIO. It is a 10-year performance award whose grant-date value is far outside the range of every other package here, and the sources value it differently. Including it would make the rest of the ranking unreadable.",
   },
 
-  chartTitle: "Disclosed Total Compensation \u2014 2026 \u00b7 USD millions",
-  chartSource: "Equilar 100 / AFL-CIO PayWatch / Forbes",
+  chartTitle: "Disclosed Total Compensation — 2025 · USD millions",
+  chartSource: "SEC proxy filings / Equilar 100 / AFL-CIO Executive PayWatch",
   chartTapNote: "Tap any name to jump to their full breakdown below.",
   chartItems: [
-    { rank: 1, name: "Niraj Shah", value: "$280.8M", raw: 280.8 },
-    { rank: 2, name: "George Kurtz", value: "$247.6M", raw: 247.6 },
-    { rank: 3, name: "Hock E. Tan", value: "$205.3M", raw: 205.3 },
-    { rank: 4, name: "Peter Gassner", value: "$172.4M", raw: 172.4 },
-    { rank: 5, name: "David Solomon", value: "$118.8M", raw: 118.8 },
-    { rank: 6, name: "Jim Anderson", value: "$101.5M", raw: 101.5 },
-    { rank: 7, name: "Sridhar Ramaswamy", value: "$101.3M", raw: 101.3 },
-    { rank: 8, name: "Nikesh Arora", value: "$99.7M", raw: 99.7 },
-    { rank: 9, name: "Satya Nadella", value: "$96.4M", raw: 96.4 },
-    { rank: 10, name: "Charles Scharf", value: "$94.5M", raw: 94.5 },
+    { rank: 1, name: "Dylan Field", value: "$864.4M", raw: 864.4 },
+    { rank: 2, name: "Shankh Mitra", value: "$821.1M", raw: 821.1 },
+    { rank: 3, name: "Kaz Nejatian", value: "$741.1M", raw: 741.1 },
+    { rank: 4, name: "RJ Scaringe", value: "$402.6M", raw: 402.6 },
+    { rank: 5, name: "Niraj Shah", value: "$280.8M", raw: 280.8 },
+    { rank: 6, name: "George Kurtz", value: "$247.6M", raw: 247.6 },
+    { rank: 7, name: "Hock Tan", value: "$205.3M", raw: 205.3 },
+    { rank: 8, name: "David Zaslav", value: "$165.0M", raw: 165.0 },
+    { rank: 9, name: "Stephen Schwarzman", value: "$125.6M", raw: 125.6 },
+    { rank: 10, name: "David Solomon", value: "$118.9M", raw: 118.9 },
   ],
 
   detailedEntries: [
     {
       rank: 10,
-      name: "Charles Scharf",
-      earnings: "$94.5M",
-      category: "Financial Services / Banking",
-      revenueSources: "Base salary, performance bonus, and special milestone retention stock awards",
-      blurb:
-        "Scharf's compensation surged following major regulatory milestones at Wells Fargo, highlighted by the Federal Reserve lifting its long-standing asset cap and resolving several outstanding consent orders.",
-      standoutFact:
-        "His $94.5 million total package includes his standard annual target pay combined with a one-time, long-term equity retention award following his appointment as Chairman of the Board alongside his CEO role.",
-      sourceTag: "Equilar 100; Motley Fool; AFL-CIO PayWatch",
-      wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_Scharf",
-    },
-    {
-      rank: 9,
-      name: "Satya Nadella",
-      earnings: "$96.4M",
-      category: "Enterprise Software & AI",
-      revenueSources: "Salary, bonus, and multi-year performance stock units",
-      blurb:
-        "Nadella's package reflects Microsoft's continued push into AI infrastructure and Copilot, with the bulk of his pay tied to long-term performance stock awards rather than cash.",
-      standoutFact:
-        "As with nearly every CEO on this list, cash salary makes up only a small fraction of Nadella's total reported compensation \u2014 the rest comes from vesting equity awards.",
-      sourceTag: "Forbes; AFL-CIO PayWatch",
-      wikipediaUrl: "https://en.wikipedia.org/wiki/Satya_Nadella",
-    },
-    {
-      rank: 8,
-      name: "Nikesh Arora",
-      earnings: "$99.7M",
-      category: "Cybersecurity",
-      revenueSources: "Stock option awards tied to performance milestones",
-      blurb:
-        "The former Google and SoftBank executive has built one of the largest pay packages in cybersecurity since taking over Palo Alto Networks.",
-      standoutFact:
-        "Arora has consistently ranked among the highest-paid tech CEOs since 2018, with pay packages heavily weighted toward multi-year stock option grants.",
-      sourceTag: "Motley Fool; Equilar 100",
-      wikipediaUrl: "https://en.wikipedia.org/wiki/Nikesh_Arora",
-    },
-    {
-      rank: 7,
-      name: "Sridhar Ramaswamy",
-      earnings: "$101.3M",
-      category: "Data Cloud",
-      revenueSources: "Sign-on equity grant plus performance-based awards",
-      blurb:
-        "Ramaswamy, who joined Snowflake as CEO after founding Neeva and leading Google's ads business, received a substantial onboarding equity package typical of externally hired tech CEOs.",
-      standoutFact:
-        "Large sign-on grants like this are common when a company recruits an outside CEO \u2014 they're designed to replace unvested equity the executive left behind at their previous employer.",
-      sourceTag: "AFL-CIO PayWatch",
-      wikipediaUrl: "https://en.wikipedia.org/wiki/Sridhar_Ramaswamy",
-    },
-    {
-      rank: 6,
-      name: "Jim Anderson",
-      earnings: "$101.5M",
-      category: "Photonics & Semiconductors",
-      revenueSources: "Onboarding equity award",
-      blurb:
-        "Anderson's package at Coherent follows the same onboarding-grant pattern seen across the semiconductor sector, where competition for experienced executives is intense.",
-      standoutFact:
-        "Coherent's stock-heavy compensation structure mirrors the broader semiconductor industry trend of front-loading pay to attract leadership talent.",
-      sourceTag: "Equilar 100",
-    },
-    {
-      rank: 5,
       name: "David Solomon",
-      earnings: "$118.8M",
+      earnings: "$118.9M",
       category: "Investment Banking",
-      revenueSources: "Salary, cash bonus, and restricted stock units",
+      revenueSources: "Salary, cash bonus, performance stock units and retention awards",
       blurb:
-        "Solomon is the only banking executive on this list, reflecting Goldman Sachs' strong recent performance and its board's willingness to compete with tech-sector pay levels.",
+        "Goldman's proxy table puts Solomon's 2025 total at $118,891,684. His announced annual pay was $47 million — the higher disclosed figure reflects an $80 million retention stock award granted in January 2025 that cliff-vests in January 2030.",
       standoutFact:
-        "Wall Street compensation is typically more cash-heavy than tech-sector pay, though equity still makes up the majority of Solomon's total package.",
-      sourceTag: "Forbes; AFL-CIO PayWatch",
+        "That retention award was approved by shareholders at Goldman's April 2025 annual meeting, with 66% support.",
+      sourceTag: "AFL-CIO Executive PayWatch; Goldman Sachs DEF 14A",
       wikipediaUrl: "https://en.wikipedia.org/wiki/David_M._Solomon",
     },
     {
-      rank: 4,
-      name: "Peter Gassner",
-      earnings: "$172.4M",
-      category: "Cloud Software",
-      revenueSources: "Long-dated stock option awards",
+      rank: 9,
+      name: "Stephen Schwarzman",
+      earnings: "$125.6M",
+      category: "Private Equity & Asset Management",
+      revenueSources: "Annual total compensation as disclosed in Blackstone's 10-K pay-ratio filing",
       blurb:
-        "Gassner, Veeva Systems' founder and CEO, has held one of the largest pay packages in enterprise software, reflecting the company's steady growth in life-sciences cloud software.",
+        "Blackstone disclosed Schwarzman's 2025 annual total compensation as $125,641,824 in the CEO pay-ratio section of its annual report.",
       standoutFact:
-        "As a founder-CEO, Gassner's compensation is more directly tied to long-term company performance than externally hired executives on this list.",
-      sourceTag: "AFL-CIO PayWatch",
+        "That is roughly 457 times Blackstone's median employee pay of $275,000.",
+      sourceTag: "Blackstone Form 10-K; AFL-CIO Executive PayWatch",
+      wikipediaUrl: "https://en.wikipedia.org/wiki/Stephen_A._Schwarzman",
     },
     {
-      rank: 3,
-      name: "Hock E. Tan",
+      rank: 8,
+      name: "David Zaslav",
+      earnings: "$165.0M",
+      category: "Media & Entertainment",
+      revenueSources: "Salary, stock awards, option awards and cash incentives",
+      blurb:
+        "Zaslav's $165 million total is dominated by a one-time $109.6 million option grant tied to the planned split of Warner Bros. Discovery into two companies, alongside a $3 million salary, $22.6 million in stock awards and $25.7 million in cash incentives.",
+      standoutFact:
+        "The split those options were granted for never happened — it was dropped when Paramount acquired Warner Bros. Discovery instead.",
+      sourceTag: "Warner Bros. Discovery filings; Equilar 100",
+      wikipediaUrl: "https://en.wikipedia.org/wiki/David_Zaslav",
+    },
+    {
+      rank: 7,
+      name: "Hock Tan",
       earnings: "$205.3M",
       category: "Semiconductors",
-      revenueSources: "Performance-based stock option awards",
+      revenueSources: "Salary and performance stock units",
       blurb:
-        "Tan has led Broadcom through a string of major acquisitions and its expansion into AI chips and infrastructure software, with his pay package reflecting the company's aggressive growth targets.",
+        "Broadcom's proxy puts Tan's fiscal 2025 total at $205,278,006 — $1.2 million of salary and $202.4 million of equity awards, driven by a new performance award tied to Broadcom's AI revenue through 2030.",
       standoutFact:
-        "Broadcom's compensation structure ties the bulk of Tan's pay to specific market-cap and performance milestones rather than fixed annual grants.",
-      sourceTag: "Forbes; Motley Fool",
+        "The award pays against a $90 billion AI revenue target for 2028–2030 and triples above $120 billion — but is forfeited entirely if AI revenue falls below $60 billion.",
+      sourceTag: "Broadcom DEF 14A; Equilar 100",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Hock_Tan",
     },
     {
-      rank: 2,
+      rank: 6,
       name: "George Kurtz",
       earnings: "$247.6M",
       category: "Cybersecurity",
-      revenueSources: "Stock option and performance award vesting",
+      revenueSources: "Salary, stock awards and non-equity incentive pay",
       blurb:
-        "CrowdStrike's co-founder and CEO has one of the largest pay packages in cybersecurity, with the bulk of his compensation vesting from prior stock-heavy grants.",
+        "CrowdStrike's proxy puts Kurtz's total for the fiscal year ended January 31, 2026 at $247,579,143 — $242.1 million of it stock awards, including a performance award tied to total shareholder return granted in December 2025.",
       standoutFact:
-        "Kurtz previously served as CTO of McAfee before founding CrowdStrike, which has become one of the largest pure-play cybersecurity companies by market cap.",
-      sourceTag: "Equilar 100",
+        "He is absent from Equilar's Top 100 for a mundane reason: it only counted proxies filed by April 30, 2026, and CrowdStrike's was filed in May 2026, ahead of its June annual meeting.",
+      sourceTag: "CrowdStrike DEF 14A; The Wall Street Journal",
       wikipediaUrl: "https://en.wikipedia.org/wiki/George_Kurtz",
     },
     {
-      rank: 1,
+      rank: 5,
       name: "Niraj Shah",
       earnings: "$280.8M",
       category: "E-Commerce",
-      revenueSources: "Multi-year stock award vesting",
+      revenueSources: "Performance stock units (2025 CEO Award)",
       blurb:
-        "Wayfair's co-founder and CEO tops this year's disclosed-compensation ranking, largely driven by a long-dated stock award granted in prior years now vesting.",
+        "Shah's $280.8 million is not an old award reaching a vesting milestone. It is the grant-date value of a new CEO Award approved in September 2025: 5,000,000 performance stock units that will be his only equity award for the next ten years.",
       standoutFact:
-        "Shah's total is nearly 3x the ninth-place figure on this list, driven by a single large multi-year equity grant reaching a vesting milestone this year rather than a one-time award.",
-      sourceTag: "Motley Fool",
+        "The units vest in six tranches only as Wayfair's share price hits hurdles from $176 up to $679 — the final tranche requires a 675% increase — and his base salary is $80,000.",
+      sourceTag: "Wayfair Form 8-K (Sep 2025); AFL-CIO Executive PayWatch",
+      wikipediaUrl: "https://en.wikipedia.org/wiki/Niraj_Shah",
+    },
+    {
+      rank: 4,
+      name: "RJ Scaringe",
+      earnings: "$402.6M",
+      category: "Electric Vehicles",
+      revenueSources: "Salary, bonus, stock awards and option awards",
+      blurb:
+        "Scaringe's $402.6 million is dominated by a $373.5 million option award granted in November 2025 to replace his 2021 award. The options carry a $15.22 exercise price and vest only if Rivian meets share-price and operating targets over roughly ten years; the rest of his total is $26.6 million in stock awards, a $1.12 million salary and a $1.02 million bonus.",
+      standoutFact:
+        "Rivian lost $3.6 billion in 2025, the year of this award.",
+      sourceTag: "Rivian DEF 14A; Equilar 100",
+      wikipediaUrl: "https://en.wikipedia.org/wiki/RJ_Scaringe",
+    },
+    {
+      rank: 3,
+      name: "Kaz Nejatian",
+      earnings: "$741.1M",
+      category: "Real Estate Technology",
+      revenueSources: "Performance stock units and make-whole restricted stock units",
+      blurb:
+        "Nejatian became Opendoor's CEO in September 2025, and his entire $741,137,105 total is stock awards: a make-whole grant of 1,580,611 restricted stock units replacing pay he forfeited when he left Shopify, plus two performance awards of 40,886,344 shares each.",
+      standoutFact:
+        "The performance awards pay out only if Opendoor's share price reaches set hurdles over five years, and his salary in the proxy table is $0 — his disclosed pay is 7,581 times the company's median employee's.",
+      sourceTag: "Opendoor Form 8-K (Sep 2025); AFL-CIO Executive PayWatch; Equilar 100",
+    },
+    {
+      rank: 2,
+      name: "Shankh Mitra",
+      earnings: "$821.1M",
+      category: "Healthcare Real Estate (REIT)",
+      revenueSources: "Long-term stock awards (LTIP units) and salary",
+      blurb:
+        "Mitra's $821,090,355 total is almost entirely one October 2025 stock award — $813.2 million of it — under Welltower's Ten Year Executive Continuity and Alignment Program, a decade-long grant covering 2026 to 2035. About half is performance-based, and the units are not fully transferable until 2035. The Wall Street Journal's S&P 500 pay ranking puts him second, behind only Elon Musk.",
+      standoutFact:
+        "Shareholders rejected the package: Welltower's advisory say-on-pay vote failed at its May 2026 annual meeting. Mitra's salary under the program is just $110,000.",
+      sourceTag: "Welltower DEF 14A; AFL-CIO Executive PayWatch; The Wall Street Journal",
+    },
+    {
+      rank: 1,
+      name: "Dylan Field",
+      earnings: "$864.4M",
+      category: "Design Software",
+      revenueSources: "Salary and restricted stock unit awards",
+      blurb:
+        "Field's $864,358,634 — the largest disclosed 2025 package after Musk's — is 99.7% stock awards: a CEO service award of restricted stock units over 14,480,169 shares granted in June 2025, vesting 10%, 20%, 20%, 20% and 30% across five anniversaries as long as he remains CEO, plus a separate stock price award with share-price hurdles.",
+      standoutFact:
+        "His cash salary is $500,000 — about 0.06% of his reported total.",
+      sourceTag: "Figma DEF 14A; Equilar 100",
+      wikipediaUrl: "https://en.wikipedia.org/wiki/Dylan_Field",
     },
   ],
 
   keyTakeaway: {
-    stat: "$1,024.9M",
+    stat: "$3,110.0M",
     label: "Combined pay of the top 5 CEOs",
-    comparisonStat: "$493.4M",
+    comparisonStat: "$862.4M",
     comparisonLabel: "Combined pay of the bottom 5",
-    note: "Cybersecurity and semiconductors each place two executives in this year's top 10, underscoring how much competition for leadership talent has driven up pay in both sectors. Every entry on this list is overwhelmingly equity-based \u2014 none rely on cash salary for more than a small fraction of total reported compensation.",
+    note: "The top three alone — Field, Mitra and Nejatian — account for 61.1% of the $3.97 billion combined total, and none of the top seven received even 1% of their package as salary. These are grant-date accounting values for multi-year equity awards, not cash paid out in 2025.",
   },
 
   sourceNote: {
-    dataPeriod: "Most recent annual SEC proxy disclosures as of 2026",
-    lastUpdated: "September 8, 2026",
-    sources: "Equilar 100, AFL-CIO Executive Paywatch, Forbes executive compensation tracking, The Motley Fool",
+    dataPeriod: "Fiscal years ending between February 2025 and January 2026",
+    lastUpdated: "October 24, 2026",
+    sources:
+      "Company SEC Form DEF 14A proxy statements and Form 8-K filings; Equilar / The New York Times Top 100 Highest-Paid CEOs (2026); The Wall Street Journal CEO pay ranking; AFL-CIO Executive PayWatch",
     methodology:
-      "Figures reflect total reported compensation from company SEC Form DEF 14A proxy filings, as compiled and tracked by Equilar, AFL-CIO Executive Paywatch, Forbes, and The Motley Fool. Totals are dominated by equity awards (stock options and performance stock units) valued at grant or vesting, not cash actually received in a given year, and may vary slightly across tracking organizations depending on valuation methodology and reporting date. Elon Musk's Tesla/SpaceX compensation is excluded from the ranked chart for the methodology reasons explained above.",
+      "Figures are total compensation from the Summary Compensation Table in each company's SEC proxy statement, for the most recent fiscal year ending between early 2025 and January 2026. Stock and option awards are valued at grant date under SEC rules, so the totals are not cash received, and a large multi-year award appears entirely in the year it was granted. Where trackers round differently, the proxy figure governs. One common trap: Peter Gassner's $172.4 million Veeva total belongs to the fiscal year ended January 31, 2025 — his fiscal 2026 total is $470,833 — and some databases mislabel the year, which is why he appears in some other rankings. Elon Musk is excluded for the reasons in the callout above.",
   },
 
   faqItems: [
     {
-      question: "Why isn't Elon Musk on this list?",
+      question: "Who is the highest-paid CEO in the US?",
       answer:
-        "Musk's widely reported Tesla pay package \u2014 estimated by some trackers in the hundreds of billions of dollars \u2014 combines Tesla equity with unrelated SpaceX holdings, and SpaceX is a private company that doesn't file standard SEC executive compensation disclosures. Because it isn't measured the same way as the other entries here, we've excluded it from the ranked chart to keep the comparison consistent. His situation is genuinely exceptional and worth understanding on its own \u2014 see the callout below.",
+        "Excluding Elon Musk, Figma's Dylan Field, at $864.4 million for 2025 per the SEC Summary Compensation Table in Figma's proxy. Including Musk, he ranks first on every major list — but his figure is a 10-year Tesla performance award valued at grant date, put at $132.3 billion by Equilar and about $158 billion by The Wall Street Journal.",
     },
     {
-      question: "Why is cash salary such a small part of CEO pay?",
+      question: "Is this the money these CEOs actually received?",
       answer:
-        "For nearly every executive on this list, cash salary makes up a small fraction of total reported compensation \u2014 often under 5%. The rest comes from stock options, performance stock units, and other equity awards, which are reported at their grant-date or vesting-date value in company proxy filings.",
+        "No. Stock and option awards are valued on the day they are granted. Most of these awards pay out only if stock-price or performance targets are met, often over several years — and some may never pay out at all.",
+    },
+    {
+      question: "Why isn't Peter Gassner of Veeva on the list?",
+      answer:
+        "His $172.4 million total is for Veeva's fiscal year ended January 31, 2025. In the company's most recent proxy, his total for the year ended January 31, 2026 is $470,833. Some databases attach the $172.4 million to 2026, which is why he appears in some other rankings of 2025 pay.",
+    },
+    {
+      question: "Why are some well-known CEOs not on the list?",
+      answer:
+        "Their 2025 totals were lower. Apple's Tim Cook received $74.3 million and Microsoft's Satya Nadella $96.5 million — both large packages, but below this list's $118.9 million cutoff.",
     },
     {
       question: "How is executive compensation measured?",
       answer:
-        "U.S. public companies disclose executive pay annually through SEC Form DEF 14A proxy statements. Figures here reflect total reported compensation from these filings and related tracking by organizations like Equilar and AFL-CIO PayWatch, not necessarily cash actually received in a given year \u2014 much of it is unvested equity valued at grant.",
-    },
-    {
-      question: "Why do tech and semiconductor CEOs dominate this list?",
-      answer:
-        "Sectors with large stock-price growth and intense competition for executive talent \u2014 particularly cloud software, semiconductors, and cybersecurity \u2014 tend to offer the largest equity-based packages, both to retain existing leaders and to attract external hires with competitive sign-on grants.",
+        "U.S. public companies disclose executive pay annually through SEC Form DEF 14A proxy statements. Figures here reflect total reported compensation from these filings and related tracking by organizations like Equilar and AFL-CIO Executive PayWatch, not necessarily cash actually received in a given year — much of it is unvested equity valued at grant.",
     },
   ],
 
