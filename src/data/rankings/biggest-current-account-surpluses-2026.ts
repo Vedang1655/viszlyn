@@ -1,4 +1,3 @@
-++ b/src/data/rankings/biggest-current-account-surpluses-2026.ts
 import { RankingArticle } from "./types";
 
 export const biggestCurrentAccountSurpluses2026: RankingArticle = {
