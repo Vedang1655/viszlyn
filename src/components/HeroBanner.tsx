@@ -61,6 +61,19 @@ export function HeroBanner({ eyebrow, title, items, source }: HeroBannerProps) {
           const font = TIER_FONT[tier];
           const { bg, fg } = tileFill(t.index, rows.length);
           const isFirst = t.index === 0;
+          // Fit the text to the tile: tier sizes assume short values, so a long
+          // value (e.g. "$244.796B") would overflow its tile and get clipped.
+          // Shrink this tile's name/value font just enough to fit its own text.
+          const pad = isCompact(tier) ? 5 : 9;
+          const innerW = Math.max(10, t.w - pad * 2);
+          const fitFont = (text: string, px: number, perChar: number) =>
+            Math.min(px, innerW / Math.max(1, text.length * perChar));
+          const namePx = fitFont(
+            isCompact(tier) ? `${row.rank} ${row.name}` : row.name,
+            font.name,
+            0.56
+          );
+          const valuePx = fitFont(row.value, font.value, 0.6);
           return (
             <div
               key={`${row.rank}-${row.name}`}
@@ -81,7 +94,7 @@ export function HeroBanner({ eyebrow, title, items, source }: HeroBannerProps) {
                   background: bg,
                   color: fg,
                   borderRadius: cq(4),
-                  padding: cq(isCompact(tier) ? 5 : 9),
+                  padding: cq(pad),
                 }}
               >
                 {!isCompact(tier) && (
@@ -96,7 +109,7 @@ export function HeroBanner({ eyebrow, title, items, source }: HeroBannerProps) {
                   <div
                     className="font-body font-semibold leading-[1.1]"
                     style={{
-                      fontSize: cq(font.name),
+                      fontSize: cq(namePx),
                       display: "-webkit-box",
                       WebkitLineClamp: 2,
                       WebkitBoxOrient: "vertical",
@@ -112,9 +125,10 @@ export function HeroBanner({ eyebrow, title, items, source }: HeroBannerProps) {
                     <div
                       className="font-data tabular-nums leading-none"
                       style={{
-                        fontSize: cq(font.value),
+                        fontSize: cq(valuePx),
                         marginTop: cq(tier === "xl" ? 8 : 4),
                         opacity: isFirst ? 1 : 0.9,
+                        whiteSpace: "nowrap",
                       }}
                     >
                       {row.value}
