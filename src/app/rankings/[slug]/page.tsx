@@ -14,6 +14,7 @@ import {
 import { RankEntry } from "@/components/RankEntry";
 import { FAQ } from "@/components/FAQ";
 import { RelatedRankings } from "@/components/RelatedRankings";
+import { VideoEmbed } from "@/components/VideoEmbed";
 import { ALL_RANKING_ARTICLES, getAllRankingSlugs, getRankingArticle } from "@/data/rankings";
 import { SITE_NAME, SITE_URL, toIsoDate } from "@/lib/seo";
 
@@ -123,6 +124,20 @@ export default async function RankingArticlePage({ params }: PageProps) {
     ],
   };
 
+  const VIDEO_JSON_LD = article.video
+    ? {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        name: article.video.title,
+        description: article.video.description,
+        thumbnailUrl: [`https://i.ytimg.com/vi/${article.video.youtubeId}/maxresdefault.jpg`],
+        uploadDate: article.video.uploadDate,
+        duration: article.video.duration,
+        embedUrl: `https://www.youtube.com/embed/${article.video.youtubeId}`,
+        contentUrl: `https://www.youtube.com/watch?v=${article.video.youtubeId}`,
+      }
+    : null;
+
   // Related links: keep the article's own live links, then top up to four with
   // other articles (same section first, newest first) so there are no dead ends.
   const liveRelated = article.relatedLinks.filter((l) => !l.comingSoon);
@@ -142,7 +157,7 @@ export default async function RankingArticlePage({ params }: PageProps) {
 
   return (
     <>
-      {[ARTICLE_JSON_LD, ITEM_LIST_JSON_LD, BREADCRUMB_JSON_LD, FAQ_JSON_LD].map((data, i) => (
+      {[ARTICLE_JSON_LD, ITEM_LIST_JSON_LD, BREADCRUMB_JSON_LD, FAQ_JSON_LD, VIDEO_JSON_LD].filter(Boolean).map((data, i) => (
         <script
           key={i}
           type="application/ld+json"
@@ -186,6 +201,12 @@ export default async function RankingArticlePage({ params }: PageProps) {
                   {article.calloutBox.body}
                 </p>
               </div>
+            </ArticleSection>
+          )}
+
+          {article.video && (
+            <ArticleSection title="Watch the ranking">
+              <VideoEmbed video={article.video} />
             </ArticleSection>
           )}
 

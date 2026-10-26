@@ -101,10 +101,24 @@ export type RankingArticle = {
    * Use this when the ranked value isn't earnings/compensation - e.g. "Market capitalization:" for a companies ranking. */
   entryValueLabel?: string;
 
+  /** Optional companion YouTube video, embedded under the intro and added as VideoObject JSON-LD. */
+  video?: ArticleVideo;
+
   detailedEntries: DetailedEntry[];
 
   keyTakeaway: KeyTakeawayData;
   sourceNote: SourceNoteData;
   faqItems: FaqItem[];
   relatedLinks: RelatedLink[];
+};
+
+export type ArticleVideo = {
+  /** The 11-character YouTube video id (from youtu.be/<id>). */
+  youtubeId: string;
+  title: string;
+  description: string;
+  /** ISO 8601 date the video was published, e.g. "2026-10-25". */
+  uploadDate: string;
+  /** ISO 8601 duration, e.g. "PT6M1S". */
+  duration: string;
 };
