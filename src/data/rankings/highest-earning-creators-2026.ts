@@ -17,7 +17,7 @@ export const highestEarningCreators2026: RankingArticle = {
   title: "The 10 Highest-Earning Creators in 2026",
   dek: "Estimated earnings, audience size, and the businesses behind today's biggest creators.",
   publishedDate: "August 29, 2026",
-  lastUpdated: "August 31, 2026",
+  lastUpdated: "October 25, 2026",
   dataPeriod: "March 2025\u2013March 2026",
 
   quickAnswer:
@@ -40,6 +40,15 @@ export const highestEarningCreators2026: RankingArticle = {
     { rank: 9, name: "Ms. Rachel", value: "$26M", raw: 26 },
     { rank: 10, name: "Jesser", value: "$25M", raw: 25 },
   ],
+
+  video: {
+    youtubeId: "RJ6kqXw39ms",
+    title: "One Creator Made $300 Million in a Year. The Other 9 Made $334M Combined.",
+    description:
+      "The 10 highest-earning creators of 2026, ranked by Forbes' earnings estimates (March 2025 to March 2026), and the businesses behind them.",
+    uploadDate: "2026-10-25",
+    duration: "PT6M1S",
+  },
 
   detailedEntries: [
     {
@@ -176,7 +185,7 @@ export const highestEarningCreators2026: RankingArticle = {
       blurb:
         "MrBeast's earnings are more than four-and-a-half times Dhar Mann's, the next-highest individual creator, built on a media holding company, Beast Industries, that treats his YouTube channel as a production line feeding multiple businesses.",
       standoutFact:
-        "His chocolate brand Feastables generated about $250 million in revenue in 2024, out-earning his entire YouTube and Amazon media operation, which lost money on production costs that same year.",
+        "His chocolate brand Feastables generated about $250 million in sales in 2024 with more than $20 million in profit, while his media business brought in similar sales but lost almost $80 million, according to investor documents reported by Bloomberg.",
       sourceTag: "Forbes",
       wikipediaUrl: "https://en.wikipedia.org/wiki/MrBeast",
     },
@@ -192,7 +201,7 @@ export const highestEarningCreators2026: RankingArticle = {
 
   sourceNote: {
     dataPeriod: "March 2025\u2013March 2026",
-    lastUpdated: "August 31, 2026",
+    lastUpdated: "October 25, 2026",
     sources:
       "Forbes, Top Creators 2026; additional reporting from Fortune, Variety, The Hollywood Reporter, Digiday, and company sources",
     methodology:
