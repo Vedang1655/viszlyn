@@ -264,7 +264,7 @@ export const largestEconomiesWorld2026: RankingArticle = {
       category: "Asia-Pacific",
       revenueSources: "Services, IT, manufacturing, agriculture, pharmaceuticals",
       blurb: "India holds 6th place with a projected $4.06 trillion, about 2.2% lower than the IMF's April 2026 projection of $4.15 trillion. The IMF reports India's figures on a fiscal-year basis (April to March).",
-      standoutFact: "The IMF now assumes a weaker rupee, which lowers India's GDP when it is converted into dollars. In the IMF's 2027 projections, India rises to about $4.52 trillion, ahead of both the UK and Japan.",
+      standoutFact: "India's GDP is measured in US dollars in this ranking, so exchange-rate assumptions can affect its reported size. In the IMF's 2027 projections, India rises to about $4.52 trillion, ahead of both the UK and Japan.",
       sourceTag: "IMF World Economic Outlook, October 2026",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Economy_of_India",
     },
@@ -330,7 +330,7 @@ export const largestEconomiesWorld2026: RankingArticle = {
     label: "Share of the world economy held by the United States and China together",
     comparisonStat: "83.5%",
     comparisonLabel: "Share held by the 25 largest economies on this list",
-    note: "The IMF projects world GDP at about $128 trillion in 2026. The US ($32.64 trillion) and China ($21.55 trillion) alone make up about 42.3% of it, and the top 10 about 65.7%. The biggest revisions since the IMF's April 2026 edition were South Korea (up about 16.3%, from 15th to 12th) and Russia (up about 7.7%, from 9th to 8th).",
+    note: "The IMF projects world GDP at about $128 trillion in 2026. The US ($32.64 trillion) and China ($21.55 trillion) alone make up about 42.3% of it, and the top 10 about 65.7%. Among the 15 largest economies, South Korea had the biggest upward revision from the IMF's April 2026 projection, rising about 16.3% and moving from 15th to 12th. Russia had the second-largest upward revision in this group, at about 7.7%, moving from 9th to 8th.",
   },
 
   sourceNote: {
@@ -341,7 +341,8 @@ export const largestEconomiesWorld2026: RankingArticle = {
     methodology:
       "Economies are ranked by projected 2026 nominal GDP in current US dollars at market exchange rates. These are IMF forecasts rather than final results, and the IMF revises them in each edition, so close positions can change. India's figures are reported on a fiscal-year basis (April to March), while most others refer to calendar years. The IMF lists Taiwan as \"Taiwan Province of China\"; it is included here as an economy, as in the IMF data. Gaps, ratios, shares and revision percentages are calculated by Viszlyn from the IMF figures in billions of dollars and then rounded. Rankings by purchasing power parity (PPP) are a different measure and are not used here.",
     sourceLinks: [
-      { label: "IMF World Economic Outlook (primary source)", href: "https://www.imf.org/en/Publications/WEO" },
+      { label: "IMF World Economic Outlook, October 2026 (primary source)", href: "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026" },
+      { label: "IMF WEO database", href: "https://data.imf.org/datasets/WEO" },
       { label: "IMF October 2026 WEO database appendix", href: "https://data.imf.org/-/media/iData/External-Storage/Documents/C4182C5C54794FC48892DE8F6C74FF82/en/October-2026-WEO-Database-Appendix.pdf" },
       { label: "Visual Capitalist: The $128 Trillion Global Economy (IMF October 2026 table, cross-check)", href: "https://www.visualcapitalist.com/the-128-trillion-global-economy-in-2026/" },
       { label: "Seoul Economic Daily: 2027 projections for India, the UK and Japan", href: "https://en.sedaily.com/international/2026/10/14/japan-set-to-slip-to-no-6-economy-by-2027-imf-says" },
@@ -369,7 +370,7 @@ export const largestEconomiesWorld2026: RankingArticle = {
     {
       question: "Why is India's GDP lower than in the IMF's April forecast?",
       answer:
-        "The October 2026 edition projects India at $4.06 trillion for 2026, about 2.2% below the April figure of $4.15 trillion. GDP rankings are measured in US dollars, and the IMF now assumes a weaker rupee, which lowers India's GDP when it is converted into dollars.",
+        "The October 2026 edition projects India at $4.06 trillion for 2026, about 2.2% below the April figure of $4.15 trillion. India's GDP is measured in US dollars in this ranking, so exchange-rate assumptions can affect its reported size.",
     },
     {
       question: "Is Canada in the top 10?",
