@@ -1,3 +1,4 @@
+import { chinaRichestPeople2026 } from "./china-richest-people-2026";
 import { biggestCurrentAccountSurpluses2026 } from "./biggest-current-account-surpluses-2026";
 import { usStatesMostBillionaires2026 } from "./us-states-most-billionaires-2026";
 import { canadaMinimumWageByProvince2026 } from "./canada-minimum-wage-by-province-2026";
@@ -36,6 +37,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  chinaRichestPeople2026,
   biggestCurrentAccountSurpluses2026,
   usStatesMostBillionaires2026,
   canadaMinimumWageByProvince2026,
