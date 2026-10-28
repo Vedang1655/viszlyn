@@ -46,6 +46,15 @@ export const mostValuableAiCompanies2026: RankingArticle = {
     { rank: 10, name: "Physical Intelligence", value: "$11B", raw: 11 },
   ],
 
+  video: {
+    youtubeId: "efyhXf-OXDw",
+    title: "The 10 Most Valuable AI Companies in 2026 (Ranked)",
+    description:
+      "Which AI companies are worth the most in 2026? We ranked the top 10 by valuation, from Physical Intelligence at $11B to Anthropic at $965B, and explain why one famous name is missing from the list.",
+    uploadDate: "2026-10-10",
+    duration: "PT7M40S",
+  },
+
   detailedEntries: [
     {
       rank: 10,
