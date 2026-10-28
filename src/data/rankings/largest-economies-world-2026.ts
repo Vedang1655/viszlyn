@@ -26,7 +26,7 @@ export const largestEconomiesWorld2026: RankingArticle = {
     "This ranking uses nominal GDP in current US dollars, the standard way to compare the size of economies at market exchange rates. It was updated on October 27, 2026 from the IMF's April 2026 projections to its October 2026 World Economic Outlook, and expanded from the top 10 to the top 25. Because nominal GDP is measured in dollars, exchange rates move the rankings as well as real output, which is why several places changed between the two IMF editions.",
   calloutBox: {
     label: "The 2027 shake-up: India projected to jump from 6th to 4th",
-    body: "In the IMF's October 2026 projections for 2027, India's GDP rises to about $4.52 trillion, ahead of the United Kingdom (about $4.49 trillion) and Japan (about $4.47 trillion). That would move India from 6th to 4th in one year and push Japan to 6th. The margins are small, about $32 billion between India and the UK and about $21 billion between the UK and Japan, so currency moves could still change the order.",
+    body: "In the IMF's October 2026 projections for 2027, India's GDP rises to about $4.52 trillion, ahead of the United Kingdom (about $4.49 trillion) and Japan (about $4.47 trillion). That would move India from 6th to 4th in one year and push Japan to 6th. The margins are small, about $32 billion between India and the UK and about $21 billion between the UK and Japan, so currency moves could still change the order. These are IMF projections, not final results.",
   },
 
   chartTitle: "Nominal GDP — 2026 Projection · US$ Trillions",
@@ -55,9 +55,9 @@ export const largestEconomiesWorld2026: RankingArticle = {
     { rank: 20, name: "Switzerland", value: "$1.14T", raw: 1.14 },
     { rank: 21, name: "Poland", value: "$1.13T", raw: 1.13 },
     { rank: 22, name: "Taiwan", value: "$1.02T", raw: 1.02 },
-    { rank: 23, name: "Belgium", value: "$0.77T", raw: 0.77 },
-    { rank: 24, name: "Argentina", value: "$0.77T", raw: 0.77 },
-    { rank: 25, name: "Israel", value: "$0.75T", raw: 0.75 },
+    { rank: 23, name: "Belgium", value: "$773B", raw: 0.77 },
+    { rank: 24, name: "Argentina", value: "$768B", raw: 0.77 },
+    { rank: 25, name: "Israel", value: "$747B", raw: 0.75 },
   ],
 
   entryValueLabel: "Nominal GDP (2026 projection):",
@@ -337,9 +337,17 @@ export const largestEconomiesWorld2026: RankingArticle = {
     dataPeriod: "2026 projections (IMF October 2026 edition), compared with the April 2026 edition where noted",
     lastUpdated: "October 27, 2026",
     sources:
-      "International Monetary Fund, World Economic Outlook (October 2026), nominal GDP in current US dollars, as tabulated by Visual Capitalist (October 23, 2026) and cross-checked against Seoul Economic Daily's report of the same IMF figures for Japan and India. 2027 projections for India, the UK and Japan: IMF October 2026, as reported by Seoul Economic Daily and the Japan Times (October 14, 2026). April 2026 comparisons: IMF World Economic Outlook (April 2026).",
+      "International Monetary Fund, World Economic Outlook (October 2026), nominal GDP in current US dollars, as tabulated by Visual Capitalist (October 23, 2026) and cross-checked against Seoul Economic Daily's report of the same IMF figures for Japan and India. 2027 projections for India, the UK and Japan: IMF October 2026, as reported by Seoul Economic Daily and the Japan Times (October 14, 2026). April 2026 comparisons: IMF World Economic Outlook (April 2026), as compiled in Wikipedia's list of countries by GDP (nominal).",
     methodology:
       "Economies are ranked by projected 2026 nominal GDP in current US dollars at market exchange rates. These are IMF forecasts rather than final results, and the IMF revises them in each edition, so close positions can change. India's figures are reported on a fiscal-year basis (April to March), while most others refer to calendar years. The IMF lists Taiwan as \"Taiwan Province of China\"; it is included here as an economy, as in the IMF data. Gaps, ratios, shares and revision percentages are calculated by Viszlyn from the IMF figures in billions of dollars and then rounded. Rankings by purchasing power parity (PPP) are a different measure and are not used here.",
+    sourceLinks: [
+      { label: "IMF World Economic Outlook (primary source)", href: "https://www.imf.org/en/Publications/WEO" },
+      { label: "IMF October 2026 WEO database appendix", href: "https://data.imf.org/-/media/iData/External-Storage/Documents/C4182C5C54794FC48892DE8F6C74FF82/en/October-2026-WEO-Database-Appendix.pdf" },
+      { label: "Visual Capitalist: The $128 Trillion Global Economy (IMF October 2026 table, cross-check)", href: "https://www.visualcapitalist.com/the-128-trillion-global-economy-in-2026/" },
+      { label: "Seoul Economic Daily: 2027 projections for India, the UK and Japan", href: "https://en.sedaily.com/international/2026/10/14/japan-set-to-slip-to-no-6-economy-by-2027-imf-says" },
+      { label: "Japan Times: U.K. and Indian economies set to overtake Japan", href: "https://www.japantimes.co.jp/business/2026/10/14/economy/japan-economy-6th/" },
+      { label: "Wikipedia: List of countries by GDP (nominal), IMF April 2026 figures", href: "https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)" },
+    ],
   },
 
   faqItems: [
@@ -349,7 +357,7 @@ export const largestEconomiesWorld2026: RankingArticle = {
         "The United States, with a projected nominal GDP of $32.64 trillion in the IMF's October 2026 World Economic Outlook, about 1.51 times China's $21.55 trillion.",
     },
     {
-      question: "What are the top 15 economies by GDP in 2026?",
+      question: "What are the 15 largest economies by GDP in 2026?",
       answer:
         "1. United States, 2. China, 3. Germany, 4. Japan, 5. United Kingdom, 6. India, 7. France, 8. Russia, 9. Italy, 10. Brazil, 11. Canada, 12. South Korea, 13. Mexico, 14. Australia, 15. Spain, based on the IMF's October 2026 projections of nominal GDP.",
     },
@@ -371,7 +379,7 @@ export const largestEconomiesWorld2026: RankingArticle = {
     {
       question: "What is the difference between nominal GDP and PPP?",
       answer:
-        "Nominal GDP converts each economy's output into US dollars at market exchange rates. PPP adjusts for the fact that prices differ between countries. On the IMF's PPP-based figures China ranks first, the United States second and India third, while the United States ranks first on nominal GDP. PPP is a different measure and is not mixed into this ranking.",
+        "Nominal GDP converts each economy's output into US dollars at market exchange rates. PPP adjusts for the fact that prices differ from one economy to another. On the IMF's PPP-based figures China ranks first, the United States second and India third, while the United States ranks first on nominal GDP. PPP is a different measure and is not mixed into this ranking.",
     },
   ],
 
