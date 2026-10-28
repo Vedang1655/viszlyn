@@ -112,7 +112,7 @@ export const chinaRichestPeople2026: RankingArticle = {
       name: "He Xiangjian & family",
       earnings: "US$46.1 billion",
       category: "Midea · Home appliances",
-      origin: "Up 12%",
+      origin: "Foshan · up 12%",
       blurb:
         "He Xiangjian and family, founders of appliance maker Midea, hold US$46.1 billion, up 12% from last year.",
       standoutFact:
@@ -136,7 +136,7 @@ export const chinaRichestPeople2026: RankingArticle = {
       name: "Zeng Yuqun",
       earnings: "US$57.3 billion",
       category: "CATL · Batteries",
-      origin: "Age 58 · up 17%",
+      origin: "Ningde · age 58 · up 17%",
       blurb:
         "Zeng Yuqun, also known as Robin Zeng, founder of electric-vehicle battery maker CATL, holds 385 billion yuan (US$57.3 billion), up 17%.",
       standoutFact:
@@ -221,8 +221,8 @@ export const chinaRichestPeople2026: RankingArticle = {
 
   relatedLinks: [
     { title: "India's 10 Richest People in 2026", href: "/rankings/india-richest-people-2026" },
-    { title: "The 10 Richest People in the World", href: "/rankings/richest-people-2026" },
-    { title: "Countries with the Most Billionaires", href: "/rankings/countries-with-most-billionaires-2026" },
-    { title: "Cities with the Most Billionaires", href: "/rankings/cities-with-most-billionaires-2026" },
+    { title: "The 10 Richest People in the World in 2026", href: "/rankings/richest-people-2026" },
+    { title: "The 10 Countries With the Most Billionaires in 2026", href: "/rankings/countries-with-most-billionaires-2026" },
+    { title: "The 10 Cities With the Most Billionaires in 2026", href: "/rankings/cities-with-most-billionaires-2026" },
   ],
 };
