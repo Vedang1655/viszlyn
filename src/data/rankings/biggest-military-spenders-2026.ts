@@ -46,6 +46,15 @@ export const biggestMilitarySpenders2026: RankingArticle = {
     { rank: 10, name: "Japan", value: "$62.2B", raw: 62.2 },
   ],
 
+  video: {
+    youtubeId: "s0pPAc3-1HU",
+    title: "Who Spends the Most on Military? The #1 Country's Spending Fell.",
+    description:
+      "The world spent $2.89 trillion on its militaries in 2025, the highest share of global GDP since 2009. Here are the 10 biggest military spenders, ranked with SIPRI's latest data.",
+    uploadDate: "2026-10-19",
+    duration: "PT6M9S",
+  },
+
   detailedEntries: [
     {
       rank: 10,
