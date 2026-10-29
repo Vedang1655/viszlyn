@@ -21,9 +21,9 @@ export const mostVisitedCountries2026: RankingArticle = {
   dataPeriod: "Full-year 2024 (UN Tourism's latest published country figures)",
 
   quickAnswer:
-    "France is the most visited country in the world, with 102 million international tourist arrivals in 2024, according to UN Tourism. Spain is second with 93.8 million, followed by the United States (72.4 million), Türkiye (60.6 million) and Italy (57.7 million). Greece completes the top 10 with 36.0 million, and India (20.6 million) and Canada (19.9 million) rank 17th and 18th. The top three alone account for about 46% of the top 10's combined arrivals.",
+    "France is the most visited country in the world, with 102 million international tourist arrivals in 2024, according to UN Tourism. Spain is second with 93.8 million, followed by the United States (72.4 million), Türkiye (60.6 million) and Italy (57.7 million). Greece completes the top 10 with 36.0 million, and India (20.6 million) and Canada (19.9 million) rank 17th and 18th. The top three alone account for about 46% of the combined arrivals of the 10 ranked countries.",
   introParagraph:
-    "This ranking uses international tourist arrivals, UN Tourism's standard count of overnight foreign visitors, rather than tourism revenue, which produces a different list (see the callout below). Figures are full-year 2024 from UN Tourism's International Tourism Highlights, 2025 Edition, the latest year with published figures for every country here. It was updated on October 29, 2026 and expanded from the top 10 to the top 20. It counts sovereign countries only, so Hong Kong and Macao, which UN Tourism reports separately, are not included. China is discussed separately below, because UN Tourism has not yet published an official 2024 figure for it.",
+    "This ranking uses international tourist arrivals, UN Tourism's standard count of overnight foreign visitors, rather than tourism revenue, which produces a different list (see the United States entry and the FAQ). Figures are full-year 2024 from UN Tourism's International Tourism Highlights, 2025 Edition, the latest year with published figures for every country here. It was updated on October 29, 2026 and expanded from the top 10 to the top 20. It counts sovereign countries only, so Hong Kong and Macao, which UN Tourism reports separately, are not included. China is discussed separately below, because UN Tourism has not yet published an official 2024 figure for it.",
   calloutBox: {
     label: "What about China?",
     body: "UN Tourism lists China among its top 10 destinations for 2024, but based on an estimate, because official 2024 data was not yet available, and it does not publish the estimated figure. Because we can't show a number for it, China isn't ranked in the chart. China's National Immigration Administration counted about 64.9 million trips by foreign nationals in 2024, but that is a different measure from UN Tourism's count of overnight tourist arrivals, so it can't be compared directly with the figures here. An earlier version of this article placed China 4th using that 64.9 million figure; this update corrects that.",
@@ -31,7 +31,7 @@ export const mostVisitedCountries2026: RankingArticle = {
 
   chartTitle: "International tourist arrivals, 2024 · Millions",
   chartSource: "UN Tourism, International Tourism Highlights 2025 Edition",
-  chartTapNote: "Tap any country to jump to its full breakdown below.",
+  chartTapNote: "Rankings cover countries with published, comparable figures; China is not ranked because UN Tourism's 2024 estimate for it is unpublished. Tap any country to jump to its full breakdown below.",
   entryValueLabel: "International tourist arrivals (2024):",
   chartItems: [
     { rank: 1, name: "France", value: "102.0M", raw: 102.0 },
@@ -185,7 +185,7 @@ export const mostVisitedCountries2026: RankingArticle = {
       category: "Europe",
       revenueSources: "Berlin, Munich, Bavarian Alps",
       blurb: "Germany draws steady, broad-based tourism from culture, history and seasonal travel, without one single attraction dominating arrivals the way Paris or Rome do.",
-      standoutFact: "Most of Germany's foreign visitors come from neighboring European countries, reflecting its central location and dense rail and road links.",
+      standoutFact: "Germany is about 0.6 million arrivals ahead of Japan in 9th.",
       sourceTag: "UN Tourism, International Tourism Highlights 2025",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Tourism_in_Germany",
     },
@@ -195,7 +195,7 @@ export const mostVisitedCountries2026: RankingArticle = {
       earnings: "41.8 million arrivals",
       category: "Europe",
       revenueSources: "London, Edinburgh, Bath",
-      blurb: "London accounts for the large majority of the UK's international arrivals, while Edinburgh, Bath and Stratford-upon-Avon draw travelers beyond the capital.",
+      blurb: "London is the UK's biggest destination for international visitors, while Edinburgh, Bath and Stratford-upon-Avon draw travelers beyond the capital.",
       standoutFact: "Visitors from the United States and continental Europe make up the bulk of the UK's foreign arrivals.",
       sourceTag: "UN Tourism, International Tourism Highlights 2025",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Tourism_in_the_United_Kingdom",
@@ -207,7 +207,7 @@ export const mostVisitedCountries2026: RankingArticle = {
       category: "Americas",
       revenueSources: "Cancún, Riviera Maya, Mexico City",
       blurb: "Mexico receives more international visitors than any other country in Latin America, led by Caribbean-coast resorts in Cancún and the Riviera Maya, alongside Mexico City and the Maya sites of the Yucatán.",
-      standoutFact: "The United States supplies the large majority of Mexico's foreign visitors.",
+      standoutFact: "The United States is a major source of Mexico's foreign visitors.",
       sourceTag: "UN Tourism, International Tourism Highlights 2025",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Tourism_in_Mexico",
     },
@@ -239,8 +239,8 @@ export const mostVisitedCountries2026: RankingArticle = {
       earnings: "72.4 million arrivals",
       category: "Americas",
       revenueSources: "New York, national parks, Los Angeles",
-      blurb: "The United States ranks 3rd by arrivals but 1st by tourism revenue. See the callout above for why those are two different measurements.",
-      standoutFact: "At $215 billion in 2024 tourism receipts, the US earns roughly 2.8 times what France earns from tourism, despite hosting nearly 30 million fewer visitors.",
+      blurb: "The United States ranks 3rd by arrivals but 1st by international tourism receipts. Arrivals count visitors, while receipts measure what they spend, so the two rankings differ.",
+      standoutFact: "The US earned about $214 billion in international tourism receipts in 2024, roughly 2.8 times France's $77 billion, even though France recorded about 30 million more arrivals.",
       sourceTag: "UN Tourism, International Tourism Highlights 2025",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Tourism_in_the_United_States",
     },
@@ -273,7 +273,7 @@ export const mostVisitedCountries2026: RankingArticle = {
     label: "France's international tourist arrivals in 2024, the most in the world",
     comparisonStat: "36.0 million",
     comparisonLabel: "Greece's arrivals, the #10 country on this list",
-    note: "France's arrivals are about 2.8 times Greece's, and the top three countries (France, Spain and the US) account for about 46% of the top 10's combined arrivals. Early 2025 figures point to more records: Spain's statistics office reports 96.8 million foreign visitors in 2025. UN Tourism's full 2025 country ranking has not been published yet; we'll update this page when it is.",
+    note: "France's arrivals are about 2.8 times Greece's, and the top three (France, Spain and the US) account for about 46% of the combined arrivals of the 10 ranked countries with published figures. Early 2025 figures point to more records: Spain's statistics office reports 96.8 million foreign visitors in 2025. UN Tourism's full 2025 country ranking has not been published yet; we'll update this page when it is.",
   },
 
   sourceNote: {
@@ -282,7 +282,7 @@ export const mostVisitedCountries2026: RankingArticle = {
     sources:
       "UN Tourism, International Tourism Highlights, 2025 Edition (statistical annex, international tourist arrivals); Japan National Tourism Organization (JNTO) for Japan's 2024 growth; Spain's National Statistics Institute (INE) for Spain's 2025 total; China's National Immigration Administration for its 2024 foreign-national trips.",
     methodology:
-      "Countries are ranked by international tourist arrivals in 2024 as published by UN Tourism, which counts overnight visitors (excluding same-day visitors) at frontiers or in accommodation, depending on each country's reporting. Figures are rounded to one decimal place from UN Tourism's figures in thousands. Sovereign countries only: Hong Kong and Macao are reported separately by UN Tourism and are not included. China is not ranked because UN Tourism's 2024 figure for it is an unpublished estimate; see the callout. Revenue figures for the United States and France are tourism receipts, a separate measure. Some countries publish their own totals using different definitions, so their national figures can differ from UN Tourism's.",
+      "Countries are ranked by UN Tourism's published international tourist-arrival figures for 2024. China is omitted because UN Tourism identifies it among the top destinations using an estimate but does not publish the estimated total, so its position cannot be reproduced from the published figures. UN Tourism counts overnight visitors (excluding same-day visitors) at frontiers or in accommodation, depending on each country's reporting. Figures are rounded to one decimal place from UN Tourism's figures in thousands. Sovereign countries only: Hong Kong and Macao are reported separately by UN Tourism and are not included. See the callout for more on China. Revenue figures for the United States and France are tourism receipts, a separate measure. Some countries publish their own totals using different definitions, so their national figures can differ from UN Tourism's.",
     sourceLinks: [
       { label: "UN Tourism: International Tourism Highlights, 2025 Edition (primary source)", href: "https://www.e-unwto.org/doi/book/10.18111/9789284427499" },
       { label: "International Tourism Highlights 2025 Edition (PDF copy)", href: "https://mekongtourism.org/wp-content/uploads/2026/05/2026-international-tourism-highlights-2025-edition.pdf" },
@@ -299,12 +299,12 @@ export const mostVisitedCountries2026: RankingArticle = {
     {
       question: "What are the top 10 most visited countries in the world?",
       answer:
-        "1. France, 2. Spain, 3. United States, 4. Türkiye, 5. Italy, 6. Mexico, 7. United Kingdom, 8. Germany, 9. Japan, 10. Greece, based on UN Tourism's 2024 international tourist arrivals. UN Tourism also places China in its top 10 using an unpublished estimate.",
+        "1. France, 2. Spain, 3. United States, 4. Türkiye, 5. Italy, 6. Mexico, 7. United Kingdom, 8. Germany, 9. Japan, 10. Greece, among countries with published UN Tourism figures for 2024. UN Tourism's own top 10 also includes China, based on an estimate it hasn't published, which is why Greece appears at #10 here.",
     },
     {
       question: "Which countries have the most tourism?",
       answer:
-        "By number of international visitors, France, Spain and the United States lead. By tourism revenue, the United States leads, earning about $215 billion in 2024 tourism receipts, roughly 2.8 times France.",
+        "By number of international visitors, France, Spain and the United States lead. By tourism revenue, the United States leads, earning about $214 billion in international tourism receipts in 2024, roughly 2.8 times France's $77 billion.",
     },
     {
       question: "What were the most visited countries in 2025?",
