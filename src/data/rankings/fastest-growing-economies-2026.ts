@@ -26,12 +26,12 @@ export const fastestGrowingEconomies2026: RankingArticle = {
     "This ranking uses real GDP growth, the annual percentage change in an economy's output after adjusting for inflation. Figures are the IMF's projections for 2026 from its October 2026 World Economic Outlook, covering every economy in the IMF's dataset. Fast growth often comes from a small base or a single industry, so a high rate doesn't mean an economy is large or rich. Several economies on this list are small, and the ranking reflects how quickly they are projected to expand, not their size.",
   calloutBox: {
     label: "What changes in 2027",
-    body: "In the IMF's projections for 2027, the leaders change completely. Iraq (about 19%), Qatar (18.8%) and Kuwait (17.1%) top the list, rebounding after projected 2026 contractions of about 16%, 15.6% and 16.7%. Guyana is fourth at 16.8%. The IMF's forecast assumes shipping through the Strait of Hormuz, disrupted in 2026, gradually resumes from March 2027 and returns to prewar conditions by October 2027. These are projections and depend on that assumption.",
+    body: "The top of the growth ranking changes dramatically in the IMF's 2027 projections. Iraq leads at 19.0%, followed by Qatar at 18.8% and Kuwait at 17.1%. All three are projected to rebound after contracting sharply in 2026, by about 16%, 15.6% and 16.7%. Guyana remains near the top, ranking fourth at 16.8%. In the IMF's words, the forecast \"assumes the gradual reopening of the Strait of Hormuz will resume in March 2027, with a return to prewar conditions by October.\" These projections depend on that assumption and could change if conditions develop differently.",
   },
 
   chartTitle: "Projected real GDP growth, 2026 (%)",
   chartSource: "IMF World Economic Outlook, October 2026",
-  chartTapNote: "Tap any economy to jump to its full breakdown below.",
+  chartTapNote: "Georgia and Guinea tie at 7.2%, so 11 economies share the 10 ranking positions. Tap any economy to jump to its full breakdown below.",
   entryValueLabel: "Projected growth (2026):",
   chartItems: [
     { rank: 1, name: "Guyana", value: "22.3%", raw: 22.3 },
@@ -55,7 +55,7 @@ export const fastestGrowingEconomies2026: RankingArticle = {
       earnings: "7.2%",
       category: "West Africa",
       blurb: "Guinea ties with Georgia for 10th place, with projected real GDP growth of 7.2% in 2026.",
-      standoutFact: "Guinea is one of four African economies in this top 10, alongside South Sudan, Ethiopia and Rwanda.",
+      standoutFact: "Guinea is one of four African economies among the 11 shown, alongside South Sudan, Ethiopia and Rwanda.",
       sourceTag: "IMF World Economic Outlook, October 2026",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Economy_of_Guinea",
     },
@@ -167,14 +167,14 @@ export const fastestGrowingEconomies2026: RankingArticle = {
     label: "Guyana's projected real GDP growth in 2026, the fastest in the world",
     comparisonStat: "3.1%",
     comparisonLabel: "The IMF's projected growth for the world economy in 2026",
-    note: "Only three economies are projected to grow faster than 10% in 2026: Guyana, Taiwan and South Sudan. Africa (4) and Central Asia (3) account for seven of the 11 economies in this top 10. India narrowly misses, tied with Benin, Bhutan, Niger and Sudan at 7.0%. In 2027, the IMF projects world growth of 3.4%, led by a rebound in Iraq, Qatar and Kuwait.",
+    note: "Only three economies in this ranking are projected to grow by more than 10% in 2026: Guyana, Taiwan and South Sudan. African economies account for four of the 11 entries, while Central Asian economies account for three. India narrowly misses the top 10 ranking positions, with projected growth of 7.0%. In 2027, Iraq, Qatar and Kuwait lead the growth ranking following projected contractions in 2026, while global growth is forecast to rise to 3.4%.",
   },
 
   sourceNote: {
     dataPeriod: "2026 projections (with 2027 projections in the callout), IMF World Economic Outlook, October 2026",
     lastUpdated: "October 29, 2026",
     sources:
-      "International Monetary Fund, World Economic Outlook (October 2026), real GDP growth (annual percent change), as reported by The Star (Kenya) and Visual Capitalist; Guyana's non-oil growth from the IMF's 2026 Article IV statement on Guyana; 2026 contraction figures for Iraq, Qatar and Kuwait and the IMF's Strait of Hormuz assumption as reported by The National, Al Jazeera and Shafaq News.",
+      "International Monetary Fund, World Economic Outlook (October 2026), real GDP growth (annual percent change), as reported by The Star (Kenya) and Visual Capitalist; Guyana's non-oil growth from the IMF's 2026 Article IV statement on Guyana; 2026 contraction figures for Iraq, Qatar and Kuwait and the IMF's Strait of Hormuz assumption (quoted from the IMF) as reported by The National, Al Jazeera and Shafaq News.",
     methodology:
       "Economies are ranked by the IMF's projected real GDP growth for 2026 from the October 2026 World Economic Outlook. These are forecasts, not final results, and the IMF revises them in each edition. Georgia and Guinea tie at 7.2%, so the top 10 includes 11 economies; India, Benin, Bhutan, Niger and Sudan tie for 12th at 7.0%. India's figures are reported on a fiscal-year basis (April to March). The IMF lists Taiwan as \"Taiwan Province of China\"; it is included here as an economy, as in the IMF data. Percentage-point gaps are calculated by Viszlyn from the IMF figures. Real growth measures the change in output, not the size of an economy.",
     sourceLinks: [
@@ -206,7 +206,7 @@ export const fastestGrowingEconomies2026: RankingArticle = {
     {
       question: "Which economies will grow fastest in 2027?",
       answer:
-        "In the IMF's October 2026 projections, Iraq (about 19%), Qatar (18.8%) and Kuwait (17.1%) lead in 2027, rebounding from contractions in 2026, with Guyana fourth at 16.8%. The forecast assumes shipping through the Strait of Hormuz gradually resumes from March 2027.",
+        "In the IMF's October 2026 projections, Iraq (19.0%), Qatar (18.8%) and Kuwait (17.1%) lead in 2027, rebounding from contractions in 2026, with Guyana fourth at 16.8%. The forecast assumes shipping through the Strait of Hormuz gradually resumes from March 2027.",
     },
     {
       question: "How fast will the world economy grow in 2026?",
