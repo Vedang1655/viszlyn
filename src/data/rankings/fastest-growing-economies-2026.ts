@@ -26,12 +26,12 @@ export const fastestGrowingEconomies2026: RankingArticle = {
     "This ranking uses real GDP growth, the annual percentage change in an economy's output after adjusting for inflation. Figures are the IMF's projections for 2026 from its October 2026 World Economic Outlook, covering every economy in the IMF's dataset. Fast growth often comes from a small base or a single industry, so a high rate doesn't mean an economy is large or rich. Several economies on this list are small, and the ranking reflects how quickly they are projected to expand, not their size.",
   calloutBox: {
     label: "What changes in 2027",
-    body: "The top of the growth ranking changes dramatically in the IMF's 2027 projections. Iraq leads at 19.0%, followed by Qatar at 18.8% and Kuwait at 17.1%. All three are projected to rebound after contracting sharply in 2026, by about 16%, 15.6% and 16.7%. Guyana remains near the top, ranking fourth at 16.8%. In the IMF's words, the forecast \"assumes the gradual reopening of the Strait of Hormuz will resume in March 2027, with a return to prewar conditions by October.\" These projections depend on that assumption and could change if conditions develop differently.",
+    body: "The top of the growth ranking changes dramatically in the IMF's 2027 projections. Iraq leads at 19.0%, followed by Qatar at 18.8% and Kuwait at 17.1%. All three are projected to rebound after contracting sharply in 2026, by about 16%, 15.6% and 16.7%. Guyana remains near the top, ranking fourth at 16.8%. The IMF's forecast assumes that the Strait of Hormuz gradually reopens from March 2027, with shipping returning to prewar conditions by October. These projections depend on that assumption and could change if conditions develop differently.",
   },
 
   chartTitle: "Projected real GDP growth, 2026 (%)",
   chartSource: "IMF World Economic Outlook, October 2026",
-  chartTapNote: "Georgia and Guinea tie at 7.2%, so 11 economies share the 10 ranking positions. Tap any economy to jump to its full breakdown below.",
+  chartTapNote: "Georgia and Guinea are tied at 7.2% as published by the IMF (to one decimal place), so 11 economies share the 10 ranking positions. Tap any economy to jump to its full breakdown below.",
   entryValueLabel: "Projected growth (2026):",
   chartItems: [
     { rank: 1, name: "Guyana", value: "22.3%", raw: 22.3 },
@@ -174,9 +174,9 @@ export const fastestGrowingEconomies2026: RankingArticle = {
     dataPeriod: "2026 projections (with 2027 projections in the callout), IMF World Economic Outlook, October 2026",
     lastUpdated: "October 29, 2026",
     sources:
-      "International Monetary Fund, World Economic Outlook (October 2026), real GDP growth (annual percent change), as reported by The Star (Kenya) and Visual Capitalist; Guyana's non-oil growth from the IMF's 2026 Article IV statement on Guyana; 2026 contraction figures for Iraq, Qatar and Kuwait and the IMF's Strait of Hormuz assumption (quoted from the IMF) as reported by The National, Al Jazeera and Shafaq News.",
+      "International Monetary Fund, World Economic Outlook (October 2026), real GDP growth (annual percent change), as reported by The Star (Kenya) and Visual Capitalist; Guyana's non-oil growth from the IMF's 2026 Article IV statement on Guyana; 2026 contraction figures for Iraq, Qatar and Kuwait and the IMF's Strait of Hormuz assumption as reported by The National, Al Jazeera and Shafaq News.",
     methodology:
-      "Economies are ranked by the IMF's projected real GDP growth for 2026 from the October 2026 World Economic Outlook. These are forecasts, not final results, and the IMF revises them in each edition. Georgia and Guinea tie at 7.2%, so the top 10 includes 11 economies; India, Benin, Bhutan, Niger and Sudan tie for 12th at 7.0%. India's figures are reported on a fiscal-year basis (April to March). The IMF lists Taiwan as \"Taiwan Province of China\"; it is included here as an economy, as in the IMF data. Percentage-point gaps are calculated by Viszlyn from the IMF figures. Real growth measures the change in output, not the size of an economy.",
+      "Economies are ranked by the IMF's projected real GDP growth for 2026 from the October 2026 World Economic Outlook. These are forecasts, not final results, and the IMF revises them in each edition. Georgia and Guinea are both 7.2% at the IMF's published one-decimal precision, so they are shown as tied and the top 10 includes 11 economies (some outlets list Georgia first); India, Benin, Bhutan, Niger and Sudan tie for 12th at 7.0%. India's figures are reported on a fiscal-year basis (April to March). The IMF lists Taiwan as \"Taiwan Province of China\"; it is included here as an economy, as in the IMF data. Percentage-point gaps are calculated by Viszlyn from the IMF figures. Real growth measures the change in output, not the size of an economy.",
     sourceLinks: [
       { label: "IMF World Economic Outlook, October 2026 (primary source)", href: "https://www.imf.org/en/Publications/WEO/Issues/2026/10/13/world-economic-outlook-october-2026" },
       { label: "The Star: The world's fastest-growing economies in 2026 (IMF October 2026)", href: "https://www.the-star.co.ke/news/infographics/2026-10-27-the-worlds-fastest-growing-economies-in-2026" },
