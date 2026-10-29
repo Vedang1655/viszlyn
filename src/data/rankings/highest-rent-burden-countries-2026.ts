@@ -177,8 +177,9 @@ export const highestRentBurdenCountries2026: RankingArticle = {
   ],
 
   relatedLinks: [
-    { title: "The World's Costliest Cities", href: "/rankings/costliest-cities-world-2026" },
-    { title: "The Highest Minimum Wages Among Countries Reviewed in 2026", href: "/rankings/highest-minimum-wage-by-country-2026" },
-    { title: "The World's Most Expensive Countries by Big Mac Prices", href: "/rankings/big-mac-index-most-expensive-countries-2026" },
+    { title: "The 10 Costliest Cities in the World in 2026", href: "/rankings/costliest-cities-world-2026" },
+    { title: "The 10 Highest National Minimum Wages Among Countries Reviewed in 2026", href: "/rankings/highest-minimum-wage-by-country-2026" },
+    { title: "The 10 Countries Where a Big Mac Costs the Most in 2026", href: "/rankings/big-mac-index-most-expensive-countries-2026" },
+    { title: "The 10 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
   ],
 };

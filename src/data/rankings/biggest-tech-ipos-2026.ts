@@ -170,8 +170,9 @@ export const biggestTechIpos2026: RankingArticle = {
   ],
 
   relatedLinks: [
-    { title: "The World's Most Valuable Companies in 2026", href: "/rankings/worlds-most-valuable-companies-2026" },
-    { title: "The Most Valuable AI Companies in 2026", href: "/rankings/most-valuable-ai-companies-2026" },
-    { title: "The Richest People in the World in 2026", href: "/rankings/richest-people-2026" },
+    { title: "The 10 Most Valuable Companies in the World in 2026", href: "/rankings/worlds-most-valuable-companies-2026" },
+    { title: "The 10 Most Valuable AI Companies in 2026", href: "/rankings/most-valuable-ai-companies-2026" },
+    { title: "The 10 Richest People in the World in 2026", href: "/rankings/richest-people-2026" },
+    { title: "The 10 Highest-Paid CEOs in 2026", href: "/rankings/highest-paid-ceos-2026" },
   ],
 };
