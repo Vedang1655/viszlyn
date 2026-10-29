@@ -213,9 +213,9 @@ export const richestPeople2026: RankingArticle = {
   ],
 
   relatedLinks: [
-    { title: "The 10 Highest-Paid CEOs in 2026", href: "/rankings/highest-paid-ceos-2026" },
-    { title: "The World's Most Valuable Companies in 2026", href: "/rankings/worlds-most-valuable-companies-2026" },
+    { title: "India's 10 Richest People in 2026", href: "/rankings/india-richest-people-2026" },
+    { title: "China's 10 Richest People in 2026", href: "/rankings/china-richest-people-2026" },
+    { title: "The 10 Countries With the Most Billionaires in 2026", href: "/rankings/countries-with-most-billionaires-2026" },
     { title: "The 10 Highest-Earning Creators in 2026", href: "/rankings/highest-earning-creators-2026" },
-    { title: "The Most Valuable AI Companies", href: "/rankings/most-valuable-ai-companies-2026" },
   ],
 };

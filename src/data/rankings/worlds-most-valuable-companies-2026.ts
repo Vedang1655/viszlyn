@@ -234,22 +234,9 @@ export const worldsMostValuableCompanies2026: RankingArticle = {
     }
   ],
   "relatedLinks": [
-    {
-      "title": "The Highest-Paid CEOs in 2026",
-      "href": "/rankings/highest-paid-ceos-2026"
-    },
-    {
-      "title": "The World's Largest Companies by Revenue in 2026",
-      "href": "/rankings/largest-companies-by-revenue-2026",
-      "comingSoon": true
-    },
-    {
-      "title": "The Biggest Tech IPOs of 2026",
-      "href": "/rankings/biggest-tech-ipos-2026"
-    },
-    {
-      "title": "The Richest People in the World in 2026",
-      "href": "/rankings/richest-people-2026"
-    }
+    { "title": "The 10 Most Valuable AI Companies in 2026", "href": "/rankings/most-valuable-ai-companies-2026" },
+    { "title": "6 of the Biggest US Tech IPOs and Listings of 2026 So Far", "href": "/rankings/biggest-tech-ipos-2026" },
+    { "title": "The 10 Richest People in the World in 2026", "href": "/rankings/richest-people-2026" },
+    { "title": "The 10 Highest-Paid CEOs in 2026", "href": "/rankings/highest-paid-ceos-2026" },
   ]
 };

@@ -218,17 +218,9 @@ export const mostValuableAiCompanies2026: RankingArticle = {
   ],
 
   relatedLinks: [
-    {
-      title: "The World's Most Valuable Companies",
-      href: "/rankings/worlds-most-valuable-companies-2026",
-    },
-    {
-      title: "The 10 Richest People in the World",
-      href: "/rankings/richest-people-2026",
-    },
-    {
-      title: "The 10 Highest-Paid CEOs in 2026",
-      href: "/rankings/highest-paid-ceos-2026",
-    },
+    { title: "The 10 Most Valuable Companies in the World in 2026", href: "/rankings/worlds-most-valuable-companies-2026" },
+    { title: "6 of the Biggest US Tech IPOs and Listings of 2026 So Far", href: "/rankings/biggest-tech-ipos-2026" },
+    { title: "China's 10 Richest People in 2026", href: "/rankings/china-richest-people-2026" },
+    { title: "The 10 Richest People in the World in 2026", href: "/rankings/richest-people-2026" },
   ],
 };

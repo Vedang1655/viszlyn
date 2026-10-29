@@ -236,9 +236,9 @@ export const highestNationalDebtToGdp2026: RankingArticle = {
   ],
 
   relatedLinks: [
-    { title: "The World's Largest Economies, Ranked", href: "/rankings/largest-economies-world-2026" },
-    { title: "The 10 Countries with the Highest GDP Per Capita", href: "/rankings/richest-countries-gdp-per-capita-2026" },
-    { title: "The 10 Highest National Minimum Wages Among Countries Reviewed in 2026", href: "/rankings/highest-minimum-wage-by-country-2026" },
-    { title: "The World's Most Valuable Companies", href: "/rankings/worlds-most-valuable-companies-2026" },
+    { title: "The 25 Largest Economies in the World in 2026", href: "/rankings/largest-economies-world-2026" },
+    { title: "The 10 Fastest-Growing Economies in 2026", href: "/rankings/fastest-growing-economies-2026" },
+    { title: "The Economies With the Biggest Current Account Surpluses in 2026", href: "/rankings/biggest-current-account-surpluses-2026" },
+    { title: "The 10 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
   ],
 };

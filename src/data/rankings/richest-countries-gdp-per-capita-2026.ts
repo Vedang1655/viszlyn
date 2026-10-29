@@ -221,9 +221,9 @@ export const richestCountriesGdpPerCapita2026: RankingArticle = {
   ],
 
   relatedLinks: [
-    { title: "The 10 Largest Economies in the World", href: "/rankings/largest-economies-world-2026" },
-    { title: "The 10 Richest People in the World", href: "/rankings/richest-people-2026" },
-    { title: "The 10 Costliest Cities in the World", href: "/rankings/costliest-cities-world-2026" },
-    { title: "The World's Most Powerful Passports", href: "/rankings/most-powerful-passports-2026" },
+    { title: "The 25 Largest Economies in the World in 2026", href: "/rankings/largest-economies-world-2026" },
+    { title: "The 10 Fastest-Growing Economies in 2026", href: "/rankings/fastest-growing-economies-2026" },
+    { title: "The 10 Costliest Cities in the World in 2026", href: "/rankings/costliest-cities-world-2026" },
+    { title: "The World's Most Powerful Passports in 2026", href: "/rankings/most-powerful-passports-2026" },
   ],
 };
