@@ -60,3 +60,17 @@ body {
 .rank-bar-fill.is-first {
   background: var(--signal);
 }
+
+/* Long unbroken strings (URLs in source notes, long names) must wrap on narrow phones
+   instead of pushing the page sideways. */
+dd {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+/* On very narrow phones (320px), long labels like "Current account surplus (2026 projection):"
+   may wrap instead of overflowing. */
+dl dt.shrink-0 {
+  flex-shrink: 1;
+  min-width: 0;
+}
