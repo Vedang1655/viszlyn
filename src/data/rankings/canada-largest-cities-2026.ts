@@ -8,10 +8,10 @@ export const canadaLargestCities2026: RankingArticle = {
     "Toronto is Canada's largest metro area with 7.1 million people, ahead of Montréal and Vancouver. See the top 20 from Statistics Canada's latest estimates, and why Toronto's population just stopped growing.",
   ogTitle: "Canada's 20 Largest Cities by Population",
   ogDescription:
-    "Toronto 7.11M. Montréal 4.60M. Vancouver 3.09M. Edmonton grew fastest, and Toronto was the only metro area to shrink. The full top 20 (Statistics Canada).",
+    "Toronto 7.11M. Montréal 4.60M. Vancouver 3.09M. Edmonton grew fastest, and Toronto was the only top-20 metro area to shrink. The full top 20 (Statistics Canada).",
   twitterTitle: "Ranked: Canada's 20 Largest Metro Areas",
   twitterDescription:
-    "Toronto's population fell by 992 people while Edmonton grew 3.1%. See Canada's 20 largest metro areas (Statistics Canada).",
+    "Toronto's population fell by 992 people while Edmonton grew 3.0%. See Canada's 20 largest metro areas (Statistics Canada).",
 
   eyebrow: "World",
   title: "Canada's 20 Largest Cities by Population",
@@ -21,7 +21,7 @@ export const canadaLargestCities2026: RankingArticle = {
   dataPeriod: "July 1, 2025 estimates, Statistics Canada (released January 14, 2026)",
 
   quickAnswer:
-    "Toronto is Canada's largest city by metro-area population, with 7,108,874 people as of July 1, 2025, according to Statistics Canada. Montréal is second (4,597,837), followed by Vancouver (3,088,036), Calgary (1,836,012) and Ottawa - Gatineau (1,700,014). Edmonton grew fastest (about +3.1%), while Toronto was the only metro area in Canada whose population fell, by 992 people.",
+    "Toronto is Canada's largest city by metro-area population, with 7,108,874 people as of July 1, 2025, according to Statistics Canada. Montréal is second (4,597,837), followed by Vancouver (3,088,036), Calgary (1,836,012) and Ottawa - Gatineau (1,700,014). Edmonton grew fastest (about +3.0%), while Toronto was the only one of the 20 largest metro areas whose population fell, by 992 people.",
   introParagraph:
     "This ranking uses Statistics Canada's census metropolitan areas (CMAs): a core city plus the surrounding communities closely tied to it by commuting. That's why the numbers are larger than for the city itself; the Toronto CMA, for example, includes Mississauga and Brampton. Figures are Statistics Canada's population estimates for July 1, 2025, released on January 14, 2026, the latest available. The one-year change compares July 1, 2024 with July 1, 2025 from the same release.",
   calloutBox: {
@@ -202,8 +202,8 @@ export const canadaLargestCities2026: RankingArticle = {
       name: "Edmonton",
       earnings: "1,692,385",
       category: "Alberta",
-      origin: "1-year change: +3.1% (+50,717 people)",
-      blurb: "Edmonton has 1,692,385 people and grew about 3.1%, the fastest rate of any large metro area in Canada.",
+      origin: "1-year change: +3.0% (+50,717 people)",
+      blurb: "Edmonton has 1,692,385 people and grew about 3.0%, the fastest rate of any metro area in Canada, according to Statistics Canada.",
       standoutFact: "Edmonton added 50,717 people in a year and is closing in on Ottawa - Gatineau, now just 7,629 people behind.",
       sourceTag: "Statistics Canada, Table 17-10-0148-01",
     },
@@ -254,7 +254,7 @@ export const canadaLargestCities2026: RankingArticle = {
       category: "Ontario",
       origin: "1-year change: −992 people (about −0.01%)",
       blurb: "Toronto is Canada's largest metro area by far, with 7,108,874 people, about 17% of the country's population.",
-      standoutFact: "Toronto's population edged down by 992 people between July 2024 and July 2025, the only decline among Canada's 41 metro areas, according to Statistics Canada.",
+      standoutFact: "Toronto's population edged down by 992 people between July 2024 and July 2025. It was the only one of Canada's 20 largest metro areas to shrink, and one of only two of all 41 (Kamloops, B.C., fell by 259).",
       sourceTag: "Statistics Canada, Table 17-10-0148-01",
     },
   ],
@@ -262,7 +262,7 @@ export const canadaLargestCities2026: RankingArticle = {
   keyTakeaway: {
     stat: "7,108,874",
     label: "People in the Toronto metro area, Canada's largest",
-    comparisonStat: "+3.1%",
+    comparisonStat: "+3.0%",
     comparisonLabel: "Edmonton's one-year growth, the fastest of Canada's large metro areas",
     note: "Canada's population was 41,651,653 on July 1, 2025, up about 0.9% in a year. Toronto, Montréal and Vancouver together hold about 36% of Canadians, but they grew the least. Eight of the 20 largest metro areas are in Ontario.",
   },
@@ -271,12 +271,12 @@ export const canadaLargestCities2026: RankingArticle = {
     dataPeriod: "Population estimates for July 1, 2025 and July 1, 2024 (2021 boundaries), released January 14, 2026",
     lastUpdated: "October 30, 2026",
     sources:
-      "Statistics Canada, Table 17-10-0148-01, Population estimates, July 1, by census metropolitan area and census agglomeration, 2021 boundaries (released January 14, 2026); Statistics Canada, The Daily, \"Canada's population estimates: Subprovincial areas, July 1, 2025\" (January 14, 2026). Contains information licensed under the Open Government Licence – Canada / Statistics Canada Open Licence.",
+      "Statistics Canada, Table 17-10-0148-01, Population estimates, July 1, by census metropolitan area and census agglomeration, 2021 boundaries (released January 14, 2026); Statistics Canada, The Daily, \"Canada's population estimates: Subprovincial areas, 2025\" (January 14, 2026). Contains information licensed under the Open Government Licence – Canada / Statistics Canada Open Licence.",
     methodology:
-      "Metro areas are ranked by Statistics Canada's population estimate for July 1, 2025. Each is a census metropolitan area (CMA) using 2021 boundaries, so it includes the core city and surrounding communities, not just the city's municipal limits. Ottawa - Gatineau is counted once, as a single CMA spanning Ontario and Quebec. One-year change compares the July 1, 2024 and July 1, 2025 estimates from the same release, so both use the same methods and revisions. Percentages are calculated by Viszlyn and rounded. Population estimates are revised over time.",
+      "Metro areas are ranked by Statistics Canada's population estimate for July 1, 2025. Each is a census metropolitan area (CMA) using 2021 boundaries, so it includes the core city and surrounding communities, not just the city's municipal limits. Ottawa - Gatineau is counted once, as a single CMA spanning Ontario and Quebec. One-year change compares the July 1, 2024 and July 1, 2025 estimates from the same release, so both use the same methods and revisions. Percentages are calculated by Viszlyn from the published estimates and rounded, except Edmonton's, which is shown as Statistics Canada reports it (+3.0%, from its unrounded estimates; the published figures give 3.09%). Population estimates are revised over time.",
     sourceLinks: [
       { label: "Statistics Canada, Table 17-10-0148-01 (primary source)", href: "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710014801" },
-      { label: "Statistics Canada, The Daily: Canada's population estimates, subprovincial areas, July 1, 2025", href: "https://www150.statcan.gc.ca/n1/daily-quotidien/260114/dq260114a-eng.htm" },
+      { label: "Statistics Canada, The Daily: Canada's population estimates: Subprovincial areas, 2025", href: "https://www150.statcan.gc.ca/n1/daily-quotidien/260114/dq260114a-eng.htm" },
     ],
   },
 
@@ -294,12 +294,12 @@ export const canadaLargestCities2026: RankingArticle = {
     {
       question: "Which Canadian city is growing fastest?",
       answer:
-        "Among large metro areas, Edmonton grew fastest between July 2024 and July 2025, at about 3.1%, followed by Calgary at about 2.9%. Calgary added the most people, 52,351.",
+        "Among large metro areas, Edmonton grew fastest between July 2024 and July 2025, at about 3.0%, followed by Calgary at about 2.9%. Calgary added the most people, 52,351.",
     },
     {
       question: "Is Toronto's population shrinking?",
       answer:
-        "Slightly. Statistics Canada estimates the Toronto metro area had 992 fewer people on July 1, 2025 than a year earlier, the only decline among Canada's 41 metro areas.",
+        "Slightly. Statistics Canada estimates the Toronto metro area had 992 fewer people on July 1, 2025 than a year earlier. It was the only one of the 20 largest metro areas to shrink, and one of only two of Canada's 41 (the other was Kamloops, B.C., down 259).",
     },
     {
       question: "What is Canada's population?",
