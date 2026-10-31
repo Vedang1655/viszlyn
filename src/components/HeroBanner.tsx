@@ -12,14 +12,15 @@ type HeroBannerProps = {
   title: string;
   items: ChartItem[];
   source: string;
+  lowerIsBetter?: boolean;
 };
 
 /**
  * The whole ranking as one block mosaic: each block's area is proportional to its value.
  * Driven entirely by the article's existing chart data, so every new article gets one for free.
  */
-export function HeroBanner({ eyebrow, title, items, source }: HeroBannerProps) {
-  const rows = toBannerRows(items);
+export function HeroBanner({ eyebrow, title, items, source, lowerIsBetter = false }: HeroBannerProps) {
+  const rows = toBannerRows(items, lowerIsBetter);
   const tiles = squarify(
     rows.map((r) => r.pct),
     REF_W,
@@ -30,7 +31,11 @@ export function HeroBanner({ eyebrow, title, items, source }: HeroBannerProps) {
   return (
     <figure
       className="bg-ink text-paper rounded-xl overflow-hidden p-5 md:p-8 m-0"
-      aria-label={`${title}: block chart where each block's area shows its value`}
+      aria-label={
+        lowerIsBetter
+          ? `${title}: blocks ranked from lowest to highest value`
+          : `${title}: block chart where each block's area shows its value`
+      }
     >
       <div className="flex items-center justify-between mb-5 md:mb-6">
         <div className="flex items-center gap-2">
@@ -142,7 +147,7 @@ export function HeroBanner({ eyebrow, title, items, source }: HeroBannerProps) {
       </div>
 
       <figcaption className="mt-4 md:mt-5 pt-4 border-t border-paper/15 flex flex-wrap items-center justify-between gap-x-4 gap-y-1 font-data text-[10px] md:text-[11px] text-paper/55">
-        <span>Block size shows each value · Source: {source}</span>
+        <span>{lowerIsBetter ? "Ranked lowest to highest" : "Block size shows each value"} · Source: {source}</span>
         <span className="text-paper/80">viszlyn.io</span>
       </figcaption>
     </figure>

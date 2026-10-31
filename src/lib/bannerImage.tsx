@@ -56,9 +56,25 @@ export async function renderBannerImage(slug: string) {
     );
   }
 
-  const rows = toBannerRows(article.chartItems).slice(0, 12);
+  // A hand-designed hero image, when the article has one, is the share image.
+  if (article.heroImage) {
+    try {
+      const png = await readFile(path.join(process.cwd(), "public", article.heroImage.ogSrc));
+      return new Response(new Uint8Array(png), { headers: { "Content-Type": "image/png" } });
+    } catch {
+      // fall through to the generated banner
+    }
+  }
+
+  const rows = toBannerRows(article.chartItems, article.lowerIsBetter).slice(0, 12);
   const MW = 1088;
-  const MH = 392;
+  // Size the title so it never runs into the mosaic: estimate the wrapped line count
+  // (Inter bold averages ~0.53em per character), then give the mosaic what's left.
+  const titleSize = article.title.length > 96 ? 36 : 44;
+  const charsPerLine = Math.floor(MW / (titleSize * 0.53));
+  const titleLines = Math.min(3, Math.ceil(article.title.length / charsPerLine));
+  // 630 tall minus padding (70), header (34), title margins (38), footer (36), small buffer (6)
+  const MH = Math.round(630 - 70 - 34 - 38 - 36 - 6 - titleLines * titleSize * 1.08);
   const K = 1.5; // OG canvas is ~1.5x the reference size the tiers were designed for
   const tiles = squarify(
     rows.map((r) => r.pct),
@@ -136,7 +152,7 @@ export async function renderBannerImage(slug: string) {
             display: "flex",
             marginTop: 20,
             marginBottom: 18,
-            fontSize: 44,
+            fontSize: titleSize,
             fontWeight: 800,
             lineHeight: 1.08,
           }}
@@ -232,7 +248,7 @@ export async function renderBannerImage(slug: string) {
           }}
         >
           <div style={{ display: "flex" }}>
-            Block size shows each value · Source: {article.chartSource}
+            {article.lowerIsBetter ? "Ranked lowest to highest" : "Block size shows each value"} · Source: {article.chartSource}
           </div>
           <div style={{ display: "flex", color: "rgba(247,245,240,0.85)" }}>
             viszlyn.io

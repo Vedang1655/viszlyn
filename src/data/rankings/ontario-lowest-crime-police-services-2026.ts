@@ -19,6 +19,12 @@ export const ontarioLowestCrimePoliceServices2026: RankingArticle = {
   publishedDate: "October 31, 2026",
   lastUpdated: "October 31, 2026",
   dataPeriod: "2025 police-reported data, Statistics Canada (released July 22, 2026)",
+  lowerIsBetter: true,
+  heroImage: {
+    src: "/heroes/ontario-lowest-crime-police-services-2026.png",
+    ogSrc: "/heroes/ontario-lowest-crime-police-services-2026-og.png",
+    alt: "Schematic map of 10 Ontario police services shaded by 2025 Crime Severity Index. Halton (Burlington, Oakville, Milton, Halton Hills) is lowest at 30.61; London is highest at 73.00. Source: Statistics Canada.",
+  },
 
   quickAnswer:
     "Of 10 large Ontario police services, Halton Regional Police, which serves Burlington, Oakville, Milton and Halton Hills, had the lowest Crime Severity Index in 2025, at 30.61, according to Statistics Canada. Durham (43.18) and York (50.28) were next. London had the highest of the 10, at 73.00. For comparison, the index for Canada as a whole was 75.0 and for Ontario 57.2.",

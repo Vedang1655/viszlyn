@@ -95,6 +95,7 @@ export default async function RankingArticlePage({ params }: PageProps) {
     dateModified: toIsoDate(article.lastUpdated),
     articleSection: article.eyebrow,
     inLanguage: "en",
+    image: [article.heroImage ? `${SITE_URL}${article.heroImage.ogSrc}` : `${url}/opengraph-image`],
     author: publisher,
     publisher,
   };
@@ -175,12 +176,25 @@ export default async function RankingArticlePage({ params }: PageProps) {
           dataPeriod={article.dataPeriod}
         >
           <ArticleSection>
-            <HeroBanner
-              eyebrow={article.eyebrow}
-              title={article.title}
-              items={article.chartItems}
-              source={article.chartSource}
-            />
+            {article.heroImage ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={article.heroImage.src}
+                alt={article.heroImage.alt}
+                width={1200}
+                height={630}
+                fetchPriority="high"
+                className="block w-full h-auto rounded-xl"
+              />
+            ) : (
+              <HeroBanner
+                eyebrow={article.eyebrow}
+                title={article.title}
+                items={article.chartItems}
+                source={article.chartSource}
+                lowerIsBetter={article.lowerIsBetter}
+              />
+            )}
           </ArticleSection>
 
           <ArticleSection title="Quick Answer">

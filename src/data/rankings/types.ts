@@ -103,6 +103,10 @@ export type RankingArticle = {
 
   /** Optional companion YouTube video, embedded under the intro and added as VideoObject JSON-LD. */
   video?: ArticleVideo;
+  /** Custom designed hero graphic. Replaces the auto block mosaic on the page and is used as the share image. */
+  heroImage?: ArticleHeroImage;
+  /** True when a lower value ranks better (e.g. crime). The auto mosaic then uses equal blocks instead of sizing by value. */
+  lowerIsBetter?: boolean;
 
   detailedEntries: DetailedEntry[];
 
@@ -121,4 +125,12 @@ export type ArticleVideo = {
   uploadDate: string;
   /** ISO 8601 duration, e.g. "PT6M1S". */
   duration: string;
+};
+
+export type ArticleHeroImage = {
+  /** 2400x1260 PNG under /public, shown on the article page, e.g. "/heroes/<slug>.png" */
+  src: string;
+  /** 1200x630 PNG under /public, used for Open Graph, Twitter and Google Discover */
+  ogSrc: string;
+  alt: string;
 };

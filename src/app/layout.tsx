@@ -25,6 +25,18 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.viszlyn.io"),
   title: "Viszlyn — Data. Visualized.",
   applicationName: "Viszlyn",
+  // Lets Google show large image previews (needed for big cards in Google Discover).
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   openGraph: {
     siteName: "Viszlyn",
     locale: "en_US",

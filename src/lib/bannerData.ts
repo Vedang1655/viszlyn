@@ -17,12 +17,13 @@ function rowName(i: ChartItem): string {
 }
 
 /** Turns an article's chart items into the rows the hero banner draws. Shared by the on-page banner and the social image. */
-export function toBannerRows(items: ChartItem[]): BannerRow[] {
+export function toBannerRows(items: ChartItem[], lowerIsBetter = false): BannerRow[] {
   const max = Math.max(...items.map((i) => i.raw));
   return items.map((i) => ({
     rank: i.rankLabel ?? String(i.rank),
     name: rowName(i),
     value: i.value,
-    pct: (i.raw / max) * 100,
+    // When lower is better, sizing by value would make the #1 block the smallest, so use equal blocks.
+    pct: lowerIsBetter ? 100 : (i.raw / max) * 100,
   }));
 }
