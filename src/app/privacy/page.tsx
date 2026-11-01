@@ -13,7 +13,7 @@ export default function PrivacyPage() {
     <LegalPage
       title="Privacy Policy"
       intro="This policy explains what information is collected when you visit viszlyn.io and how it is used."
-      updated="October 9, 2026"
+      updated="October 31, 2026"
     >
       <LegalHeading>Information we collect</LegalHeading>
       <p>
@@ -84,9 +84,11 @@ export default function PrivacyPage() {
         not identify individual visitors to us.
       </p>
       <p>
-        The site does not currently run on-site analytics scripts such as Google
-        Analytics. If that changes, this policy will be updated to name the
-        service and describe what it collects.
+        We use Vercel Web Analytics to count visits to our pages. It does not
+        use cookies and reports only aggregated data, such as which pages were
+        viewed, the referring website, and the visitor&apos;s country, browser and
+        device type. We do not use it to identify individual visitors, and we
+        do not run Google Analytics.
       </p>
 
       <LegalHeading>Links to other sites</LegalHeading>

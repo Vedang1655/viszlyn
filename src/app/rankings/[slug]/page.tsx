@@ -5,6 +5,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { RankList } from "@/components/RankBar";
 import { ChartHeader } from "@/components/ChartHeader";
 import { HeroBanner } from "@/components/HeroBanner";
+import { FollowBox } from "@/components/FollowBox";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import {
   ArticleLayout,
@@ -266,6 +267,10 @@ export default async function RankingArticlePage({ params }: PageProps) {
 
           <ArticleSection title="Related Rankings">
             <RelatedRankings links={relatedLinks} />
+          </ArticleSection>
+
+          <ArticleSection>
+            <FollowBox />
           </ArticleSection>
         </ArticleLayout>
       </main>
