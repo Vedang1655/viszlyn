@@ -19,6 +19,14 @@ export const largestEconomiesWorld2026: RankingArticle = {
   publishedDate: "October 8, 2026",
   lastUpdated: "October 27, 2026",
   dataPeriod: "2026 projections, IMF World Economic Outlook (October 2026)",
+  video: {
+    youtubeId: "ivIJlKtEqZg",
+    title: "India #6 → #4 by 2027? World's Largest Economies Ranked (GDP 2026)",
+    description:
+      "India was called the world's fourth-largest economy last year. The IMF's October 2026 numbers put it sixth, and project a jump to fourth in 2027. The 10 largest economies in 2026, ranked with IMF data.",
+    uploadDate: "2026-11-01",
+    duration: "PT4M51S",
+  },
 
   quickAnswer:
     "The United States is the world's largest economy, with a projected nominal GDP of $32.64 trillion in 2026, about 1.51 times China's $21.55 trillion. Germany ($5.47 trillion), Japan ($4.34 trillion) and the United Kingdom ($4.27 trillion) complete the top five, with India sixth at $4.06 trillion. The top 25 economies together account for about 83.5% of the IMF's projected world GDP of about $128 trillion.",
