@@ -7,3 +7,9 @@ export const SOCIAL_LINKS = [
   { label: "YouTube", href: "https://www.youtube.com/@viszlyn" },
   { label: "TikTok", href: "https://www.tiktok.com/@viszlyn" },
 ];
+
+// Named author shown on every article and used in Article structured data.
+export const AUTHOR = {
+  name: "Vedang Khamar",
+  url: "https://www.viszlyn.io/about#author",
+};

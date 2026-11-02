@@ -6,6 +6,7 @@ import { RankList } from "@/components/RankBar";
 import { ChartHeader } from "@/components/ChartHeader";
 import { HeroBanner } from "@/components/HeroBanner";
 import { FollowBox } from "@/components/FollowBox";
+import { AUTHOR } from "@/lib/site";
 import { KeyTakeaway } from "@/components/KeyTakeaway";
 import {
   ArticleLayout,
@@ -97,7 +98,7 @@ export default async function RankingArticlePage({ params }: PageProps) {
     articleSection: article.eyebrow,
     inLanguage: "en",
     image: [article.heroImage ? `${SITE_URL}${article.heroImage.ogSrc}` : `${url}/opengraph-image`],
-    author: publisher,
+    author: { "@type": "Person", name: AUTHOR.name, url: AUTHOR.url },
     publisher,
   };
 
