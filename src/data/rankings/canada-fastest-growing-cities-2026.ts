@@ -89,7 +89,7 @@ export const canadaFastestGrowingCities2026: RankingArticle = {
       category: "Ontario",
       origin: "Population July 1, 2025: 503,670 (+10,062)",
       blurb: "St. Catharines - Niagara grew 2.02% and passed half a million people.",
-      standoutFact: "It added 10,062 people, the third-most of any Ontario metro area after Ottawa - Gatineau and Oshawa.",
+      standoutFact: "It added 10,062 people, the second-most of any metro area entirely in Ontario, after Oshawa.",
       sourceTag: "Statistics Canada, Table 17-10-0148-01",
     },
     {
@@ -218,12 +218,12 @@ export const canadaFastestGrowingCities2026: RankingArticle = {
     dataPeriod: "Population estimates for July 1, 2024 and July 1, 2025 (2021 boundaries), released January 14, 2026",
     lastUpdated: "November 2, 2026",
     sources:
-      "Statistics Canada, Table 17-10-0148-01, Population estimates, July 1, by census metropolitan area and census agglomeration, 2021 boundaries (released January 14, 2026); Statistics Canada, The Daily, \"Canada's population estimates: Subprovincial areas, July 1, 2025\" (January 14, 2026). Contains information licensed under the Open Government Licence – Canada / Statistics Canada Open Licence.",
+      "Statistics Canada, Table 17-10-0148-01, Population estimates, July 1, by census metropolitan area and census agglomeration, 2021 boundaries (released January 14, 2026); Statistics Canada, The Daily, \"Canada's population estimates: Subprovincial areas, 2025\" (January 14, 2026). Contains information licensed under the Open Government Licence – Canada / Statistics Canada Open Licence.",
     methodology:
       "All 41 census metropolitan areas (CMAs) are ranked by population growth between July 1, 2024 and July 1, 2025, using Statistics Canada's estimates from the same release. Growth rates are calculated by Viszlyn from the published populations using Statistics Canada's annual growth-rate method, based on the natural logarithm of the ratio between the 2025 and 2024 populations. Rates are displayed to two decimal places and match Statistics Canada's published rounded figures, such as Edmonton +3.0%, Moncton +2.9% and Calgary +2.9%. A simple percentage change gives slightly higher values (Edmonton 3.09%) but the same order. Oshawa and Saskatoon are equal at two decimal places and share 5th place. Canada's 0.94% is calculated the same way from the Canada total in the same table (all of Canada, not just its metro areas). Each CMA uses 2021 boundaries and includes the core city and surrounding communities; Ottawa - Gatineau is counted once as a single CMA spanning Ontario and Quebec. Population estimates are revised over time.",
     sourceLinks: [
       { label: "Statistics Canada, Table 17-10-0148-01 (primary source)", href: "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710014801" },
-      { label: "Statistics Canada, The Daily: Canada's population estimates: Subprovincial areas, July 1, 2025", href: "https://www150.statcan.gc.ca/n1/daily-quotidien/260114/dq260114a-eng.htm" },
+      { label: "Statistics Canada, The Daily: Canada's population estimates: Subprovincial areas, 2025", href: "https://www150.statcan.gc.ca/n1/daily-quotidien/260114/dq260114a-eng.htm" },
     ],
   },
 
