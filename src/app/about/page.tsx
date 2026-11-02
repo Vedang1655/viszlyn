@@ -26,10 +26,22 @@ export default function AboutPage() {
         context needed to understand the figures.
       </p>
 
-      <LegalHeading>Who runs it</LegalHeading>
+      <div id="author" className="scroll-mt-24">
+        <LegalHeading>Who runs it</LegalHeading>
+      </div>
       <p>
-        Viszlyn is written, researched and published by Vedang Khamar as an
-        independently run, one-person publication.
+        Viszlyn is written, researched and published by Vedang Khamar, an
+        independent publisher based in Ontario, Canada. Vedang holds a Bachelor
+        of Engineering in Computer Engineering and a post-degree certificate in
+        Web Development from Conestoga College, and builds the site, its charts
+        and its videos himself.
+      </p>
+      <p>
+        Every ranking is checked against its primary source before it is
+        published: figures are copied as the source publishes them, never
+        rounded into a different number or estimated, and any figure that
+        can&apos;t be verified is left out. Each article names its source, its
+        data period and what the numbers do and don&apos;t measure.
       </p>
 
       <LegalHeading>What you will find here</LegalHeading>

@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import Link from "next/link";
+import { AUTHOR } from "@/lib/site";
 
 type ArticleLayoutProps = {
   eyebrow: string;
@@ -38,6 +39,12 @@ export function ArticleLayout({
       </h1>
       <p className="font-body text-lg text-ink-soft leading-relaxed mb-4">{dek}</p>
       <div className="flex flex-wrap gap-x-4 gap-y-1 font-data text-xs text-stone border-t border-b border-stone-light py-3 mb-10">
+        <span>
+          By{" "}
+          <Link href="/about#author" rel="author" className="text-ink hover:text-signal underline underline-offset-2">
+            {AUTHOR.name}
+          </Link>
+        </span>
         <span>Published {publishedDate}</span>
         {lastUpdated && <span>Updated {lastUpdated}</span>}
         {dataPeriod && <span>Data period: {dataPeriod}</span>}
