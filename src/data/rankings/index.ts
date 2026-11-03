@@ -1,3 +1,4 @@
+import { unescoWorldHeritageSites2026 } from "./unesco-world-heritage-sites-2026";
 import { canadaFastestGrowingCities2026 } from "./canada-fastest-growing-cities-2026";
 import { ontarioLowestCrimePoliceServices2026 } from "./ontario-lowest-crime-police-services-2026";
 import { canadaLargestCities2026 } from "./canada-largest-cities-2026";
@@ -42,6 +43,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  unescoWorldHeritageSites2026,
   canadaFastestGrowingCities2026,
   ontarioLowestCrimePoliceServices2026,
   canadaLargestCities2026,
