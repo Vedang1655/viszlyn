@@ -68,7 +68,7 @@ export function HeaderSearch({ onClose }: { onClose: () => void }) {
             type="search"
             value={query}
             onChange={(ev) => setQuery(ev.target.value)}
-            placeholder="Search rankings, e.g. billionaires, India, AI"
+            placeholder="Search rankings, e.g. billionaires, GDP, AI"
             autoComplete="off"
             className="w-full font-body text-base text-ink bg-transparent border border-stone-light rounded-lg px-4 py-3 focus:outline-none focus:border-signal"
           />
