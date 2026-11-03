@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useCallback, useState } from "react";
+import { HeaderSearch } from "@/components/HeaderSearch";
 
 const NAV_LINKS = [
   { label: "Rankings", href: "/rankings" },
@@ -13,6 +14,8 @@ const NAV_LINKS = [
 
 export function SiteHeader() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const closeSearch = useCallback(() => setSearchOpen(false), []);
 
   return (
     <header className="border-b border-stone-light bg-paper/95 backdrop-blur sticky top-0 z-40">
@@ -44,7 +47,12 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-1">
           <button
-            aria-label="Search"
+            aria-label={searchOpen ? "Close search" : "Search"}
+            aria-expanded={searchOpen}
+            onClick={() => {
+              setSearchOpen((v) => !v);
+              setMenuOpen(false);
+            }}
             className="w-9 h-9 flex items-center justify-center rounded-full hover:bg-ink/5 transition-colors"
           >
             <svg
@@ -63,7 +71,10 @@ export function SiteHeader() {
           <button
             aria-label={menuOpen ? "Close menu" : "Open menu"}
             aria-expanded={menuOpen}
-            onClick={() => setMenuOpen((v) => !v)}
+            onClick={() => {
+              setMenuOpen((v) => !v);
+              setSearchOpen(false);
+            }}
             className="md:hidden w-9 h-9 flex items-center justify-center rounded-full hover:bg-ink/5 transition-colors"
           >
             <svg
@@ -91,6 +102,8 @@ export function SiteHeader() {
           </button>
         </div>
       </div>
+
+      {searchOpen && <HeaderSearch onClose={closeSearch} />}
 
       {menuOpen && (
         <nav className="md:hidden border-t border-stone-light bg-paper flex flex-col px-5 py-3">
