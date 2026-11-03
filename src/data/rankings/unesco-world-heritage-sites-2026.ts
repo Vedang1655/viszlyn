@@ -5,7 +5,7 @@ export const unescoWorldHeritageSites2026: RankingArticle = {
 
   metaTitle: "Countries With the Most UNESCO World Heritage Sites in 2026: Top 15 Ranked | Viszlyn",
   metaDescription:
-    "Italy has 62 UNESCO World Heritage Sites, one more than China (61). See the 15 countries with the most sites after the 2026 update, with cultural, natural and mixed sites for each.",
+    "Italy has 62 UNESCO World Heritage properties, one more than China (61). Explore the top 15 countries after the July 2026 update, including cultural, natural and mixed properties.",
   ogTitle: "The Countries With the Most UNESCO World Heritage Sites",
   ogDescription:
     "Italy 62. China 61. France 56. Germany 55. India 45. The top 15 after UNESCO's July 2026 additions.",
@@ -23,10 +23,10 @@ export const unescoWorldHeritageSites2026: RankingArticle = {
   quickAnswer:
     "Italy has the most UNESCO World Heritage Sites of any country, with 62, according to UNESCO. China is one behind with 61, followed by France (56), Germany (55) and Spain (50). India is 6th with 45. The counts include the 25 new sites added at the World Heritage Committee's 48th session in Busan, Republic of Korea, in July 2026.",
   introParagraph:
-    "UNESCO's World Heritage List recognises places of \"outstanding universal value\": cultural sites such as historic cities and monuments, natural sites such as national parks, and mixed sites that are both. This ranking uses UNESCO's official count of properties for each country (UNESCO calls them States Parties), as of the 48th session of the World Heritage Committee, held in Busan, Republic of Korea, from July 19 to 29, 2026. Some sites are shared by two or more countries; UNESCO counts a shared site once for each country it belongs to, and so do we.",
+    "UNESCO's World Heritage List recognises properties of \"outstanding universal value\": cultural sites such as historic cities and monuments, natural sites such as national parks, and mixed sites that are both. This ranking uses UNESCO's official count of properties for each country (UNESCO calls them States Parties), as of the 48th session of the World Heritage Committee, held in Busan, Republic of Korea, from July 19 to 29, 2026. Some sites are shared by two or more countries; UNESCO counts a shared site once for each country it belongs to, and so do we.",
   calloutBox: {
     label: "A one-site race at the top",
-    body: "Italy and China both gained one site in 2026: Italy for its network of 18th- and 19th-century condominio theatres in Central Italy, and China for the Jingdezhen porcelain industry sites. That keeps Italy just one ahead, 62 to 61. France gained two, the D-Day landing beaches in Normandy and the Royal Capetian Fortresses of Languedoc, more than any other country in 2026.",
+    body: "Italy and China each added one property in 2026: Italy with \"The system of Italian-style condominio theatres of the 18th and 19th centuries in Central Italy\", and China with the \"Jingdezhen Handicraft Porcelain Industry Sites\". That keeps Italy just one ahead, 62 to 61. France added two properties, \"Beaches of the D-Day Landings, Normandy, 1944\" and the \"Royal Capetian Fortresses of Languedoc\", more than any other country in 2026.",
   },
 
   chartTitle: "UNESCO World Heritage Sites by country, 2026 · Number of sites",
@@ -169,7 +169,7 @@ export const unescoWorldHeritageSites2026: RankingArticle = {
       name: "France",
       earnings: "56",
       category: "47 cultural · 7 natural · 2 mixed",
-      blurb: "France has 56 sites after adding two in 2026: the D-Day landing beaches in Normandy and the Royal Capetian Fortresses of Languedoc.",
+      blurb: "France has 56 sites after adding two properties in 2026: the Beaches of the D-Day Landings, Normandy, 1944, and the Royal Capetian Fortresses of Languedoc.",
       standoutFact: "France gained more sites in 2026 than any other country.",
       sourceTag: "UNESCO World Heritage Centre",
     },
@@ -178,7 +178,7 @@ export const unescoWorldHeritageSites2026: RankingArticle = {
       name: "China",
       earnings: "61",
       category: "42 cultural · 15 natural · 4 mixed",
-      blurb: "China has 61 sites, one fewer than Italy, after adding the Jingdezhen porcelain industry sites in 2026.",
+      blurb: "China has 61 sites, one fewer than Italy, after adding the Jingdezhen Handicraft Porcelain Industry Sites in 2026.",
       standoutFact: "China has the most natural World Heritage Sites of any country (15) and, with Australia, the most mixed sites (4).",
       sourceTag: "UNESCO World Heritage Centre",
     },
@@ -187,7 +187,7 @@ export const unescoWorldHeritageSites2026: RankingArticle = {
       name: "Italy",
       earnings: "62",
       category: "56 cultural · 6 natural",
-      blurb: "Italy has the most UNESCO World Heritage Sites of any country, 62, including the Central Italian condominio theatres added in 2026.",
+      blurb: "Italy has the most UNESCO World Heritage Sites of any country, 62, including the Italian-style condominio theatres of Central Italy, added in 2026.",
       standoutFact: "Italy's 56 cultural sites are the most of any country.",
       sourceTag: "UNESCO World Heritage Centre",
     },
