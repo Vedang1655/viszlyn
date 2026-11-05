@@ -122,6 +122,7 @@ export type ArticleVideo = {
   title: string;
   description: string;
   /** ISO 8601 date the video was published, e.g. "2026-10-25". */
+  /** "YYYY-MM-DD" or a full ISO 8601 datetime with timezone (date-only is published as midday UTC) */
   uploadDate: string;
   /** ISO 8601 duration, e.g. "PT6M1S". */
   duration: string;
