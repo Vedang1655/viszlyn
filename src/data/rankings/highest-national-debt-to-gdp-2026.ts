@@ -239,6 +239,6 @@ export const highestNationalDebtToGdp2026: RankingArticle = {
     { title: "The 25 Largest Economies in the World in 2026", href: "/rankings/largest-economies-world-2026" },
     { title: "The 10 Fastest-Growing Economies in 2026", href: "/rankings/fastest-growing-economies-2026" },
     { title: "The Economies With the Biggest Current Account Surpluses in 2026", href: "/rankings/biggest-current-account-surpluses-2026" },
-    { title: "The 10 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
+    { title: "The 20 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
   ],
 };

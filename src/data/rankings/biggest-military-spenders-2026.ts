@@ -227,6 +227,6 @@ export const biggestMilitarySpenders2026: RankingArticle = {
     { title: "The World's Nuclear Arsenals, Ranked (2026)", href: "/rankings/nuclear-arsenals-ranked-2026" },
     { title: "The 10 Largest Economies in the World in 2026", href: "/rankings/largest-economies-world-2026" },
     { title: "The 10 Countries with the Highest Government Debt Relative to GDP in 2026", href: "/rankings/highest-national-debt-to-gdp-2026" },
-    { title: "The 10 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
+    { title: "The 20 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
   ],
 };

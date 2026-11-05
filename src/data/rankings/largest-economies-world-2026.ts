@@ -393,8 +393,9 @@ export const largestEconomiesWorld2026: RankingArticle = {
   ],
 
   relatedLinks: [
+    { title: "The World's 20 Largest Economies in 2030: IMF Projections Ranked", href: "/rankings/largest-economies-2030-imf-projections" },
     { title: "The 10 Fastest-Growing Economies in 2026", href: "/rankings/fastest-growing-economies-2026" },
-    { title: "The 10 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
+    { title: "The 20 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
     { title: "The 10 Countries with the Highest Government Debt Relative to GDP in 2026", href: "/rankings/highest-national-debt-to-gdp-2026" },
     { title: "The Economies With the Biggest Current Account Surpluses in 2026", href: "/rankings/biggest-current-account-surpluses-2026" },
   ],
