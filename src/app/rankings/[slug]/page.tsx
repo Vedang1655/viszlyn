@@ -134,7 +134,10 @@ export default async function RankingArticlePage({ params }: PageProps) {
         name: article.video.title,
         description: article.video.description,
         thumbnailUrl: [`https://i.ytimg.com/vi/${article.video.youtubeId}/maxresdefault.jpg`],
-        uploadDate: article.video.uploadDate,
+        // Google requires a full datetime with a timezone. Date-only values get midday UTC.
+        uploadDate: /^\d{4}-\d{2}-\d{2}$/.test(article.video.uploadDate)
+          ? `${article.video.uploadDate}T12:00:00+00:00`
+          : article.video.uploadDate,
         duration: article.video.duration,
         embedUrl: `https://www.youtube.com/embed/${article.video.youtubeId}`,
         contentUrl: `https://www.youtube.com/watch?v=${article.video.youtubeId}`,
