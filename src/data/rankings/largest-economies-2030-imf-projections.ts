@@ -283,7 +283,7 @@ export const largestEconomies2030ImfProjections: RankingArticle = {
     dataPeriod: "2030 projections compared with 2026 projections, both from the IMF's October 2026 edition",
     lastUpdated: "November 5, 2026",
     sources:
-      "International Monetary Fund, World Economic Outlook database (October 2026), indicator NGDPD (gross domestic product, current prices, US dollars), via the IMF DataMapper. The 2026 figures match those in Viszlyn's ranking of the largest economies in 2026. GDP per capita: IMF indicator NGDPDPC, October 2026.",
+      "International Monetary Fund, World Economic Outlook database (October 2026), indicator NGDPD (gross domestic product, current prices, US dollars), retrieved through the IMF's official data API (SDMX). The 2026 figures match those in Viszlyn's ranking of the largest economies in 2026. GDP per capita: IMF indicator NGDPDPC, October 2026.",
     methodology:
       "Economies are ranked by projected 2030 nominal GDP in current US dollars at market exchange rates. Rank changes compare 2030 with 2026 in the same IMF edition. The IMF lists Taiwan as \"Taiwan Province of China\"; it is included as an economy, as in the IMF data, and is 22nd in 2030, outside the top 20. India's figures are on a fiscal-year basis (April to March), while most others refer to calendar years. The IMF does not publish 2030 projections for a few economies, including Pakistan, Venezuela and Afghanistan; none of them is close to the top 20 in the IMF's latest figures. Gaps, ratios and percentage changes are calculated by Viszlyn from the IMF figures and then rounded. These are forecasts, not results, and the IMF revises them in each edition.",
     sourceLinks: [
