@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
-import { RankList } from "@/components/RankBar";
+import { RankChart } from "@/components/RankChart";
+import { RankEntryList } from "@/components/RankEntryList";
 import { ChartHeader } from "@/components/ChartHeader";
 import { HeroBanner } from "@/components/HeroBanner";
 import { FollowBox } from "@/components/FollowBox";
@@ -13,7 +14,6 @@ import {
   ArticleSection,
   SourceNote,
 } from "@/components/ArticleLayout";
-import { RankEntry } from "@/components/RankEntry";
 import { FAQ } from "@/components/FAQ";
 import { RelatedRankings } from "@/components/RelatedRankings";
 import { VideoEmbed } from "@/components/VideoEmbed";
@@ -232,7 +232,7 @@ export default async function RankingArticlePage({ params }: PageProps) {
           <ArticleSection>
             <div className="bg-ink/[0.02] border border-stone-light rounded-lg p-5 md:p-8">
               <ChartHeader title={article.chartTitle} source={article.chartSource} />
-              <RankList items={article.chartItems} linkable />
+              <RankChart items={article.chartItems} comparisonLabel={article.comparisonLabel} />
               <p className="font-body text-xs text-stone mt-4">{article.chartTapNote}</p>
             </div>
           </ArticleSection>
@@ -240,11 +240,13 @@ export default async function RankingArticlePage({ params }: PageProps) {
           <ArticleSection
             title={`Ranked #${Math.max(...article.detailedEntries.map((entry) => entry.rank))} to #1`}
           >
-            <div>
-              {article.detailedEntries.map((entry) => (
-                <RankEntry key={entry.rank} {...entry} earningsLabel={article.entryValueLabel} />
-              ))}
-            </div>
+            <RankEntryList
+              entries={article.detailedEntries}
+              chartItems={article.chartItems}
+              openCount={article.openEntries}
+              earningsLabel={article.entryValueLabel}
+              comparisonLabel={article.comparisonLabel}
+            />
           </ArticleSection>
 
           <ArticleSection title="What the numbers tell us">

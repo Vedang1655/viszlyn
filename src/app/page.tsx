@@ -39,6 +39,8 @@ export default function Home() {
           href={`/rankings/${featured.slug}`}
           items={featured.chartItems}
           detailedEntries={featured.detailedEntries}
+          comparisonLabel={featured.comparisonLabel}
+          openEntries={featured.openEntries}
         />
         <TrendingCategories />
         <LatestRankings rankings={latestRankings} />
