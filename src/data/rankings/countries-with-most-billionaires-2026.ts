@@ -208,7 +208,7 @@ export const countriesWithMostBillionaires2026: RankingArticle = {
   relatedLinks: [
     { title: "The 10 Richest People in the World", href: "/rankings/richest-people-2026" },
     { title: "The 10 Largest Economies in the World", href: "/rankings/largest-economies-world-2026" },
-    { title: "The 10 Countries with the Highest GDP Per Capita", href: "/rankings/richest-countries-gdp-per-capita-2026" },
+    { title: "The 20 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
     { title: "The 10 Costliest Cities in the World", href: "/rankings/costliest-cities-world-2026" },
   ],
 };

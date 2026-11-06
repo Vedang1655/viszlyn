@@ -246,7 +246,7 @@ export const highestMinimumWageByCountry2026: RankingArticle = {
   relatedLinks: [
     { title: "The iPhone 18 Pro Price in 10 Countries, Ranked", href: "/rankings/iphone-18-pro-price-by-country-2026" },
     { title: "The 10 Countries Where a Big Mac Costs the Most", href: "/rankings/big-mac-index-most-expensive-countries-2026" },
-    { title: "The 10 Countries with the Highest GDP Per Capita", href: "/rankings/richest-countries-gdp-per-capita-2026" },
+    { title: "The 20 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
     { title: "The World's Costliest Cities", href: "/rankings/costliest-cities-world-2026" },
   ],
 };

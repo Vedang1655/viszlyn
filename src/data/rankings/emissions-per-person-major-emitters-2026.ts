@@ -216,7 +216,7 @@ export const emissionsPerPersonMajorEmitters2026: RankingArticle = {
 
   relatedLinks: [
     { title: "The 10 Biggest Greenhouse Gas Emitting Countries in 2025", href: "/rankings/biggest-emitting-countries-2026" },
-    { title: "The 10 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
+    { title: "The 20 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
     { title: "The 10 Largest Economies in the World in 2026", href: "/rankings/largest-economies-world-2026" },
   ],
 };

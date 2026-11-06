@@ -1,3 +1,4 @@
+import { largestEconomies2030ImfProjections } from "./largest-economies-2030-imf-projections";
 import { longestLifeExpectancyCountries2026 } from "./longest-life-expectancy-countries-2026";
 import { unescoWorldHeritageSites2026 } from "./unesco-world-heritage-sites-2026";
 import { canadaFastestGrowingCities2026 } from "./canada-fastest-growing-cities-2026";
@@ -44,6 +45,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  largestEconomies2030ImfProjections,
   longestLifeExpectancyCountries2026,
   unescoWorldHeritageSites2026,
   canadaFastestGrowingCities2026,

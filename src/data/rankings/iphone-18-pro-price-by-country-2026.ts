@@ -243,7 +243,7 @@ export const iphone18ProPriceByCountry2026: RankingArticle = {
   ],
 
   relatedLinks: [
-    { title: "The 10 Countries with the Highest GDP Per Capita", href: "/rankings/richest-countries-gdp-per-capita-2026" },
+    { title: "The 20 Countries with the Highest GDP Per Capita in 2026", href: "/rankings/richest-countries-gdp-per-capita-2026" },
     { title: "The 10 Largest Economies in the World", href: "/rankings/largest-economies-world-2026" },
     { title: "The World's Costliest Cities", href: "/rankings/costliest-cities-world-2026" },
     { title: "The Most Valuable AI Companies", href: "/rankings/most-valuable-ai-companies-2026" },
