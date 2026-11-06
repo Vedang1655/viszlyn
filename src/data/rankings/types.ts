@@ -13,6 +13,8 @@ export type ChartItem = {
   rankLabel?: string;
   /** When set, this item represents a tied group of countries — rendered as flags + names instead of a single name. */
   countries?: CountryFlag[];
+  /** Rank in the comparison year (see RankingArticle.comparisonLabel). Drives the ▲▼ badge and the "Biggest movers" tab. */
+  prevRank?: number;
 };
 
 export type DetailedEntry = {
@@ -107,6 +109,10 @@ export type RankingArticle = {
   heroImage?: ArticleHeroImage;
   /** True when a lower value ranks better (e.g. crime). The auto mosaic then uses equal blocks instead of sizing by value. */
   lowerIsBetter?: boolean;
+  /** Comparison year for rank changes (e.g. "2026"). Together with chartItems[].prevRank it shows ▲▼ badges and a "Biggest movers" tab. */
+  comparisonLabel?: string;
+  /** How many of the top entries render expanded; the rest are collapsed accordion rows (still in the HTML). Default 3. */
+  openEntries?: number;
 
   detailedEntries: DetailedEntry[];
 

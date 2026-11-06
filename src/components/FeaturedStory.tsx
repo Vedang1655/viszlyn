@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { RankList } from "./RankBar";
-import { RankEntry } from "./RankEntry";
+import { RankChart } from "./RankChart";
+import { RankEntryList } from "./RankEntryList";
 import { ChartHeader } from "./ChartHeader";
 import type { ChartItem, DetailedEntry } from "@/data/rankings/types";
 
@@ -13,6 +13,8 @@ type FeaturedStoryProps = {
   href?: string;
   items: ChartItem[];
   detailedEntries: DetailedEntry[];
+  comparisonLabel?: string;
+  openEntries?: number;
 };
 
 export function FeaturedStory({
@@ -24,6 +26,8 @@ export function FeaturedStory({
   href,
   items,
   detailedEntries,
+  comparisonLabel,
+  openEntries,
 }: FeaturedStoryProps) {
   return (
     <section className="max-w-6xl mx-auto px-5 md:px-8 pt-12 pb-4">
@@ -36,17 +40,17 @@ export function FeaturedStory({
 
       <div className="bg-ink/[0.02] border border-stone-light rounded-lg p-5 md:p-8">
         <ChartHeader title={chartTitle} source={chartSource} />
-        <RankList items={items} linkable />
+        <RankChart items={items} comparisonLabel={comparisonLabel} />
       </div>
 
       <div className="max-w-3xl mt-2">
-        {detailedEntries.map((entry) => (
-          <RankEntry
-            key={entry.rank}
-            {...entry}
-            earningsLabel={entryValueLabel}
-          />
-        ))}
+        <RankEntryList
+          entries={detailedEntries}
+          chartItems={items}
+          openCount={openEntries}
+          earningsLabel={entryValueLabel}
+          comparisonLabel={comparisonLabel}
+        />
       </div>
 
       {href && (

@@ -1,7 +1,7 @@
 import { slugify } from "./RankBar";
 import { CountryFlag } from "@/data/rankings/types";
 
-type RankEntryProps = {
+export type RankEntryProps = {
   rank: number;
   name: string;
   earnings: string;
@@ -79,6 +79,35 @@ export function RankEntry({
             )}
           </div>
         )}
+        <RankEntryBody
+          earnings={earnings}
+          earningsLabel={earningsLabel}
+          category={category}
+          revenueSources={revenueSources}
+          blurb={blurb}
+          standoutFact={standoutFact}
+          sourceTag={sourceTag}
+        />
+      </div>
+    </div>
+  );
+}
+
+/** Value, category, blurb and standout: shared by open entries and collapsed (accordion) entries. */
+export function RankEntryBody({
+  earnings,
+  earningsLabel = "Estimated earnings:",
+  category,
+  revenueSources,
+  blurb,
+  standoutFact,
+  sourceTag,
+}: Pick<
+  RankEntryProps,
+  "earnings" | "earningsLabel" | "category" | "revenueSources" | "blurb" | "standoutFact" | "sourceTag"
+>) {
+  return (
+    <>
         <dl className="mt-1.5 flex flex-col gap-1">
           <div className="flex flex-wrap items-baseline gap-x-2 text-sm">
             <dt className="font-body font-medium text-ink shrink-0">
@@ -118,7 +147,6 @@ export function RankEntry({
             )}
           </div>
         )}
-      </div>
-    </div>
+    </>
   );
 }

@@ -41,7 +41,7 @@ body {
 .rank-bar-track {
   position: relative;
   width: 100%;
-  height: 0.85rem;
+  height: 0.4rem;
   background: var(--stone-light);
   opacity: 1;
   border-radius: 2px;
@@ -59,6 +59,41 @@ body {
 
 .rank-bar-fill.is-first {
   background: var(--signal);
+}
+
+/* ▲▼ rank change vs. the comparison year */
+.rank-change {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.4;
+  padding: 1px 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.rank-change.is-up {
+  color: var(--data-teal);
+  background: color-mix(in srgb, var(--data-teal) 12%, transparent);
+}
+.rank-change.is-down {
+  color: #b3261e;
+  background: color-mix(in srgb, #b3261e 9%, transparent);
+}
+.rank-change.is-same {
+  color: var(--stone);
+  opacity: 0.55;
+}
+
+/* Collapsed ranking entries: native <details>, so the full text is in the HTML on load */
+details.rank-acc > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details.rank-acc > summary::-webkit-details-marker {
+  display: none;
+}
+details.rank-acc[open] .rank-acc-chev {
+  transform: rotate(90deg);
 }
 
 /* Long unbroken strings (URLs in source notes, long names) must wrap on narrow phones
