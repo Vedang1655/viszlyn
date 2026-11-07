@@ -146,7 +146,7 @@ export const tallestBuildingsWorld2026: RankingArticle = {
       rank: 13,
       name: "International Commerce Centre",
       earnings: "484 m",
-      category: "Hong Kong · 108 floors · 2010",
+      category: "Hong Kong, China · 108 floors · 2010",
       blurb: "The International Commerce Centre in West Kowloon, completed in 2010, is the tallest building in Hong Kong.",
       standoutFact: "It was completed in the same year as Burj Khalifa.",
       sourceTag: SRC,
@@ -294,6 +294,7 @@ export const tallestBuildingsWorld2026: RankingArticle = {
     sourceLinks: [
       { label: "CTBUH Skyscraper Center (primary source)", href: "https://www.skyscrapercenter.com/" },
       { label: "CTBUH Skyscraper Center: Jeddah Tower", href: "https://www.skyscrapercenter.com/building/jeddah-tower/2" },
+      { label: "Jeddah Economic Company (via Kingdom Holding Company)", href: "https://kingdom.com.sa/investments/jeddah-economic-company" },
       { label: "Gulf News: Jeddah Tower crosses 116 floors (October 6, 2026)", href: "https://gulfnews.com/business/property/jeddah-tower-crosses-116-floors-completion-timeline-moves-1.500699924" },
       { label: "Gulf Business: Jeddah Tower delayed to late 2028 (October 5, 2026)", href: "https://gulfbusiness.com/en/2026/saudi-arabia/jeddah-tower-delayed-late-2028-burj-khalifa/" },
     ],
