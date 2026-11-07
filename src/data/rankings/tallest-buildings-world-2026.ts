@@ -21,6 +21,11 @@ export const tallestBuildingsWorld2026: RankingArticle = {
   publishedDate: "November 7, 2026",
   lastUpdated: "November 7, 2026",
   dataPeriod: "Completed buildings as of November 2026",
+  heroImage: {
+    src: "/heroes/tallest-buildings-world-2026.png",
+    ogSrc: "/heroes/tallest-buildings-world-2026-og.png",
+    alt: "The world's 10 tallest completed buildings drawn to scale, led by Burj Khalifa at 828 metres, with Jeddah Tower shown as a dashed outline at its planned height of over 1,000 metres. Source: CTBUH.",
+  },
 
   quickAnswer:
     "The tallest building in the world is Burj Khalifa in Dubai, at 828 metres, a title it has held since 2010. Second is Menara Merdeka Maybank (Merdeka 118) in Kuala Lumpur at 678.9 metres, and third is Shanghai Tower at 632 metres. Jeddah Tower in Saudi Arabia, under construction and planned at over 1,000 metres, is set to overtake Burj Khalifa, with its developer targeting completion in late 2028.",
