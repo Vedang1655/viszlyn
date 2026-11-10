@@ -3,7 +3,7 @@ import { RankingArticle } from "./types";
 export const biggestCurrentAccountSurpluses2026: RankingArticle = {
   slug: "biggest-current-account-surpluses-2026",
 
-  metaTitle: "The Economies With the Biggest Current Account Surpluses in 2026 | Viszlyn",
+  metaTitle: "Biggest Current Account Surpluses 2026: Top 10 Economies Ranked (IMF) | Viszlyn",
   metaDescription:
     "China is projected to run a current account surplus of US$863.205 billion in 2026, ahead of South Korea at US$421.946 billion. See the 10 biggest surplus economies, ranked by the IMF.",
   ogTitle: "The Economies With the Biggest Current Account Surpluses in 2026",

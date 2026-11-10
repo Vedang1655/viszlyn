@@ -3,7 +3,7 @@ import { RankingArticle } from "./types";
 export const highestEarningCreators2026: RankingArticle = {
   slug: "highest-earning-creators-2026",
 
-  metaTitle: "Highest-Paid Creators 2026: Top 10 Ranked | Viszlyn",
+  metaTitle: "Highest-Paid Creators & YouTubers 2026: Top 10 Earnings Ranked | Viszlyn",
   metaDescription:
     "The 10 highest-paid creators of 2026, ranked by earnings. MrBeast leads at an estimated $300M. See how they make money (Forbes, March 2025–March 2026).",
   ogTitle: "MrBeast Makes $300M: The 10 Highest-Earning Creators in 2026",
