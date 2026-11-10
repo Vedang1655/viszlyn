@@ -1,3 +1,4 @@
+import { biggestArmsExporters2026 } from "./biggest-arms-exporters-2026";
 import { tallestBuildingsWorld2026 } from "./tallest-buildings-world-2026";
 import { largestEconomies2030ImfProjections } from "./largest-economies-2030-imf-projections";
 import { longestLifeExpectancyCountries2026 } from "./longest-life-expectancy-countries-2026";
@@ -46,6 +47,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  biggestArmsExporters2026,
   tallestBuildingsWorld2026,
   largestEconomies2030ImfProjections,
   longestLifeExpectancyCountries2026,
