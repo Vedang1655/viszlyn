@@ -16,6 +16,7 @@ import {
 } from "@/components/ArticleLayout";
 import { FAQ } from "@/components/FAQ";
 import { RelatedRankings } from "@/components/RelatedRankings";
+import { ReadNext } from "@/components/ReadNext";
 import { VideoEmbed } from "@/components/VideoEmbed";
 import { ALL_RANKING_ARTICLES, getAllRankingSlugs, getRankingArticle } from "@/data/rankings";
 import { SITE_NAME, SITE_URL, toIsoDate } from "@/lib/seo";
@@ -42,6 +43,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     description: article.metaDescription,
     alternates: {
       canonical: url,
+      types: { "application/rss+xml": [{ url: "/feed.xml", title: "Viszlyn rankings" }] },
     },
     openGraph: {
       title: article.ogTitle,
@@ -146,10 +148,21 @@ export default async function RankingArticlePage({ params }: PageProps) {
 
   // Related links: keep the article's own live links, then top up to four with
   // other articles (same section first, newest first) so there are no dead ends.
+  // "Read next": the newest article that isn't this one and isn't already in Related Rankings.
+  const readNext =
+    ALL_RANKING_ARTICLES.find(
+      (a) =>
+        a.slug !== article.slug &&
+        !article.relatedLinks.some((l) => l.href === `/rankings/${a.slug}`),
+    ) ?? null;
   const liveRelated = article.relatedLinks.filter((l) => !l.comingSoon);
   const relatedLinks = [...liveRelated];
   if (relatedLinks.length < 4) {
-    const taken = new Set([`/rankings/${article.slug}`, ...relatedLinks.map((l) => l.href)]);
+    const taken = new Set([
+      `/rankings/${article.slug}`,
+      ...(readNext ? [`/rankings/${readNext.slug}`] : []),
+      ...relatedLinks.map((l) => l.href),
+    ]);
     const candidates = ALL_RANKING_ARTICLES.filter((a) => !taken.has(`/rankings/${a.slug}`)).sort(
       (x, y) =>
         Number(y.eyebrow === article.eyebrow) - Number(x.eyebrow === article.eyebrow) ||
@@ -270,6 +283,12 @@ export default async function RankingArticlePage({ params }: PageProps) {
           <ArticleSection title="Frequently Asked Questions">
             <FAQ items={article.faqItems} />
           </ArticleSection>
+
+          {readNext && (
+            <ArticleSection>
+              <ReadNext article={readNext} />
+            </ArticleSection>
+          )}
 
           <ArticleSection title="Related Rankings">
             <RelatedRankings

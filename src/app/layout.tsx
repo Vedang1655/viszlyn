@@ -24,6 +24,9 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.viszlyn.io"),
+  alternates: {
+    types: { "application/rss+xml": [{ url: "/feed.xml", title: "Viszlyn rankings" }] },
+  },
   title: "Viszlyn — Data. Visualized.",
   applicationName: "Viszlyn",
   // Lets Google show large image previews (needed for big cards in Google Discover).
