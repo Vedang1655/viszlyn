@@ -21,6 +21,11 @@ export const biggestArmsExporters2026: RankingArticle = {
   publishedDate: "November 10, 2026",
   lastUpdated: "November 10, 2026",
   dataPeriod: "2021–25 (five-year period), SIPRI Arms Transfers Database (March 2026)",
+  heroImage: {
+    src: "/heroes/biggest-arms-exporters-2026.png",
+    ogSrc: "/heroes/biggest-arms-exporters-2026-og.png",
+    alt: "Bar chart of the world's 10 biggest arms exporters by share of global arms exports in 2021–25, led by the United States at 42%, then France at 9.8% and Russia at 6.8%. Source: SIPRI.",
+  },
 
   quickAnswer:
     "The United States was the world's biggest arms exporter in 2021–25, with 42% of global arms exports, more than the next seven suppliers combined. France was second with 9.8%, followed by Russia (6.8%), Germany (5.7%) and China (5.6%). Russia's share fell from 21% in 2016–20, and it is the only top-10 exporter whose export volume fell.",
