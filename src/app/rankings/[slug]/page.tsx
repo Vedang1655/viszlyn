@@ -272,7 +272,12 @@ export default async function RankingArticlePage({ params }: PageProps) {
           </ArticleSection>
 
           <ArticleSection title="Related Rankings">
-            <RelatedRankings links={relatedLinks} />
+            <RelatedRankings
+              links={relatedLinks.map((l) => {
+                const live = ALL_RANKING_ARTICLES.find((a) => `/rankings/${a.slug}` === l.href);
+                return live ? { ...l, title: live.title } : l;
+              })}
+            />
           </ArticleSection>
 
           <ArticleSection>

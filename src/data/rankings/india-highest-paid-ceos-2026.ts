@@ -180,6 +180,10 @@ export const indiaHighestPaidCeos2026: RankingArticle = {
 
   faqItems: [
     {
+      question: "What is Sandeep Kalra's salary in 2026?",
+      answer: "Persistent Systems CEO Sandeep Kalra's total remuneration for FY26 (the year ended March 2026) was \u20b9388.58 crore, the highest of any CEO in India. Only around \u20b922.58 crore (roughly 6%) of that was fixed pay and benefits; the rest came from stock-based compensation.",
+    },
+    {
       question: "Why is Sandeep Kalra's pay so much higher than everyone else's?",
       answer: "The large majority of Kalra's \u20b9388.58 crore FY26 total came from stock-based compensation, not fixed salary \u2014 his base pay and benefits account for only around \u20b922.58 crore (roughly 6%) of the total. A large block of stock awards vesting or being exercised in a single year can produce a reported figure far above a CEO's typical annual pay.",
     },

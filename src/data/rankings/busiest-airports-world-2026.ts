@@ -3,7 +3,7 @@ import { RankingArticle } from "./types";
 export const busiestAirportsWorld2026: RankingArticle = {
   slug: "busiest-airports-world-2026",
 
-  metaTitle: "The 10 Busiest Airports in the World in 2026 | Viszlyn",
+  metaTitle: "Busiest Airports in the World 2026: Top 10 by Passengers | Viszlyn",
   metaDescription:
     "Atlanta handled 106.3 million passengers in 2025, the most of any airport on Earth. See the 10 busiest airports in the world, ranked with ACI World's latest figures.",
   ogTitle: "The 10 Busiest Airports in the World",
@@ -196,6 +196,11 @@ export const busiestAirportsWorld2026: RankingArticle = {
       question: "What is the busiest airport in the world?",
       answer:
         "Hartsfield-Jackson Atlanta International Airport in the United States, with 106.3 million passengers in 2025 according to ACI World. Atlanta has held the top spot for 27 of the last 28 years, losing it only in 2020.",
+    },
+    {
+      question: "What is the busiest airport in Europe?",
+      answer:
+        "London Heathrow, which handled 84.5 million passengers in 2025, up 0.7% from 2024. It ranks 7th in the world, just ahead of Istanbul (84.4 million), the only other European airport in the top 10.",
     },
     {
       question: "Which airport is busiest for international flights?",
