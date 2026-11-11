@@ -4,6 +4,7 @@
 // (NVIDIA $215,938M; TSMC US$122.42B; Samsung DS ₩130.1T ≈ $91,530M at 2025 avg ₩1,421.40/US$).
 // Run: node scripts/hero-images/biggest-chip-companies-2026.mjs
 import { renderHero } from "./render.mjs";
+import { listCard } from "./list-card.mjs";
 
 const slug = "biggest-chip-companies-2026";
 
@@ -59,4 +60,24 @@ const css = `
 .site{color:#F7F5F0;font-weight:800;font-size:22px}
 `;
 
-await renderHero({ slug, css, body });
+// In-article image: the full top 10 in large type.
+const page = await listCard({
+  eyebrow: "Company-reported revenue · latest fiscal year",
+  title: "The World's 10 Biggest<br/>Chip Companies",
+  rows: [
+    { name: "NVIDIA", flag: "us", value: "$215.9B", raw: 215.9 },
+    { name: "TSMC", flag: "tw", value: "$122.4B", raw: 122.4 },
+    { name: "Samsung", flag: "kr", value: "$91.5B", raw: 91.5 },
+    { name: "SK hynix", flag: "kr", value: "$68.3B", raw: 68.3 },
+    { name: "Intel", flag: "us", value: "$49.1B", raw: 49.1 },
+    { name: "Qualcomm", flag: "us", value: "$38.4B", raw: 38.4 },
+    { name: "Micron", flag: "us", value: "$37.4B", raw: 37.4 },
+    { name: "Broadcom", flag: "us", value: "$36.9B", raw: 36.9 },
+    { name: "AMD", flag: "us", value: "$34.6B", raw: 34.6 },
+    { name: "MediaTek", flag: "tw", value: "$19.1B", raw: 19.1 },
+  ],
+  note: "NVIDIA: total company revenue. Samsung, Intel, Qualcomm, Broadcom: chip division/segment only.",
+  source: "Source: company annual results · Samsung &amp; SK hynix converted at 2025 avg rate",
+});
+
+await renderHero({ slug, css, body, page });

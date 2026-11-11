@@ -22,23 +22,36 @@ async function fontFaces() {
   return faces.join("\n");
 }
 
-export async function renderHero({ slug, css, body }) {
+/**
+ * Renders the hero images for an article.
+ * - `css` + `body`: the 1200x630 share image (<slug>-og.png), used by Open Graph / Discover.
+ *   Keep it bold: it is seen at ~360px wide in feeds.
+ * - `page` (optional): a separate in-article image (<slug>.png) at its own size, e.g. a
+ *   1080x1350 card with the full ranking in large type. Without it, the share design is
+ *   reused at 2x for the page.
+ */
+export async function renderHero({ slug, css, body, page: pageDesign }) {
   const outDir = path.join(ROOT, "public/heroes");
   await mkdir(outDir, { recursive: true });
-  const html = `<!doctype html><html><head><meta charset="utf-8"><style>${await fontFaces()}
+  const faces = await fontFaces();
+  const doc = (c, b) => `<!doctype html><html><head><meta charset="utf-8"><style>${faces}
 html,body{margin:0;padding:0;background:#0B0E14}
-${css}</style></head><body>${body}</body></html>`;
+${c}</style></head><body>${b}</body></html>`;
+
+  const jobs = [
+    pageDesign
+      ? { html: doc(pageDesign.css, pageDesign.body), w: pageDesign.width ?? 1080, h: pageDesign.height ?? 1350, scale: 2, file: `${slug}.png` }
+      : { html: doc(css, body), w: 1200, h: 630, scale: 2, file: `${slug}.png` },
+    { html: doc(css, body), w: 1200, h: 630, scale: 1, file: `${slug}-og.png` },
+  ];
 
   const browser = await chromium.launch();
   try {
-    for (const [scale, file] of [
-      [2, `${slug}.png`],
-      [1, `${slug}-og.png`],
-    ]) {
-      const page = await browser.newPage({ viewport: { width: 1200, height: 630 }, deviceScaleFactor: scale });
+    for (const { html, w, h, scale, file } of jobs) {
+      const page = await browser.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: scale });
       await page.setContent(html, { waitUntil: "load" });
       await page.evaluate(() => document.fonts.ready);
-      await page.screenshot({ path: path.join(outDir, file), clip: { x: 0, y: 0, width: 1200, height: 630 } });
+      await page.screenshot({ path: path.join(outDir, file), clip: { x: 0, y: 0, width: w, height: h } });
       await page.close();
     }
   } finally {

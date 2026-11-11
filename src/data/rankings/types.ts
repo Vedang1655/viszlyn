@@ -135,8 +135,11 @@ export type ArticleVideo = {
 };
 
 export type ArticleHeroImage = {
-  /** 2400x1260 PNG under /public, shown on the article page, e.g. "/heroes/<slug>.png" */
+  /** PNG under /public shown on the article page, e.g. "/heroes/<slug>.png" (2x of width x height) */
   src: string;
+  /** Display size of `src` in CSS pixels. Default 1200x630. Full-ranking cards use 1080x1350. */
+  width?: number;
+  height?: number;
   /** 1200x630 PNG under /public, used for Open Graph, Twitter and Google Discover */
   ogSrc: string;
   alt: string;

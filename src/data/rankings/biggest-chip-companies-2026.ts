@@ -23,6 +23,8 @@ export const biggestChipCompanies2026: RankingArticle = {
   dataPeriod: "Latest fiscal year ending in 2025 or January 2026",
   heroImage: {
     src: "/heroes/biggest-chip-companies-2026.png",
+    width: 1080,
+    height: 1350,
     ogSrc: "/heroes/biggest-chip-companies-2026-og.png",
     alt: "Bar chart of the world's 10 biggest chip companies by semiconductor revenue in their latest fiscal year, led by NVIDIA at $215.9 billion, then TSMC at $122.4 billion and Samsung at $91.5 billion.",
   },
