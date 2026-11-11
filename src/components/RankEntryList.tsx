@@ -15,7 +15,7 @@ import type { ChartItem, DetailedEntry } from "@/data/rankings/types";
 export function RankEntryList({
   entries,
   chartItems,
-  openCount = 3,
+  openCount,
   earningsLabel,
   comparisonLabel,
 }: {
@@ -26,12 +26,15 @@ export function RankEntryList({
   comparisonLabel?: string;
 }) {
   const prevRankOf = new Map(chartItems.map((c) => [c.name, c.prevRank]));
+  // Short rankings (10 entries or fewer) show everything open; longer ones collapse after the top 3
+  // unless the article sets its own openEntries.
+  const openUpTo = openCount ?? (entries.length <= 10 ? Infinity : 3);
 
   return (
     <div>
       <OpenEntryOnHash />
       {entries.map((entry) => {
-        if (entry.rank <= openCount) {
+        if (entry.rank <= openUpTo) {
           return <RankEntry key={entry.rank + entry.name} {...entry} earningsLabel={earningsLabel} />;
         }
         const prevRank = comparisonLabel ? prevRankOf.get(entry.name) : undefined;

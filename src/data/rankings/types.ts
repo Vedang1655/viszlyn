@@ -111,7 +111,7 @@ export type RankingArticle = {
   lowerIsBetter?: boolean;
   /** Comparison year for rank changes (e.g. "2026"). Together with chartItems[].prevRank it shows ▲▼ badges and a "Biggest movers" tab. */
   comparisonLabel?: string;
-  /** How many of the top entries render expanded; the rest are collapsed accordion rows (still in the HTML). Default 3. */
+  /** How many of the top entries render expanded; the rest are collapsed accordion rows (still in the HTML). Default: all when there are 10 or fewer entries, otherwise 3. */
   openEntries?: number;
 
   detailedEntries: DetailedEntry[];
