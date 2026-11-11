@@ -1,82 +1,63 @@
-// Hero images for /rankings/biggest-arms-exporters-2026
+// Share / Google Discover image for /rankings/biggest-arms-exporters-2026 (not shown on the page;
+// the article keeps its block mosaic). Big title + top 3 flags, area proportional to share.
 // Data: SIPRI Arms Transfers Database (March 2026), share of global arms exports, 2021–25.
-// Share image (feed size): one big number + three thick bars. In-article image: full top 10.
 // Run: node scripts/hero-images/biggest-arms-exporters-2026.mjs
+import { readFile } from "node:fs/promises";
+import path from "node:path";
 import { renderHero } from "./render.mjs";
-import { listCard } from "./list-card.mjs";
 
 const slug = "biggest-arms-exporters-2026";
+const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "../..");
+const flag = async (c) =>
+  "data:image/svg+xml;base64," +
+  (await readFile(path.join(ROOT, `node_modules/flag-icons/flags/4x3/${c}.svg`))).toString("base64");
 
-const BARS = [
-  ["United States", 42, true],
-  ["France", 9.8, false],
-  ["Russia", 6.8, false],
+const TOP = [
+  ["United States", "us", 42, "42%"],
+  ["France", "fr", 9.8, "9.8%"],
+  ["Russia", "ru", 6.8, "6.8%"],
 ];
-const MAX_W = 340;
-const fmt = (v) => (v === 42 ? "42%" : `${v.toFixed(1)}%`);
+const BIG_W = 280; // width of the largest flag; others scaled by sqrt so area ~ share
 
-const bars = BARS.map(
-  ([name, v, first]) => `
-  <div class="bar-row">
-    <div class="lab${first ? " o" : ""}">${name}</div>
-    <div class="track"><div class="fill${first ? " o" : ""}" style="width:${Math.max(8, (v / 42) * MAX_W).toFixed(0)}px"></div><span class="val${first ? " o" : ""}">${fmt(v)}</span></div>
-  </div>`
+const flags = (
+  await Promise.all(
+    TOP.map(async ([name, code, v, label], i) => {
+      const w = Math.round(BIG_W * Math.sqrt(v / TOP[0][2]));
+      const first = i === 0;
+      return `<div class="f">
+        <div class="val${first ? " o" : ""}" style="font-size:${first ? 78 : 40}px">${label}</div>
+        <img src="${await flag(code)}" style="width:${w}px;height:${Math.round((w * 3) / 4)}px"/>
+        <div class="nm">#${i + 1} ${name}</div>
+      </div>`;
+    })
+  )
 ).join("");
 
 const body = `
 <div class="wrap">
-  <div class="top">
-    <span class="v">V</span>
-    <span class="eyebrow">World's biggest arms exporters · 2021–25</span>
-  </div>
   <div class="left">
-    <div class="rank">#1 United States</div>
-    <div class="big">42%</div>
-    <div class="sub">of all arms exports.<br/>More than the next 7 combined</div>
+    <div class="eyebrow"><span class="v">V</span>Ranked · 2021–25</div>
+    <h1>The World's<br/>Biggest Arms<br/>Exporters</h1>
+    <div class="sub">One country supplies<br/>42% of all arms exports</div>
   </div>
-  <div class="right">${bars}</div>
-  <div class="foot">
-    <span>Share of global arms exports · SIPRI, March 2026</span>
-    <span class="site">viszlyn.io</span>
-  </div>
+  <div class="flags">${flags}</div>
+  <div class="foot"><span>Share of global arms exports · SIPRI, March 2026</span><span class="site">viszlyn.io</span></div>
 </div>`;
 
 const css = `
 .wrap{position:relative;width:1200px;height:630px;background:#0B0E14;color:#F7F5F0;font-family:Inter;overflow:hidden}
-.top{position:absolute;left:56px;top:44px;display:flex;align-items:center;gap:16px}
-.v{display:grid;place-items:center;width:44px;height:44px;border-radius:8px;background:#FF5D3A;color:#0B0E14;font-weight:900;font-size:28px}
-.eyebrow{font-weight:800;font-size:30px;letter-spacing:.5px;text-transform:uppercase;color:#FF5D3A}
-.left{position:absolute;left:56px;top:150px;width:580px}
-.rank{font-weight:800;font-size:44px;line-height:1}
-.big{font-weight:900;font-size:170px;line-height:1;letter-spacing:-5px;color:#FF5D3A;margin-top:10px}
-.sub{font-weight:800;font-size:36px;line-height:1.2;margin-top:16px}
-.right{position:absolute;left:660px;top:160px;width:500px}
-.bar-row{margin-bottom:34px}
-.lab{font-weight:800;font-size:34px;line-height:1;margin-bottom:10px;color:rgba(247,245,240,.9)}.lab.o{color:#FF5D3A}
-.track{display:flex;align-items:center;gap:14px}
-.fill{height:56px;border-radius:8px;background:#C9C4B8}.fill.o{background:#FF5D3A}
-.val{font-weight:900;font-size:36px}.val.o{color:#FF5D3A}
-.foot{position:absolute;left:56px;right:56px;bottom:26px;display:flex;justify-content:space-between;font-size:18px;color:rgba(247,245,240,.55)}
+.left{position:absolute;left:56px;top:46px;width:470px}
+.eyebrow{display:flex;align-items:center;gap:14px;color:#FF5D3A;font-weight:800;font-size:26px;letter-spacing:2px;text-transform:uppercase}
+.v{display:grid;place-items:center;width:40px;height:40px;border-radius:8px;background:#FF5D3A;color:#0B0E14;font-weight:900;font-size:26px;letter-spacing:0}
+h1{margin:22px 0 0;font-weight:900;font-size:68px;line-height:.98;letter-spacing:-2.5px}
+.sub{margin-top:26px;font-weight:800;font-size:30px;line-height:1.2;color:#FF5D3A}
+.flags{position:absolute;left:560px;right:24px;top:60px;bottom:70px;display:flex;align-items:flex-end;justify-content:space-between;gap:14px}
+.f{display:flex;flex-direction:column;align-items:center}
+.f img{border-radius:8px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+.val{font-weight:900;line-height:1;margin-bottom:12px}.val.o{color:#FF5D3A}
+.nm{margin-top:14px;font-weight:800;font-size:22px;color:rgba(247,245,240,.85);white-space:nowrap}
+.foot{position:absolute;left:56px;right:56px;bottom:24px;display:flex;justify-content:space-between;font-size:17px;color:rgba(247,245,240,.55)}
 .site{color:#F7F5F0;font-weight:800;font-size:22px}
 `;
 
-const page = await listCard({
-  eyebrow: "Share of global arms exports · 2021–25",
-  title: "The World's 10 Biggest<br/>Arms Exporters",
-  rows: [
-    { name: "United States", flag: "us", value: "42%", raw: 42 },
-    { name: "France", flag: "fr", value: "9.8%", raw: 9.8 },
-    { name: "Russia", flag: "ru", value: "6.8%", raw: 6.8 },
-    { name: "Germany", flag: "de", value: "5.7%", raw: 5.7 },
-    { name: "China", flag: "cn", value: "5.6%", raw: 5.6 },
-    { name: "Italy", flag: "it", value: "5.1%", raw: 5.1 },
-    { name: "Israel", flag: "il", value: "4.4%", raw: 4.4 },
-    { name: "United Kingdom", flag: "gb", value: "3.4%", raw: 3.4 },
-    { name: "South Korea", flag: "kr", value: "3.0%", raw: 3.0 },
-    { name: "Spain", flag: "es", value: "2.3%", raw: 2.3 },
-  ],
-  note: "Russia's share fell from 21% in 2016–20. Shares measure volume of weapons transferred (SIPRI TIV), not dollar value.",
-  source: "Source: SIPRI Arms Transfers Database, March 2026",
-});
-
-await renderHero({ slug, css, body, page });
+await renderHero({ slug, css, body });

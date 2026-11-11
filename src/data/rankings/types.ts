@@ -137,9 +137,11 @@ export type ArticleVideo = {
 export type ArticleHeroImage = {
   /** PNG under /public shown on the article page, e.g. "/heroes/<slug>.png" (2x of width x height) */
   src: string;
-  /** Display size of `src` in CSS pixels. Default 1200x630. Full-ranking cards use 1080x1350. */
-  width?: number;
-  height?: number;
+  /**
+   * Show `src` at the top of the article. Default true. Set false to keep the automatic
+   * block mosaic on the page and use the image only for sharing / Google Discover (ogSrc).
+   */
+  onPage?: boolean;
   /** 1200x630 PNG under /public, used for Open Graph, Twitter and Google Discover */
   ogSrc: string;
   alt: string;

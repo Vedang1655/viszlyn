@@ -194,17 +194,15 @@ export default async function RankingArticlePage({ params }: PageProps) {
           dataPeriod={article.dataPeriod}
         >
           <ArticleSection>
-            {article.heroImage ? (
+            {article.heroImage && article.heroImage.onPage !== false ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img
                 src={article.heroImage.src}
                 alt={article.heroImage.alt}
-                width={article.heroImage.width ?? 1200}
-                height={article.heroImage.height ?? 630}
+                width={1200}
+                height={630}
                 fetchPriority="high"
-                className={`block w-full h-auto rounded-xl ${
-                  (article.heroImage.height ?? 630) > (article.heroImage.width ?? 1200) ? "max-w-[560px] mx-auto" : ""
-                }`}
+                className="block w-full h-auto rounded-xl"
               />
             ) : (
               <HeroBanner

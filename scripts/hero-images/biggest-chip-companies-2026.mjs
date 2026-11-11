@@ -1,83 +1,68 @@
-// Hero image for /rankings/biggest-chip-companies-2026
-// Designed to read at feed size (~360px wide): one big number, three thick bars, large labels.
-// Data: company-reported chip business revenue in latest fiscal year (NVIDIA: total company revenue)
-// (NVIDIA $215,938M; TSMC US$122.42B; Samsung DS ₩130.1T ≈ $91,530M at 2025 avg ₩1,421.40/US$).
+// Share / Google Discover image for /rankings/biggest-chip-companies-2026 (not shown on the page;
+// the article keeps its block mosaic). Big title + top 3 drawn as chips, area proportional to revenue.
+// Data: company-reported revenue, latest fiscal year (NVIDIA: total company revenue).
 // Run: node scripts/hero-images/biggest-chip-companies-2026.mjs
 import { renderHero } from "./render.mjs";
-import { listCard } from "./list-card.mjs";
 
 const slug = "biggest-chip-companies-2026";
 
-const BARS = [
-  ["NVIDIA", 215.9, true],
-  ["TSMC", 122.4, false],
-  ["Samsung", 91.5, false],
+const TOP = [
+  ["NVIDIA", 215.9, "#FF5D3A"],
+  ["TSMC", 122.4, "#E9E5DA"],
+  ["Samsung", 91.5, "#C9C4B8"],
 ];
-const MAX_W = 340;
+const BIG = 205; // side of the largest chip in px; others scaled by sqrt so area ~ revenue
 
-const bars = BARS.map(
-  ([name, v, first]) => `
-  <div class="bar-row">
-    <div class="lab${first ? " o" : ""}">${name}</div>
-    <div class="track"><div class="fill${first ? " o" : ""}" style="width:${((v / 215.9) * MAX_W).toFixed(0)}px"></div><span class="val${first ? " o" : ""}">$${v.toFixed(1)}B</span></div>
-  </div>`
-).join("");
+const chip = ([name, v, color], i) => {
+  const side = Math.round(BIG * Math.sqrt(v / TOP[0][1]));
+  const first = i === 0;
+  return `
+  <div class="chipwrap">
+    <div class="chip" style="width:${side}px;height:${side}px;background:${color}">
+      <div class="pins top"></div><div class="pins bottom"></div><div class="pins left"></div><div class="pins right"></div>
+      <div class="inner">
+        <div class="cn" style="font-size:${first ? 34 : Math.max(22, side / 7).toFixed(0)}px">${name}</div>
+        <div class="cv" style="font-size:${first ? 44 : Math.max(24, side / 6).toFixed(0)}px">$${v.toFixed(1)}B</div>
+      </div>
+    </div>
+    <div class="rk">#${i + 1}</div>
+  </div>`;
+};
 
 const body = `
 <div class="wrap">
-  <div class="top">
-    <span class="v">V</span>
-    <span class="eyebrow">World's biggest chip companies · 2025</span>
-  </div>
   <div class="left">
-    <div class="rank">#1 NVIDIA</div>
-    <div class="big">$215.9B</div>
-    <div class="sub">More than TSMC + Samsung<br/>combined</div>
+    <div class="eyebrow"><span class="v">V</span>Ranked · 2025</div>
+    <h1>The World's<br/>Biggest Chip<br/>Companies</h1>
+    <div class="sub">NVIDIA's revenue beat<br/>TSMC + Samsung combined</div>
   </div>
-  <div class="right">${bars}</div>
-  <div class="foot">
-    <span>Company-reported revenue, latest fiscal year · NVIDIA: total company revenue</span>
-    <span class="site">viszlyn.io</span>
-  </div>
+  <div class="chips">${TOP.map(chip).join("")}</div>
+  <div class="foot"><span>Company-reported revenue, latest fiscal year (NVIDIA: total company revenue)</span><span class="site">viszlyn.io</span></div>
 </div>`;
+
+const pins = (dir) => {
+  const horiz = dir === "top" || dir === "bottom";
+  return `.pins.${dir}{position:absolute;${dir}:-16px;${horiz ? "left:12%;right:12%;height:16px" : "top:12%;bottom:12%;width:16px"};
+  background:repeating-linear-gradient(${horiz ? "90deg" : "0deg"},#8A867C 0 8px,transparent 8px 22px)}`;
+};
 
 const css = `
 .wrap{position:relative;width:1200px;height:630px;background:#0B0E14;color:#F7F5F0;font-family:Inter;overflow:hidden}
-.top{position:absolute;left:56px;top:44px;display:flex;align-items:center;gap:16px}
-.v{display:grid;place-items:center;width:44px;height:44px;border-radius:8px;background:#FF5D3A;color:#0B0E14;font-weight:900;font-size:28px}
-.eyebrow{font-weight:800;font-size:30px;letter-spacing:.5px;text-transform:uppercase;color:#FF5D3A}
-.left{position:absolute;left:56px;top:150px;width:580px}
-.rank{font-weight:800;font-size:48px;line-height:1}
-.big{font-weight:900;font-size:124px;line-height:1;letter-spacing:-4px;color:#FF5D3A;margin-top:14px}
-.sub{font-weight:800;font-size:40px;line-height:1.15;margin-top:20px}
-.right{position:absolute;left:660px;top:160px;width:500px}
-.bar-row{margin-bottom:34px}
-.lab{font-weight:800;font-size:34px;line-height:1;margin-bottom:10px;color:rgba(247,245,240,.9)}.lab.o{color:#FF5D3A}
-.track{display:flex;align-items:center;gap:14px}
-.fill{height:56px;border-radius:8px;background:#C9C4B8}.fill.o{background:#FF5D3A}
-.val{font-weight:900;font-size:36px}.val.o{color:#FF5D3A}
-.foot{position:absolute;left:56px;right:56px;bottom:26px;display:flex;justify-content:space-between;font-size:18px;color:rgba(247,245,240,.55)}
+.left{position:absolute;left:56px;top:46px;width:470px}
+.eyebrow{display:flex;align-items:center;gap:14px;color:#FF5D3A;font-weight:800;font-size:26px;letter-spacing:2px;text-transform:uppercase}
+.v{display:grid;place-items:center;width:40px;height:40px;border-radius:8px;background:#FF5D3A;color:#0B0E14;font-weight:900;font-size:26px;letter-spacing:0}
+h1{margin:22px 0 0;font-weight:900;font-size:68px;line-height:.98;letter-spacing:-2.5px}
+.sub{margin-top:26px;font-weight:800;font-size:30px;line-height:1.2;color:#FF5D3A}
+.chips{position:absolute;left:560px;right:24px;top:70px;bottom:70px;display:flex;align-items:flex-end;justify-content:space-between;gap:16px}
+.chipwrap{display:flex;flex-direction:column;align-items:center;padding:18px 10px 0}
+.chip{position:relative;border-radius:14px;display:grid;place-items:center;box-shadow:0 0 0 6px #0B0E14 inset}
+.inner{text-align:center;color:#0B0E14;padding:8px}
+.cn{font-weight:900;line-height:1}
+.cv{font-weight:900;line-height:1.05;margin-top:6px;letter-spacing:-1px}
+${pins("top")}${pins("bottom")}${pins("left")}${pins("right")}
+.rk{margin-top:26px;font-weight:900;font-size:34px;color:rgba(247,245,240,.85)}
+.foot{position:absolute;left:56px;right:56px;bottom:24px;display:flex;justify-content:space-between;font-size:17px;color:rgba(247,245,240,.55)}
 .site{color:#F7F5F0;font-weight:800;font-size:22px}
 `;
 
-// In-article image: the full top 10 in large type.
-const page = await listCard({
-  eyebrow: "Company-reported revenue · latest fiscal year",
-  title: "The World's 10 Biggest<br/>Chip Companies",
-  rows: [
-    { name: "NVIDIA", flag: "us", value: "$215.9B", raw: 215.9 },
-    { name: "TSMC", flag: "tw", value: "$122.4B", raw: 122.4 },
-    { name: "Samsung", flag: "kr", value: "$91.5B", raw: 91.5 },
-    { name: "SK hynix", flag: "kr", value: "$68.3B", raw: 68.3 },
-    { name: "Intel", flag: "us", value: "$49.1B", raw: 49.1 },
-    { name: "Qualcomm", flag: "us", value: "$38.4B", raw: 38.4 },
-    { name: "Micron", flag: "us", value: "$37.4B", raw: 37.4 },
-    { name: "Broadcom", flag: "us", value: "$36.9B", raw: 36.9 },
-    { name: "AMD", flag: "us", value: "$34.6B", raw: 34.6 },
-    { name: "MediaTek", flag: "tw", value: "$19.1B", raw: 19.1 },
-  ],
-  note: "NVIDIA: total company revenue. Samsung, Intel, Qualcomm, Broadcom: chip division/segment only.",
-  source: "Source: company annual results · Samsung &amp; SK hynix converted at 2025 avg rate",
-});
-
-await renderHero({ slug, css, body, page });
+await renderHero({ slug, css, body });
