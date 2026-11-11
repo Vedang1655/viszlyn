@@ -1,6 +1,6 @@
 // Hero image for /rankings/biggest-chip-companies-2026
 // Designed to read at feed size (~360px wide): one big number, three thick bars, large labels.
-// Data: company annual results, semiconductor revenue in latest fiscal year
+// Data: company-reported chip business revenue in latest fiscal year (NVIDIA: total company revenue)
 // (NVIDIA $215,938M; TSMC US$122.42B; Samsung DS ₩130.1T ≈ $91,530M at 2025 avg ₩1,421.40/US$).
 // Run: node scripts/hero-images/biggest-chip-companies-2026.mjs
 import { renderHero } from "./render.mjs";
@@ -35,7 +35,7 @@ const body = `
   </div>
   <div class="right">${bars}</div>
   <div class="foot">
-    <span>Semiconductor revenue, latest fiscal year · company reports</span>
+    <span>Company-reported revenue, latest fiscal year · NVIDIA: total company revenue</span>
     <span class="site">viszlyn.io</span>
   </div>
 </div>`;
