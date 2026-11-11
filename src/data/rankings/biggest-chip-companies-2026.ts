@@ -160,7 +160,7 @@ export const biggestChipCompanies2026: RankingArticle = {
       category: "United States · Chip designer",
       revenueSources: "AI data center processors and networking, gaming GPUs, automotive",
       blurb: "NVIDIA's revenue was $215,938 million in its fiscal year ended January 25, 2026, up 65% from $130,497 million the year before.",
-      standoutFact: "Its data center business brought in $193.7 billion, about 90% of NVIDIA's total, and more than TSMC's entire revenue. NVIDIA's revenue is about 1.8 times TSMC's.",
+      standoutFact: "Its data center business brought in $193.7 billion, about 90% of NVIDIA's total, and more than TSMC's entire revenue. NVIDIA's revenue is about 1.8 times TSMC's, and more than TSMC and Samsung's chip division combined ($213.9 billion).",
       sourceTag: "NVIDIA fiscal 2026 results",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Nvidia",
     },

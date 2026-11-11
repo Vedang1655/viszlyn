@@ -1,81 +1,62 @@
 // Hero image for /rankings/biggest-chip-companies-2026
-// Top 10 chip companies by semiconductor revenue, latest fiscal year (company reports).
+// Designed to read at feed size (~360px wide): one big number, three thick bars, large labels.
+// Data: company annual results, semiconductor revenue in latest fiscal year
+// (NVIDIA $215,938M; TSMC US$122.42B; Samsung DS ₩130.1T ≈ $91,530M at 2025 avg ₩1,421.40/US$).
 // Run: node scripts/hero-images/biggest-chip-companies-2026.mjs
-import { readFile } from "node:fs/promises";
-import path from "node:path";
 import { renderHero } from "./render.mjs";
 
 const slug = "biggest-chip-companies-2026";
-const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), "../..");
-const flag = async (c) =>
-  "data:image/svg+xml;base64," +
-  (await readFile(path.join(ROOT, `node_modules/flag-icons/flags/4x3/${c}.svg`))).toString("base64");
 
-const DATA = [
-  ["NVIDIA", "us", 215.9],
-  ["TSMC", "tw", 122.4],
-  ["Samsung", "kr", 91.5],
-  ["SK hynix", "kr", 68.3],
-  ["Intel", "us", 49.1],
-  ["Qualcomm", "us", 38.4],
-  ["Micron", "us", 37.4],
-  ["Broadcom", "us", 36.9],
-  ["AMD", "us", 34.6],
-  ["MediaTek", "tw", 19.1],
+const BARS = [
+  ["NVIDIA", 215.9, true],
+  ["TSMC", 122.4, false],
+  ["Samsung", 91.5, false],
 ];
+const MAX_W = 340;
 
-const rows = (
-  await Promise.all(
-    DATA.map(async ([name, code, v], i) => {
-      const w = (v / 215.9) * 360;
-      const first = i === 0;
-      return `<div class="row"><span class="rk${first ? " o" : ""}">${i + 1}</span><img src="${await flag(code)}"/><span class="nm">${name}</span><div class="bar${first ? " o" : ""}" style="width:${w.toFixed(1)}px"></div><span class="val${first ? " o" : ""}">$${v.toFixed(1)}B</span></div>`;
-    })
-  )
+const bars = BARS.map(
+  ([name, v, first]) => `
+  <div class="bar-row">
+    <div class="lab${first ? " o" : ""}">${name}</div>
+    <div class="track"><div class="fill${first ? " o" : ""}" style="width:${((v / 215.9) * MAX_W).toFixed(0)}px"></div><span class="val${first ? " o" : ""}">$${v.toFixed(1)}B</span></div>
+  </div>`
 ).join("");
 
 const body = `
 <div class="wrap">
-  <div class="left">
-    <div class="brand"><span class="v">V</span><span class="bn">VISZLYN</span></div>
-    <div class="eyebrow">Revenue · 2025</div>
-    <h1>The World's<br/>Biggest Chip<br/>Companies</h1>
-    <div class="card">
-      <div class="cardtop"><span class="num">#1</span> NVIDIA</div>
-      <div class="big">$215.9B</div>
-      <div class="towns">Up 65% in one year</div>
-      <div class="cmp">AI data center sales alone: $193.7B</div>
-    </div>
+  <div class="top">
+    <span class="v">V</span>
+    <span class="eyebrow">World's biggest chip companies · 2025</span>
   </div>
-  <div class="right">${rows}</div>
+  <div class="left">
+    <div class="rank">#1 NVIDIA</div>
+    <div class="big">$215.9B</div>
+    <div class="sub">More than TSMC + Samsung<br/>combined</div>
+  </div>
+  <div class="right">${bars}</div>
   <div class="foot">
-    <span>Source: company annual results · Semiconductor revenue, latest fiscal year ending 2025 or Jan 2026 · Samsung &amp; SK hynix converted at 2025 avg rate</span>
+    <span>Semiconductor revenue, latest fiscal year · company reports</span>
     <span class="site">viszlyn.io</span>
   </div>
 </div>`;
 
 const css = `
 .wrap{position:relative;width:1200px;height:630px;background:#0B0E14;color:#F7F5F0;font-family:Inter;overflow:hidden}
-.left{position:absolute;left:56px;top:46px;width:380px}
-.brand{display:flex;align-items:center;gap:12px}
-.v{display:grid;place-items:center;width:34px;height:34px;border-radius:6px;background:#FF5D3A;color:#0B0E14;font-weight:800;font-size:22px}
-.bn{font-weight:700;font-size:18px;letter-spacing:4px;color:rgba(247,245,240,.8)}
-.eyebrow{margin-top:30px;color:#FF5D3A;font-weight:700;font-size:16px;letter-spacing:2.5px;text-transform:uppercase}
-h1{margin:10px 0 0;font-weight:800;font-size:50px;line-height:1.03;letter-spacing:-1.2px}
-.card{margin-top:24px;padding:16px 20px;border-radius:12px;background:#171B24;border:1px solid rgba(255,93,58,.55)}
-.cardtop{font-weight:700;font-size:18px}.num{color:#FF5D3A}
-.big{font-weight:900;font-size:60px;line-height:1;margin-top:4px;letter-spacing:-1px}
-.towns{margin-top:6px;font-size:15px;font-weight:600;color:rgba(247,245,240,.85)}
-.cmp{margin-top:4px;font-size:14px;color:rgba(247,245,240,.6)}
-.right{position:absolute;left:470px;top:58px;width:680px}
-.row{display:flex;align-items:center;gap:12px;height:47px}
-.rk{width:26px;text-align:right;font-weight:800;font-size:18px;color:rgba(247,245,240,.7)}.rk.o{color:#FF5D3A}
-.row img{width:30px;height:22px;border-radius:3px}
-.nm{width:120px;font-weight:700;font-size:16px}
-.bar{height:20px;border-radius:4px;background:#C9C4B8}.bar.o{background:#FF5D3A}
-.val{font-weight:800;font-size:17px;margin-left:4px}.val.o{color:#FF5D3A}
-.foot{position:absolute;left:56px;right:56px;bottom:22px;display:flex;justify-content:space-between;font-size:13px;color:rgba(247,245,240,.5)}
-.site{color:rgba(247,245,240,.85);font-weight:600}
+.top{position:absolute;left:56px;top:44px;display:flex;align-items:center;gap:16px}
+.v{display:grid;place-items:center;width:44px;height:44px;border-radius:8px;background:#FF5D3A;color:#0B0E14;font-weight:900;font-size:28px}
+.eyebrow{font-weight:800;font-size:30px;letter-spacing:.5px;text-transform:uppercase;color:#FF5D3A}
+.left{position:absolute;left:56px;top:150px;width:580px}
+.rank{font-weight:800;font-size:48px;line-height:1}
+.big{font-weight:900;font-size:124px;line-height:1;letter-spacing:-4px;color:#FF5D3A;margin-top:14px}
+.sub{font-weight:800;font-size:40px;line-height:1.15;margin-top:20px}
+.right{position:absolute;left:660px;top:160px;width:500px}
+.bar-row{margin-bottom:34px}
+.lab{font-weight:800;font-size:34px;line-height:1;margin-bottom:10px;color:rgba(247,245,240,.9)}.lab.o{color:#FF5D3A}
+.track{display:flex;align-items:center;gap:14px}
+.fill{height:56px;border-radius:8px;background:#C9C4B8}.fill.o{background:#FF5D3A}
+.val{font-weight:900;font-size:36px}.val.o{color:#FF5D3A}
+.foot{position:absolute;left:56px;right:56px;bottom:26px;display:flex;justify-content:space-between;font-size:18px;color:rgba(247,245,240,.55)}
+.site{color:#F7F5F0;font-weight:800;font-size:22px}
 `;
 
 await renderHero({ slug, css, body });
