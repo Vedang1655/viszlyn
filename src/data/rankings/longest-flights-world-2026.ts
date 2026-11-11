@@ -24,7 +24,7 @@ export const longestFlightsWorld2026: RankingArticle = {
   heroImage: {
     src: "/heroes/longest-flights-world-2026.png",
     ogSrc: "/heroes/longest-flights-world-2026-og.png",
-    alt: "Airport departure board listing the world's 10 longest nonstop flights by distance, led by Singapore to New York JFK at 15,341 km.",
+    alt: "Ten planes flying across a sunset sky, each trailing a contrail sized to its route distance, led by Singapore to New York at 15,341 km.",
     onPage: false,
   },
 
