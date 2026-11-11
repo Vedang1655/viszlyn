@@ -31,7 +31,7 @@ export const longestFlightsWorld2026: RankingArticle = {
   quickAnswer:
     "The world's longest nonstop flight is Singapore Airlines' Singapore to New York JFK route, at 15,341 km. It is scheduled at 18 hours 15 minutes eastbound and 18 hours 55 minutes on the way back. Singapore to Newark is second, just 3.8 km shorter, and Qantas's Perth to London route is third at 14,508 km, though it currently flies nonstop only from London to Perth.",
   introParagraph:
-    "This ranking lists the 10 longest regularly scheduled nonstop passenger flights operating in December 2026 to February 2027, ranked by great-circle distance: the shortest distance between the two airports over the Earth's surface. Viszlyn calculated each distance from the airports' published coordinates. Flight times are as shown on the airlines' own timetables on the dates checked; they vary by direction, because of prevailing winds, and by season. A route is included if it operates nonstop in at least one direction, the same rule used by aviation analytics firm OAG.",
+    "This ranking lists the 10 longest regularly scheduled nonstop passenger flights operating in December 2026 to February 2027, ranked by great-circle distance: the shortest distance between the two airports over the Earth's surface. Viszlyn calculated each distance from the airports' published coordinates. Flight times are as shown on the airlines' own timetables on the dates checked; they vary by direction, because of prevailing winds, and by season. A route is included if it operates nonstop in at least one direction, the same approach reflected in aviation analytics firm OAG's published rankings.",
   calloutBox: {
     label: "2026's airspace closures reshaped the list",
     body: "Qatar Airways' Doha to Auckland flight would rank 3rd at 14,534 km, but it is not scheduled nonstop in this period and now runs with a stop in Australia. Qantas's Perth to London and Perth to Paris flights have been routed via Singapore in the westbound direction since March 2026, according to Qantas's revised schedules as reported by Executive Traveller, so they fly nonstop only on the return leg to Perth. Qantas's Project Sunrise flights from Sydney to London, at about 17,021 km, would take 1st place, but they are not due to start until October 2027.",
@@ -91,7 +91,7 @@ export const longestFlightsWorld2026: RankingArticle = {
       earnings: "14,199 km (8,823 miles)",
       category: "Emirates · Airbus A380",
       blurb: "Emirates' EK448 is scheduled at 16 hours 10 minutes from Dubai to Auckland, and EK449 at 17 hours 10 minutes on the way back.",
-      standoutFact: "It is the only route in the top 10 flown with a double-decker Airbus A380.",
+      standoutFact: "It is the only route in the top 10 confirmed to be flown with a double-decker Airbus A380.",
       sourceTag: "Emirates timetable",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Emirates_(airline)",
     },
@@ -101,7 +101,7 @@ export const longestFlightsWorld2026: RankingArticle = {
       earnings: "14,216 km (8,833 miles)",
       category: "Air New Zealand · Boeing 787-9",
       blurb: "Air New Zealand's NZ2 is scheduled at 15 hours 45 minutes from Auckland to New York, and NZ1 at 18 hours 5 minutes on the way back. It flies three times a week.",
-      standoutFact: "It is only 16 km longer than Dubai–Auckland in 7th place.",
+      standoutFact: "It is only about 16 km longer than Dubai–Auckland in 7th place.",
       sourceTag: "Air New Zealand timetable",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Air_New_Zealand",
     },
@@ -141,7 +141,7 @@ export const longestFlightsWorld2026: RankingArticle = {
       earnings: "15,337 km (9,530 miles)",
       category: "Singapore Airlines · Airbus A350-900ULR",
       blurb: "Singapore Airlines' SQ22 is scheduled at 17 hours 50 minutes from Singapore to Newark, and SQ21 at 19 hours 10 minutes on the way back.",
-      standoutFact: "At 19 hours 10 minutes, the Newark to Singapore flight has the longest scheduled time in the top 10, even though the route is 3.8 km shorter than Singapore–JFK.",
+      standoutFact: "At 19 hours 10 minutes, the Newark to Singapore flight has the longest scheduled time among the top-10 flights with published timetables, even though the route is 3.8 km shorter than Singapore–JFK.",
       sourceTag: "Singapore Airlines timetable",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Singapore_Airlines",
     },
@@ -171,7 +171,7 @@ export const longestFlightsWorld2026: RankingArticle = {
     sources:
       "Flight times, aircraft and frequencies: the airlines' own websites and timetables (Singapore Airlines, Air New Zealand, Emirates, Philippine Airlines), checked November 11, 2026. Qantas routes: Qantas flight-status tool (November 14, 2026 flights), as Qantas's booking site could not be checked, plus reporting by Executive Traveller and Simple Flying on Qantas's revised Europe schedules. Project Sunrise: Qantas Newsroom (June 18, 2026). Airport coordinates: OurAirports open data. Cross-check: OAG.",
     methodology:
-      "Routes are ranked by great-circle distance, calculated by Viszlyn with the haversine formula from OurAirports airport coordinates and a mean Earth radius of 6,371 km. Distances are rounded to the nearest kilometre in the chart; miles are converted from the unrounded figures. Actual flown distances are longer, because aircraft follow air routes and winds. OAG's published distances are about 8 km lower than ours because it uses slightly different airport reference points; this does not change the order. A route is included if it is a regularly scheduled nonstop passenger flight in at least one direction in December 2026 to February 2027. Perth–London and Perth–Paris currently fly nonstop only towards Perth. Flight times are as the airlines displayed them on the dates checked and vary by season. Just outside the top 10 are Johannesburg–Atlanta (Delta, 13,583 km) and Singapore–San Francisco (Singapore Airlines, 13,582 km), which are only 1.2 km apart.",
+      "Routes are ranked by great-circle distance, calculated by Viszlyn with the haversine formula from OurAirports airport coordinates and a mean Earth radius of 6,371 km. Distances are rounded to the nearest kilometre in the chart; miles are converted from the unrounded figures. Actual flown distances are longer, because aircraft follow air routes and winds. OAG's published distances are slightly lower than ours (by about 5–9 km) because it uses slightly different airport reference points; this does not change the order. A route is included if it is a regularly scheduled nonstop passenger flight in at least one direction in December 2026 to February 2027. Perth–London and Perth–Paris currently fly nonstop only towards Perth. Flight times are as the airlines displayed them on the dates checked and vary by season. Just outside the top 10 are Johannesburg–Atlanta (Delta, 13,583 km) and Singapore–San Francisco (Singapore Airlines, 13,582 km), which are only 1.2 km apart.",
     sourceLinks: [
       { label: "OurAirports open data (airport coordinates)", href: "https://davidmegginson.github.io/ourairports-data/airports.csv" },
       { label: "OAG: The world's longest non-stop airline routes", href: "https://www.oag.com/blog/exploring-the-worlds-10-longest-non-stop-airline-routes" },
@@ -190,7 +190,7 @@ export const longestFlightsWorld2026: RankingArticle = {
     {
       question: "Which flight takes the longest time?",
       answer:
-        "Of the flights checked, Singapore Airlines' SQ21 from Newark to Singapore has the longest scheduled time, at 19 hours 10 minutes. Times change by direction and season because of winds.",
+        "Of the flights with published timetables, Singapore Airlines' SQ21 from Newark to Singapore has the longest scheduled time, at 19 hours 10 minutes. Times change by direction and season because of winds.",
     },
     {
       question: "Is Qantas's Sydney to London nonstop flight operating?",
@@ -205,7 +205,7 @@ export const longestFlightsWorld2026: RankingArticle = {
     {
       question: "What is the longest flight from the United States?",
       answer:
-        "New York JFK to Singapore, at 15,341 km. The longest from Newark is Newark–Singapore (15,337 km), which also has the longest scheduled time on this list.",
+        "New York JFK to Singapore, at 15,341 km. The longest from Newark is Newark–Singapore (15,337 km), which also has the longest scheduled time among the flights on this list with published timetables.",
     },
   ],
 
