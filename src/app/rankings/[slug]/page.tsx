@@ -194,7 +194,7 @@ export default async function RankingArticlePage({ params }: PageProps) {
           dataPeriod={article.dataPeriod}
         >
           <ArticleSection>
-            {article.heroImage ? (
+            {article.heroImage && article.heroImage.onPage !== false ? (
               // eslint-disable-next-line @next/next/no-img-element
               <img
                 src={article.heroImage.src}
