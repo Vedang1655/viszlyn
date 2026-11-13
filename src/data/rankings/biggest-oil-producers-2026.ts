@@ -151,7 +151,7 @@ export const biggestOilProducers2026: RankingArticle = {
       earnings: "21,065 thousand barrels per day",
       category: "Americas",
       blurb: "US production rose 3.9% from 20,276 thousand barrels per day in 2024, the biggest increase of any country in the top 10 (789 thousand barrels per day).",
-      standoutFact: "The US produced 20.9% of the world's oil, almost as much as Saudi Arabia and Russia combined (22,145). On the Energy Institute's figures it first overtook Saudi Arabia in 2014 and has been the world's biggest producer every year since 2017.",
+      standoutFact: "The US produced 20.9% of the world's oil, almost as much as Saudi Arabia and Russia combined (22,145). On the Energy Institute's figures it overtook Saudi Arabia in 2014 and has been the world's biggest producer every year since 2017.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/United_States",
     },
@@ -207,7 +207,7 @@ export const biggestOilProducers2026: RankingArticle = {
   ],
 
   relatedLinks: [
-    { title: "The World's 10 Biggest Emitters of CO2 in 2026", href: "/rankings/biggest-emitting-countries-2026" },
+    { title: "The 10 Biggest Greenhouse Gas Emitting Countries in 2025", href: "/rankings/biggest-emitting-countries-2026" },
     { title: "The Economies With the Biggest Current Account Surpluses in 2026", href: "/rankings/biggest-current-account-surpluses-2026" },
     { title: "Who Owns America's Debt? The 10 Biggest Foreign Holders of US Treasuries", href: "/rankings/foreign-holders-us-treasuries-2026" },
     { title: "The World's 10 Biggest Arms Exporters, 2021–2025", href: "/rankings/biggest-arms-exporters-2026" },
