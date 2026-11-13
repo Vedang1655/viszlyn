@@ -34,7 +34,7 @@ export const biggestOilProducers2026: RankingArticle = {
     "This ranking uses the Energy Institute's Statistical Review of World Energy 2026, the standard annual reference for global energy data. It measures oil production in thousands of barrels per day, averaged over the year. World production grew 3.5% in 2025, from 97,156 to 100,590 thousand barrels per day. Every country in the top 10 kept its 2024 position, but nine of the ten produced more than a year earlier.",
   calloutBox: {
     label: "What counts as oil production here",
-    body: "The Energy Institute's figures include crude oil, shale oil, oil sands, condensates and natural gas liquids (NGLs). They exclude biofuels, liquid fuels made from coal and gas, and refinery processing gain. Other sources measure oil differently, so their numbers and even some of their rankings differ: the US Energy Information Administration (EIA), which adds refinery processing gain, biofuels and other liquids, puts China and Brazil higher than this ranking does.",
+    body: "The Energy Institute's figures include crude oil, shale oil, oil sands, condensates and natural gas liquids (NGLs). They exclude biofuels, liquid fuels made from coal and gas, and refinery processing gain. Other sources measure oil differently, so their numbers and even some of their rankings differ. The US Energy Information Administration's (EIA) broader 'petroleum and other liquids' measure includes refinery processing gain, biofuels and liquids from other hydrocarbon sources. Its 2025 ranking places China 5th and Brazil 7th, but Iraq 8th, compared with 7th, 9th and 6th in this ranking.",
   },
 
   chartTitle: "Oil production, 2025 (thousand barrels per day)",
@@ -101,7 +101,7 @@ export const biggestOilProducers2026: RankingArticle = {
       earnings: "4,396 thousand barrels per day",
       category: "Middle East",
       blurb: "Iraq's production rose 2.3% from 4,298 thousand barrels per day in 2024.",
-      standoutFact: "Iraq is just 56 thousand barrels per day ahead of China in 7th place.",
+      standoutFact: "Iraq is just 56 thousand barrels per day ahead of China in 7th place. On the US EIA's broader measure, Iraq ranks 8th.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Iraq",
     },
@@ -171,7 +171,7 @@ export const biggestOilProducers2026: RankingArticle = {
     sources:
       "Energy Institute, Statistical Review of World Energy 2026, table \"Oil Production in thousands of barrels per day\". Cross-checked against the US Energy Information Administration (EIA), International Energy Statistics, petroleum and other liquids production.",
     methodology:
-      "Production figures, year-on-year changes, shares of world production and the world and OPEC totals are as published by the Energy Institute, which reports oil production in whole thousand barrels per day. Production includes crude oil, shale oil, oil sands, condensates and natural gas liquids, and excludes biofuels, synthetic liquids derived from coal and gas, and refinery processing gain. The top-10 total and share, the Middle East and US-plus-Canada totals, the gaps between countries and the increases in barrels per day are calculated by Viszlyn from the Energy Institute's figures. The US EIA's broader measure, which adds refinery processing gain, biofuels and other liquids, gives higher totals and ranks China 5th, Brazil 7th and Iraq 8th.",
+      "Production figures, year-on-year changes, shares of world production and the world and OPEC totals are as published by the Energy Institute, which reports oil production in whole thousand barrels per day. Production includes crude oil, shale oil, oil sands, condensates and natural gas liquids, and excludes biofuels, synthetic liquids derived from coal and gas, and refinery processing gain. The top-10 total and share, the Middle East and US-plus-Canada totals, the gaps between countries and the increases in barrels per day are calculated by Viszlyn from the Energy Institute's figures. The US EIA's broader measure, which includes refinery processing gain, biofuels and liquids from other hydrocarbon sources, gives higher totals and ranks China 5th, Brazil 7th and Iraq 8th.",
     sourceLinks: [
       { label: "Energy Institute: Statistical Review of World Energy, data downloads", href: "https://www.energyinst.org/statistical-review/resources-and-data-downloads" },
       { label: "US EIA: Annual petroleum and other liquids production", href: "https://www.eia.gov/international/data/world/petroleum-and-other-liquids/annual-petroleum-and-other-liquids-production" },
@@ -202,7 +202,7 @@ export const biggestOilProducers2026: RankingArticle = {
     {
       question: "Why do other sources rank oil producers differently?",
       answer:
-        "They measure different things. The Energy Institute counts crude oil, shale oil, oil sands, condensates and natural gas liquids. The US EIA's 'petroleum and other liquids' also adds refinery processing gain, biofuels and other liquids, which gives higher totals and moves China and Brazil up its ranking.",
+        "They measure different things. The Energy Institute counts crude oil, shale oil, oil sands, condensates and natural gas liquids. The US EIA's broader 'petroleum and other liquids' measure includes refinery processing gain, biofuels and liquids from other hydrocarbon sources. That gives higher totals and changes the middle of the ranking: the EIA puts China 5th and Brazil 7th, but Iraq 8th.",
     },
   ],
 
