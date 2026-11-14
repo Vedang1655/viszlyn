@@ -117,6 +117,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
       blurb: "A mansion at Rutland Gate in Knightsbridge sold for £210 million on 21 April 2020 to Cheung Chung-kiu, whose family office confirmed the purchase.",
       standoutFact: "Its price is confirmed in the UK's official Land Registry price-paid data.",
       sourceTag: SRC,
+      image: {"src": "/rankings/most-expensive-homes-2026/rutland-gate-mansion.webp", "width": 1200, "height": 875, "alt": "The Rutland Gate mansion in Knightsbridge, London", "author": "Gareth E. Kegg", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:2-8a_Rutland_Gate.JPG"},
     },
     {
       rank: 3,
@@ -126,6 +127,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
       blurb: "Château Louis XIV in Louveciennes, near Versailles, sold for a reported €275 million in 2015, according to Bloomberg. The buyer was not officially disclosed.",
       standoutFact: "Bloomberg and Money called it the world's most expensive home when the sale was reported in December 2015.",
       sourceTag: SRC,
+      image: {"src": "/rankings/most-expensive-homes-2026/chateau-louis-xiv.webp", "width": 1200, "height": 728, "alt": "Château Louis XIV in Louveciennes, near Versailles", "author": "Wolrfam", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_LOUIS_XIV.jpg"},
     },
     {
       rank: 2,
