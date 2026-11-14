@@ -163,7 +163,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
       name: "Chalon estate, Los Angeles",
       earnings: "US$400 million (listed April 2026)",
       category: "Los Angeles, United States",
-      blurb: "The Chalon estate in Bel Air, Los Angeles, was listed for US$400 million in April 2026. Designed by architect Peter Marino, it took a decade to build and was completed in 2018, with about 70,000 square feet of living space on 7.86 acres.",
+      blurb: "The Chalon estate in Bel Air, Los Angeles, was listed for US$400 million in April 2026. Designed by architect Peter Marino, it took a decade to build and was completed in 2018, with about 70,000 square feet of living space on 7.862 acres.",
       standoutFact: "If it sold at its asking price, it would be the most expensive home ever sold anywhere, above London's Providence House (US$354.7 million).",
       sourceTag: SRC,
       image: {"src": "/rankings/most-expensive-homes-for-sale-2026/area-bel-air.webp", "width": 1200, "height": 541, "alt": "Bel Air, Los Angeles", "author": "Derbrauni", "license": "CC BY 4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bel_Air,_Los_Angeles.jpg", "caption": "Bel Air, Los Angeles (the area, not the estate)."},
@@ -209,7 +209,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
     {
       question: "What is the most expensive house for sale in the world right now?",
       answer:
-        "The Chalon estate in Bel Air, Los Angeles, listed at US$400 million in April 2026 and still on the market on 14 November 2026. It has about 70,000 square feet of living space on 7.86 acres.",
+        "The Chalon estate in Bel Air, Los Angeles, listed at US$400 million in April 2026 and still on the market on 14 November 2026. It has about 70,000 square feet of living space on 7.862 acres.",
     },
     {
       question: "Would the Chalon estate be the most expensive home ever sold?",
