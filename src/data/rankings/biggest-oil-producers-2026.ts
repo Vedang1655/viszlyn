@@ -23,7 +23,6 @@ export const biggestOilProducers2026: RankingArticle = {
   dataPeriod: "2025 annual average, compared with 2024 (Energy Institute Statistical Review of World Energy 2026)",
   heroImage: {
     src: "/heroes/biggest-oil-producers-2026.png",
-    onPage: false,
     ogSrc: "/heroes/biggest-oil-producers-2026-og.png",
     alt: "Ten oil-filled columns sized by each country's 2025 oil production in thousand barrels per day: United States 21,065, Saudi Arabia 11,408, Russia 10,737, Canada 6,164, Iran 5,184, Iraq 4,396, China 4,340, UAE 4,207, Brazil 3,881 and Kuwait 2,820. Source: Energy Institute.",
   },

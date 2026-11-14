@@ -25,7 +25,6 @@ export const longestFlightsWorld2026: RankingArticle = {
     src: "/heroes/longest-flights-world-2026.png",
     ogSrc: "/heroes/longest-flights-world-2026-og.png",
     alt: "Ten planes flying across a sunset sky, each trailing a contrail sized to its route distance, led by Singapore to New York at 15,341 km.",
-    onPage: false,
   },
 
   quickAnswer:
