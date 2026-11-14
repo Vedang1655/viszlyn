@@ -18,8 +18,8 @@ export const mostExpensiveHomes2026: RankingArticle = {
   eyebrow: "Money",
   title: "The 10 Most Expensive Homes Ever Sold",
   dek: "Three of the 10 are in London, three in France, two in Hong Kong and two in the US. The record now belongs to Providence House in Chelsea, which sold for a reported £265 million (US$354.7 million) in 2026.",
-  publishedDate: "November 16, 2026",
-  lastUpdated: "November 16, 2026",
+  publishedDate: "November 14, 2026",
+  lastUpdated: "November 14, 2026",
   dataPeriod: "Completed sales up to November 2026; prices converted to US dollars at ECB reference rates on 6 November 2026",
   heroImage: {
     src: "/heroes/most-expensive-homes-2026.png",
@@ -166,7 +166,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
 
   sourceNote: {
     dataPeriod: "Completed sales up to November 2026",
-    lastUpdated: "November 16, 2026",
+    lastUpdated: "November 14, 2026",
     sources:
       "HM Land Registry price-paid data (Rutland Gate); New York City property records via ACRIS (220 Central Park South); Hong Kong stock exchange filing (The Peak house); Campari Group annual report (Villa Les Cèdres); Hong Kong Land Registry documents as reported by Mingtiandi (Deep Water Bay); Tax Policy Associates, The Times and Bloomberg (Providence House); Bloomberg and Beauchamp Estates (The Holme); Bloomberg (Château Louis XIV, Hôtel Lambert); Los Angeles Times citing property records (Malibu). Exchange rates: European Central Bank euro reference rates, 6 November 2026. Photos: Wikimedia Commons, credited under each photo.",
     methodology:

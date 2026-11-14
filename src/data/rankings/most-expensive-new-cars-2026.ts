@@ -18,8 +18,8 @@ export const mostExpensiveNewCars2026: RankingArticle = {
   eyebrow: "Money",
   title: "The 10 Most Expensive New Cars of the 2020s",
   dek: "Ranked by the price each maker announced, from Pagani's €7 million Huayra Codalunga to Bugatti's €3.2 million Chiron Super Sport. Bugatti has four cars in the top 10, and production of several models has already sold out or been fully allocated.",
-  publishedDate: "November 15, 2026",
-  lastUpdated: "November 15, 2026",
+  publishedDate: "November 13, 2026",
+  lastUpdated: "November 14, 2026",
   dataPeriod: "Cars revealed from 2020 to November 2026; prices converted to US dollars at ECB reference rates on 13 November 2026",
   heroImage: {
     src: "/heroes/most-expensive-new-cars-2026.png",
@@ -168,7 +168,7 @@ export const mostExpensiveNewCars2026: RankingArticle = {
 
   sourceNote: {
     dataPeriod: "Cars revealed from 2020 to November 2026",
-    lastUpdated: "November 15, 2026",
+    lastUpdated: "November 14, 2026",
     sources:
       "Official announcements and press releases from Pagani, Red Bull Advanced Technologies, Bugatti, Automobili Pininfarina, Gordon Murray Automotive; Ferrari F80 price as reported by Automotive News; euro reference rates from the European Central Bank (13 November 2026). Photos from Wikimedia Commons under free licences, credited under each photo.",
     methodology:

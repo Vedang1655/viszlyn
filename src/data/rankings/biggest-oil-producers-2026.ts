@@ -18,8 +18,8 @@ export const biggestOilProducers2026: RankingArticle = {
   eyebrow: "World",
   title: "The World's 10 Biggest Oil Producers in 2025",
   dek: "The world produced 100,590 thousand barrels of oil a day in 2025, up 3.5%. The United States produced 20.9% of it, almost as much as Saudi Arabia and Russia combined.",
-  publishedDate: "November 14, 2026",
-  lastUpdated: "November 14, 2026",
+  publishedDate: "November 13, 2026",
+  lastUpdated: "November 13, 2026",
   dataPeriod: "2025 annual average, compared with 2024 (Energy Institute Statistical Review of World Energy 2026)",
   heroImage: {
     src: "/heroes/biggest-oil-producers-2026.png",
@@ -166,7 +166,7 @@ export const biggestOilProducers2026: RankingArticle = {
 
   sourceNote: {
     dataPeriod: "2025 annual average, compared with 2024",
-    lastUpdated: "November 14, 2026",
+    lastUpdated: "November 13, 2026",
     sources:
       "Energy Institute, Statistical Review of World Energy 2026, table \"Oil Production in thousands of barrels per day\". Cross-checked against the US Energy Information Administration (EIA), International Energy Statistics, petroleum and other liquids production.",
     methodology:
