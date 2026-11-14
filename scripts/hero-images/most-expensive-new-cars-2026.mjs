@@ -36,7 +36,7 @@ const body = `
   </div>
   <div class="row r1">${CARS.slice(0, 5).map(tag).join("")}</div>
   <div class="row r2">${CARS.slice(5).map((c, j) => tag(c, j + 5)).join("")}</div>
-  <div class="foot"><span>Maker-announced prices, ranked at ECB exchange rates (13 Nov 2026). *Ferrari F80: reported price.</span><span class="site">viszlyn.io</span></div>
+  <div class="foot"><span>Maker-announced (starting) prices, ranked at ECB exchange rates (13 Nov 2026). *Ferrari F80: reported.</span><span class="site">viszlyn.io</span></div>
 </div>`;
 
 const css = `

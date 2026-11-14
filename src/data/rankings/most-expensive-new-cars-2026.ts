@@ -7,17 +7,17 @@ export const mostExpensiveNewCars2026: RankingArticle = {
 
   metaTitle: "The 10 Most Expensive New Cars of the 2020s, Ranked | Viszlyn",
   metaDescription:
-    "The Pagani Huayra Codalunga costs €7 million, the Red Bull RB17 £5 million and the Bugatti W16 Mistral €5 million. The 10 most expensive new cars revealed since 2020, ranked by official price, with photos.",
+    "The Pagani Huayra Codalunga starts from €7 million, the Red Bull RB17 from £5 million and the Bugatti W16 Mistral at €5 million. The 10 most expensive new cars revealed since 2020, ranked by official price, with photos.",
   ogTitle: "The 10 Most Expensive New Cars of the 2020s",
   ogDescription:
     "From a €7 million Pagani to Bugatti's €3.8 million Tourbillon: the 10 priciest new cars revealed since 2020, ranked by official price.",
   twitterTitle: "The 10 Most Expensive New Cars of the 2020s",
   twitterDescription:
-    "Pagani Huayra Codalunga €7M, Red Bull RB17 £5M, Bugatti W16 Mistral and Pagani Huayra Imola €5M. The top 10, ranked.",
+    "Pagani Huayra Codalunga from €7M, Red Bull RB17 from £5M, Bugatti W16 Mistral and Pagani Huayra Imola €5M. The top 10, ranked.",
 
   eyebrow: "Money",
   title: "The 10 Most Expensive New Cars of the 2020s",
-  dek: "Ranked by the price each maker announced, from Pagani's €7 million Huayra Codalunga to Bugatti's €3.2 million Chiron Super Sport. Bugatti has four cars in the top 10, and every one of them is sold out or fully allocated.",
+  dek: "Ranked by the price each maker announced, from Pagani's €7 million Huayra Codalunga to Bugatti's €3.2 million Chiron Super Sport. Bugatti has four cars in the top 10, and production of several models has already sold out or been fully allocated.",
   publishedDate: "November 15, 2026",
   lastUpdated: "November 15, 2026",
   dataPeriod: "Cars revealed from 2020 to November 2026; prices converted to US dollars at ECB reference rates on 13 November 2026",
@@ -29,12 +29,12 @@ export const mostExpensiveNewCars2026: RankingArticle = {
   },
 
   quickAnswer:
-    "The most expensive new car of the 2020s is the Pagani Huayra Codalunga, announced in 2022 at €7 million ($7,736,400 at November 2026 exchange rates), with only five made. The Red Bull RB17 is second at £5 million ($6,613,291), and the Bugatti W16 Mistral and Pagani Huayra Imola tie for third at €5 million ($5,526,000) each.",
+    "The most expensive new car of the 2020s is the Pagani Huayra Codalunga, announced in 2022 with prices starting from €7 million ($7,736,400 at November 2026 exchange rates), with only five made. The Red Bull RB17 is second, from £5 million (at least $6,613,291), and the Bugatti W16 Mistral and Pagani Huayra Imola tie for third at €5 million ($5,526,000) each.",
   introParagraph:
-    "Hypercar prices are often rumoured, so this ranking only uses prices the makers announced themselves, for cars revealed in 2020 or later with more than one unit built. The one exception, the Ferrari F80, is marked as a reported price. Because the prices are in euros and pounds, we converted them all to US dollars at the same European Central Bank reference rates, on 13 November 2026, so the ranking is a fair comparison. One-off commissions, which have no public price list, are not included.",
+    "Hypercar prices are often rumoured, so this ranking only uses prices the makers announced themselves, for cars revealed in 2020 or later with more than one unit built. The one exception, the Ferrari F80, is marked as a reported price. Because the prices are in euros and pounds, we converted them all to US dollars at the same European Central Bank reference rates, on 13 November 2026, so the ranking is a fair comparison. The ranking includes both road-legal cars and track-only models, but excludes one-off commissions, which have no public price list, and cars revealed before 2020.",
   calloutBox: {
     label: "How we ranked these cars",
-    body: "Each price is the base price the maker announced, in its original currency. Most exclude taxes; Pagani and Automobili Pininfarina did not say whether theirs do, and reports on the Ferrari F80 disagree. To rank them on one scale, we converted every price to US dollars at the ECB euro reference rates for 13 November 2026 (€1 = $1.1052 = £0.83559). Exchange rates move, so the dollar figures will change; the original prices will not.",
+    body: "Each entry uses the maker's announced starting price where one was published, shown in its original currency; reported prices are clearly identified. Most exclude taxes; Pagani did not say for the Codalunga, nor Automobili Pininfarina for the B95, and reports on the Ferrari F80 disagree. To rank them on one scale, we converted every price to US dollars at the ECB euro reference rates for 13 November 2026 (€1 = $1.1052 = £0.83559). Where a price is a starting price, its dollar figure is a minimum. Exchange rates move, so the dollar figures will change; the original prices will not.",
   },
 
   chartTitle: "Announced price in US dollars (converted at ECB rates, 13 Nov 2026)",
@@ -43,7 +43,7 @@ export const mostExpensiveNewCars2026: RankingArticle = {
   entryValueLabel: "Announced price:",
   chartItems: [
     { rank: 1, name: "Pagani Huayra Codalunga", value: "$7,736,400", raw: 7736400 },
-    { rank: 2, name: "Red Bull RB17", value: "$6,613,291", raw: 6613291 },
+    { rank: 2, name: "Red Bull RB17", value: "from $6,613,291", raw: 6613291 },
     { rank: 3, rankLabel: "=3", name: "Bugatti W16 Mistral", value: "$5,526,000", raw: 5526000 },
     { rank: 3, rankLabel: "=3", name: "Pagani Huayra Imola", value: "$5,526,000", raw: 5526000 },
     { rank: 5, name: "Automobili Pininfarina B95", value: "$4,862,880", raw: 4862880 },
@@ -90,8 +90,8 @@ export const mostExpensiveNewCars2026: RankingArticle = {
       name: "Bugatti Tourbillon",
       earnings: "€3,800,000 ($4,199,760)",
       category: "Bugatti",
-      blurb: "Bugatti revealed the Tourbillon in 2024 at €3.8 million before taxes, as the successor to the Chiron. Production is limited to 250 cars, all allocated shortly after the reveal, with deliveries starting in 2026.",
-      standoutFact: "The Tourbillon and the Chiron Super Sport together cost €7.0 million, the same as one Pagani Huayra Codalunga.",
+      blurb: "Bugatti revealed the Tourbillon in 2024 at €3.8 million before taxes, as the successor to the Chiron. Production is limited to 250 cars, with deliveries starting in 2026.",
+      standoutFact: "After the Ferrari F80, it has the largest production limit of any car in this ranking.",
       sourceTag: SRC,
       image: {"src": "/rankings/most-expensive-new-cars-2026/bugatti-tourbillon.webp", "width": 1200, "height": 731, "alt": "Bugatti Tourbillon hypercar", "author": "Calreyn88", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Bugatti_Tourbillon.jpg"},
     },
@@ -100,7 +100,7 @@ export const mostExpensiveNewCars2026: RankingArticle = {
       name: "Bugatti Bolide",
       earnings: "€4,000,000 ($4,420,800)",
       category: "Bugatti",
-      blurb: "Bugatti announced a production version of its Bolide track car in 2020, priced at €4 million before taxes and limited to 40 cars. All were sold, with deliveries in 2024 and 2025.",
+      blurb: "Bugatti revealed the Bolide track car in 2020 and confirmed a production version in 2021, priced at €4 million before taxes and limited to 40 cars. All were sold, with deliveries in 2024 and 2025.",
       standoutFact: "Bugatti has four cars in this ranking, more than any other maker.",
       sourceTag: SRC,
       image: {"src": "/rankings/most-expensive-new-cars-2026/bugatti-bolide.webp", "width": 1200, "height": 615, "alt": "Bugatti Bolide track hypercar", "author": "Calreyn88", "license": "CC0", "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bugatti_Bolide_1.jpg"},
@@ -108,9 +108,9 @@ export const mostExpensiveNewCars2026: RankingArticle = {
     {
       rank: 5,
       name: "Automobili Pininfarina B95",
-      earnings: "€4,400,000 ($4,862,880)",
+      earnings: "From €4,400,000 ($4,862,880)",
       category: "Automobili Pininfarina",
-      blurb: "Automobili Pininfarina revealed the B95 in 2023 at €4.4 million. Only 10 are planned. The maker calls it the world's first electric hyper-barchetta, an open-top two-seater, and its first coachbuilt car.",
+      blurb: "Automobili Pininfarina revealed the B95 in 2023, priced from €4.4 million. Only 10 are planned. The maker calls it the world's first electric hyper-barchetta, an open-top two-seater, and its first coachbuilt car.",
       standoutFact: "It is the only fully electric car in this ranking.",
       sourceTag: SRC,
       image: {"src": "/rankings/most-expensive-new-cars-2026/pininfarina-b95.webp", "width": 1200, "height": 1467, "alt": "Automobili Pininfarina B95 electric barchetta", "author": "Dobroš", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pininfarina_B_95_(2023).jpg"},
@@ -140,9 +140,9 @@ export const mostExpensiveNewCars2026: RankingArticle = {
     {
       rank: 2,
       name: "Red Bull RB17",
-      earnings: "£5,000,000 ($6,613,291)",
+      earnings: "From £5,000,000 (from $6,613,291)",
       category: "Red Bull Advanced Technologies",
-      blurb: "Red Bull Advanced Technologies announced the RB17 in June 2022, priced from £5 million plus local taxes, with just 50 to be built. All 50 have been allocated.",
+      blurb: "Red Bull Advanced Technologies announced the RB17 in June 2022, priced from £5 million plus applicable local taxes, with just 50 to be built. It is a track-only car.",
       standoutFact: "Red Bull described it as its first in-house hypercar project.",
       sourceTag: SRC,
       image: {"src": "/rankings/most-expensive-new-cars-2026/red-bull-rb17.webp", "width": 1200, "height": 663, "alt": "Red Bull RB17 hypercar at the Goodwood Festival of Speed", "author": "MrWalkr", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Red_Bull_RB17.jpg"},
@@ -150,10 +150,10 @@ export const mostExpensiveNewCars2026: RankingArticle = {
     {
       rank: 1,
       name: "Pagani Huayra Codalunga",
-      earnings: "€7,000,000 ($7,736,400)",
+      earnings: "From €7,000,000 ($7,736,400)",
       category: "Pagani",
-      blurb: "Pagani revealed the Huayra Codalunga ('long tail') in 2022 at €7 million. Only five were made, and all five were sold when it was announced.",
-      standoutFact: "At €7 million it costs €2 million more than any other car in this ranking, and as much as a Bugatti Tourbillon and a Chiron Super Sport combined.",
+      blurb: "Pagani revealed the Huayra Codalunga ('long tail') in 2022, with prices starting from €7 million. Only five were made, and all five were sold when it was announced.",
+      standoutFact: "Its €7 million starting price is €2 million above the €5 million prices of the Bugatti W16 Mistral and Pagani Huayra Imola.",
       sourceTag: SRC,
       image: {"src": "/rankings/most-expensive-new-cars-2026/pagani-huayra-codalunga.webp", "width": 1200, "height": 732, "alt": "Pagani Huayra Codalunga at the Goodwood Festival of Speed", "author": "MrWalkr", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022_Pagani_Huayra_Codalunga.jpg"},
     },
@@ -164,7 +164,7 @@ export const mostExpensiveNewCars2026: RankingArticle = {
     label: "Cars in the top 10 made by Bugatti",
     comparisonStat: "€7,000,000",
     comparisonLabel: "Price of the #1 car, the Pagani Huayra Codalunga",
-    note: "Every car in this ranking is sold out or fully allocated. The Codalunga alone costs as much as a Bugatti Tourbillon and a Chiron Super Sport combined, and only five were made.",
+    note: "Several cars in this ranking sold out before or soon after their public debut. The Codalunga was limited to five examples, all sold, and its €7 million starting price equals a Bugatti Tourbillon and a Chiron Super Sport combined.",
   },
 
   sourceNote: {
@@ -173,9 +173,10 @@ export const mostExpensiveNewCars2026: RankingArticle = {
     sources:
       "Official announcements and press releases from Pagani, Red Bull Advanced Technologies, Bugatti, Automobili Pininfarina, Gordon Murray Automotive; Ferrari F80 price as reported by Automotive News; euro reference rates from the European Central Bank (13 November 2026). Photos from Wikimedia Commons under free licences, credited under each photo.",
     methodology:
-      "Included: cars revealed from 2020 onwards, with more than one unit built, whose base price was announced by the maker (the Ferrari F80, whose price was reported by the press, is marked as such). Excluded: one-off commissions and cars revealed before 2020. Prices are shown exactly as announced, in their original currency. US dollar figures are Viszlyn conversions at ECB euro reference rates on 13 November 2026 (EUR/USD 1.1052, EUR/GBP 0.83559) and are used only to rank the cars on one scale. Tax treatment varies: Bugatti, Gordon Murray Automotive and Red Bull quote prices before taxes and Pagani quoted the Huayra Imola plus VAT; Pagani (Codalunga) and Automobili Pininfarina did not state it. The Red Bull RB17 was announced as starting from £5 million. Photos are resized but otherwise unaltered.",
+      "Included: cars revealed from 2020 onwards, with more than one unit built, whose starting price was announced by the maker (the Ferrari F80, whose price was reported by the press, is marked as such). Excluded: one-off commissions and cars revealed before 2020. Prices are shown exactly as announced, in their original currency. US dollar figures are Viszlyn conversions at ECB euro reference rates on 13 November 2026 (EUR/USD 1.1052, EUR/GBP 0.83559) and are used only to rank the cars on one scale. Tax treatment varies: Bugatti, Gordon Murray Automotive and Red Bull quote prices before taxes and Pagani quoted the Huayra Imola plus VAT; Pagani (Codalunga) and Automobili Pininfarina did not state it. Starting prices (Codalunga, RB17, B95) mean the converted dollar figures are minimums; the Red Bull RB17 was announced from £5 million plus applicable local taxes. Photos are resized but otherwise unaltered.",
     sourceLinks: [
       { label: "Pagani: Huayra Codalunga", href: "https://www.pagani.com/press/pagani-huayra-codalunga-grandi-complicazioni-on-wheels" },
+      { label: "Red Bull Advanced Technologies: RB17 announcement (June 2022, reproduced)", href: "https://www.allcarindex.com/blog/red-bull-advanced-technologies-announces-rb17-hypercar" },
       { label: "Formula1.com: Red Bull to build £5 million RB17 hypercar (June 2022)", href: "https://www.formula1.com/en/latest/article/red-bull-to-build-adrian-newey-designed-gbp5-million-rb17-hypercar.6IHeANYCNYEczKXxB9v7qw" },
       { label: "Bugatti: W16 Mistral", href: "https://newsroom.bugatti.com/en/press-releases/bugatti-w16-mistral-elegance-at-extremes" },
       { label: "Pagani: Huayra Imola", href: "https://pagani-uae.com/press/pagani-imola-a-powerhouse-of-technology-for-the-racetrack-and-road/" },
@@ -192,7 +193,7 @@ export const mostExpensiveNewCars2026: RankingArticle = {
     {
       question: "What is the most expensive new car of the 2020s?",
       answer:
-        "The Pagani Huayra Codalunga, announced in 2022 at €7 million ($7,736,400 at ECB rates on 13 November 2026). Only five were made, and all were sold when it was announced.",
+        "The Pagani Huayra Codalunga, announced in 2022 with prices starting from €7 million ($7,736,400 at ECB rates on 13 November 2026). Only five were made, and all were sold when it was announced.",
     },
     {
       question: "How much does a Bugatti cost?",
@@ -207,7 +208,7 @@ export const mostExpensiveNewCars2026: RankingArticle = {
     {
       question: "Can you still buy any of these cars new?",
       answer:
-        "Not from the maker. Every car in this ranking is sold out or fully allocated, so the only way to buy one now is from an existing owner.",
+        "Mostly not. Several, including the Pagani Huayra Codalunga and Huayra Imola, the Bugatti W16 Mistral and Bolide and the Ferrari F80, sold out or were fully allocated soon after launch, and the Bugatti Chiron family went out of production in 2024. For a sold-out car, the only way to buy one is from an existing owner.",
     },
     {
       question: "Why aren't one-off cars like the Rolls-Royce Boat Tail included?",
@@ -217,9 +218,9 @@ export const mostExpensiveNewCars2026: RankingArticle = {
   ],
 
   relatedLinks: [
-    { title: "The World's Richest People", href: "/rankings/richest-people-2026" },
+    { title: "The 10 Richest People in the World in 2026", href: "/rankings/richest-people-2026" },
     { title: "The World's 10 Biggest Oil Producers in 2025", href: "/rankings/biggest-oil-producers-2026" },
     { title: "Who Owns America's Debt? The 10 Biggest Foreign Holders of US Treasuries", href: "/rankings/foreign-holders-us-treasuries-2026" },
-    { title: "The Cities With the Most Billionaires", href: "/rankings/cities-with-most-billionaires-2026" },
+    { title: "The 10 Cities With the Most Billionaires in 2026", href: "/rankings/cities-with-most-billionaires-2026" },
   ],
 };
