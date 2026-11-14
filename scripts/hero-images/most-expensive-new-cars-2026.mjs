@@ -1,3 +1,4 @@
+// NOTE (Nov 14, 2026): the published image is a designed version supplied separately; running this script overwrites it with the older tag design.
 // Share / Google Discover image for /rankings/most-expensive-new-cars-2026 (the page keeps its block mosaic).
 // Ten luxury price tags, one per car, with the maker-announced price in its original currency.
 // Order = ranking (prices converted at ECB rates, 13 Nov 2026). Ferrari F80 is a reported price (*).
