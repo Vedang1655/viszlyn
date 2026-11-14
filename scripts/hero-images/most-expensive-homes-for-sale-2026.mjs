@@ -1,3 +1,4 @@
+// NOTE (Nov 14, 2026): the published image is a designed version supplied separately; running this script overwrites it with the older FOR SALE-sign design.
 // Share / Google Discover image for /rankings/most-expensive-homes-for-sale-2026 (the page keeps its block mosaic).
 // Eleven green estate-agent "FOR SALE" signs (tie at #10), asking price in US$ with original currency below.
 // Run: node scripts/hero-images/most-expensive-homes-for-sale-2026.mjs
