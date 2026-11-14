@@ -1,0 +1,28 @@
+[
+  {
+    "key": "chateau-louis-xiv",
+    "image": {
+      "src": "/rankings/most-expensive-homes-2026/chateau-louis-xiv.webp",
+      "width": 1200,
+      "height": 728,
+      "alt": "Château Louis XIV in Louveciennes, near Versailles",
+      "author": "Wolrfam",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chateau_LOUIS_XIV.jpg"
+    }
+  },
+  {
+    "key": "rutland-gate-mansion",
+    "image": {
+      "src": "/rankings/most-expensive-homes-2026/rutland-gate-mansion.webp",
+      "width": 1200,
+      "height": 875,
+      "alt": "The Rutland Gate mansion in Knightsbridge, London",
+      "author": "Gareth E. Kegg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2-8a_Rutland_Gate.JPG"
+    }
+  }
+]
