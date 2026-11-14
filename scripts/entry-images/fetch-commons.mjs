@@ -19,18 +19,25 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const outDir = path.join("public/rankings", slug);
 await mkdir(outDir, { recursive: true });
 
-async function get(url, tries = 4) {
+async function get(url, tries = 7) {
   for (let i = 0; i < tries; i++) {
-    const r = await fetch(url, { headers: { "User-Agent": UA } });
+    let r;
+    try { r = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(45000) }); }
+    catch (e) { console.error("retry after error:", e.name); await sleep(10000); continue; }
     if (r.ok) return r;
-    if (r.status === 429 || r.status >= 500) { await sleep(5000 * (i + 1)); continue; }
+    if (r.status === 429 || r.status >= 500) { const wait = Number(r.headers.get("retry-after")) * 1000 || 15000 * (i + 1); await sleep(wait); continue; }
     throw new Error(`${r.status} ${url}`);
   }
   throw new Error(`gave up ${url}`);
 }
 
-const out = [];
+// Merge with credits from earlier runs so photos can be added in several passes.
+const creditsPath = path.join(outDir, "_credits.json");
+let out = [];
+try { out = JSON.parse(await readFile(creditsPath, "utf8")); } catch {}
+const have = new Set(out.map((x) => x.key));
 for (const { key, file, alt } of list) {
+  if (have.has(key)) { console.error("skip (already have)", key); continue; }
   const api = "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1280&titles=" + encodeURIComponent("File:" + file);
   const page = Object.values((await (await get(api)).json()).query.pages)[0];
   const info = page.imageinfo?.[0];
@@ -46,6 +53,7 @@ for (const { key, file, alt } of list) {
   const buf = Buffer.from(await res.arrayBuffer());
   const dest = path.join(outDir, key + ".webp");
   const { width, height } = await sharp(buf).rotate().resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 80 }).toFile(dest);
+  out = out.filter((x) => x.key !== key);
   out.push({
     key,
     image: {
@@ -58,7 +66,8 @@ for (const { key, file, alt } of list) {
     },
   });
   console.error("ok", key, width + "x" + height, license);
+  await writeFile(creditsPath, JSON.stringify(out, null, 2) + "\n");
   await sleep(2500);
 }
-await writeFile(path.join(outDir, "_credits.json"), JSON.stringify(out, null, 2) + "\n");
+await writeFile(creditsPath, JSON.stringify(out, null, 2) + "\n");
 console.log(JSON.stringify(out, null, 2));
