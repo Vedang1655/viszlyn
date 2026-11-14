@@ -18,8 +18,8 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
   eyebrow: "Money",
   title: "The 10 Most Expensive Homes for Sale Right Now",
   dek: "The priciest homes on the market in November 2026, ranked by asking price. Six of the 11 entries are in Florida, and the top listing would beat the world record for a home sale if it sold at its asking price.",
-  publishedDate: "November 17, 2026",
-  lastUpdated: "November 17, 2026",
+  publishedDate: "November 15, 2026",
+  lastUpdated: "November 15, 2026",
   dataPeriod: "Listings checked as active on 14 November 2026; prices in other currencies converted at ECB reference rates on 13 November 2026",
   heroImage: {
     src: "/heroes/most-expensive-homes-for-sale-2026.png",
@@ -180,7 +180,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
 
   sourceNote: {
     dataPeriod: "Listings active on 14 November 2026",
-    lastUpdated: "November 17, 2026",
+    lastUpdated: "November 15, 2026",
     sources:
       "Listing pages from the listing brokerages (The Beverly Hills Estates, Sotheby's International Realty, Coldwell Banker, Compass, PropertyGuru, Mocca Realty, K2 Realty) and reporting by The Real Deal, Realtor.com, Business Times, Mansion Global, Entrepreneur and Country & Town House. Exchange rates: European Central Bank euro reference rates, 13 November 2026. Photos: Wikimedia Commons, credited under each photo.",
     methodology:
