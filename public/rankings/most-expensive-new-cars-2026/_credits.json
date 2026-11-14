@@ -104,29 +104,29 @@
     }
   },
   {
-    "key": "pagani-utopia-roadster",
+    "key": "pagani-huayra-imola",
     "image": {
-      "src": "/rankings/most-expensive-new-cars-2026/pagani-utopia-roadster.webp",
+      "src": "/rankings/most-expensive-new-cars-2026/pagani-huayra-imola.webp",
       "width": 1200,
-      "height": 599,
-      "alt": "Pagani Utopia Roadster at the Goodwood Festival of Speed 2025",
-      "author": "MrWalkr",
+      "height": 673,
+      "alt": "Pagani Huayra Imola",
+      "author": "Calreyn88",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Pagani_Utopia_Roadster_FOS25.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Pagani_Huayra_Imola.jpg"
     }
   },
   {
-    "key": "aspark-owl",
+    "key": "bugatti-chiron-super-sport",
     "image": {
-      "src": "/rankings/most-expensive-new-cars-2026/aspark-owl.webp",
+      "src": "/rankings/most-expensive-new-cars-2026/bugatti-chiron-super-sport.webp",
       "width": 1200,
-      "height": 781,
-      "alt": "Aspark Owl electric hypercar at Salon Priv\u00e9",
-      "author": "Dylan Johnson",
+      "height": 585,
+      "alt": "Bugatti Chiron Super Sport",
+      "author": "Calreyn88",
       "license": "CC BY-SA 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020_Aspark_Owl.jpg"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2021_Bugatti_Chiron_Super_Sport.jpg"
     }
   }
 ]
