@@ -172,6 +172,7 @@ export function EntryPhoto({ image }: { image: EntryImage }) {
         className="w-full h-auto rounded-md bg-stone-light/40"
       />
       <figcaption className="font-body text-[11px] leading-snug text-stone mt-1">
+        {image.caption && <span className="text-ink/80">{image.caption} </span>}
         Photo:{" "}
         <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline decoration-stone-light underline-offset-2 hover:text-signal">
           {image.author}

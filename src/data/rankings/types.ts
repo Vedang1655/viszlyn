@@ -48,6 +48,8 @@ export type EntryImage = {
   licenseUrl?: string;
   /** The file's page on Wikimedia Commons (or other source) */
   sourceUrl: string;
+  /** Optional line shown before the credit, e.g. "Deep Water Bay, Hong Kong: the area, not the house." */
+  caption?: string;
 };
 
 export type FaqItem = {

@@ -36,7 +36,7 @@ const creditsPath = path.join(outDir, "_credits.json");
 let out = [];
 try { out = JSON.parse(await readFile(creditsPath, "utf8")); } catch {}
 const have = new Set(out.map((x) => x.key));
-for (const { key, file, alt } of list) {
+for (const { key, file, alt, caption } of list) {
   if (have.has(key)) { console.error("skip (already have)", key); continue; }
   const api = "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=1280&titles=" + encodeURIComponent("File:" + file);
   const page = Object.values((await (await get(api)).json()).query.pages)[0];
@@ -63,6 +63,7 @@ for (const { key, file, alt } of list) {
       license,
       licenseUrl: strip(m.LicenseUrl?.value) || undefined,
       sourceUrl: info.descriptionurl,
+      ...(caption ? { caption } : {}),
     },
   });
   console.error("ok", key, width + "x" + height, license);
