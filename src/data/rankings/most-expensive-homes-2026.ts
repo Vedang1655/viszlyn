@@ -25,7 +25,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
     src: "/heroes/most-expensive-homes-2026.png",
     onPage: false,
     ogSrc: "/heroes/most-expensive-homes-2026-og.png",
-    alt: "Ten red SOLD signs on a lawn, one for each of the most expensive homes ever sold, with prices in US dollars: Providence House London US$354.7 million, Deep Water Bay Hong Kong US$319.0 million, Château Louis XIV US$307.0 million, Rutland Gate London US$281.1 million, The Peak Hong Kong US$267.9 million, The Holme London US$261.0 million, Ken Griffin's penthouse New York US$239.96 million, Hôtel Lambert Paris over US$223.3 million, Villa Les Cèdres US$223.3 million and a Malibu estate US$210 million.",
+    alt: "Dark and gold ranking graphic: a gold line drawing of a mansion under '#1 Providence House, London, US$354.7 million, £265 million', beside the list #2 Deep Water Bay, Hong Kong US$319.0 million, #3 Château Louis XIV, France US$307.0 million, #4 Rutland Gate, London US$281.1 million, #5 The Peak, Hong Kong US$267.9 million, #6 The Holme, London US$261.0 million, #7 Griffin penthouse, New York US$239.96 million, #8 Hôtel Lambert, Paris over US$223.3 million, #9 Villa Les Cèdres US$223.3 million, #10 Jannard estate, Malibu US$210 million.",
   },
 
   quickAnswer:

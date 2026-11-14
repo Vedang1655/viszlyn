@@ -1,3 +1,4 @@
+// NOTE (Nov 14, 2026): the published image is a designed version supplied separately; running this script overwrites it with the older SOLD-sign design.
 // Share / Google Discover image for /rankings/most-expensive-homes-2026 (the page keeps its block mosaic).
 // Ten estate-agent "SOLD" signs on a lawn, one per home, with the sale price in its original currency.
 // Order = ranking (prices converted at ECB rates, 6 Nov 2026). Run: node scripts/hero-images/most-expensive-homes-2026.mjs
