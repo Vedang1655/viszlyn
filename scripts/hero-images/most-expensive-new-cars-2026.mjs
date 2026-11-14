@@ -17,12 +17,20 @@ const CARS = [
   ["10", "Bugatti Chiron<br/>Super Sport", "US$3.54 million", "€3.2 million"],
 ];
 
+const CAR = `<svg class="car" viewBox="0 0 160 44" aria-hidden="true">
+  <path d="M2 35 L5 29 C18 26 34 24 48 22 C58 14 70 10 86 10 C100 10 110 14 121 21 L150 25.5 C156 26.5 158.5 30 158.5 35 Z" fill="currentColor"/>
+  <path d="M58 21 C66 15 75 12.5 86 12.5 C96 12.5 104 15.5 112 21 Z" fill="#FFF6DA" opacity=".8"/>
+  <path d="M122 27 L144 29.5" stroke="#FFF6DA" stroke-width="2.2" stroke-linecap="round" opacity=".55"/>
+  <path d="M10 30 L44 26" stroke="#FFF6DA" stroke-width="1.6" stroke-linecap="round" opacity=".4"/>
+  <circle cx="38" cy="35" r="9" fill="#120C03"/><circle cx="38" cy="35" r="4.5" fill="#C9C9C9"/>
+  <circle cx="128" cy="35" r="9" fill="#120C03"/><circle cx="128" cy="35" r="4.5" fill="#C9C9C9"/>
+</svg>`;
 const tag = ([rk, name, price, orig], i) => {
   const tilt = [-2, 1.5, -1, 2, -1.5, 1, -2, 1.5, -1, 2][i];
   return `<div class="slot"><div class="string"></div>
     <div class="tag${i === 0 ? " first" : ""}" style="transform:rotate(${tilt}deg)">
       <span class="hole"></span>
-      <div class="rk">${rk.startsWith("=") ? rk : "#" + rk}</div>
+      <div class="top"><div class="rk">${rk.startsWith("=") ? rk : "#" + rk}</div>${CAR}</div>
       <div class="nm">${name}</div>
       <div class="pr">${price}</div>
       <div class="orig">${orig}</div>
@@ -50,16 +58,19 @@ const css = `
 h1{margin:8px 0 0;font-size:46px;line-height:1.02;font-weight:900;letter-spacing:-1px}
 h1 em{font-style:normal;color:#F4C95D}
 .row{position:absolute;left:30px;right:30px;display:flex;justify-content:space-between}
-.r1{top:122px}.r2{top:360px}
+.r1{top:118px}.r2{top:358px}
 .slot{position:relative;width:216px;display:flex;flex-direction:column;align-items:center}
 .string{width:2px;height:22px;background:linear-gradient(#C9A24A,#8A6A2A)}
-.tag{position:relative;width:204px;height:196px;border-radius:10px 10px 14px 14px;padding:22px 12px 0;text-align:center;
+.tag{position:relative;width:204px;height:200px;border-radius:10px 10px 14px 14px;padding:16px 10px 0;text-align:center;
   background:linear-gradient(160deg,#FFF6DA 0%,#F1D98F 45%,#D9B45A 100%);color:#2A1D08;
   box-shadow:0 12px 24px rgba(0,0,0,.55),inset 0 0 0 3px rgba(120,85,20,.35);transform-origin:50% 0}
 .hole{position:absolute;left:50%;top:-6px;width:16px;height:16px;margin-left:-8px;border-radius:50%;background:#140F0A;box-shadow:0 0 0 3px #B88C2E}
-.rk{font-size:26px;font-weight:900;color:#8A5A10;line-height:1}
-.nm{margin-top:8px;font-size:22px;font-weight:800;line-height:1.08;height:48px;letter-spacing:-.3px}
-.pr{margin-top:16px;font-size:24px;font-weight:900;letter-spacing:-.8px;color:#1A1205;white-space:nowrap}
+.top{display:flex;align-items:flex-end;justify-content:center;gap:6px;height:42px}
+.rk{font-size:24px;font-weight:900;color:#8A5A10;line-height:1;padding-bottom:6px}
+.car{width:140px;height:38px;color:#2A1D08}
+.tag.first .car{color:#5A1600}
+.nm{margin-top:6px;font-size:22px;font-weight:800;line-height:1.08;height:48px;letter-spacing:-.3px}
+.pr{margin-top:10px;font-size:24px;font-weight:900;letter-spacing:-.8px;color:#1A1205;white-space:nowrap}
 .orig{margin-top:6px;font-size:17px;font-weight:700;color:#6A4E14}
 .tag.first{background:linear-gradient(160deg,#FFD7A8 0%,#FF9E55 50%,#E8672A 100%);box-shadow:0 0 34px rgba(255,140,60,.55),0 12px 24px rgba(0,0,0,.55),inset 0 0 0 3px rgba(120,40,0,.35)}
 .tag.first .rk{color:#6A1E00}
