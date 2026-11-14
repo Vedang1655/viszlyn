@@ -30,6 +30,24 @@ export type DetailedEntry = {
   wikipediaUrl?: string;
   rankLabel?: string;
   countries?: CountryFlag[];
+  /** Optional photo shown at the top of the entry (open and collapsed). Only freely licensed
+   * images (CC0 / public domain / CC BY / CC BY-SA), stored under /public and credited. */
+  image?: EntryImage;
+};
+
+export type EntryImage = {
+  /** Path under /public, e.g. "/rankings/<slug>/<file>.webp" */
+  src: string;
+  width: number;
+  height: number;
+  alt: string;
+  /** Photographer / author as credited on the source page */
+  author: string;
+  /** e.g. "CC BY-SA 4.0", "CC0", "Public domain" */
+  license: string;
+  licenseUrl?: string;
+  /** The file's page on Wikimedia Commons (or other source) */
+  sourceUrl: string;
 };
 
 export type FaqItem = {

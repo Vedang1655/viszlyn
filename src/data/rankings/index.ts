@@ -1,3 +1,4 @@
+import { mostExpensiveNewCars2026 } from "./most-expensive-new-cars-2026";
 import { biggestOilProducers2026 } from "./biggest-oil-producers-2026";
 import { foreignHoldersUsTreasuries2026 } from "./foreign-holders-us-treasuries-2026";
 import { longestFlightsWorld2026 } from "./longest-flights-world-2026";
@@ -51,6 +52,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  mostExpensiveNewCars2026,
   biggestOilProducers2026,
   foreignHoldersUsTreasuries2026,
   longestFlightsWorld2026,
