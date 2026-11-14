@@ -23,7 +23,6 @@ export const mostExpensiveNewCars2026: RankingArticle = {
   dataPeriod: "Cars revealed from 2020 to November 2026; prices converted to US dollars at ECB reference rates on 13 November 2026",
   heroImage: {
     src: "/heroes/most-expensive-new-cars-2026.png",
-    onPage: false,
     ogSrc: "/heroes/most-expensive-new-cars-2026-og.png",
     alt: "Dark and gold ranking graphic: a gold line drawing of a hypercar under '#1 Pagani Huayra Codalunga, US$7.74 million, from €7 million', beside the list #2 Red Bull RB17 from US$6.61 million (from £5 million), =3 Bugatti W16 Mistral and Pagani Huayra Imola US$5.53 million (€5 million), #5 Pininfarina B95 US$4.86 million, #6 Bugatti Bolide US$4.42 million, #7 Bugatti Tourbillon US$4.20 million, #8 GMA T.50s Niki Lauda US$4.10 million, #9 Ferrari F80 US$3.98 million (reported), #10 Bugatti Chiron Super Sport US$3.54 million.",
   },
