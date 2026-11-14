@@ -7,17 +7,17 @@ export const mostExpensiveHomes2026: RankingArticle = {
 
   metaTitle: "The 10 Most Expensive Homes Ever Sold, Ranked | Viszlyn",
   metaDescription:
-    "London's Providence House sold for a reported £265 million in 2026, the most ever paid for a home. The 10 most expensive homes ever sold, from London and Hong Kong to Paris, New York and Malibu.",
+    "London's Providence House sold for a reported US$354,699,395 (£265 million) in 2026, the most ever paid for a home. The 10 most expensive homes ever sold, from London and Hong Kong to Paris, New York and Malibu.",
   ogTitle: "The 10 Most Expensive Homes Ever Sold",
   ogDescription:
-    "A £265 million London mansion, a HK$2.5 billion Hong Kong house and a €275 million French château: the 10 priciest home sales ever.",
+    "A US$354,699,395 London mansion, a US$318,981,772 Hong Kong house and a US$307,037,500 French château: the 10 priciest home sales ever.",
   twitterTitle: "The 10 Most Expensive Homes Ever Sold",
   twitterDescription:
-    "Providence House, London £265M; Deep Water Bay, Hong Kong HK$2.5B; Château Louis XIV €275M. The top 10 home sales ever, ranked.",
+    "Providence House, London US$354,699,395; Deep Water Bay, Hong Kong US$318,981,772; Château Louis XIV US$307,037,500. The top 10 home sales ever, ranked.",
 
   eyebrow: "Money",
   title: "The 10 Most Expensive Homes Ever Sold",
-  dek: "Three of the 10 are in London, three in France, two in Hong Kong and two in the US. The record now belongs to Providence House in Chelsea, which sold for a reported £265 million in 2026.",
+  dek: "Three of the 10 are in London, three in France, two in Hong Kong and two in the US. The record now belongs to Providence House in Chelsea, which sold for a reported £265 million (US$354,699,395) in 2026.",
   publishedDate: "November 16, 2026",
   lastUpdated: "November 16, 2026",
   dataPeriod: "Completed sales up to November 2026; prices converted to US dollars at ECB reference rates on 6 November 2026",
@@ -25,13 +25,13 @@ export const mostExpensiveHomes2026: RankingArticle = {
     src: "/heroes/most-expensive-homes-2026.png",
     onPage: false,
     ogSrc: "/heroes/most-expensive-homes-2026-og.png",
-    alt: "Ten red SOLD signs on a lawn, one for each of the most expensive homes ever sold: Providence House London £265M, Deep Water Bay Hong Kong HK$2.5B, Château Louis XIV €275M, Rutland Gate London £210M, The Peak Hong Kong HK$2.1B, The Holme London £195M, Ken Griffin's penthouse at 220 Central Park South New York $239,958,219, Hôtel Lambert Paris over €200M, Villa Les Cèdres €200M and Malibu $210M.",
+    alt: "Ten red SOLD signs on a lawn, one for each of the most expensive homes ever sold, with prices in US dollars: Providence House London US$354,699,395, Deep Water Bay Hong Kong US$318,981,772, Château Louis XIV US$307,037,500, Rutland Gate London US$281,082,539, The Peak Hong Kong US$267,944,689, The Holme London US$261,005,215, Ken Griffin's penthouse New York US$239,958,219, Hôtel Lambert Paris over US$223,300,000, Villa Les Cèdres US$223,300,000 and a Malibu estate US$210,000,000.",
   },
 
   quickAnswer:
-    "The most expensive home ever sold is Providence House in Chelsea, London, which sold for a reported £265 million (US$354,699,395 at November 2026 exchange rates) in 2026. A house in Deep Water Bay, Hong Kong, is second at HK$2.5 billion (US$318,981,772), sold in 2017, and Château Louis XIV near Versailles is third at €275 million (US$307,037,500), sold in 2015. The most expensive home ever sold in the US is Ken Griffin's penthouse at 220 Central Park South, New York, at US$239,958,219.",
+    "The most expensive home ever sold is Providence House in Chelsea, London, which sold for a reported US$354,699,395 (£265 million, converted at November 2026 exchange rates) in 2026. A house in Deep Water Bay, Hong Kong, is second at US$318,981,772 (HK$2.5 billion), sold in 2017, and Château Louis XIV near Versailles is third at US$307,037,500 (€275 million), sold in 2015. The most expensive home ever sold in the US is Ken Griffin's penthouse at 220 Central Park South, New York, at US$239,958,219.",
   introParagraph:
-    "Headline prices for trophy homes are often inflated, or turn out to be asking prices, refinancings or several properties sold together. This ranking only counts completed sales of a single home, with each price taken from official property records or company filings where they exist, and otherwise from major financial news outlets. Each entry says which. The sales happened in different years and currencies, so to compare them on one scale we converted every price to US dollars at the same European Central Bank reference rates, on 6 November 2026. The original prices are shown too.",
+    "Headline prices for trophy homes are often inflated, or turn out to be asking prices, refinancings or several properties sold together. This ranking only counts completed sales of a single home, with each price taken from official property records or company filings where they exist, and otherwise from major financial news outlets. Each entry says which. The sales happened in different years and currencies, so to compare them on one scale we converted every price to US dollars at the same European Central Bank reference rates, on 6 November 2026. Prices are shown in US dollars, with the original price in brackets.",
   calloutBox: {
     label: "The famous homes that aren't here",
     body: "Some of the world's most valuable homes have never been sold, so they have no sale price. Antilia, Mukesh Ambani's home in Mumbai, was estimated by Forbes in 2014 at upward of US$1 billion, and Villa Leopolda on the French Riviera at €500 million. We also left out a Monte Carlo penthouse reported at €240 million in 2010, because reports disagree on whether it was a sale or a long lease and Monaco has no public property register, and a US$225 million Naples, Florida deal in 2025 that covered three separate properties.",
@@ -67,7 +67,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
     {
       rank: 9,
       name: "Villa Les Cèdres, France",
-      earnings: "€200,000,000 (US$223,300,000) (2019)",
+      earnings: "US$223,300,000 (€200,000,000, 2019)",
       category: "Saint-Jean-Cap-Ferrat, France",
       blurb: "Campari Group sold Villa Les Cèdres on the French Riviera for €200 million in October 2019. The buyer was Ukrainian billionaire Rinat Akhmetov, confirmed by his own company.",
       standoutFact: "The price is stated in the seller's own audited annual report, one of the strongest sources in this ranking.",
@@ -76,7 +76,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
     {
       rank: 8,
       name: "Hôtel Lambert, Paris",
-      earnings: "More than €200,000,000 (more than US$223,300,000) (2022)",
+      earnings: "More than US$223,300,000 (more than €200,000,000, 2022)",
       category: "Paris, France",
       blurb: "Hôtel Lambert, a mansion on the Île Saint-Louis in the heart of Paris, sold in February 2022 for more than €200 million, according to Bloomberg. The buyer has not confirmed the purchase.",
       standoutFact: "The exact price was never published, so this is a minimum; it ranks above Villa Les Cèdres because its price was reported as more than €200 million.",
@@ -94,7 +94,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
     {
       rank: 6,
       name: "The Holme, London",
-      earnings: "£195,000,000 (US$261,005,215) (2026)",
+      earnings: "US$261,005,215 (£195,000,000, 2026)",
       category: "London, United Kingdom",
       blurb: "The Holme, a mansion in Regent's Park, sold for a reported £195 million in June 2026. The buyer has not been disclosed.",
       standoutFact: "It sold just 18 months after a £139 million sale by receivers in 2024, so the price rose by £56 million.",
@@ -103,7 +103,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
     {
       rank: 5,
       name: "The Peak house, Hong Kong",
-      earnings: "HK$2,100,000,000 (US$267,944,689) (2019)",
+      earnings: "US$267,944,689 (HK$2,100,000,000, 2019)",
       category: "Hong Kong",
       blurb: "A house on The Peak sold for HK$2.1 billion to Chen Hongtian. The deal was agreed in June 2016 and completed in February 2019, and the price is recorded in the seller's filing to the Hong Kong stock exchange.",
       standoutFact: "About a fifth of the price was paid with a property in Shenzhen rather than cash. In August 2025 the house was resold for HK$790 million after being seized by creditors.",
@@ -112,7 +112,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
     {
       rank: 4,
       name: "Rutland Gate mansion, London",
-      earnings: "£210,000,000 (US$281,082,539) (2020)",
+      earnings: "US$281,082,539 (£210,000,000, 2020)",
       category: "London, United Kingdom",
       blurb: "A mansion at Rutland Gate in Knightsbridge sold for £210 million on 21 April 2020 to Cheung Chung-kiu, whose family office confirmed the purchase.",
       standoutFact: "Its price is confirmed in the UK's official Land Registry price-paid data.",
@@ -121,7 +121,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
     {
       rank: 3,
       name: "Château Louis XIV, France",
-      earnings: "€275,000,000 (US$307,037,500) (2015)",
+      earnings: "US$307,037,500 (€275,000,000, 2015)",
       category: "Louveciennes, France",
       blurb: "Château Louis XIV in Louveciennes, near Versailles, sold for a reported €275 million in 2015, according to Bloomberg. The buyer was not officially disclosed.",
       standoutFact: "Bloomberg and Money called it the world's most expensive home when the sale was reported in December 2015.",
@@ -130,7 +130,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
     {
       rank: 2,
       name: "Deep Water Bay house, Hong Kong",
-      earnings: "HK$2,500,000,000 (US$318,981,772) (2017)",
+      earnings: "US$318,981,772 (HK$2,500,000,000, 2017)",
       category: "Hong Kong",
       blurb: "A 13,854-square-foot house in Deep Water Bay sold for a reported HK$2.5 billion in 2017. Hong Kong Land Registry documents show businessman Pan Sutong as the owner.",
       standoutFact: "Hong Kong is the only place outside London and France with two homes in the top 10; the other is the HK$2.1 billion Peak house.",
@@ -139,7 +139,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
     {
       rank: 1,
       name: "Providence House, London",
-      earnings: "£265,000,000 (US$354,699,395) (2026)",
+      earnings: "US$354,699,395 (£265,000,000, 2026)",
       category: "London, United Kingdom",
       blurb: "Providence House, property developer Nick Candy's former mansion in the grounds of the Royal Hospital Chelsea, sold for a reported £265 million, with the deal completed in May 2026. The buyer has not been disclosed.",
       standoutFact: "Reports gave prices from £265 million to more than £275 million; an investigation by Tax Policy Associates found the higher figure traced to a citation error. As of September 2026 the sale was not yet registered at the Land Registry, and the deal also included five small flats worth about £1.75 million.",
@@ -181,7 +181,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
     {
       question: "What is the most expensive home ever sold?",
       answer:
-        "Providence House in Chelsea, London, which sold for a reported £265 million in 2026 (US$354,699,395 at ECB rates on 6 November 2026). Before that, the record was a house in Deep Water Bay, Hong Kong, sold for a reported HK$2.5 billion in 2017.",
+        "Providence House in Chelsea, London, which sold for a reported US$354,699,395 (£265 million, converted at ECB rates on 6 November 2026) in 2026. Before that, the record was a house in Deep Water Bay, Hong Kong, sold for a reported US$318,981,772 (HK$2.5 billion) in 2017.",
     },
     {
       question: "What is the most expensive home ever sold in the US?",

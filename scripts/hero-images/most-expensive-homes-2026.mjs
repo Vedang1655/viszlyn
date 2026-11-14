@@ -4,24 +4,25 @@
 import { renderHero } from "./render.mjs";
 
 const HOMES = [
-  ["1", "Providence House", "London", "£265 million"],
-  ["2", "Deep Water Bay", "Hong Kong", "HK$2.5 billion"],
-  ["3", "Château Louis XIV", "France", "€275 million"],
-  ["4", "Rutland Gate", "London", "£210 million"],
-  ["5", "The Peak", "Hong Kong", "HK$2.1 billion"],
-  ["6", "The Holme", "London", "£195 million"],
-  ["7", "Griffin penthouse", "New York", "$239,958,219"],
-  ["8", "Hôtel Lambert", "Paris", "over €200M"],
-  ["9", "Villa Les Cèdres", "French Riviera", "€200 million"],
-  ["10", "Jannard estate", "Malibu", "$210 million"],
+  ["1", "Providence House", "London", "US$354,699,395", "£265 million"],
+  ["2", "Deep Water Bay", "Hong Kong", "US$318,981,772", "HK$2.5 billion"],
+  ["3", "Château Louis XIV", "France", "US$307,037,500", "€275 million"],
+  ["4", "Rutland Gate", "London", "US$281,082,539", "£210 million"],
+  ["5", "The Peak", "Hong Kong", "US$267,944,689", "HK$2.1 billion"],
+  ["6", "The Holme", "London", "US$261,005,215", "£195 million"],
+  ["7", "Griffin penthouse", "New York", "US$239,958,219", "sold in US$"],
+  ["8", "Hôtel Lambert", "Paris", "US$223,300,000+", "over €200 million"],
+  ["9", "Villa Les Cèdres", "French Riviera", "US$223,300,000", "€200 million"],
+  ["10", "Jannard estate", "Malibu", "US$210,000,000", "sold in US$"],
 ];
 
-const sign = ([rk, name, city, price], i) => `<div class="post${i === 0 ? " first" : ""}">
+const sign = ([rk, name, city, price, orig], i) => `<div class="post${i === 0 ? " first" : ""}">
   <div class="board">
     <div class="sold"><span class="rk">#${rk}</span>SOLD</div>
     <div class="nm">${name}</div>
     <div class="city">${city}</div>
     <div class="pr">${price}</div>
+    <div class="orig">${orig}</div>
   </div>
   <div class="stake"></div>
 </div>`;
@@ -35,7 +36,7 @@ const body = `
   </div>
   <div class="row r1">${HOMES.slice(0, 5).map(sign).join("")}</div>
   <div class="row r2">${HOMES.slice(5).map((h, j) => sign(h, j + 5)).join("")}</div>
-  <div class="foot"><span>Recorded or reported sale prices; ranked at ECB exchange rates (6 Nov 2026)</span><span class="site">viszlyn.io</span></div>
+  <div class="foot"><span>Sale prices converted to US$ at ECB exchange rates (6 Nov 2026); original price below</span><span class="site">viszlyn.io</span></div>
 </div>`;
 
 const css = `
@@ -49,18 +50,19 @@ const css = `
 h1{margin:8px 0 0;font-size:48px;line-height:1.02;font-weight:900;letter-spacing:-1px;text-shadow:0 2px 10px rgba(0,0,0,.35)}
 h1 em{font-style:normal;color:#FFC24A}
 .row{position:absolute;left:28px;right:28px;display:flex;justify-content:space-between}
-.r1{top:128px}.r2{top:372px}
+.r1{top:124px}.r2{top:370px}
 .post{width:218px;display:flex;flex-direction:column;align-items:center}
-.board{width:212px;height:196px;background:#fff;color:#14202B;border-radius:6px;overflow:hidden;
+.board{width:212px;height:204px;background:#fff;color:#14202B;border-radius:6px;overflow:hidden;
   box-shadow:0 10px 22px rgba(0,0,0,.45),inset 0 0 0 3px #C8102E;text-align:center}
 .sold{display:flex;align-items:center;justify-content:center;gap:10px;height:46px;background:#C8102E;color:#fff;font-size:30px;font-weight:900;letter-spacing:3px}
 .rk{font-size:22px;letter-spacing:0;background:#fff;color:#C8102E;border-radius:6px;padding:1px 7px}
-.nm{margin-top:12px;font-size:21px;font-weight:900;line-height:1.05;padding:0 3px;letter-spacing:-.5px;white-space:nowrap}
+.nm{margin-top:10px;font-size:21px;font-weight:900;line-height:1.05;padding:0 3px;letter-spacing:-.5px;white-space:nowrap}
 .city{margin-top:4px;font-size:17px;font-weight:700;color:#5B6B78}
-.pr{margin-top:14px;font-size:27px;font-weight:900;letter-spacing:-.6px;color:#0E2A47;padding:0 6px;line-height:1}
+.pr{margin-top:12px;font-size:22px;font-weight:900;letter-spacing:-.8px;color:#0E2A47;padding:0 6px;line-height:1}
 .post.first .board{box-shadow:0 0 30px rgba(255,194,74,.7),0 10px 22px rgba(0,0,0,.45),inset 0 0 0 4px #FFB000}
 .post.first .sold{background:#FF5D3A}
 .post.first .pr{color:#C8102E}
+.orig{margin-top:6px;font-size:16px;font-weight:700;color:#5B6B78}
 .stake{width:12px;height:34px;background:linear-gradient(90deg,#BFC6CC,#F2F4F6,#9AA3AB);box-shadow:0 4px 6px rgba(0,0,0,.3)}
 .foot{position:absolute;left:44px;right:44px;bottom:10px;display:flex;justify-content:space-between;font-size:14px;color:rgba(255,255,255,.8)}
 .site{font-weight:800;color:#fff}
