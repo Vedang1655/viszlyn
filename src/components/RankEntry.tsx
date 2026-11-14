@@ -1,5 +1,5 @@
 import { slugify } from "./RankBar";
-import { CountryFlag } from "@/data/rankings/types";
+import { CountryFlag, EntryImage } from "@/data/rankings/types";
 
 export type RankEntryProps = {
   rank: number;
@@ -15,6 +15,7 @@ export type RankEntryProps = {
   wikipediaUrl?: string;
   rankLabel?: string;
   countries?: CountryFlag[];
+  image?: EntryImage;
 };
 
 export function RankEntry({
@@ -31,6 +32,7 @@ export function RankEntry({
   wikipediaUrl,
   rankLabel,
   countries,
+  image,
 }: RankEntryProps) {
   const isFirst = rank === 1;
 
@@ -87,6 +89,7 @@ export function RankEntry({
           blurb={blurb}
           standoutFact={standoutFact}
           sourceTag={sourceTag}
+          image={image}
         />
       </div>
     </div>
@@ -102,12 +105,14 @@ export function RankEntryBody({
   blurb,
   standoutFact,
   sourceTag,
+  image,
 }: Pick<
   RankEntryProps,
-  "earnings" | "earningsLabel" | "category" | "revenueSources" | "blurb" | "standoutFact" | "sourceTag"
+  "earnings" | "earningsLabel" | "category" | "revenueSources" | "blurb" | "standoutFact" | "sourceTag" | "image"
 >) {
   return (
     <>
+        {image && <EntryPhoto image={image} />}
         <dl className="mt-1.5 flex flex-col gap-1">
           <div className="flex flex-wrap items-baseline gap-x-2 text-sm">
             <dt className="font-body font-medium text-ink shrink-0">
@@ -148,5 +153,39 @@ export function RankEntryBody({
           </div>
         )}
     </>
+  );
+}
+
+/** Entry photo with its required credit line (author, licence, source). Lazy-loaded so long
+ * rankings stay fast; width/height are set so the page doesn't jump while images load. */
+export function EntryPhoto({ image }: { image: EntryImage }) {
+  return (
+    <figure className={`mt-2 mb-3 ${image.height > image.width ? "max-w-xs" : "max-w-xl"}`}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={image.src}
+        width={image.width}
+        height={image.height}
+        alt={image.alt}
+        loading="lazy"
+        decoding="async"
+        className="w-full h-auto rounded-md bg-stone-light/40"
+      />
+      <figcaption className="font-body text-[11px] leading-snug text-stone mt-1">
+        Photo:{" "}
+        <a href={image.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline decoration-stone-light underline-offset-2 hover:text-signal">
+          {image.author}
+        </a>
+        ,{" "}
+        {image.licenseUrl ? (
+          <a href={image.licenseUrl} target="_blank" rel="noopener noreferrer license" className="underline decoration-stone-light underline-offset-2 hover:text-signal">
+            {image.license}
+          </a>
+        ) : (
+          image.license
+        )}
+        , via Wikimedia Commons
+      </figcaption>
+    </figure>
   );
 }
