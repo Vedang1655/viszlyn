@@ -24,5 +24,114 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:2-8a_Rutland_Gate.JPG"
     }
+  },
+  {
+    "key": "the-holme",
+    "image": {
+      "src": "/rankings/most-expensive-homes-2026/the-holme.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "The Holme, a villa in Regent's Park, London",
+      "author": "PAUL FARMER",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Holme,_The_Regent%27s_Park_-_geograph.org.uk_-_5171571.jpg"
+    }
+  },
+  {
+    "key": "area-malibu",
+    "image": {
+      "src": "/rankings/most-expensive-homes-2026/area-malibu.webp",
+      "width": 1200,
+      "height": 803,
+      "alt": "Zuma Beach on the Malibu coastline",
+      "author": "Dave Parker",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ZumaBeachCountyPark.jpg",
+      "caption": "The Malibu coastline at Zuma Beach (the area, not the estate)."
+    }
+  },
+  {
+    "key": "area-cap-ferrat",
+    "image": {
+      "src": "/rankings/most-expensive-homes-2026/area-cap-ferrat.webp",
+      "width": 1200,
+      "height": 636,
+      "alt": "The Cap Ferrat peninsula on the French Riviera, seen from Èze",
+      "author": "Tobi 87",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%88ze_und_Cap_Ferrat-Grande_Corniche.jpg",
+      "caption": "The Cap Ferrat peninsula, French Riviera (the area, not the villa)."
+    }
+  },
+  {
+    "key": "area-the-peak",
+    "image": {
+      "src": "/rankings/most-expensive-homes-2026/area-the-peak.webp",
+      "width": 1200,
+      "height": 585,
+      "alt": "Hong Kong at night, seen from Victoria Peak",
+      "author": "Haydn Hsin",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Skyline_viewed_from_Victoria_Peak.jpg",
+      "caption": "The view from The Peak, Hong Kong (the area, not the house)."
+    }
+  },
+  {
+    "key": "area-deep-water-bay",
+    "image": {
+      "src": "/rankings/most-expensive-homes-2026/area-deep-water-bay.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "Aerial view of Deep Water Bay, Hong Kong",
+      "author": "Wpcpey",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deep_Water_Bay_2018.jpg",
+      "caption": "Deep Water Bay, Hong Kong (the area, not the house)."
+    }
+  },
+  {
+    "key": "area-royal-hospital-chelsea",
+    "image": {
+      "src": "/rankings/most-expensive-homes-2026/area-royal-hospital-chelsea.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "The Royal Hospital Chelsea, London",
+      "author": "Michael Coppins",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chelsea_Royal_Hospital_from_the_north_west.jpg",
+      "caption": "The Royal Hospital Chelsea, in whose grounds Providence House stands (the area, not the house)."
+    }
+  },
+  {
+    "key": "220-central-park-south",
+    "image": {
+      "src": "/rankings/most-expensive-homes-2026/220-central-park-south.webp",
+      "width": 1158,
+      "height": 1447,
+      "alt": "The 220 Central Park South tower, New York",
+      "author": "Kidfly182",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:220_Central_Park_South_001.jpg",
+      "caption": "The 220 Central Park South tower (photo cropped)."
+    }
+  },
+  {
+    "key": "hotel-lambert",
+    "image": {
+      "src": "/rankings/most-expensive-homes-2026/hotel-lambert.webp",
+      "width": 1200,
+      "height": 900,
+      "alt": "Hôtel Lambert on the Île Saint-Louis, Paris",
+      "author": "Tangopaso",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Lambert.jpg"
+    }
   }
 ]

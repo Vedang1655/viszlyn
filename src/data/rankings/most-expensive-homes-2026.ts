@@ -63,6 +63,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
       blurb: "Oakley founder James Jannard sold his beachfront Malibu estate for US$210 million in June 2024, according to the Los Angeles Times, citing property records. The buyer, a Delaware company, was not disclosed.",
       standoutFact: "It is the most expensive home ever sold in California.",
       sourceTag: SRC,
+      image: {"src": "/rankings/most-expensive-homes-2026/area-malibu.webp", "width": 1200, "height": 803, "alt": "Zuma Beach on the Malibu coastline", "author": "Dave Parker", "license": "CC BY 3.0", "licenseUrl": "https://creativecommons.org/licenses/by/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:ZumaBeachCountyPark.jpg", "caption": "The Malibu coastline at Zuma Beach (the area, not the estate)."},
     },
     {
       rank: 9,
@@ -72,6 +73,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
       blurb: "Campari Group sold Villa Les Cèdres on the French Riviera for €200 million in October 2019. The buyer was Ukrainian billionaire Rinat Akhmetov, confirmed by his own company.",
       standoutFact: "The price is stated in the seller's own audited annual report, one of the strongest sources in this ranking.",
       sourceTag: SRC,
+      image: {"src": "/rankings/most-expensive-homes-2026/area-cap-ferrat.webp", "width": 1200, "height": 636, "alt": "The Cap Ferrat peninsula on the French Riviera, seen from Èze", "author": "Tobi 87", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%88ze_und_Cap_Ferrat-Grande_Corniche.jpg", "caption": "The Cap Ferrat peninsula, French Riviera (the area, not the villa)."},
     },
     {
       rank: 8,
@@ -81,6 +83,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
       blurb: "Hôtel Lambert, a mansion on the Île Saint-Louis in the heart of Paris, sold in February 2022 for more than €200 million, according to Bloomberg. The buyer has not confirmed the purchase.",
       standoutFact: "The exact price was never published, so this is a minimum; it ranks above Villa Les Cèdres because its price was reported as more than €200 million.",
       sourceTag: SRC,
+      image: {"src": "/rankings/most-expensive-homes-2026/hotel-lambert.webp", "width": 1200, "height": 900, "alt": "Hôtel Lambert on the Île Saint-Louis, Paris", "author": "Tangopaso", "license": "Public domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Lambert.jpg"},
     },
     {
       rank: 7,
@@ -90,6 +93,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
       blurb: "Citadel founder Ken Griffin bought a penthouse at 220 Central Park South, on Manhattan's Billionaires' Row, for US$239,958,219, recorded in New York City property records on 23 January 2019.",
       standoutFact: "It is still the most expensive home ever sold in the United States.",
       sourceTag: SRC,
+      image: {"src": "/rankings/most-expensive-homes-2026/220-central-park-south.webp", "width": 1158, "height": 1447, "alt": "The 220 Central Park South tower, New York", "author": "Kidfly182", "license": "CC BY 4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:220_Central_Park_South_001.jpg", "caption": "The 220 Central Park South tower (photo cropped)."},
     },
     {
       rank: 6,
@@ -99,6 +103,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
       blurb: "The Holme, a mansion in Regent's Park, sold for a reported £195 million in June 2026. The buyer has not been disclosed.",
       standoutFact: "It sold just 18 months after a £139 million sale by receivers in 2024, so the price rose by £56 million.",
       sourceTag: SRC,
+      image: {"src": "/rankings/most-expensive-homes-2026/the-holme.webp", "width": 1200, "height": 900, "alt": "The Holme, a villa in Regent's Park, London", "author": "PAUL FARMER", "license": "CC BY-SA 2.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Holme,_The_Regent%27s_Park_-_geograph.org.uk_-_5171571.jpg"},
     },
     {
       rank: 5,
@@ -108,6 +113,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
       blurb: "A house on The Peak sold for HK$2.1 billion to Chen Hongtian. The deal was agreed in June 2016 and completed in February 2019, and the price is recorded in the seller's filing to the Hong Kong stock exchange.",
       standoutFact: "About a fifth of the price was paid with a property in Shenzhen rather than cash. In August 2025 the house was resold for HK$790 million after being seized by creditors.",
       sourceTag: SRC,
+      image: {"src": "/rankings/most-expensive-homes-2026/area-the-peak.webp", "width": 1200, "height": 585, "alt": "Hong Kong at night, seen from Victoria Peak", "author": "Haydn Hsin", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Skyline_viewed_from_Victoria_Peak.jpg", "caption": "The view from The Peak, Hong Kong (the area, not the house)."},
     },
     {
       rank: 4,
@@ -137,6 +143,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
       blurb: "A 13,854-square-foot house in Deep Water Bay sold for a reported HK$2.5 billion in 2017. Hong Kong Land Registry documents show businessman Pan Sutong as the owner.",
       standoutFact: "Hong Kong is the only place outside London and France with two homes in the top 10; the other is the HK$2.1 billion Peak house.",
       sourceTag: SRC,
+      image: {"src": "/rankings/most-expensive-homes-2026/area-deep-water-bay.webp", "width": 1200, "height": 900, "alt": "Aerial view of Deep Water Bay, Hong Kong", "author": "Wpcpey", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deep_Water_Bay_2018.jpg", "caption": "Deep Water Bay, Hong Kong (the area, not the house)."},
     },
     {
       rank: 1,
@@ -146,6 +153,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
       blurb: "Providence House, property developer Nick Candy's former mansion in the grounds of the Royal Hospital Chelsea, sold for a reported £265 million, with the deal completed in May 2026. The buyer has not been disclosed.",
       standoutFact: "Reports gave prices from £265 million to more than £275 million; an investigation by Tax Policy Associates found the higher figure traced to a citation error. As of September 2026 the sale was not yet registered at the Land Registry, and the deal also included five small flats worth about £1.75 million.",
       sourceTag: SRC,
+      image: {"src": "/rankings/most-expensive-homes-2026/area-royal-hospital-chelsea.webp", "width": 1200, "height": 900, "alt": "The Royal Hospital Chelsea, London", "author": "Michael Coppins", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chelsea_Royal_Hospital_from_the_north_west.jpg", "caption": "The Royal Hospital Chelsea, in whose grounds Providence House stands (the area, not the house)."},
     },
   ],
 
