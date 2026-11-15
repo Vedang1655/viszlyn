@@ -180,6 +180,7 @@ export const indiaHighestPaidWomenExecutives2026: RankingArticle = {
       { label: "TCS: Annual Report 2025-26", href: "https://www.ar.tcs.com/files/TCS_Annual_Report_2025-26.pdf" },
       { label: "Hindustan Unilever: Corporate Governance Report 2025-26", href: "https://www.hul.co.in/files/corporate-governance-report-2025-26.pdf" },
       { label: "Colgate-Palmolive (India): Directors' Report 2026", href: "https://www.colgateinvestors.co.in/pdf/directors-report-2026.pdf" },
+      { label: "FSN E-Commerce Ventures (Nykaa): Annual Report 2025-26", href: "https://nsearchives.nseindia.com/annual_reports/AR_30133_NYKAA_2025_2026_A_26389219_01082026194240.pdf" },
       { label: "Heritage Foods: Annual Return (MGT-7)", href: "https://www.heritagefoods.in/uploads/investors/pdf/draft-annual-return-MGT-7.pdf" },
       { label: "Apollo Hospitals: Annual Report 2025-26", href: "https://nsearchives.nseindia.com/corporate/APOLLOHOSP_01082026125623_SE_AR_25-26.pdf" },
     ],
