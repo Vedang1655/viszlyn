@@ -1,3 +1,4 @@
+// NOTE (Nov 15, 2026): the published image is a designed version supplied separately; running this script overwrites it with the older road-bars design.
 // Hero (Discover + first image on the page) for /rankings/biggest-car-producing-countries-2026.
 // Each row is a road whose length is proportional to vehicles produced in 2025 (OICA), with a car driving at its front.
 // Run: node scripts/hero-images/biggest-car-producing-countries-2026.mjs

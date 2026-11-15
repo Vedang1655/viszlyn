@@ -24,7 +24,7 @@ export const biggestCarProducingCountries2026: RankingArticle = {
   heroImage: {
     src: "/heroes/biggest-car-producing-countries-2026.png",
     ogSrc: "/heroes/biggest-car-producing-countries-2026-og.png",
-    alt: "Rows of car icons on a factory conveyor, one icon per million vehicles built in 2025: China 34.53 million, United States 10.24 million, Japan 8.41 million, India 6.49 million, Germany 4.15 million, South Korea 4.10 million, Mexico 4.09 million, Brazil 2.64 million, Spain 2.27 million and France 1.46 million. Source: OICA.",
+    alt: "Gold car outline with China ranked first at 34.53 million motor vehicles built in 2025, followed by the United States 10.24 million, Japan 8.41 million, India 6.49 million, Germany 4.15 million (passenger cars only), South Korea 4.10 million, Mexico 4.09 million, Brazil 2.64 million, Spain 2.27 million and France 1.46 million. Source: OICA.",
   },
 
   quickAnswer:
