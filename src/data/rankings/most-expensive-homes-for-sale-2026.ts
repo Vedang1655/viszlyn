@@ -7,30 +7,30 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
 
   metaTitle: "The 10 Most Expensive Homes for Sale Right Now (2026) | Viszlyn",
   metaDescription:
-    "A US$400 million Los Angeles estate tops the list of the most expensive homes for sale in November 2026, followed by a US$300 million Aspen ranch and a S$308 million Singapore bungalow. Active listings checked 14 November.",
+    "A US$400 million Los Angeles estate tops the list of the most expensive homes for sale in November 2026, followed by a S$308 million Singapore bungalow and the US$237 million Scarface house. Active listings checked 14 November.",
   ogTitle: "The 10 Most Expensive Homes for Sale Right Now",
   ogDescription:
     "From a US$400 million Los Angeles mega-mansion to the Scarface house: the priciest homes on the market in November 2026.",
   twitterTitle: "The 10 Most Expensive Homes for Sale Right Now",
   twitterDescription:
-    "Chalon estate US$400 million, Little Lake Lodge US$300 million, a Nassim Road bungalow S$308 million. The priciest homes on the market, ranked.",
+    "Chalon estate US$400 million, a Nassim Road bungalow S$308 million, the Scarface estate US$237 million. The priciest homes on the market, ranked.",
 
   eyebrow: "Money",
   title: "The 10 Most Expensive Homes for Sale Right Now",
-  dek: "The priciest homes on the market in November 2026, ranked by asking price. Six of the 11 entries are in Florida, and the top listing would beat the world record for a home sale if it sold at its asking price.",
+  dek: "The priciest homes on the market in November 2026, ranked by asking price. Six of the 10 are in Florida, and the top listing would beat the world record for a home sale if it sold at its asking price.",
   publishedDate: "November 15, 2026",
   lastUpdated: "November 15, 2026",
   dataPeriod: "Listings checked as active on 14 November 2026; prices in other currencies converted at ECB reference rates on 13 November 2026",
   heroImage: {
     src: "/heroes/most-expensive-homes-for-sale-2026.png",
     ogSrc: "/heroes/most-expensive-homes-for-sale-2026-og.png",
-    alt: "Dark and gold ranking graphic of the most expensive homes on the market in November 2026, with a gold line drawing of a mansion for #1: Chalon estate Los Angeles US$400 million, Little Lake Lodge Aspen US$300 million, Nassim Road bungalow Singapore US$239.1 million, Scarface estate Key Biscayne US$237 million, One Hyde Park penthouse London US$231.5 million, former Aldo Gucci estate Palm Beach US$205 million, ocean-to-lake estate Palm Beach US$195 million, Villa Serenity Coral Gables US$172.5 million, La Gorce Island estate Miami Beach US$170 million, and Larry Ellison's North Palm Beach estate and the former Calvin Klein estate in East Hampton at US$165 million each.",
+    alt: "FOR SALE signs on a lawn for the 10 most expensive homes on the market in November 2026: Chalon estate Los Angeles US$400 million, Nassim Road bungalow Singapore US$239.1 million (S$308 million), Scarface estate Key Biscayne US$237 million, One Hyde Park penthouse London US$231.5 million (£175 million), former Aldo Gucci estate Palm Beach US$205 million, ocean-to-lake estate Palm Beach US$195 million, Villa Serenity Coral Gables US$172.5 million, La Gorce Island estate Miami Beach US$170 million, and Larry Ellison's North Palm Beach estate and the former Calvin Klein estate in East Hampton tied at US$165 million.",
   },
 
   quickAnswer:
-    "The most expensive home for sale right now is the Chalon estate in Los Angeles, listed at US$400 million in April 2026. Little Lake Lodge in Aspen is second at US$300 million, and a bungalow on Singapore's Nassim Road is third at S$308 million (US$239.1 million). These are asking prices, not sale prices: if the Chalon estate sold at its price, it would be the most expensive home ever sold.",
+    "The most expensive home for sale right now is the Chalon estate in Los Angeles, listed at US$400 million in April 2026. A bungalow on Singapore's Nassim Road is second at S$308 million (US$239.1 million), and the Scarface estate in Key Biscayne, Florida, is third at US$237 million. These are asking prices, not sale prices: if the Chalon estate sold at its price, it would be the most expensive home ever sold.",
   introParagraph:
-    "Our list of the most expensive homes ever sold shows what buyers have actually paid. This one shows what sellers are asking right now. Every home here was listed for sale with a published price and was still on the market on 14 November 2026, checked against the listing itself. We left out homes offered at \"price on request\", unbuilt apartments and land. Asking prices are often cut, and some of these homes have been on the market for years, so treat them as what the owner hopes to get. Two homes tie at number 10, so the list has 11 entries.",
+    "Our list of the most expensive homes ever sold shows what buyers have actually paid. This one shows what sellers are asking right now. Every home here was listed for sale with a published price and was still on the market on 14 November 2026, checked against the listing itself. We left out homes offered at \"price on request\", unbuilt apartments and land. Asking prices are often cut, and some of these homes have been on the market for years, so treat them as what the owner hopes to get. Two homes tie at number 9.",
   calloutBox: {
     label: "Asking price vs. sale price",
     body: "An asking price is the seller's opening number. Homes at this level often sell for less, or not at all: the One Hyde Park penthouse has been listed since April 2021, and the Nassim Road bungalow was first offered in 2019 at S$175 million before being relaunched at S$308 million. For prices buyers actually paid, see our ranking of the most expensive homes ever sold, led by London's Providence House at US$354.7 million.",
@@ -40,25 +40,23 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
   chartSource: "Live listings checked 14 November 2026; ECB euro reference rates, 13 November 2026 (Viszlyn conversion)",
   chartTapNote: "Tap any home to jump to its details below.",
   entryValueLabel: "Asking price:",
-  openEntries: 11,
   chartItems: [
     { rank: 1, name: "Chalon estate, Los Angeles", value: "US$400 million", raw: 400000000 },
-    { rank: 2, name: "Little Lake Lodge, Aspen", value: "US$300 million", raw: 300000000 },
-    { rank: 3, name: "Nassim Road bungalow, Singapore", value: "US$239.1 million", raw: 239113234 },
-    { rank: 4, name: "Scarface estate, Key Biscayne", value: "US$237 million", raw: 237000000 },
-    { rank: 5, name: "One Hyde Park penthouse, London", value: "US$231.5 million", raw: 231465192 },
-    { rank: 6, name: "Former Aldo Gucci estate, Palm Beach", value: "US$205 million", raw: 205000000 },
-    { rank: 7, name: "Ocean-to-lake estate, Palm Beach", value: "US$195 million", raw: 195000000 },
-    { rank: 8, name: "Villa Serenity, Coral Gables", value: "US$172.5 million", raw: 172500000 },
-    { rank: 9, name: "La Gorce Island estate, Miami Beach", value: "US$170 million", raw: 170000000 },
-    { rank: 10, rankLabel: "=10", name: "Larry Ellison's estate, North Palm Beach", value: "US$165 million", raw: 165000000 },
-    { rank: 10, rankLabel: "=10", name: "Former Calvin Klein estate, East Hampton", value: "US$165 million", raw: 165000000 },
+    { rank: 2, name: "Nassim Road bungalow, Singapore", value: "US$239.1 million", raw: 239113234 },
+    { rank: 3, name: "Scarface estate, Key Biscayne", value: "US$237 million", raw: 237000000 },
+    { rank: 4, name: "One Hyde Park penthouse, London", value: "US$231.5 million", raw: 231465192 },
+    { rank: 5, name: "Former Aldo Gucci estate, Palm Beach", value: "US$205 million", raw: 205000000 },
+    { rank: 6, name: "Ocean-to-lake estate, Palm Beach", value: "US$195 million", raw: 195000000 },
+    { rank: 7, name: "Villa Serenity, Coral Gables", value: "US$172.5 million", raw: 172500000 },
+    { rank: 8, name: "La Gorce Island estate, Miami Beach", value: "US$170 million", raw: 170000000 },
+    { rank: 9, rankLabel: "=9", name: "Larry Ellison's estate, North Palm Beach", value: "US$165 million", raw: 165000000 },
+    { rank: 9, rankLabel: "=9", name: "Former Calvin Klein estate, East Hampton", value: "US$165 million", raw: 165000000 },
   ],
 
   detailedEntries: [
     {
-      rank: 10,
-      rankLabel: "=10",
+      rank: 9,
+      rankLabel: "=9",
       name: "Former Calvin Klein estate, East Hampton",
       earnings: "US$165 million (listed June 2026)",
       category: "East Hampton, United States",
@@ -68,8 +66,8 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
       image: {"src": "/rankings/most-expensive-homes-for-sale-2026/area-east-hampton.webp", "width": 1200, "height": 886, "alt": "Old Hook Mill, East Hampton", "author": "Rhododendrites", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Hook_Mill_in_East_Hampton_1.jpg", "caption": "East Hampton, New York (the area, not the estate)."},
     },
     {
-      rank: 10,
-      rankLabel: "=10",
+      rank: 9,
+      rankLabel: "=9",
       name: "Larry Ellison's estate, North Palm Beach",
       earnings: "US$165 million (relisted October 2026)",
       category: "North Palm Beach, United States",
@@ -79,7 +77,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
       image: {"src": "/rankings/most-expensive-homes-for-sale-2026/area-north-palm-beach.webp", "width": 1200, "height": 900, "alt": "MacArthur Beach State Park, North Palm Beach", "author": "Ebyabe", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_PB_FL_MacArthur_Beach_SP_beach_east01.jpg", "caption": "North Palm Beach, Florida (the area, not the estate)."},
     },
     {
-      rank: 9,
+      rank: 8,
       name: "La Gorce Island estate, Miami Beach",
       earnings: "US$170 million (listed November 2026)",
       category: "Miami Beach, United States",
@@ -89,7 +87,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
       image: {"src": "/rankings/most-expensive-homes-for-sale-2026/area-miami-beach.webp", "width": 1200, "height": 676, "alt": "Ocean Drive, Miami Beach", "author": "P. Hughes", "license": "CC BY 4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_Ocean_Drive_(2023).jpg", "caption": "Miami Beach, Florida (the area, not the estate)."},
     },
     {
-      rank: 8,
+      rank: 7,
       name: "Villa Serenity, Coral Gables",
       earnings: "US$172.5 million (listed January 2026)",
       category: "Coral Gables, United States",
@@ -99,7 +97,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
       image: {"src": "/rankings/most-expensive-homes-for-sale-2026/area-coral-gables.webp", "width": 1200, "height": 1643, "alt": "The Biltmore Hotel, Coral Gables", "author": "P. Hughes", "license": "CC BY 4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coral_Gables_-_The_Biltmore_Hotel.jpg", "caption": "Coral Gables, Florida (the area, not the villa)."},
     },
     {
-      rank: 7,
+      rank: 6,
       name: "Ocean-to-lake estate, Palm Beach",
       earnings: "US$195 million (listed August 2026)",
       category: "Palm Beach, United States",
@@ -109,7 +107,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
       image: {"src": "/rankings/most-expensive-homes-for-sale-2026/area-palm-beach-aerial.webp", "width": 1200, "height": 675, "alt": "Aerial view of Palm Beach, Florida", "author": "Michael Kagdis", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:PALM_BEACH_FLORIDA_AERIAL_2011.jpg", "caption": "Palm Beach from the air (the area, not the estate)."},
     },
     {
-      rank: 6,
+      rank: 5,
       name: "Former Aldo Gucci estate, Palm Beach",
       earnings: "US$205 million (listed November 2025)",
       category: "Palm Beach, United States",
@@ -119,7 +117,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
       image: {"src": "/rankings/most-expensive-homes-for-sale-2026/area-palm-beach-worth-avenue.webp", "width": 1200, "height": 900, "alt": "Worth Avenue clock tower, Palm Beach", "author": "User:MVASCO", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Worth_Avenue_Clock_Tower_Palm_Beach_Florida.jpg", "caption": "Palm Beach, Florida (the area, not the estate)."},
     },
     {
-      rank: 5,
+      rank: 4,
       name: "One Hyde Park penthouse, London",
       earnings: "US$231.5 million (£175 million, listed April 2021)",
       category: "London, United Kingdom",
@@ -129,7 +127,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
       image: {"src": "/rankings/most-expensive-homes-for-sale-2026/one-hyde-park.webp", "width": 1200, "height": 1805, "alt": "One Hyde Park, Knightsbridge, London", "author": "Donald Judge from England", "license": "CC BY 2.0", "licenseUrl": "https://creativecommons.org/licenses/by/2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:One_Hyde_Park_(43969329645).jpg", "caption": "The One Hyde Park building in Knightsbridge; the penthouse is on its 10th and 11th floors."},
     },
     {
-      rank: 4,
+      rank: 3,
       name: "Scarface estate, Key Biscayne",
       earnings: "US$237 million (listed April 2026)",
       category: "Key Biscayne, United States",
@@ -139,7 +137,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
       image: {"src": "/rankings/most-expensive-homes-for-sale-2026/area-key-biscayne.webp", "width": 960, "height": 1280, "alt": "Cape Florida Lighthouse, Key Biscayne", "author": "Dr Zak at English Wikipedia", "license": "CC BY-SA 3.0", "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/", "sourceUrl": "https://commons.wikimedia.org/wiki/File:CapeFloridaLight.jpg", "caption": "Key Biscayne, Florida (the area, not the estate)."},
     },
     {
-      rank: 3,
+      rank: 2,
       name: "Nassim Road bungalow, Singapore",
       earnings: "US$239.1 million (S$308 million, relaunched October 2024)",
       category: "Singapore",
@@ -147,16 +145,6 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
       standoutFact: "It was first offered in 2019 at S$175 million. If it sells at S$308 million, the Business Times reports, it would be the largest deal by absolute price in a Good Class Bungalow area.",
       sourceTag: SRC,
       image: {"src": "/rankings/most-expensive-homes-for-sale-2026/area-nassim-road.webp", "width": 1200, "height": 1510, "alt": "Nassim Road, Singapore, around 1895", "author": "Lambert &amp; Co., G.R. / Singapore", "license": "Public domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:KITLV_-_53175_-_Lambert_%26_Co.,_G.R._-_Singapore_-_Nassim_Road_on_the_north_side_of_the_Botanical_Garden_in_Singapore_-_circa_1895.tif", "caption": "Nassim Road, Singapore, around 1895 (the road, not the house)."},
-    },
-    {
-      rank: 2,
-      name: "Little Lake Lodge, Aspen",
-      earnings: "US$300 million (listed August 2025)",
-      category: "Aspen, United States",
-      blurb: "Billionaires Stewart and Lynda Resnick listed Little Lake Lodge, their 74.1-acre estate near Aspen, Colorado, for US$300 million in August 2025. The main house, built in 1994, has 18,466 square feet.",
-      standoutFact: "At its asking price, it would be the most expensive home ever sold in the US, beating Ken Griffin's US$239.96 million New York penthouse.",
-      sourceTag: SRC,
-      image: {"src": "/rankings/most-expensive-homes-for-sale-2026/area-aspen.webp", "width": 1200, "height": 712, "alt": "The Aspen Highlands valley, Colorado", "author": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please mention me as the author and send me a message. This image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here are not appropriate. Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aspen_Highlands_base_area.jpg", "caption": "The Aspen area, Colorado (the area, not the lodge)."},
     },
     {
       rank: 1,
@@ -171,11 +159,11 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
   ],
 
   keyTakeaway: {
-    stat: "6 of 11",
+    stat: "6 of 10",
     label: "Homes on this list that are in Florida",
     comparisonStat: "US$400 million",
     comparisonLabel: "Asking price of the Chalon estate, the most expensive home for sale",
-    note: "Nine of the 11 listings are in the United States, and six of those are in Florida, from Miami Beach to North Palm Beach. The only homes outside the US are a bungalow in Singapore and a penthouse in London.",
+    note: "Eight of the 10 listings are in the United States, and six of those are in Florida, from Miami Beach to North Palm Beach. The only homes outside the US are a bungalow in Singapore and a penthouse in London.",
   },
 
   sourceNote: {
@@ -187,8 +175,6 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
       "Included: single homes (houses, apartments, penthouses and estates) publicly listed for sale with a published asking price and still active on 14 November 2026. Excluded: \"price on request\" listings, unbuilt or off-plan homes, land, withdrawn listings and multi-property bundles. Prices are the current asking price; where a price was cut, the current price is used. Prices in pounds and Singapore dollars are converted to US dollars at ECB reference rates on 13 November 2026 (EUR/USD 1.1052, EUR/GBP 0.83559, EUR/SGD 1.4236) and rounded to the nearest US$0.1 million. Sellers are named only when they are public figures. Most photos show the area, not the home itself, and are captioned that way.",
     sourceLinks: [
       { label: "Country & Town House: Chalon estate listing", href: "https://www.countryandtownhouse.com/cth-life/properties/most-expensive-property-listing/" },
-      { label: "Sotheby's International Realty: Little Lake Lodge listing", href: "https://www.sothebysrealty.com/eng/sales/detail/180-l-963-mzy8yj/161-stillwater-road-aspen-co-81611" },
-      { label: "Realtor.com: Little Lake Lodge, Aspen", href: "https://www.realtor.com/news/unique-homes/most-expensive-homes-august-26-2025/" },
       { label: "Business Times: Nassim Road bungalow at S$308 million", href: "https://www.businesstimes.com.sg/property/nassim-road-bungalow-back-market-time-record-s308-millionprice-tag" },
       { label: "Entrepreneur: The Scarface house for US$237 million", href: "https://www.entrepreneur.com/real-estate/the-scarface-house-is-on-sale-for-237-million" },
       { label: "UK Sotheby's International Realty: One Hyde Park penthouse listing", href: "https://sothebysrealty.co.uk/properties/buy/penthouse-for-sale-london-knightsbridge-one-hyde-park-42299/" },

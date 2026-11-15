@@ -1,21 +1,19 @@
-// NOTE (Nov 14, 2026): the published image is a designed version supplied separately; running this script overwrites it with the older FOR SALE-sign design.
 // Share / Google Discover image for /rankings/most-expensive-homes-for-sale-2026 (the page keeps its block mosaic).
-// Eleven green estate-agent "FOR SALE" signs (tie at #10), asking price in US$ with original currency below.
+// Ten green estate-agent "FOR SALE" signs (tie at =9), asking price in US$ with original currency below.
 // Run: node scripts/hero-images/most-expensive-homes-for-sale-2026.mjs
 import { renderHero } from "./render.mjs";
 
 const HOMES = [
   ["1", "Chalon estate", "Los Angeles", "US$400 million", ""],
-  ["2", "Little Lake Lodge", "Aspen", "US$300 million", ""],
-  ["3", "Nassim Road", "Singapore", "US$239.1 million", "S$308 million"],
-  ["4", "Scarface estate", "Key Biscayne", "US$237 million", ""],
-  ["5", "One Hyde Park", "London", "US$231.5 million", "£175 million"],
-  ["6", "Ex-Gucci estate", "Palm Beach", "US$205 million", ""],
-  ["7", "Ocean-to-lake", "Palm Beach", "US$195 million", ""],
-  ["8", "Villa Serenity", "Coral Gables", "US$172.5 million", ""],
-  ["9", "La Gorce Island", "Miami Beach", "US$170 million", ""],
-  ["=10", "Ellison estate", "N. Palm Beach", "US$165 million", ""],
-  ["=10", "Ex-Calvin Klein", "East Hampton", "US$165 million", ""],
+  ["2", "Nassim Road", "Singapore", "US$239.1 million", "S$308 million"],
+  ["3", "Scarface estate", "Key Biscayne", "US$237 million", ""],
+  ["4", "One Hyde Park", "London", "US$231.5 million", "£175 million"],
+  ["5", "Ex-Gucci estate", "Palm Beach", "US$205 million", ""],
+  ["6", "Ocean-to-lake", "Palm Beach", "US$195 million", ""],
+  ["7", "Villa Serenity", "Coral Gables", "US$172.5 million", ""],
+  ["8", "La Gorce Island", "Miami Beach", "US$170 million", ""],
+  ["=9", "Ellison estate", "N. Palm Beach", "US$165 million", ""],
+  ["=9", "Ex-Calvin Klein", "East Hampton", "US$165 million", ""],
 ];
 
 const sign = ([rk, name, city, price, orig], i) => `<div class="post${i === 0 ? " first" : ""}">
@@ -36,8 +34,8 @@ const body = `
     <div class="eyebrow"><span class="v">V</span>Ranked · Asking prices · Nov 2026</div>
     <h1>The Most Expensive Homes <em>for Sale</em> Right Now</h1>
   </div>
-  <div class="row r1">${HOMES.slice(0, 6).map(sign).join("")}</div>
-  <div class="row r2">${HOMES.slice(6).map((h, j) => sign(h, j + 6)).join("")}</div>
+  <div class="row r1">${HOMES.slice(0, 5).map(sign).join("")}</div>
+  <div class="row r2">${HOMES.slice(5).map((h, j) => sign(h, j + 5)).join("")}</div>
   <div class="foot"><span>Live listings checked 14 Nov 2026 · other currencies converted at ECB rates (13 Nov 2026)</span><span class="site">viszlyn.io</span></div>
 </div>`;
 
@@ -51,9 +49,9 @@ const css = `
 h1{margin:8px 0 0;font-size:46px;line-height:1.02;font-weight:900;letter-spacing:-1px;color:#1B1208}
 h1 em{font-style:normal;color:#0B6B2E}
 .row{position:absolute;display:flex;justify-content:space-between}
-.r1{left:22px;right:22px;top:122px}.r2{left:110px;right:110px;top:368px}
-.post{width:186px;display:flex;flex-direction:column;align-items:center}
-.board{width:182px;height:200px;background:#fff;color:#14202B;border-radius:6px;overflow:hidden;
+.r1{left:40px;right:40px;top:122px}.r2{left:40px;right:40px;top:368px}
+.post{width:212px;display:flex;flex-direction:column;align-items:center}
+.board{width:206px;height:200px;background:#fff;color:#14202B;border-radius:6px;overflow:hidden;
   box-shadow:0 10px 22px rgba(0,0,0,.4),inset 0 0 0 3px #0B6B2E;text-align:center}
 .sale{display:flex;align-items:center;justify-content:center;gap:8px;height:44px;background:#0B6B2E;color:#fff;font-size:22px;font-weight:900;letter-spacing:1.5px}
 .rk{font-size:19px;letter-spacing:0;background:#fff;color:#0B6B2E;border-radius:6px;padding:1px 6px}
