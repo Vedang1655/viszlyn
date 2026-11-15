@@ -7,8 +7,8 @@ const ROWS = [
   ["Kavery Kalanithi", "Sun TV Network", 87.5], ["Nilima Prasad Divi", "Divi's Laboratories", 34.78],
   ["Vinita Singhania", "JK Lakshmi Cement", 28.68], ["Vinita Gupta", "Lupin", 26.69],
   ["Vinati Saraf Mutreja", "Vinati Organics", 21.06], ["Aarthi Subramanian", "TCS", 18.342],
-  ["Priya Nair", "Hindustan Unilever", 18.19], ["Prabha Narasimhan", "Colgate-Palmolive India", 12.9117],
-  ["Bhuvaneswari Nara", "Heritage Foods", 9.603], ["Suneeta Reddy", "Apollo Hospitals", 9.534],
+  ["Priya Nair", "Hindustan Unilever", 18.19], ["Falguni Nayar", "Nykaa", 16.477],
+  ["Prabha Narasimhan", "Colgate-Palmolive India", 12.9117], ["Bhuvaneswari Nara", "Heritage Foods", 9.603],
 ];
 
 const first = ROWS[0];
