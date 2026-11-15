@@ -306,12 +306,27 @@ export const canadaLargestCities2026: RankingArticle = {
       answer:
         "Statistics Canada estimates Canada's population at 41,651,653 on July 1, 2025, up about 0.9% from a year earlier. It says its latest quarterly estimates show the population has decreased since then.",
     },
+    {
+      question: "What is the biggest city in Canada?",
+      answer:
+        "Toronto, with 7,108,874 people in its metro area as of July 1, 2025, according to Statistics Canada. Montréal (4,597,837) and Vancouver (3,088,036) are second and third.",
+    },
+    {
+      question: "What are Canada's largest cities?",
+      answer:
+        "Toronto is the largest, with 7,108,874 people in its metro area as of July 1, 2025, according to Statistics Canada, followed by Montréal (4,597,837), Vancouver (3,088,036), Calgary, Ottawa - Gatineau, Edmonton, Winnipeg, Québec, Hamilton and Kitchener - Cambridge - Waterloo in the top 10.",
+    },
+    {
+      question: "What is the second biggest city in Canada?",
+      answer:
+        "Montréal, with 4,597,837 people in its metro area as of July 1, 2025, according to Statistics Canada, behind only Toronto (7,108,874).",
+    },
   ],
 
   relatedLinks: [
-    { title: "The 15 Most Populous Countries in the World in 2026", href: "/rankings/most-populous-countries-2026" },
-    { title: "Canada's Minimum Wage by Province and Territory in 2026", href: "/rankings/canada-minimum-wage-by-province-2026" },
-    { title: "The 10 Canadian Cities With the Highest Average Credit Scores in 2026", href: "/rankings/average-credit-score-canada-cities-2026" },
+    { title: "Canada's 15 Fastest-Growing Cities by Population Growth", href: "/rankings/canada-fastest-growing-cities-2026" },
     { title: "The 10 Highest-Paying Jobs in Canada Among Occupations Reviewed in 2026", href: "/rankings/highest-paying-jobs-canada-2026" },
+    { title: "Canada's Minimum Wage by Province and Territory in 2026", href: "/rankings/canada-minimum-wage-by-province-2026" },
+    { title: "The 15 Most Populous Countries in the World in 2026", href: "/rankings/most-populous-countries-2026" },
   ],
 };

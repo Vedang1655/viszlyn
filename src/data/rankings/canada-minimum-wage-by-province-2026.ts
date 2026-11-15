@@ -269,8 +269,9 @@ export const canadaMinimumWageByProvince2026: RankingArticle = {
   ],
 
   relatedLinks: [
+    { title: "Canada's 15 Fastest-Growing Cities by Population Growth", href: "/rankings/canada-fastest-growing-cities-2026" },
+    { title: "Canada's 20 Largest Cities by Population", href: "/rankings/canada-largest-cities-2026" },
     { title: "The 10 Highest-Paying Jobs in Canada Among Occupations Reviewed in 2026", href: "/rankings/highest-paying-jobs-canada-2026" },
-    { title: "The 10 Canadian Cities With the Highest Average Credit Scores in 2026", href: "/rankings/average-credit-score-canada-cities-2026" },
     { title: "The 10 Highest National Minimum Wages Among Countries Reviewed in 2026", href: "/rankings/highest-minimum-wage-by-country-2026" },
   ],
 };

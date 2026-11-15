@@ -219,12 +219,17 @@ export const highestPaidCeos2026: RankingArticle = {
       answer:
         "U.S. public companies disclose executive pay annually through SEC Form DEF 14A proxy statements. Figures here reflect total reported compensation from these filings and related tracking by organizations like Equilar and AFL-CIO Executive PayWatch, not necessarily cash actually received in a given year — much of it is unvested equity valued at grant.",
     },
+    {
+      question: "Who is the highest-paid CEO in the world in 2026?",
+      answer:
+        "On disclosed pay at US public companies, which this ranking covers, Elon Musk ranks first if his 2025 Tesla award is counted: it is a 10-year performance award valued at grant date, put at $132.3 billion by Equilar and about $158 billion by The Wall Street Journal. Because that figure is far outside the range of every other package, it is not ranked here. Excluding Musk, Figma's Dylan Field had the largest package, $864.4 million for 2025.",
+    },
   ],
 
   relatedLinks: [
+    { title: "India's Highest-Paid CEOs in 2026", href: "/rankings/india-highest-paid-ceos-2026" },
+    { title: "India's 10 Richest People in 2026", href: "/rankings/india-richest-people-2026" },
     { title: "The 10 Highest-Paid Athletes in 2026", href: "/rankings/highest-paid-athletes-2026" },
     { title: "The 10 Highest-Earning Creators in 2026", href: "/rankings/highest-earning-creators-2026" },
-    { title: "The World's Most Valuable Companies", href: "/rankings/worlds-most-valuable-companies-2026" },
-    { title: "The Most Valuable AI Companies", href: "/rankings/most-valuable-ai-companies-2026" },
   ],
 };

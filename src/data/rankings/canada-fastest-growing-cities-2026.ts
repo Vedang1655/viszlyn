@@ -257,8 +257,8 @@ export const canadaFastestGrowingCities2026: RankingArticle = {
 
   relatedLinks: [
     { title: "Canada's 20 Largest Cities by Population", href: "/rankings/canada-largest-cities-2026" },
+    { title: "The 10 Highest-Paying Jobs in Canada Among Occupations Reviewed in 2026", href: "/rankings/highest-paying-jobs-canada-2026" },
+    { title: "Canada's Minimum Wage by Province and Territory in 2026", href: "/rankings/canada-minimum-wage-by-province-2026" },
     { title: "Ontario's Lowest-Crime Regions: 10 Large Police Services Ranked by Crime Severity", href: "/rankings/ontario-lowest-crime-police-services-2026" },
-    { title: "The 10 Canadian Cities With the Highest Average Credit Scores in 2026", href: "/rankings/average-credit-score-canada-cities-2026" },
-    { title: "The 15 Most Populous Countries in the World in 2026", href: "/rankings/most-populous-countries-2026" },
   ],
 };

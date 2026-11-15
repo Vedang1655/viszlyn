@@ -215,6 +215,10 @@ export const indiaHighestPaidCeos2026: RankingArticle = {
       question: "Is this the same as average CEO pay in India?",
       answer: "No \u2014 this ranking shows the 10 highest individual figures, not a typical or average CEO salary. For context, Deloitte India's 2026 Executive Performance and Rewards Survey put median compensation for professional, non-promoter CEOs in India at roughly \u20b910.5 crore. Sandeep Kalra's \u20b9388.58 crore is about 37 times that figure \u2014 but these are different populations: the Deloitte median covers professional CEOs broadly, while this ranking includes both professional executives and promoter/family-linked leaders, so the comparison is illustrative rather than apples-to-apples.",
     },
+    {
+      question: "Who is the highest paid CEO in India?",
+      answer: "Sandeep Kalra of Persistent Systems, with total remuneration of \u20b9388.58 crore for FY26 (the year ended March 2026) \u2014 more than double the second-highest figure, HCLTech CEO C. Vijayakumar's \u20b9171.93 crore. Most of Kalra's total is variable and equity-linked pay, not salary: only around \u20b922.58 crore (roughly 6%) of it was fixed pay and benefits.",
+    },
   ],
 
   relatedLinks: [
