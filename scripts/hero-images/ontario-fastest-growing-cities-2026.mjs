@@ -26,7 +26,7 @@ const body = `
   <div class="head">
     <div class="eyebrow"><span class="v">V</span>Ranked · Ontario · 2025</div>
     <h1>Ontario's Fastest-<em>Growing</em> Cities</h1>
-    <p class="sub">Population growth, July 2024 to July 2025 · Toronto shrank (−992 people)</p>
+    <p class="sub">Population growth, July 2024 to July 2025 · Toronto virtually unchanged (−992 people)</p>
   </div>
   <div class="cols">${towers}</div>
   <div class="foot"><span>Data: Statistics Canada, Table 17-10-0148-01 · Ottawa = Ontario part of Ottawa–Gatineau</span><span class="site">viszlyn.io</span></div>

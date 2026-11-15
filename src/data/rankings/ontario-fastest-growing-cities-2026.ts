@@ -5,17 +5,17 @@ export const ontarioFastestGrowingCities2026: RankingArticle = {
 
   metaTitle: "Fastest-Growing Cities in Ontario 2026: Ottawa Leads | Viszlyn",
   metaDescription:
-    "The fastest-growing city in Ontario is Ottawa, whose Ontario side grew 2.64% in a year, ahead of Oshawa and Barrie. All 16 Ontario metro areas ranked, from Statistics Canada. Toronto shrank.",
+    "Ottawa's Ontario portion grew 2.64% in a year, ahead of Oshawa and Barrie. See Ontario's 10 fastest-growing metro areas, based on Statistics Canada's latest estimates.",
   ogTitle: "Ontario's 10 Fastest-Growing Cities",
   ogDescription:
-    "Ottawa +2.64%. Oshawa +2.33%. Barrie +2.14%. Toronto was the only Ontario metro area to shrink. From Statistics Canada's latest estimates.",
+    "Ottawa +2.64%. Oshawa +2.33%. Barrie +2.14%. Toronto was virtually unchanged, down 992 people. Statistics Canada population estimates.",
   twitterTitle: "Ranked: Ontario's Fastest-Growing Cities",
   twitterDescription:
     "Ottawa, Oshawa and Barrie grew fastest of Ontario's 16 metro areas between July 2024 and July 2025, while Toronto shrank (Statistics Canada).",
 
   eyebrow: "World",
   title: "Ontario's 10 Fastest-Growing Cities by Population Growth",
-  dek: "All 16 of Ontario's metro areas ranked by one-year population growth, from Statistics Canada's latest estimates. Ottawa leads, the cities around Toronto follow, and Toronto itself shrank.",
+  dek: "All 16 of Ontario's census metropolitan areas ranked by one-year population growth, using Statistics Canada's latest estimates. Ottawa leads, the cities around Toronto follow, and Toronto was virtually unchanged.",
   publishedDate: "November 15, 2026",
   lastUpdated: "November 15, 2026",
   dataPeriod: "July 1, 2024 to July 1, 2025, Statistics Canada (released January 14, 2026)",
@@ -28,7 +28,7 @@ export const ontarioFastestGrowingCities2026: RankingArticle = {
   quickAnswer:
     "The Ontario part of Ottawa - Gatineau was Ontario's fastest-growing metro area between July 1, 2024 and July 1, 2025, growing 2.64% to 1,325,788 people, according to Statistics Canada estimates. Oshawa (2.33%) and Barrie (2.14%) were next, followed by St. Catharines - Niagara (2.02%) and Brantford (1.67%). Toronto was the only one of Ontario's 16 metro areas to shrink, by 992 people.",
   introParagraph:
-    "This ranking covers all 16 of Statistics Canada's census metropolitan areas (CMAs) in Ontario: a core city plus the surrounding communities closely tied to it by commuting. Growth is the change in population between July 1, 2024 and July 1, 2025, from Statistics Canada's estimates released on January 14, 2026, calculated the same way as in our ranking of Canada's fastest-growing cities. Ottawa - Gatineau spans Ontario and Quebec, so this ranking uses its Ontario part. Ontario as a whole grew 0.70%, from 16,144,797 to 16,258,260 people.",
+    "This ranking covers all 16 of Statistics Canada's census metropolitan areas (CMAs) in Ontario: urban regions centred on a core city and including surrounding communities closely tied to it by commuting. Growth is the change in population between July 1, 2024 and July 1, 2025, using Statistics Canada's estimates released January 14, 2026. Ottawa - Gatineau spans Ontario and Quebec, so this ranking uses its Ontario portion. Ontario as a whole grew 0.70%, from 16,144,797 to 16,258,260 people.",
   calloutBox: {
     label: "Smaller towns grew even faster",
     body: "Some of Ontario's smaller census agglomerations, which are too small to be metro areas, grew faster than any city in this ranking: the Ontario part of Hawkesbury (3.41%), Wasaga Beach (3.29%), Tillsonburg (3.14%), Petawawa (3.03%) and Centre Wellington (2.82%). Besides Toronto, five smaller areas shrank: Sault Ste. Marie, Cobourg, Kenora, Port Hope and Pembroke, which fell the most (−0.86%).",
@@ -168,7 +168,7 @@ export const ontarioFastestGrowingCities2026: RankingArticle = {
     stat: "2.64%",
     label: "Growth of the Ontario part of Ottawa - Gatineau, July 2024 to July 2025",
     comparisonStat: "−0.01%",
-    comparisonLabel: "Toronto, the only Ontario metro area that shrank (−992 people)",
+    comparisonLabel: "Toronto, the only one of Ontario's 16 CMAs to decline: down 992 people, very small relative to its population of more than 7.1 million",
     note: "Ontario's 16 metro areas grew 0.67% together, adding 90,229 people. Areas outside any metro area or census agglomeration grew slightly faster, 0.79%. Kitchener - Cambridge - Waterloo (0.31%) and Guelph (0.28%) grew the least of the metro areas that grew.",
   },
 
@@ -178,7 +178,7 @@ export const ontarioFastestGrowingCities2026: RankingArticle = {
     sources:
       "Statistics Canada, Table 17-10-0148-01, Population estimates, July 1, by census metropolitan area and census agglomeration, 2021 boundaries (released January 14, 2026); Statistics Canada, The Daily, \"Canada's population estimates: Subprovincial areas, 2025\" (January 14, 2026). Contains information licensed under the Open Government Licence – Canada / Statistics Canada Open Licence.",
     methodology:
-      "All 16 census metropolitan areas (CMAs) in Ontario are ranked by population growth between July 1, 2024 and July 1, 2025, using both years' estimates from the same table release (2025 estimates are preliminary; 2024 estimates are updated). Growth rates are calculated by Viszlyn from the published populations using Statistics Canada's annual growth-rate method, based on the natural logarithm of the ratio between the 2025 and 2024 populations, as in our Canada ranking. Ottawa - Gatineau is ranked using its Ontario part (Statistics Canada publishes it separately); the whole CMA, including Gatineau, grew 2.26%. Ontario's total and 0.70% growth are the sum of all Ontario CMAs, census agglomerations and areas outside them in the same table. Each CMA uses 2021 boundaries; Windsor's CMA includes Leamington. Population estimates are revised over time.",
+      "All 16 census metropolitan areas (CMAs) in Ontario are ranked by population growth between July 1, 2024 and July 1, 2025, using both years' estimates from the same Statistics Canada table release. The 2025 estimates are preliminary postcensal estimates; the 2024 estimates are revised estimates. Growth rates are calculated by Viszlyn as the change in population divided by the average of the July 1, 2024 and July 1, 2025 populations, multiplied by 100. This follows Statistics Canada's definition of the demographic growth rate. Ottawa - Gatineau is ranked using its Ontario portion, which Statistics Canada publishes separately; the full CMA, including its Quebec portion, grew 2.26%. Ontario's provincial total includes all CMAs, census agglomerations (CAs) and areas outside those urban regions. Each CMA uses 2021 boundaries; Windsor's CMA includes Leamington. Population estimates may be revised in future releases.",
     sourceLinks: [
       { label: "Statistics Canada, Table 17-10-0148-01 (primary source)", href: "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710014801" },
       { label: "Statistics Canada, The Daily: Canada's population estimates: Subprovincial areas, 2025", href: "https://www150.statcan.gc.ca/n1/daily-quotidien/260114/dq260114a-eng.htm" },
