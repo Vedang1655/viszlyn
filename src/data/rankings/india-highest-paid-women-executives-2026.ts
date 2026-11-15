@@ -100,7 +100,7 @@ export const indiaHighestPaidWomenExecutives2026: RankingArticle = {
       earnings: "₹18.34 Cr",
       category: "Tata Consultancy Services · Executive Director, President & COO",
       revenueSources: "Salary, benefits and allowances ₹3.34 crore; commission ₹15.00 crore",
-      blurb: "Aarthi Subramanian, a professional executive, was paid ₹18.342 crore as Executive Director, President and Chief Operating Officer of TCS for part of FY26.",
+      blurb: "Aarthi Subramanian, a professional executive, was paid ₹18.342 crore as Executive Director, President and Chief Operating Officer of TCS for 11 months of FY26, having become an executive director on May 1, 2025.",
       standoutFact: "Commission made up ₹15.00 crore, about 82% of her total.",
       sourceTag: SRC,
     },
@@ -170,7 +170,7 @@ export const indiaHighestPaidWomenExecutives2026: RankingArticle = {
     sources:
       "FY26 annual reports of Sun TV Network, Divi's Laboratories, JK Lakshmi Cement, Lupin, Vinati Organics, Tata Consultancy Services, Hindustan Unilever, Colgate-Palmolive (India) and FSN E-Commerce Ventures (Nykaa) (director remuneration tables and Rule 5(1) disclosures); Heritage Foods' FY26 annual return (Form MGT-7); Apollo Hospitals Enterprise and HDFC Life FY26 annual reports (for the callout).",
     methodology:
-      "The ranking covers women who were executive directors (managing director, CEO, whole-time director or executive chairperson) of NSE- or BSE-listed companies during FY26, ranked by the total remuneration their company disclosed for FY26. Totals and components are as published; where a company reports in lakh or million rupees, Viszlyn converted to crore without rounding beyond the chart's two decimals. Year-on-year changes are as disclosed by each company. Non-executive and independent directors are excluded. Pay for executives who joined during the year covers only part of the year. Pay received from other group companies is not included unless the listed company's report includes it. The combined totals, shares and ratios are calculated by Viszlyn.",
+      "The ranking covers women who were executive directors (managing director, CEO, whole-time director or executive chairperson) of NSE- or BSE-listed companies during FY26, ranked by the total remuneration their company disclosed for FY26. Totals and components are as published; where a company reports in lakh or million rupees, Viszlyn converted to crore without rounding beyond the chart's two decimals. Year-on-year changes are as disclosed by each company, except Heritage Foods, whose change is calculated from its FY25 and FY26 annual-return totals. Non-executive and independent directors are excluded. Pay for executives who joined during the year covers only part of the year. Pay received from other group companies is not included unless the listed company's report includes it. The combined totals, shares and ratios are calculated by Viszlyn.",
     sourceLinks: [
       { label: "Sun TV Network: Annual Report 2025-26", href: "https://companiesmarketcap.com/annual-reports/9033.ar.en.2026.pdf" },
       { label: "Divi's Laboratories: Annual Report 2025-26", href: "https://companiesmarketcap.com/annual-reports/10615.ar.en.2025-2026.pdf" },
