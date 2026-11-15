@@ -194,9 +194,9 @@ export const highestPayingJobsCanada2026: RankingArticle = {
   ],
 
   relatedLinks: [
+    { title: "Canada's 15 Fastest-Growing Cities by Population Growth", href: "/rankings/canada-fastest-growing-cities-2026" },
+    { title: "Canada's 20 Largest Cities by Population", href: "/rankings/canada-largest-cities-2026" },
+    { title: "Canada's Minimum Wage by Province and Territory in 2026", href: "/rankings/canada-minimum-wage-by-province-2026" },
     { title: "The 10 Highest-Paid CEOs in 2026", href: "/rankings/highest-paid-ceos-2026" },
-    { title: "The 10 Highest National Minimum Wages", href: "/rankings/highest-minimum-wage-by-country-2026" },
-    { title: "The 10 Richest People in the World", href: "/rankings/richest-people-2026" },
-    { title: "The 10 Costliest Cities in the World", href: "/rankings/costliest-cities-world-2026" },
   ],
 };

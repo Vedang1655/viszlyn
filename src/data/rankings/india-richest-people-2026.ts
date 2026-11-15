@@ -215,11 +215,22 @@ export const indiaRichestPeople2026: RankingArticle = {
       answer:
         "1 lakh crore rupees is 1 trillion rupees, or about US$10.5 billion at the ₹95.63 per dollar rate Hurun used.",
     },
+    {
+      question: "Who is the richest man in India in 2026?",
+      answer:
+        "Gautam Adani and family, with ₹9.23 lakh crore (about US$96.5 billion), according to the Hurun India Rich List 2026. Mukesh Ambani and family are second with ₹8.63 lakh crore.",
+    },
+    {
+      question: "Who are the 10 richest people in India in 2026?",
+      answer:
+        "According to the Hurun India Rich List 2026: 1. Gautam Adani & family (₹9.23 lakh crore), 2. Mukesh Ambani & family (₹8.63 lakh crore), 3. LN Mittal & family (₹3.39 lakh crore), 4. Cyrus Poonawalla & family (₹3.03 lakh crore), 5. Roshni Nadar Malhotra & family (₹2.79 lakh crore), 6. Kumar Mangalam Birla & family (₹2.69 lakh crore), 7. Dilip Shanghvi (₹2.65 lakh crore), 8. Azim Premji & family (₹2.63 lakh crore), 9. Anil Agarwal & family (₹2.08 lakh crore) and 10. Samir Mehta & family (₹1.89 lakh crore).",
+    },
   ],
 
   relatedLinks: [
-    { title: "The 10 Richest People in the World in 2026", href: "/rankings/richest-people-2026" },
     { title: "India's Highest-Paid CEOs in 2026", href: "/rankings/india-highest-paid-ceos-2026" },
+    { title: "The 10 Highest-Paid CEOs in 2026", href: "/rankings/highest-paid-ceos-2026" },
+    { title: "The 10 Richest People in the World in 2026", href: "/rankings/richest-people-2026" },
     { title: "The 10 Cities With the Most Billionaires in 2026", href: "/rankings/cities-with-most-billionaires-2026" },
   ],
 };
