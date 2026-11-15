@@ -174,6 +174,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
     methodology:
       "Included: single homes (houses, apartments, penthouses and estates) publicly listed for sale with a published asking price and still active on 14 November 2026. Excluded: \"price on request\" listings, unbuilt or off-plan homes, land, withdrawn listings and multi-property bundles. Prices are the current asking price; where a price was cut, the current price is used. Prices in pounds and Singapore dollars are converted to US dollars at ECB reference rates on 13 November 2026 (EUR/USD 1.1052, EUR/GBP 0.83559, EUR/SGD 1.4236) and rounded to the nearest US$0.1 million. Sellers are named only when they are public figures. Most photos show the area, not the home itself, and are captioned that way.",
     sourceLinks: [
+      { label: "MLS listing: Chalon estate (CRMLS #26814383, active at US$400 million on 15 Nov 2026)", href: "https://search.wadeblair.com/idx/details/listing/e025/26814383/11201-Chalon-Road-Los-Angeles-CA-90049" },
       { label: "Country & Town House: Chalon estate listing", href: "https://www.countryandtownhouse.com/cth-life/properties/most-expensive-property-listing/" },
       { label: "Business Times: Nassim Road bungalow at S$308 million", href: "https://www.businesstimes.com.sg/property/nassim-road-bungalow-back-market-time-record-s308-millionprice-tag" },
       { label: "Entrepreneur: The Scarface house for US$237 million", href: "https://www.entrepreneur.com/real-estate/the-scarface-house-is-on-sale-for-237-million" },
