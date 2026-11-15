@@ -1,3 +1,5 @@
+import { biggestCarProducingCountries2026 } from "./biggest-car-producing-countries-2026";
+import { beerConsumptionByCountry2026 } from "./beer-consumption-by-country-2026";
 import { mostExpensiveHomesForSale2026 } from "./most-expensive-homes-for-sale-2026";
 import { mostExpensiveHomes2026 } from "./most-expensive-homes-2026";
 import { mostExpensiveNewCars2026 } from "./most-expensive-new-cars-2026";
@@ -54,6 +56,8 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  biggestCarProducingCountries2026,
+  beerConsumptionByCountry2026,
   mostExpensiveHomesForSale2026,
   mostExpensiveHomes2026,
   mostExpensiveNewCars2026,
