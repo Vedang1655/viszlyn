@@ -225,6 +225,6 @@ export const indiaHighestPaidCeos2026: RankingArticle = {
     { title: "The 10 Highest-Paid CEOs in 2026", href: "/rankings/highest-paid-ceos-2026" },
     { title: "India's 10 Richest People in 2026", href: "/rankings/india-richest-people-2026" },
     { title: "The 10 Richest People in the World in 2026", href: "/rankings/richest-people-2026" },
-    { title: "The 10 Most Populous Cities in India", href: "/rankings/india-most-populous-cities-2026" },
+    { title: "India's 10 Highest-Paid Women Executives in FY26", href: "/rankings/india-highest-paid-women-executives-2026" },
   ],
 };

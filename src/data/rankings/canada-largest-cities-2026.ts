@@ -326,7 +326,7 @@ export const canadaLargestCities2026: RankingArticle = {
   relatedLinks: [
     { title: "Canada's 15 Fastest-Growing Cities by Population Growth", href: "/rankings/canada-fastest-growing-cities-2026" },
     { title: "The 10 Highest-Paying Jobs in Canada Among Occupations Reviewed in 2026", href: "/rankings/highest-paying-jobs-canada-2026" },
-    { title: "Canada's Minimum Wage by Province and Territory in 2026", href: "/rankings/canada-minimum-wage-by-province-2026" },
+    { title: "Ontario's 10 Fastest-Growing Cities by Population Growth", href: "/rankings/ontario-fastest-growing-cities-2026" },
     { title: "The 15 Most Populous Countries in the World in 2026", href: "/rankings/most-populous-countries-2026" },
   ],
 };
