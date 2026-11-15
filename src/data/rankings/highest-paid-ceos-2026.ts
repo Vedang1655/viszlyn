@@ -222,7 +222,7 @@ export const highestPaidCeos2026: RankingArticle = {
     {
       question: "Who is the highest-paid CEO in the world in 2026?",
       answer:
-        "Dylan Field of Figma, at $864.4 million for 2025 per the SEC Summary Compensation Table in Figma's proxy — the largest package in this ranking of US public companies. Elon Musk is deliberately excluded from the ranking: his 2025 Tesla award is a 10-year performance award valued at grant date, put at $132.3 billion by Equilar and about $158 billion by The Wall Street Journal.",
+        "On disclosed pay at US public companies, which this ranking covers, Elon Musk ranks first if his 2025 Tesla award is counted: it is a 10-year performance award valued at grant date, put at $132.3 billion by Equilar and about $158 billion by The Wall Street Journal. Because that figure is far outside the range of every other package, it is not ranked here. Excluding Musk, Figma's Dylan Field had the largest package, $864.4 million for 2025.",
     },
   ],
 
