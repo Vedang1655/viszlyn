@@ -64,6 +64,7 @@ export const biggestCarProducingCountries2026: RankingArticle = {
       standoutFact: "France finished just 8,422 vehicles ahead of Thailand, which dropped out of the top 10 to 11th.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/France",
+      image: {"src": "/rankings/biggest-car-producing-countries-2026/france.webp", "width": 1200, "height": 800, "alt": "Aerial view of the Renault plant at Flins, France", "author": "Pymouss", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flins-sur-Seine_-_usine_Renault_vue_a%C3%A9rienne_20180504.jpg", "caption": "Renault Flins plant, France."},
     },
     {
       rank: 9,
@@ -74,6 +75,7 @@ export const biggestCarProducingCountries2026: RankingArticle = {
       standoutFact: "Spain is Europe's second-biggest producer in this ranking after Germany.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Spain",
+      image: {"src": "/rankings/biggest-car-producing-countries-2026/spain.webp", "width": 1024, "height": 768, "alt": "Stellantis (formerly PSA Peugeot Citroën) plant in Vigo, Spain", "author": "Alejandro Arce Herrero", "license": "CC BY 2.0", "licenseUrl": "https://creativecommons.org/licenses/by/2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Factoria_PSA_Vigo.jpg", "caption": "Stellantis plant (formerly PSA Peugeot Citroën), Vigo, Spain."},
     },
     {
       rank: 8,
@@ -84,6 +86,7 @@ export const biggestCarProducingCountries2026: RankingArticle = {
       standoutFact: "Brazil is the biggest producer in South America and built 2.7% of the world's vehicles.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Brazil",
+      image: {"src": "/rankings/biggest-car-producing-countries-2026/brazil.webp", "width": 417, "height": 399, "alt": "Volkswagen plant in São Bernardo do Campo, Brazil", "author": "Marcelo Gerbelli", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:F%C3%A1brica_Volkswagen_em_S%C3%A3o_Bernardo_do_Campo.jpg", "caption": "Volkswagen plant, São Bernardo do Campo, Brazil."},
     },
     {
       rank: 7,
@@ -94,6 +97,7 @@ export const biggestCarProducingCountries2026: RankingArticle = {
       standoutFact: "Mexico finished just 9,752 vehicles behind South Korea and 56,388 behind Germany.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Mexico",
+      image: {"src": "/rankings/biggest-car-producing-countries-2026/mexico.webp", "width": 1200, "height": 748, "alt": "Audi México plant in San José Chiapa, Puebla, during an opening ceremony", "author": "Presidencia de la República Mexicana", "license": "CC BY 2.0", "licenseUrl": "https://creativecommons.org/licenses/by/2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inauguraci%C3%B3n_del_Camino_de_Acceso_a_la_Zona_Industrial_de_San_Jos%C3%A9_Chiapa._(21201144506).jpg", "caption": "Audi México plant, San José Chiapa, Puebla, at the opening of its access road."},
     },
     {
       rank: 6,
@@ -104,6 +108,7 @@ export const biggestCarProducingCountries2026: RankingArticle = {
       standoutFact: "Places 5 to 7 were separated by just 56,388 vehicles.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/South_Korea",
+      image: {"src": "/rankings/biggest-car-producing-countries-2026/south-korea.webp", "width": 1200, "height": 903, "alt": "Car assembly line at Hyundai's Ulsan plant, South Korea", "author": "Anonyme", "license": "CC BY 2.5", "licenseUrl": "https://creativecommons.org/licenses/by/2.5", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyundai_car_assembly_line.jpg", "caption": "Hyundai assembly line, Ulsan, South Korea."},
     },
     {
       rank: 5,
@@ -114,6 +119,7 @@ export const biggestCarProducingCountries2026: RankingArticle = {
       standoutFact: "OICA's German figure counts cars only, so Germany's full vehicle output, including commercial vehicles, is higher.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Germany",
+      image: {"src": "/rankings/biggest-car-producing-countries-2026/germany.webp", "width": 1200, "height": 854, "alt": "Volkswagen plant power station in Wolfsburg, Germany", "author": "Dietmar Rabich", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wolfsburg,_Volkswagenwerk_--_2009_--_0822.jpg", "caption": "Volkswagen plant, Wolfsburg, Germany."},
     },
     {
       rank: 4,
@@ -124,6 +130,7 @@ export const biggestCarProducingCountries2026: RankingArticle = {
       standoutFact: "That was the second-biggest increase in the top 10 after China, both in vehicles and in percentage terms.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/India",
+      image: {"src": "/rankings/biggest-car-producing-countries-2026/india.webp", "width": 1200, "height": 668, "alt": "Aerial view of the Isuzu Motors India plant", "author": "Vijayarme2011", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isuzu_manufacturing_plant_India.jpg", "caption": "Isuzu Motors India plant, India."},
     },
     {
       rank: 3,
@@ -134,6 +141,7 @@ export const biggestCarProducingCountries2026: RankingArticle = {
       standoutFact: "Japan built 8.7% of the world's vehicles in 2025.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Japan",
+      image: {"src": "/rankings/biggest-car-producing-countries-2026/japan.webp", "width": 1200, "height": 900, "alt": "Toyota Motomachi Plant in Toyota City, Japan", "author": "Evelyn-rose", "license": "CC0", "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Toyota-Motomachi-Plant-1.jpg", "caption": "Toyota Motomachi Plant, Toyota City, Japan."},
     },
     {
       rank: 2,
@@ -144,6 +152,7 @@ export const biggestCarProducingCountries2026: RankingArticle = {
       standoutFact: "Americans bought far more vehicles than the country built: OICA put US sales at 16.7 million in 2025.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/United_States",
+      image: {"src": "/rankings/biggest-car-producing-countries-2026/united-states.webp", "width": 1200, "height": 858, "alt": "Worker fitting a seat into a Ford F-150 at Ford's Kansas City Assembly Plant", "author": "Ford Motor Co", "license": "CC BY 2.0", "licenseUrl": "https://creativecommons.org/licenses/by/2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kansas_City_Assembly.png", "caption": "Ford Kansas City Assembly Plant, Missouri, United States."},
     },
     {
       rank: 1,
@@ -154,6 +163,7 @@ export const biggestCarProducingCountries2026: RankingArticle = {
       standoutFact: "China built more vehicles than the US, Japan, India, Germany and South Korea combined. According to CAAM, it built 16.626 million new-energy vehicles, up 29%, and exported a record 7.098 million vehicles, up 21.1%.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/China",
+      image: {"src": "/rankings/biggest-car-producing-countries-2026/china.webp", "width": 1200, "height": 900, "alt": "Geely car assembly line in Beilun, Ningbo, China", "author": "Siyuwj", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geely_assembly_line_in_Beilun,_Ningbo.JPG", "caption": "Geely assembly line, Ningbo, China."},
     },
   ],
 

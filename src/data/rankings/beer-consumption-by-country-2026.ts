@@ -63,6 +63,7 @@ export const beerConsumptionByCountry2026: RankingArticle = {
       standoutFact: "By total volume Germany is the world's 6th-biggest beer market, at 7,236 thousand kilolitres, down 2.2% on 2023.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Germany",
+      image: {"src": "/rankings/beer-consumption-by-country-2026/germany.webp", "width": 1200, "height": 900, "alt": "Paulaner am Nockherberg in Munich, Germany", "author": "Wolfgang Kopp", "license": "CC BY-SA 2.0 de", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nockherberg_M%C3%BCnchen_Paulaner_Haupteingang.jpg", "caption": "Paulaner am Nockherberg, Munich, Germany."},
     },
     {
       rank: 9,
@@ -73,6 +74,7 @@ export const beerConsumptionByCountry2026: RankingArticle = {
       standoutFact: "Romania was 1.0 litre per person behind Slovenia in 8th place.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Romania",
+      image: {"src": "/rankings/beer-consumption-by-country-2026/romania.webp", "width": 1200, "height": 920, "alt": "Timișoreana brewery in Timișoara, Romania", "author": "Turbojet", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fabrica_de_bere_Timisoreana.jpg", "caption": "Timișoreana brewery, Timișoara, Romania."},
     },
     {
       rank: 8,
@@ -83,6 +85,7 @@ export const beerConsumptionByCountry2026: RankingArticle = {
       standoutFact: "Slovenians drank 88.4 litres each, 1.5 litres more than Germans.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Slovenia",
+      image: {"src": "/rankings/beer-consumption-by-country-2026/slovenia.webp", "width": 1200, "height": 1800, "alt": "Union brewery and Pivnica Union in Ljubljana, Slovenia", "author": "Dguendel", "license": "CC BY 3.0", "licenseUrl": "https://creativecommons.org/licenses/by/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ljubljana,_die_Brauerei_Union.jpg", "caption": "Union brewery, Ljubljana, Slovenia."},
     },
     {
       rank: 7,
@@ -93,6 +96,7 @@ export const beerConsumptionByCountry2026: RankingArticle = {
       standoutFact: "Spain is also the world's 10th-biggest beer market by total volume, at 4,362 thousand kilolitres, down 1.3% on 2023.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Spain",
+      image: {"src": "/rankings/beer-consumption-by-country-2026/spain.webp", "width": 1200, "height": 1923, "alt": "Former Estrella Damm brewery in Barcelona", "author": "Thomas Ledl", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Estrella_Damm_Brewery,_Barcelona.jpg", "caption": "Former Estrella Damm brewery, Barcelona, Spain."},
     },
     {
       rank: 6,
@@ -103,6 +107,7 @@ export const beerConsumptionByCountry2026: RankingArticle = {
       standoutFact: "With Lithuania in 2nd place, two of the three Baltic states are in the top 10.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Estonia",
+      image: {"src": "/rankings/beer-consumption-by-country-2026/estonia.webp", "width": 1200, "height": 900, "alt": "A. Le Coq brewery in Tartu, Estonia, in winter", "author": "DJ Sturm", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:A._Le_Coq_Tartu.jpg", "caption": "A. Le Coq brewery, Tartu, Estonia."},
     },
     {
       rank: 5,
@@ -113,6 +118,7 @@ export const beerConsumptionByCountry2026: RankingArticle = {
       standoutFact: "Croatians drank 95.1 litres each, about 64% of the Czech figure.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Croatia",
+      image: {"src": "/rankings/beer-consumption-by-country-2026/croatia.webp", "width": 1200, "height": 900, "alt": "Zagreb Brewery (Zagrebačka pivovara) on Ilica, Zagreb", "author": "Suradnik13", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zagreba%C4%8Dka_pivovara_-_ulaz_Ilica.jpg", "caption": "Zagreb Brewery (Zagrebačka pivovara), Zagreb, Croatia."},
     },
     {
       rank: 4,
@@ -123,6 +129,7 @@ export const beerConsumptionByCountry2026: RankingArticle = {
       standoutFact: "The Irish drank 99.0 litres each, 5.6 litres behind Austria in 3rd.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Republic_of_Ireland",
+      image: {"src": "/rankings/beer-consumption-by-country-2026/ireland.webp", "width": 1200, "height": 900, "alt": "Guinness St James's Gate Brewery, Dublin", "author": "Karlunun", "license": "CC0", "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dublin_GuinnessBrewery_SaintJamesGate_220_IMG_20250804_2043.jpg", "caption": "Guinness St James's Gate Brewery, Dublin, Ireland."},
     },
     {
       rank: 3,
@@ -133,6 +140,7 @@ export const beerConsumptionByCountry2026: RankingArticle = {
       standoutFact: "Austrians drank 104.6 litres each, 6.0 litres less than Lithuanians.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Austria",
+      image: {"src": "/rankings/beer-consumption-by-country-2026/austria.webp", "width": 1200, "height": 821, "alt": "Ottakringer brewery in Vienna, Austria", "author": "C.Stadler/Bwag", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wien_-_Ottakringer_Brauerei.JPG", "caption": "Ottakringer brewery, Vienna, Austria."},
     },
     {
       rank: 2,
@@ -143,6 +151,7 @@ export const beerConsumptionByCountry2026: RankingArticle = {
       standoutFact: "Lithuanians drank 110.6 litres each, 38.2 litres less than Czechs.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Lithuania",
+      image: {"src": "/rankings/beer-consumption-by-country-2026/lithuania.webp", "width": 1200, "height": 960, "alt": "Kalnapilis brewery in Panevėžys, Lithuania", "author": "Obivan Kenobi", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kalnapilio_alaus_darykla.jpg", "caption": "Kalnapilis brewery, Panevėžys, Lithuania."},
     },
     {
       rank: 1,
@@ -153,6 +162,7 @@ export const beerConsumptionByCountry2026: RankingArticle = {
       standoutFact: "148.8 litres a year is about 0.41 litres per person per day, and 38.2 litres more than Lithuania in 2nd place.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Czech_Republic",
+      image: {"src": "/rankings/beer-consumption-by-country-2026/czech-republic.webp", "width": 950, "height": 634, "alt": "Pilsner Urquell brewery in Plzeň, Czech Republic", "author": "Dkriegls", "license": "Public domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pilsner_Urquell_Brewery.jpg", "caption": "Pilsner Urquell brewery, Plzeň, Czech Republic."},
     },
   ],
 
