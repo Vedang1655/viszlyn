@@ -64,6 +64,7 @@ export const countriesWithMostTimeZones2026: RankingArticle = {
       blurb: "Denmark itself uses a single time zone, UTC+1. Greenland and the Faroe Islands, both part of the Kingdom of Denmark, add three more: UTC−4 at Pituffik in northwest Greenland, UTC−2 for most of Greenland, and UTC+0.",
       standoutFact: "Most of Greenland switched its standard time from UTC−3 to UTC−2 in 2023, which changed Denmark's set of time zones.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-time-zones-2026/denmark.webp", "width": 1200, "height": 778, "alt": "Nyhavn harbour in Copenhagen at sunset", "author": "Moahim", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018_-_Nyhavn_on_sunset.jpg", "caption": "Nyhavn, Copenhagen."},
       countries: [{ name: "Denmark", flagCode: "dk" }],
     },
     {
@@ -76,6 +77,7 @@ export const countriesWithMostTimeZones2026: RankingArticle = {
       blurb: "Mexico has four time zones, from UTC−8 in Baja California to UTC−5 in Quintana Roo, home of Cancún.",
       standoutFact: "Mexico abolished daylight saving time in 2022 for most of the country; it now survives only in municipalities near the US border.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-time-zones-2026/mexico.webp", "width": 1200, "height": 1600, "alt": "Angel of Independence monument in Mexico City", "author": "GusVal96", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angel_de_la_Independencia_CDMX.jpg", "caption": "Angel of Independence, Mexico City."},
       countries: [{ name: "Mexico", flagCode: "mx" }],
     },
     {
@@ -88,6 +90,7 @@ export const countriesWithMostTimeZones2026: RankingArticle = {
       blurb: "Brazil spans four time zones, from UTC−5 in the western state of Acre to UTC−2 on its Atlantic islands, such as Fernando de Noronha.",
       standoutFact: "Brazil abolished daylight saving time in 2019.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-time-zones-2026/brazil.webp", "width": 1200, "height": 1799, "alt": "Christ the Redeemer statue above Rio de Janeiro", "author": "Arne Müseler", "license": "CC BY-SA 3.0 de", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christ_the_Redeemer_-_Cristo_Redentor.jpg", "caption": "Christ the Redeemer, Rio de Janeiro."},
       countries: [{ name: "Brazil", flagCode: "br" }],
     },
     {
@@ -100,6 +103,7 @@ export const countriesWithMostTimeZones2026: RankingArticle = {
       blurb: "New Zealand itself has two time zones: UTC+12 and UTC+12:45 on the Chatham Islands. Tokelau, a New Zealand territory, and the associated states of Niue and the Cook Islands, which are self-governing in free association with New Zealand, add three more.",
       standoutFact: "In summer, the Chatham Islands move to UTC+13:45, an offset used nowhere else in the world.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-time-zones-2026/new-zealand.webp", "width": 1200, "height": 1600, "alt": "Auckland's Sky Tower seen from below", "author": "PLBechly", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020_Auckland_Sky_Tower.jpg", "caption": "Sky Tower, Auckland."},
       countries: [{ name: "New Zealand", flagCode: "nz" }],
     },
     {
@@ -112,6 +116,7 @@ export const countriesWithMostTimeZones2026: RankingArticle = {
       blurb: "Canada uses five distinct UTC offsets under the rules in force in November 2026, from UTC−7 in British Columbia to UTC−3:30 in Newfoundland. British Columbia (UTC−7), Alberta (UTC−6) and Manitoba (UTC−5) stopped changing their clocks on November 1, 2026, so some of Canada's traditional time-zone labels now share the same offset.",
       standoutFact: "Newfoundland Time is half an hour ahead of Atlantic Time, a half-hour offset rather than the usual full hour.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-time-zones-2026/canada.webp", "width": 1200, "height": 902, "alt": "Centre Block and Peace Tower on Parliament Hill, Ottawa", "author": "Saffron Blaze", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centre_Block_-_Parliament_Hill.jpg", "caption": "Parliament Hill's Peace Tower, Ottawa."},
       countries: [{ name: "Canada", flagCode: "ca" }],
     },
     {
@@ -136,6 +141,7 @@ export const countriesWithMostTimeZones2026: RankingArticle = {
       blurb: "The United Kingdom itself uses one time zone, Greenwich Mean Time (UTC+0). Its overseas territories and dependencies range from the Pitcairn Islands (UTC−8) to the British Indian Ocean Territory (UTC+6), with the Sovereign Base Areas of Akrotiri and Dhekelia in Cyprus (UTC+2) among the offsets in between, bringing the total to nine.",
       standoutFact: "The prime meridian, the zero line from which time zones are counted, runs through Greenwich in London.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-time-zones-2026/uk.webp", "width": 1200, "height": 1388, "alt": "Elizabeth Tower (Big Ben), London", "author": "Julian Herzog", "license": "CC BY 4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Ben_Elizabeth_Tower_London_2023_01.jpg", "caption": "Elizabeth Tower, home of Big Ben, London."},
       countries: [{ name: "United Kingdom", flagCode: "gb" }],
     },
     {
@@ -148,6 +154,7 @@ export const countriesWithMostTimeZones2026: RankingArticle = {
       blurb: "The 50 states span six time zones, from Hawaii (UTC−10) to Eastern Time (UTC−5). US territories add five more: UTC−12, the offset listed for the uninhabited Baker and Howland islands, UTC−11 in American Samoa, UTC−4 in Puerto Rico and the US Virgin Islands, UTC+10 in Guam and the Northern Mariana Islands, and UTC+12 on Wake Island.",
       standoutFact: "From UTC−12 to UTC+12, US territory covers a full 24 hours of offsets.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-time-zones-2026/usa.webp", "width": 800, "height": 600, "alt": "The four-faced clock at Grand Central Terminal, New York", "author": "Jared Kofsky", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clock_at_Grand_Central_Terminal_NY.JPG", "caption": "The clock at Grand Central Terminal, New York."},
       countries: [{ name: "United States", flagCode: "us" }],
     },
     {
@@ -160,6 +167,7 @@ export const countriesWithMostTimeZones2026: RankingArticle = {
       blurb: "Russia has 11 time zones, all on its own continuous territory apart from the Kaliningrad exclave, from UTC+2 in Kaliningrad to UTC+12 in Kamchatka and Chukotka.",
       standoutFact: "Russia abolished daylight saving time and has used permanent standard time since October 26, 2014.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-time-zones-2026/russia.webp", "width": 1024, "height": 768, "alt": "Spasskaya clock tower of the Moscow Kremlin at night", "author": "Gilad Rom", "license": "CC BY 2.0", "licenseUrl": "https://creativecommons.org/licenses/by/2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kremlin_Clock_tower_at_night.jpg", "caption": "The Kremlin's Spasskaya clock tower, Moscow."},
       countries: [{ name: "Russia", flagCode: "ru" }],
     },
     {
@@ -171,6 +179,7 @@ export const countriesWithMostTimeZones2026: RankingArticle = {
       blurb: "Metropolitan France has a single time zone, UTC+1. Its overseas territories add 11 more, from French Polynesia (UTC−10) in the Pacific to Wallis and Futuna (UTC+12), via the Caribbean, South America and the Indian Ocean. Two are easy to miss: uninhabited Clipperton Island (UTC−8) and the French Southern Territories (UTC+5).",
       standoutFact: "French Polynesia's Marquesas Islands use UTC−9:30, a half-hour offset. In summer, Saint Pierre and Miquelon moves to UTC−2, giving France a 13th local time.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-time-zones-2026/france.webp", "width": 1200, "height": 1182, "alt": "Champ de Mars in Paris seen from the Eiffel Tower", "author": "Diliff, edited by Fir0002", "license": "CC BY 2.5", "licenseUrl": "https://creativecommons.org/licenses/by/2.5", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Champ_de_Mars_from_the_Eiffel_Tower_-_July_2006_edit.jpg", "caption": "Paris, seen from the Eiffel Tower."},
       countries: [{ name: "France", flagCode: "fr" }],
     },
   ],

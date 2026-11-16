@@ -63,6 +63,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
       blurb: "Australia has about 11,400 lakes of at least 10 hectares, covering 49,500 km² in total.",
       standoutFact: "Many of Australia's biggest lakes, such as Kati Thanda–Lake Eyre, are salt lakes that are dry most of the time and fill only after heavy rain.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-lakes-2026/australia.webp", "width": 1200, "height": 926, "alt": "Satellite view of Kati Thanda–Lake Eyre filling with water in 2025", "author": "MODIS Land Rapid Response Team, NASA GSFC", "license": "Public domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kati_Thanda-Lake_Eyre_Fills_Up_(MODIS_2025-05-31).jpg", "caption": "Kati Thanda–Lake Eyre filling with water, May 2025 (satellite view)."},
       countries: [{ name: "Australia", flagCode: "au" }],
     },
     {
@@ -74,6 +75,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
       blurb: "Kazakhstan has about 12,400 lakes of at least 10 hectares, covering 61,900 km².",
       standoutFact: "Its lakes cover a larger total area than China's 23,800 or Sweden's 22,600, despite there being only about half as many.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-lakes-2026/kazakhstan.webp", "width": 1200, "height": 1600, "alt": "Sunset over Lake Balkhash at Mynaral, Kazakhstan", "author": "AALLMMAATT", "license": "CC0", "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Balkhash._Mynaral_village._08.jpg", "caption": "Lake Balkhash at sunset, Kazakhstan."},
       countries: [{ name: "Kazakhstan", flagCode: "kz" }],
     },
     {
@@ -85,6 +87,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
       blurb: "Argentina has about 13,600 lakes of at least 10 hectares, covering 27,900 km².",
       standoutFact: "It is one of only two South American countries in the top 10, with Brazil.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-lakes-2026/argentina.webp", "width": 819, "height": 614, "alt": "Lake Nahuel Huapi seen through trees near Bariloche", "author": "Pepe Robles", "license": "Public domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bariloche._Lago_Nahuel_Huapi-2.JPG", "caption": "Lake Nahuel Huapi, near Bariloche, Argentina."},
       countries: [{ name: "Argentina", flagCode: "ar" }],
     },
     {
@@ -96,6 +99,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
       blurb: "Norway has about 20,000 lakes of at least 10 hectares, covering 13,900 km².",
       standoutFact: "Together, Sweden and Norway have about 42,600 lakes, more than China and almost twice as many as Brazil.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-lakes-2026/norway.webp", "width": 1200, "height": 800, "alt": "Lake Mjøsa, Norway's largest lake, in winter", "author": "Øyvind Holmstad", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Mj%C3%B8sa_Norway_01.jpg", "caption": "Lake Mjøsa, Norway."},
       countries: [{ name: "Norway", flagCode: "no" }],
     },
     {
@@ -107,6 +111,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
       blurb: "Brazil has about 20,900 lakes of at least 10 hectares, covering 31,400 km².",
       standoutFact: "It has more lakes than any other Latin American country.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-lakes-2026/brazil.webp", "width": 1084, "height": 1300, "alt": "Satellite view of Lagoa dos Patos, Brazil", "author": "NASA/GSFC/LaRC/JPL, MISR Team", "license": "Public domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lagoa_dos_Patos_PIA03444_lrg.jpg", "caption": "Lagoa dos Patos, Brazil, from space."},
       countries: [{ name: "Brazil", flagCode: "br" }],
     },
     {
@@ -118,6 +123,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
       blurb: "Sweden has about 22,600 lakes of at least 10 hectares, covering 34,300 km², the most among countries in the European Union.",
       standoutFact: "Its largest lake, Vänern, is also the largest lake in the European Union.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-lakes-2026/sweden.webp", "width": 1200, "height": 900, "alt": "East bank of Lake Vänern, Sweden", "author": "Leonhard Lenz", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_bank_of_the_V%C3%A4nern_lake_in_Sweden_01.jpg", "caption": "Lake Vänern, Sweden."},
       countries: [{ name: "Sweden", flagCode: "se" }],
     },
     {
@@ -129,6 +135,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
       blurb: "China has about 23,800 lakes of at least 10 hectares, covering 81,000 km².",
       standoutFact: "Its lakes cover the fourth-largest total area in this ranking, after Canada, Russia and the United States.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-lakes-2026/china.webp", "width": 1200, "height": 800, "alt": "Shore of Qinghai Lake, China", "author": "Jonashtand", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:202606_Qinghai_Lake_03.jpg", "caption": "Qinghai Lake, China."},
       countries: [{ name: "China", flagCode: "cn" }],
     },
     {
@@ -140,6 +147,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
       blurb: "The United States has about 102,500 lakes of at least 10 hectares, covering 340,300 km².",
       standoutFact: "Russia has almost twice as many lakes as the US, and Canada more than eight times as many.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-lakes-2026/usa.webp", "width": 1200, "height": 594, "alt": "Crater Lake, Oregon, in winter", "author": "WolfmanSF", "license": "CC BY-SA 3.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crater_Lake_winter_pano2.jpg", "caption": "Crater Lake, Oregon."},
       countries: [{ name: "United States", flagCode: "us" }],
     },
     {
@@ -151,6 +159,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
       blurb: "Russia has about 201,200 lakes of at least 10 hectares, covering 667,400 km².",
       standoutFact: "Despite being the world's largest country, Russia has fewer than a quarter as many lakes as Canada.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-lakes-2026/russia.webp", "width": 1200, "height": 797, "alt": "Lake Baikal at Cape Burhan, Olkhon Island", "author": "Vyacheslav Argenberg", "license": "CC BY 4.0", "licenseUrl": "https://creativecommons.org/licenses/by/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baikal,_Cape_Burhan,_Olkhon_Island,_Lake_Baikal,_Russia.jpg", "caption": "Lake Baikal, Russia."},
       countries: [{ name: "Russia", flagCode: "ru" }],
     },
     {
@@ -162,6 +171,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
       blurb: "Canada has about 879,800 lakes of at least 10 hectares, covering 856,500 km², according to the HydroLAKES study.",
       standoutFact: "That is about 62% of the world's lakes of that size, more than all other countries combined, and about 4.4 times as many as Russia in second place.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-lakes-2026/canada.webp", "width": 1200, "height": 900, "alt": "Moraine Lake in Banff National Park, Alberta", "author": "Gorgo", "license": "Public domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg", "caption": "Moraine Lake, Banff National Park, Alberta."},
       countries: [{ name: "Canada", flagCode: "ca" }],
     },
   ],
