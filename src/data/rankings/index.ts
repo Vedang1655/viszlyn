@@ -1,3 +1,4 @@
+import { mostPopularBabyNamesCanadaProvinces2026 } from "./most-popular-baby-names-canada-provinces-2026";
 import { indiaHighestPaidWomenExecutives2026 } from "./india-highest-paid-women-executives-2026";
 import { ontarioFastestGrowingCities2026 } from "./ontario-fastest-growing-cities-2026";
 import { biggestCarProducingCountries2026 } from "./biggest-car-producing-countries-2026";
@@ -58,6 +59,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  mostPopularBabyNamesCanadaProvinces2026,
   indiaHighestPaidWomenExecutives2026,
   ontarioFastestGrowingCities2026,
   biggestCarProducingCountries2026,
