@@ -1,4 +1,5 @@
 import { countriesWithMostLakes2026 } from "./countries-with-most-lakes-2026";
+import { countriesWithMostTimeZones2026 } from "./countries-with-most-time-zones-2026";
 import { mostPopularBabyNamesCanadaProvinces2026 } from "./most-popular-baby-names-canada-provinces-2026";
 import { indiaHighestPaidWomenExecutives2026 } from "./india-highest-paid-women-executives-2026";
 import { ontarioFastestGrowingCities2026 } from "./ontario-fastest-growing-cities-2026";
@@ -61,6 +62,7 @@ import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
   countriesWithMostLakes2026,
+  countriesWithMostTimeZones2026,
   mostPopularBabyNamesCanadaProvinces2026,
   indiaHighestPaidWomenExecutives2026,
   ontarioFastestGrowingCities2026,
