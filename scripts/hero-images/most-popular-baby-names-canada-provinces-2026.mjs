@@ -17,7 +17,7 @@ const DATA = {
   "New Brunswick": { girl: "Charlotte", boy: "Jack", year: "2025" },
   "Nova Scotia": { girl: "Charlotte", boy: "Henry", year: "2025" },
   "Prince Edward Island": { girl: "Violet", boy: "Theodore", year: "2025*" },
-  "Newfoundland and Labrador": { girl: "Amelia/Emilia", boy: "Jaxson/Jackson†", year: "2020" },
+  "Newfoundland and Labrador": { girl: "Amelia/Emilia", boy: "Jaxson/Jaxon/Jackson†", year: "2020" },
   Yukon: { girl: "Ava", boy: "Henry", year: "2016–20" },
   "Northwest Territories": { girl: "3-way tie", boy: "Noah/Luca", year: "2024" },
   Nunavut: {},
@@ -31,7 +31,7 @@ for (const [n, p] of Object.entries(MAP)) {
   const v = DATA[n] || {};
   shapes += `<path d="${p.d}" fill="${COLORS[v.girl] ?? "#3A3550"}" stroke="#1B1530" stroke-width="1.6" stroke-linejoin="round"/>`;
   const lab = (x, y, a) => `<g transform="translate(${x},${y})"><text text-anchor="${a}" class="pv" y="-24">${SHORT[n] || n}${v.year ? " · " + v.year : ""}</text>
-    <text text-anchor="${a}" class="g" y="0">${v.girl ?? "no list"}</text><text text-anchor="${a}" class="b" y="23">${v.boy ?? ""}</text></g>`;
+    <text text-anchor="${a}" class="g" y="0">${v.girl ?? "no list"}</text><text text-anchor="${a}" class="b${(v.boy ?? "").length > 16 ? " sm" : ""}" y="23">${v.boy ?? ""}</text></g>`;
   if (CALLOUT[n]) {
     const [cx, cy] = p.centroid, [tx, ty] = CALLOUT[n];
     callouts += `<path d="M${cx},${cy} L${tx - 8},${ty - 8}" stroke="#fff" stroke-width="1.5" fill="none" opacity=".7"/><circle cx="${cx}" cy="${cy}" r="3" fill="#fff"/>` + lab(tx, ty, "start");
@@ -54,6 +54,7 @@ h1 em{font-style:normal;color:#FF7AA2}
 .pv{font:700 14px Inter;fill:#fff;opacity:.9;paint-order:stroke;stroke:#1B1530;stroke-width:4px}
 .g{font:900 20px Inter;fill:#fff;paint-order:stroke;stroke:#1B1530;stroke-width:5px}
 .b{font:900 20px Inter;fill:#BFE6FF;paint-order:stroke;stroke:#1B1530;stroke-width:5px}
+.b.sm{font-size:16px}
 .note{position:absolute;right:30px;bottom:34px;font-size:13px;font-weight:700;color:#D8D0EE}
 .foot{position:absolute;left:44px;right:30px;bottom:10px;display:flex;justify-content:space-between;font-size:14px;color:rgba(255,255,255,.7)}
 .site{font-weight:800;color:#fff}`;

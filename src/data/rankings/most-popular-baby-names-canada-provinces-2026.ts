@@ -6,10 +6,10 @@ export const mostPopularBabyNamesCanadaProvinces2026: RankingArticle = {
   metaTitle: "Most Popular Baby Names in Every Canadian Province | Viszlyn",
   metaDescription:
     "Noah is the top boys' name in 7 of Canada's 12 provincial and territorial lists; Olivia leads the girls in 5, Charlotte in 3. The most popular baby names in every province, mapped.",
-  ogTitle: "Mapped: The Most Popular Baby Names in Every Canadian Province",
+  ogTitle: "The Most Popular Baby Names in Every Canadian Province",
   ogDescription:
     "Noah rules the boys' lists from B.C. to Québec. Olivia leads the West and Ontario, Charlotte the Maritimes, and Québec picks Emma.",
-  twitterTitle: "Mapped: Canada's Most Popular Baby Names by Province",
+  twitterTitle: "Canada's Most Popular Baby Names by Province",
   twitterDescription:
     "Noah is No. 1 for boys in 7 of 12 provincial and territorial lists. Olivia, Charlotte and Emma split the girls. Latest official lists.",
 
