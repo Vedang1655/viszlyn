@@ -28,12 +28,12 @@ export const countriesWithMostLakes2026: RankingArticle = {
   },
 
   quickAnswer:
-    "Canada has the most lakes in the world: about 879,800 lakes of at least 10 hectares (0.1 km²), according to the HydroLAKES study by McGill University researchers. That is about 62% of the world's more than 1.4 million lakes of that size. Russia is second with about 201,200 and the United States third with about 102,500.",
+    "Canada has the most lakes in the world: about 879,800 lakes of at least 10 hectares (0.1 km²), according to the HydroLAKES study by McGill University researchers. McGill University puts that at about 62% of the world's total; the study counted more than 1.4 million lakes of that size worldwide. Russia is second with about 201,200 and the United States third with about 102,500.",
   introParagraph:
-    "This ranking comes from HydroLAKES, a global map of every lake of at least 10 hectares (0.1 km², about 14 soccer fields), built by researchers at McGill University and published in Nature Communications in 2016. It counted more than 1.4 million such lakes worldwide. The study's own table of the countries with the most lakes gives counts to the nearest hundred and the total area of each country's lakes. Lakes on a border are assigned to the country where they drain out. Smaller ponds are not counted, so the true number of water bodies in each country is much higher.",
+    "This ranking comes from HydroLAKES, a global inventory of lakes and reservoirs of at least 10 hectares (0.1 km², about 14 soccer fields), built by researchers at McGill University and published in Nature Communications in 2016. It counted more than 1.4 million such lakes worldwide. The study's own table of the countries with the most lakes gives counts to the nearest hundred and the total area of each country's lakes. Lakes on a border are assigned to the country where they drain out. Smaller ponds are not counted, so the true number of water bodies in each country is much higher.",
   calloutBox: {
     label: "Why Canada has so many lakes",
-    body: "Most of Canada's lakes sit in hollows scraped out by ice sheets during the last ice age, across the Canadian Shield and the north. The same glacial history explains the high counts in Russia, Sweden, Norway and the northern United States. You may see a lower figure, 863,550, quoted for Canada: that is the number of lake outlines taken from Natural Resources Canada's map data while HydroLAKES was being built, not the study's final count.",
+    body: "Many of Canada's lakes occupy basins shaped by past glaciation, across the Canadian Shield and the north. Glaciation also shaped many of the lakes in Russia, Sweden, Norway and the northern United States. You may see a lower figure, 863,550, quoted for Canada. That is an input-map count: the number of lake outlines taken from Natural Resources Canada's map data while HydroLAKES was being built. It is not an alternative count of Canada's lakes; the study's final inventory gives about 879,800.",
   },
 
   chartTitle: "Number of lakes of at least 10 hectares",
@@ -115,7 +115,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
       earnings: "22,600 lakes",
       category: "Europe",
       origin: "Total lake area: 34,300 km²",
-      blurb: "Sweden has about 22,600 lakes of at least 10 hectares, covering 34,300 km², the most of any country in the European Union.",
+      blurb: "Sweden has about 22,600 lakes of at least 10 hectares, covering 34,300 km², the most among countries in the European Union.",
       standoutFact: "Its largest lake, Vänern, is also the largest lake in the European Union.",
       sourceTag: SRC,
       countries: [{ name: "Sweden", flagCode: "se" }],
@@ -202,7 +202,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
     {
       question: "How many lakes does Canada have?",
       answer:
-        "About 879,800 lakes of at least 10 hectares, covering 856,500 km² in total. A figure of 863,550 is sometimes quoted, but that was a count from one input map used to build HydroLAKES, not its final total.",
+        "About 879,800 lakes of at least 10 hectares, covering 856,500 km² in total. A figure of 863,550 is sometimes quoted, but that is an input-map count used in building HydroLAKES, not an alternative count of Canada's lakes.",
     },
     {
       question: "How many lakes does the US have?",
