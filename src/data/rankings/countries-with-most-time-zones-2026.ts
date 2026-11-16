@@ -129,6 +129,7 @@ export const countriesWithMostTimeZones2026: RankingArticle = {
       blurb: "Australia has nine time zones counting its external territories: Heard and McDonald Islands (UTC+5), the Cocos (Keeling) Islands (UTC+6:30), Christmas Island (UTC+7), Norfolk Island (UTC+11) and, on the mainland and nearby, UTC+8, UTC+8:45, UTC+9:30, UTC+10 and UTC+10:30.",
       standoutFact: "It has three unusual offsets: UTC+9:30 in central Australia, UTC+10:30 on Lord Howe Island and an unofficial UTC+8:45 used around Eucla on the Nullarbor Plain.",
       sourceTag: SRC,
+      image: {"src": "/rankings/countries-with-most-time-zones-2026/australia.webp", "width": 1200, "height": 900, "alt": "Sydney Opera House seen across the water from Circular Quay", "author": "Kgbo", "license": "CC BY-SA 4.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_from_Circular_Quay,_2023,_01.jpg", "caption": "Sydney Opera House, Sydney."},
       countries: [{ name: "Australia", flagCode: "au" }],
     },
     {
