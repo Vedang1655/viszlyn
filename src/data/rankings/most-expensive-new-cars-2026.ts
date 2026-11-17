@@ -53,6 +53,15 @@ export const mostExpensiveNewCars2026: RankingArticle = {
     { rank: 10, name: "Bugatti Chiron Super Sport", value: "US$3.54 million", raw: 3536640 },
   ],
 
+  video: {
+    youtubeId: "JmOYdn3MuhQ",
+    title: "The 10 Most Expensive New Cars of the 2020s (Official Prices)",
+    description:
+      "The 10 most expensive new cars of the 2020s, ranked by the price each maker announced, from the Bugatti Chiron Super Sport to the €7 million Pagani Huayra Codalunga.",
+    uploadDate: "2026-11-16",
+    duration: "PT6M26S",
+  },
+
   detailedEntries: [
     {
       rank: 10,
