@@ -1,6 +1,6 @@
 // Share / Google Discover image for /rankings/foreign-holders-us-treasuries-2026 (the page keeps its block mosaic).
 // Each country's row is a line of $100-bill bundles; one bundle = $100 billion, so row length is proportional
-// to holdings (the last bundle is cut to the exact remainder). Data: US Treasury TIC, end of August 2026.
+// to holdings (the last bundle is cut to the exact remainder). Data: US Treasury TIC, end of September 2026.
 // Run: node scripts/hero-images/foreign-holders-us-treasuries-2026.mjs
 import { readFile } from "node:fs/promises";
 import path from "node:path";
@@ -12,16 +12,16 @@ const flag = async (code) =>
   (await readFile(path.join(ROOT, `node_modules/flag-icons/flags/4x3/${code}.svg`))).toString("base64");
 
 const ROWS = [
-  ["Japan", "jp", 1068.3],
-  ["United Kingdom", "gb", 1009.5],
-  ["China", "cn", 590.7],
-  ["Belgium", "be", 490.5],
-  ["Canada", "ca", 464.6],
-  ["Cayman Islands", "ky", 463.0],
-  ["Luxembourg", "lu", 448.2],
-  ["France", "fr", 363.4],
-  ["Ireland", "ie", 352.1],
-  ["Taiwan", "tw", 298.4],
+  ["Japan", "jp", 1063.1],
+  ["United Kingdom", "gb", 985.8],
+  ["China", "cn", 563.9],
+  ["Belgium", "be", 507.9],
+  ["Cayman Islands", "ky", 486.8],
+  ["Canada", "ca", 467.7],
+  ["Luxembourg", "lu", 445.0],
+  ["Ireland", "ie", 344.8],
+  ["France", "fr", 332.0],
+  ["Taiwan", "tw", 290.9],
 ];
 
 const BUNDLE = 34; // px per $100 billion
@@ -46,13 +46,13 @@ const rows = (
 const body = `
 <div class="wrap">
   <div class="left">
-    <div class="eyebrow"><span class="v">V</span>Ranked · Aug 2026</div>
+    <div class="eyebrow"><span class="v">V</span>Ranked · Sep 2026</div>
     <h1>Who Owns<br/>America's<br/><em>Debt?</em></h1>
     <p class="sub">Top 10 foreign holders<br/>of US Treasuries</p>
     <div class="key"><div class="bdl k">${BILL}</div><span>= $100 billion</span></div>
   </div>
   <div class="rows">${rows}</div>
-  <div class="foot"><span>Data: US Treasury (TIC), holdings at end of August 2026</span><span class="site">viszlyn.io</span></div>
+  <div class="foot"><span>Data: US Treasury (TIC), holdings at end of September 2026</span><span class="site">viszlyn.io</span></div>
 </div>`;
 
 const css = `
