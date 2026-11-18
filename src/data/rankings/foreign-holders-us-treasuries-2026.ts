@@ -17,7 +17,7 @@ export const foreignHoldersUsTreasuries2026: RankingArticle = {
 
   eyebrow: "Money",
   title: "Who Owns America's Debt? The 10 Biggest Foreign Holders of US Treasuries",
-  dek: "Foreign investors held $9,241.2 billion of US Treasury securities at the end of September 2026. Japan is still the biggest holder, the United Kingdom is close behind, and China's holdings have fallen to $563.9 billion.",
+  dek: "Foreign holdings of US Treasury securities totalled $9,241.2 billion at the end of September 2026. Japan is still the biggest holder, the United Kingdom is close behind, and China's holdings have fallen to $563.9 billion.",
   publishedDate: "November 13, 2026",
   lastUpdated: "November 18, 2026",
   dataPeriod: "End of September 2026, compared with September 2025 (US Treasury TIC data, released November 18, 2026)",
@@ -28,7 +28,7 @@ export const foreignHoldersUsTreasuries2026: RankingArticle = {
   },
 
   quickAnswer:
-    "Japan is the biggest foreign holder of US government debt, with $1,063.1 billion of Treasury securities at the end of September 2026. The United Kingdom is second with $985.8 billion, and China is third with $563.9 billion. Over the past year, China's holdings fell $135.3 billion and Japan's fell $126.2 billion, while the UK's rose $123.3 billion. Together, foreign investors held $9,241.2 billion of US Treasuries.",
+    "Japan is the biggest foreign holder of US government debt, with $1,063.1 billion of Treasury securities at the end of September 2026. The United Kingdom is second with $985.8 billion, and China is third with $563.9 billion. Over the past year, China's holdings fell $135.3 billion and Japan's fell $126.2 billion, while the UK's rose $123.3 billion. Together, foreign holdings totalled $9,241.2 billion.",
   introParagraph:
     "When the US government borrows, it sells Treasury securities: bills, notes and bonds. Most are held domestically, by US institutions and investors, including the Federal Reserve, but a substantial share is held abroad. This ranking uses the US Treasury's own estimates of foreign holdings, published monthly through its Treasury International Capital (TIC) system. The latest figures, released on November 18, 2026, show holdings at the end of September 2026. We compare each holder with September 2025 to show how reported holdings have changed over the year. The figures include holdings attributed to both foreign governments and private investors, such as banks, investment funds and other institutions. They do not represent only money lent by foreign governments.",
   calloutBox: {
@@ -192,7 +192,7 @@ export const foreignHoldersUsTreasuries2026: RankingArticle = {
     {
       question: "How much US Treasury debt is held abroad?",
       answer:
-        "Foreign investors held $9,241.2 billion of US Treasury securities at the end of September 2026. The top 10 holders accounted for $5,487.9 billion of that, or 59.39%.",
+        "Foreign holdings of US Treasury securities totalled $9,241.2 billion at the end of September 2026. The top 10 holders accounted for $5,487.9 billion of that, or 59.39%.",
     },
     {
       question: "Why do small places like the Cayman Islands and Luxembourg hold so much US debt?",
