@@ -30,10 +30,10 @@ export const foreignHoldersUsTreasuries2026: RankingArticle = {
   quickAnswer:
     "Japan is the biggest foreign holder of US government debt, with $1,063.1 billion of Treasury securities at the end of September 2026. The United Kingdom is second with $985.8 billion, and China is third with $563.9 billion. Over the past year, China's holdings fell $135.3 billion and Japan's fell $126.2 billion, while the UK's rose $123.3 billion. Together, foreign investors held $9,241.2 billion of US Treasuries.",
   introParagraph:
-    "When the US government borrows, it sells Treasury securities: bills, notes and bonds. Most are owned by Americans, including the Federal Reserve, but a large share is held abroad. This ranking uses the US Treasury's own count of foreign holdings, published monthly as part of its Treasury International Capital (TIC) data. The latest figures, released on November 18, 2026, show holdings at the end of September 2026. We compare each country with September 2025 to show who has been buying and who has been pulling back.",
+    "When the US government borrows, it sells Treasury securities: bills, notes and bonds. Most are held domestically, by US institutions and investors, including the Federal Reserve, but a substantial share is held abroad. This ranking uses the US Treasury's own estimates of foreign holdings, published monthly through its Treasury International Capital (TIC) system. The latest figures, released on November 18, 2026, show holdings at the end of September 2026. We compare each holder with September 2025 to show how reported holdings have changed over the year. The figures include holdings attributed to both foreign governments and private investors, such as banks, investment funds and other institutions. They do not represent only money lent by foreign governments.",
   calloutBox: {
     label: "Why Belgium, Luxembourg and the Cayman Islands rank so high",
-    body: "The TIC data records Treasuries by the country where they are held, which is often where a bank or custodian keeps them, not necessarily where the owner lives. The Treasury cautions that securities held in overseas custody accounts may not be attributed to their actual owners. Financial centres such as the UK, Belgium, Luxembourg, the Cayman Islands and Ireland hold Treasuries on behalf of investors from many other countries, so their totals do not only reflect their own governments or residents.",
+    body: "The TIC data attributes holdings geographically using information collected primarily from custodians and broker-dealers. That means the country shown may be the location of a custodian or financial intermediary, rather than the residence of the ultimate investor. The Treasury warns that this prevents the figures from being a precise accounting of who actually owns the securities. Financial centres such as the UK, Belgium, Luxembourg, the Cayman Islands and Ireland hold Treasuries on behalf of investors from many other countries, so their totals do not only reflect their own governments or residents.",
   },
 
   chartTitle: "Holdings of US Treasury securities, end of September 2026 ($ billions)",
@@ -151,7 +151,7 @@ export const foreignHoldersUsTreasuries2026: RankingArticle = {
       earnings: "$1,063.1 billion",
       category: "Asia-Pacific",
       blurb: "Japan's holdings fell $126.2 billion (10.61%) from $1,189.3 billion in September 2025, but it is still the largest foreign holder.",
-      standoutFact: "Japan holds 11.50% of all foreign-held Treasuries. Its holdings peaked at about $1.33 trillion in November 2021.",
+      standoutFact: "Japan holds 11.50% of all foreign-held Treasuries.",
       sourceTag: SRC,
       wikipediaUrl: "https://en.wikipedia.org/wiki/Japan",
     },
@@ -171,7 +171,7 @@ export const foreignHoldersUsTreasuries2026: RankingArticle = {
     sources:
       "US Department of the Treasury, Treasury International Capital (TIC) System, \"Major Foreign Holders of Treasury Securities\" (Table 5, holdings at end of period), released November 18, 2026, with historical series.",
     methodology:
-      "Holdings are in billions of US dollars as published by the Treasury, without rounding. September 2025 values and ranks are from the same Treasury table, which can revise earlier months. Changes, percentage changes, shares of the foreign total and combined totals are calculated by Viszlyn from the Treasury figures. Countries are attributed by where the securities are held, which may be a custodial or financial centre rather than the owner's home country; the Treasury cautions that securities held in overseas custody accounts may not be attributed to their actual owners. \"China\" is mainland China; the Treasury lists Hong Kong separately. The Treasury publishes new figures monthly, and we update this ranking with each release.",
+      "Holdings are in billions of US dollars as published by the Treasury, without rounding. September 2025 values and ranks are taken from the same Treasury table, using its latest available figures (earlier months can be revised). Changes, percentage changes, shares of the foreign total and combined totals are calculated by Viszlyn from the Treasury figures. The table attributes holdings geographically using information collected primarily from custodians and broker-dealers, so the country shown may be a financial centre or custody location rather than the residence of the ultimate investor; the Treasury warns that the figures cannot provide a precise accounting of ownership. Changes in reported holdings do not necessarily represent net purchases or sales: they can also reflect valuation changes, transfers between custodians or countries, and other adjustments. \"China\" is mainland China; the Treasury lists Hong Kong separately. The Treasury publishes new figures monthly, and we update this ranking with each release.",
     sourceLinks: [
       { label: "US Treasury: Major Foreign Holders of Treasury Securities (Table 5)", href: "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/slt_table5.html" },
       { label: "US Treasury: Major Foreign Holders, historical series", href: "https://ticdata.treasury.gov/resource-center/data-chart-center/tic/Documents/mfhhis01.html" },
@@ -190,7 +190,7 @@ export const foreignHoldersUsTreasuries2026: RankingArticle = {
         "Mainland China held $563.9 billion of US Treasuries at the end of September 2026, down $135.3 billion from a year earlier and well below its peak of $1,316.7 billion in November 2013. Hong Kong is counted separately.",
     },
     {
-      question: "How much US debt do foreign countries hold in total?",
+      question: "How much US Treasury debt is held abroad?",
       answer:
         "Foreign investors held $9,241.2 billion of US Treasury securities at the end of September 2026. The top 10 holders accounted for $5,487.9 billion of that, or 59.39%.",
     },
