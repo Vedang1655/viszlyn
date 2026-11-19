@@ -9,13 +9,13 @@ const ROWS = [
   ["MoM-z14", 14.44, "14.44"],
   ["JADES-GS-z14-0", 14.1793, "14.1793"],
   ["JADES-GS-z14-1", 13.9, "13.90"],
+  ["PAN-z14-1", 13.53, "13.53"],
   ["JADES-GS-z13-0", 13.2, "13.20"],
-  ["UNCOVER-z13*", 13.079, "13.079"],
   ["JADES-GS-z13-1-LA", 13.05, "13.05"],
   ["JADES-GS-z12-0", 12.482, "12.482"],
   ["UNCOVER-z12", 12.393, "12.393"],
   ["GHZ2", 12.342, "12.342"],
-  ["Maisie's Galaxy", 11.416, "11.416"],
+  ["Maisie's Galaxy", 11.408, "11.408"],
 ];
 
 const MAXW = 290; // px for z = 14.44
@@ -53,7 +53,7 @@ const body = `
     <div class="axis"><span>◀ Light travelling to Webb</span><span>Galaxy</span></div>
     ${rows}
   </div>
-  <div class="foot"><span>Spectroscopic redshifts from the confirming papers (Naidu et al. 2026, Schouws et al. 2025 and others) · *tentative</span><span class="site">viszlyn.io</span></div>
+  <div class="foot"><span>Spectroscopic redshifts from the confirming papers (Naidu et al. 2026, Schouws et al. 2025, Larson et al. 2026 and others)</span><span class="site">viszlyn.io</span></div>
 </div>`;
 
 const css = `

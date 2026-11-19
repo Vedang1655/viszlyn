@@ -22,7 +22,7 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
   heroImage: {
     src: "/heroes/most-distant-galaxies-ever-observed-2026.png",
     ogSrc: "/heroes/most-distant-galaxies-ever-observed-2026-og.png",
-    alt: "Beams of light from the 10 most distant galaxies with confirmed redshifts: MoM-z14 (z 14.44), JADES-GS-z14-0 (14.1793), JADES-GS-z14-1 (13.90), JADES-GS-z13-0 (13.20), UNCOVER-z13 (13.079, tentative), JADES-GS-z13-1-LA (13.05), JADES-GS-z12-0 (12.482), UNCOVER-z12 (12.393), GHZ2 (12.342) and Maisie's Galaxy (11.416).",
+    alt: "Beams of light from the 10 most distant galaxies with confirmed redshifts: MoM-z14 (z 14.44), JADES-GS-z14-0 (14.1793), JADES-GS-z14-1 (13.90), JADES-GS-z13-0 (13.20), PAN-z14-1 (13.53), JADES-GS-z13-1-LA (13.05), JADES-GS-z12-0 (12.482), UNCOVER-z12 (12.393), GHZ2 (12.342) and Maisie's Galaxy (11.408).",
   },
 
   quickAnswer:
@@ -42,27 +42,27 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
     { rank: 1, name: "MoM-z14", value: "14.44", raw: 14.44 },
     { rank: 2, name: "JADES-GS-z14-0", value: "14.1793", raw: 14.1793 },
     { rank: 3, name: "JADES-GS-z14-1", value: "13.90", raw: 13.9 },
-    { rank: 4, name: "JADES-GS-z13-0", value: "13.20", raw: 13.2 },
-    { rank: 5, name: "UNCOVER-z13 (tentative)", value: "13.079", raw: 13.079 },
+    { rank: 4, name: "PAN-z14-1", value: "13.53", raw: 13.53 },
+    { rank: 5, name: "JADES-GS-z13-0", value: "13.20", raw: 13.2 },
     { rank: 6, name: "JADES-GS-z13-1-LA", value: "13.05", raw: 13.05 },
     { rank: 7, name: "JADES-GS-z12-0", value: "12.482", raw: 12.482 },
     { rank: 8, name: "UNCOVER-z12", value: "12.393", raw: 12.393 },
     { rank: 9, name: "GHZ2 (GLASS-z12)", value: "12.342", raw: 12.342 },
-    { rank: 10, name: "Maisie's Galaxy", value: "11.416", raw: 11.416 },
+    { rank: 10, name: "Maisie's Galaxy", value: "11.408", raw: 11.408 },
   ],
 
   detailedEntries: [
     {
       rank: 10,
       name: "Maisie's Galaxy",
-      earnings: "z = 11.416 ± 0.005",
+      earnings: "z = 11.408 ± 0.005",
       category: "CEERS · EGS field",
       origin: "JWST NIRSpec",
       blurb:
-        "Maisie's Galaxy (catalogued as CEERS 16943) was confirmed by Arrabal Haro et al. (2023) in the CEERS survey's EGS field. The confirming paper dates its light to 392 million years after the Big Bang; the University of Texas at Austin release says 390 million years.",
+        "Maisie's Galaxy (catalogued as CEERS 16943) was confirmed by Arrabal Haro et al. (2023) in the CEERS survey's EGS field at a redshift of 11.416 ± 0.005. A deep spectroscopic follow-up by Larson et al. (2026) measured 11.408 ± 0.005, the value it is ranked by here. The confirming paper dates its light to 392 million years after the Big Bang; the University of Texas at Austin release says 390 million years.",
       standoutFact:
-        "It was publicised in the summer of 2022 as a galaxy at a redshift of about 14; spectroscopy put it at 11.416. A deep follow-up in 2026 measured 11.408 ± 0.005, consistent with the confirming value.",
-      sourceTag: "Arrabal Haro et al. 2023, Nature 621, 707–711",
+        "It was publicised in the summer of 2022 as a galaxy at a redshift of about 14; spectroscopy put it at 11.416 in 2023, refined to 11.408 in 2026.",
+      sourceTag: "Larson et al. 2026 (arXiv:2607.08749); Arrabal Haro et al. 2023, Nature 621, 707–711",
       image: {
         src: "/rankings/most-distant-galaxies-ever-observed-2026/maisies-galaxy.webp",
         width: 1200,
@@ -106,7 +106,7 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
       blurb:
         "UNCOVER-z12 is the robust detection of the pair reported by Wang et al. (2023) in the UNCOVER survey of Abell 2744 (Pandora's Cluster). The UNCOVER release dates the pair's light to when the universe was about 330 million years old, a light travel time of about 13.4 billion years.",
       standoutFact:
-        "Its companion in the same paper, UNCOVER-z13, ranks one place higher but is flagged tentative; z12 is the detection its own authors call robust.",
+        "Its companion in the same paper, UNCOVER-z13 (13.079), is not ranked here because the authors call it tentative; z12 is the detection they call robust.",
       sourceTag: "Wang et al. 2023, ApJ Letters 957, L34",
       image: {
         src: "/rankings/most-distant-galaxies-ever-observed-2026/uncover-z12.webp",
@@ -150,7 +150,7 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
       blurb:
         "JADES-GS-z13-1-LA's redshift comes from a single feature measured precisely: the Lyman-alpha emission line at 1.7084 µm, detected by Witstok et al. (2025) with NIRSpec's prism. ESA/Webb and NASA date it to 330 million years after the Big Bang.",
       standoutFact:
-        "The paper's abstract rounds the redshift to 13.0; the ranked value, 13.05 ± 0.01, is the published line measurement, which NASA's caption also uses.",
+        "The paper's abstract rounds the redshift to 13.0; the ranked value, 13.05 ± 0.01, is the published line measurement, which NASA's caption also uses. This is the Lyman-alpha redshift; the authors caution that the galaxy's systemic redshift is probably slightly lower, because resonant scattering shifts the line.",
       sourceTag: "Witstok et al. 2025, Nature 639, 897–901",
       image: {
         src: "/rankings/most-distant-galaxies-ever-observed-2026/jades-gs-z13-1-la.webp",
@@ -165,28 +165,6 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
     },
     {
       rank: 5,
-      name: "UNCOVER-z13 (tentative)",
-      earnings: "z = 13.079 (+0.013/−0.001)",
-      category: "UNCOVER · Abell 2744",
-      origin: "JWST NIRSpec",
-      blurb:
-        "Tentative: Wang et al. (2023) report UNCOVER-z13 at this redshift, but in the same paper they describe it as a plausible candidate, tentatively detected at lower signal-to-noise, and say they refrain from a highly confident interpretation above redshift 13. It is ranked at its published value with this flag. The UNCOVER release dates the z13/z12 pair's light to when the universe was about 330 million years old.",
-      standoutFact:
-        "It is the only entry in this top 10 whose own confirming paper attaches a caution to the measurement.",
-      sourceTag: "Wang et al. 2023, ApJ Letters 957, L34 (tentative in the paper)",
-      image: {
-        src: "/rankings/most-distant-galaxies-ever-observed-2026/uncover-z13.webp",
-        width: 1200,
-        height: 912,
-        alt: "Abell 2744, Pandora's Cluster, imaged by Webb's NIRCam",
-        author: "NASA, ESA, CSA, Ivo Labbe (Swinburne), Rachel Bezanson (University of Pittsburgh); Image Processing: Alyssa Pagan (STScI)",
-        license: "Public domain",
-        sourceUrl: "https://science.nasa.gov/asset/webb/pandoras-cluster-nircam-image/",
-        caption: "Abell 2744 (Pandora's Cluster), the UNCOVER survey field in which UNCOVER-z13 was found (field image).",
-      },
-    },
-    {
-      rank: 4,
       name: "JADES-GS-z13-0",
       earnings: "z = 13.20 (+0.04/−0.07)",
       category: "JADES · GOODS-S",
@@ -207,6 +185,18 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
         sourceUrl: "https://esawebb.org/images/weic2317b/",
         caption: "The GOODS-S survey field imaged for the JADES programme, where JADES-GS-z13-0 was found (field image, not a portrait of this galaxy).",
       },
+    },
+    {
+      rank: 4,
+      name: "PAN-z14-1",
+      earnings: "z = 13.53 (+0.05/−0.06)",
+      category: "Pure-parallel NIRCam imaging",
+      origin: "JWST NIRSpec PRISM",
+      blurb:
+        "PAN-z14-1 was picked out of Webb's pure-parallel NIRCam imaging and confirmed by Donnan et al. (2026) with NIRSpec prism spectra, from modelling of its Lyman-alpha break.",
+      standoutFact:
+        "Its confirming paper describes it as a large and luminous galaxy with weak emission lines, and as the fourth most distant galaxy known when it was confirmed in January 2026.",
+      sourceTag: "Donnan et al. 2026, arXiv:2601.11515",
     },
     {
       rank: 3,
@@ -288,18 +278,20 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
     dataPeriod: "Spectroscopic confirmations published through November 2026",
     lastUpdated: "November 19, 2026",
     sources:
-      "Naidu et al. 2026 (MoM-z14); Schouws et al. 2025 and Carniani et al. 2024 (JADES-GS-z14-0 and JADES-GS-z14-1); Curtis-Lake et al. 2023 and Hainline et al. 2024 (JADES-GS-z13-0); Wang et al. 2023 (UNCOVER-z13 and UNCOVER-z12); Witstok et al. 2025 (JADES-GS-z13-1-LA); D'Eugenio et al. 2024 (JADES-GS-z12-0); Castellano et al. 2024, with Zavala et al. 2024 and 2025 (GHZ2); Arrabal Haro et al. 2023 (Maisie's Galaxy); Planck Collaboration 2020 (age of the universe); Gott et al. 2005 (radius of the observable universe).",
+      "Naidu et al. 2026 (MoM-z14); Schouws et al. 2025 and Carniani et al. 2024 (JADES-GS-z14-0 and JADES-GS-z14-1); Curtis-Lake et al. 2023 and Hainline et al. 2024 (JADES-GS-z13-0); Donnan et al. 2026 (PAN-z14-1); Wang et al. 2023 (UNCOVER-z12); Witstok et al. 2025 (JADES-GS-z13-1-LA); D'Eugenio et al. 2024 (JADES-GS-z12-0); Castellano et al. 2024, with Zavala et al. 2024 and 2025 (GHZ2); Arrabal Haro et al. 2023 and Larson et al. 2026 (Maisie's Galaxy); Planck Collaboration 2020 (age of the universe); Gott et al. 2005 (radius of the observable universe).",
     methodology:
-      "Only spectroscopically confirmed redshifts are ranked: distances estimated from images alone (photometric redshifts) are excluded, because they have produced false records, most famously CEERS-93316, announced at about 16.45 and later shown by spectroscopy to be a dusty galaxy at 4.912. Galaxies are ranked by their current best published spectroscopic value; where a later paper revised a redshift (JADES-GS-z14-0: 14.32, then 14.1793; JADES-GS-z12-0: 12.63, then 12.482), the revised value is used and the original is noted in the entry. UNCOVER-z13 is included at its published value of 13.079 but flagged tentative, because its own paper calls it a plausible candidate rather than a robust detection. GHZ2 and GLASS-z12 are the same galaxy and are counted once. Ages after the Big Bang are quoted only where the confirming paper or its institution states one, in that source's cosmology; none were calculated for this ranking, and no age is printed for JADES-GS-z13-0 because its paper states none for the galaxy individually. Image credits are as given by NASA, STScI, ESA/Webb, ALMA and the CEERS team; three JADES entries and the two UNCOVER entries use official images of their survey fields, as their captions state.",
+      "Only spectroscopically confirmed redshifts are ranked: distances estimated from images alone (photometric redshifts) are excluded, because they have produced false records, most famously CEERS-93316, announced at about 16.45 and later shown by spectroscopy to be a dusty galaxy at 4.912. Galaxies are ranked by their current best published spectroscopic value; where a later paper revised a redshift (JADES-GS-z14-0: 14.32, then 14.1793; JADES-GS-z12-0: 12.63, then 12.482; Maisie's Galaxy: 11.416, then 11.408), the revised value is used and the original is noted in the entry. A spectroscopic redshift is not always the galaxy's systemic redshift: the 13.05 for JADES-GS-z13-1-LA comes from its Lyman-alpha emission line, and its authors note the systemic redshift is probably slightly lower. UNCOVER-z13, reported at 13.079, is excluded because its discovery paper describes it as a plausible candidate and a tentative detection rather than a robust confirmation. GHZ2 and GLASS-z12 are the same galaxy and are counted once. Ages after the Big Bang are quoted only where the confirming paper or its institution states one, in that source's cosmology; none were calculated for this ranking, and no age is printed for JADES-GS-z13-0 because its paper states none for the galaxy individually. Image credits are as given by NASA, STScI, ESA/Webb, ALMA and the CEERS team; three JADES entries and UNCOVER-z12 use official images of their survey fields, as their captions state; no free-licence image of PAN-z14-1 was available.",
     sourceLinks: [
       { label: "Naidu et al. 2026: MoM-z14 (arXiv:2505.11263)", href: "https://arxiv.org/abs/2505.11263" },
       { label: "Schouws et al. 2025: ALMA redshift of JADES-GS-z14-0 (arXiv:2409.20549)", href: "https://arxiv.org/abs/2409.20549" },
       { label: "Carniani et al. 2024: JADES-GS-z14-0 and z14-1 (arXiv:2405.18485)", href: "https://arxiv.org/abs/2405.18485" },
       { label: "Curtis-Lake et al. 2023: JADES-GS-z13-0 (arXiv:2212.04568)", href: "https://arxiv.org/abs/2212.04568" },
-      { label: "Wang et al. 2023: UNCOVER-z13 and z12", href: "https://doi.org/10.3847/2041-8213/acfe07" },
+      { label: "Donnan et al. 2026: PAN-z14-1 (arXiv:2601.11515)", href: "https://arxiv.org/abs/2601.11515" },
+      { label: "Wang et al. 2023: UNCOVER-z12 (and tentative UNCOVER-z13)", href: "https://doi.org/10.3847/2041-8213/acfe07" },
       { label: "Witstok et al. 2025: JADES-GS-z13-1-LA (arXiv:2408.16608)", href: "https://arxiv.org/abs/2408.16608" },
       { label: "D'Eugenio et al. 2024: JADES-GS-z12-0 (arXiv:2311.09908)", href: "https://arxiv.org/abs/2311.09908" },
       { label: "Arrabal Haro et al. 2023: Maisie's Galaxy (arXiv:2303.15431)", href: "https://arxiv.org/abs/2303.15431" },
+      { label: "Larson et al. 2026: deep follow-up of Maisie's Galaxy (arXiv:2607.08749)", href: "https://arxiv.org/abs/2607.08749" },
       { label: "NASA: Webb pushes boundaries of the observable universe (MoM-z14 image)", href: "https://science.nasa.gov/asset/webb/cosmos-field-mom-z14-galaxy-nircam-image/" },
     ],
   },
@@ -326,9 +318,9 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
         "Those are photometric candidates: their distances were estimated from images, not measured from spectra. The most famous case, CEERS-93316, was announced at about 16.45 and turned out to be a dusty galaxy at 4.912. This ranking counts only spectroscopic confirmations, which is why nothing above 14.44 appears.",
     },
     {
-      question: "Is UNCOVER-z13 really the fifth most distant galaxy?",
+      question: "Why isn't UNCOVER-z13 on the list?",
       answer:
-        "It is ranked fifth at its published redshift of 13.079, but with a flag: Wang et al. (2023), the paper that reported it, call it a plausible candidate and a tentative detection, and refrain from a highly confident interpretation above redshift 13. Its companion in the same paper, UNCOVER-z12, is the detection the authors call robust.",
+        "UNCOVER-z13 has a reported spectroscopic redshift of 13.079, which would place it sixth. But Wang et al. (2023), the paper that reported it, call it a plausible candidate and a tentative detection, and refrain from a highly confident interpretation above redshift 13. This ranking counts only robust confirmations, so it is left out; its companion in the same paper, UNCOVER-z12, is ranked eighth.",
     },
   ],
 
