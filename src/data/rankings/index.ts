@@ -1,3 +1,4 @@
+import { countriesWithMostSatellitesInOrbit2026 } from "./countries-most-satellites-in-orbit-2026";
 import { countriesWithMostLakes2026 } from "./countries-with-most-lakes-2026";
 import { countriesWithMostTimeZones2026 } from "./countries-with-most-time-zones-2026";
 import { mostPopularBabyNamesCanadaProvinces2026 } from "./most-popular-baby-names-canada-provinces-2026";
@@ -61,6 +62,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  countriesWithMostSatellitesInOrbit2026,
   countriesWithMostLakes2026,
   countriesWithMostTimeZones2026,
   mostPopularBabyNamesCanadaProvinces2026,
