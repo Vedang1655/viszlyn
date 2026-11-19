@@ -19,6 +19,11 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
   publishedDate: "November 19, 2026",
   lastUpdated: "November 19, 2026",
   dataPeriod: "Spectroscopic redshift confirmations published through November 2026",
+  heroImage: {
+    src: "/heroes/most-distant-galaxies-ever-observed-2026.png",
+    ogSrc: "/heroes/most-distant-galaxies-ever-observed-2026-og.png",
+    alt: "Beams of light from the 10 most distant galaxies with confirmed redshifts: MoM-z14 (z 14.44), JADES-GS-z14-0 (14.1793), JADES-GS-z14-1 (13.90), JADES-GS-z13-0 (13.20), UNCOVER-z13 (13.079, tentative), JADES-GS-z13-1-LA (13.05), JADES-GS-z12-0 (12.482), UNCOVER-z12 (12.393), GHZ2 (12.342) and Maisie's Galaxy (11.416).",
+  },
 
   quickAnswer:
     "MoM-z14 is the most distant galaxy ever observed, with a spectroscopically confirmed redshift of 14.44 (+0.02/−0.02). NASA announced the record on January 28, 2026: the galaxy is seen as it was 280 million years after the Big Bang, and its light travelled about 13.5 billion years to reach the James Webb Space Telescope. Second is JADES-GS-z14-0 at 14.1793, a former record holder whose redshift was later refined by the ALMA observatory.",
