@@ -16,8 +16,8 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
   eyebrow: "Space",
   title: "The 10 Most Distant Galaxies Ever Observed",
   dek: "Every galaxy in this top 10 was confirmed by spectroscopy, not estimated from photographs. The record holder, MoM-z14, is seen as it was just 280 million years after the Big Bang.",
-  publishedDate: "November 19, 2026",
-  lastUpdated: "November 19, 2026",
+  publishedDate: "November 20, 2026",
+  lastUpdated: "November 20, 2026",
   dataPeriod: "Spectroscopic redshift confirmations published through November 2026",
   heroImage: {
     src: "/heroes/most-distant-galaxies-ever-observed-2026.png",
@@ -276,7 +276,7 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
 
   sourceNote: {
     dataPeriod: "Spectroscopic confirmations published through November 2026",
-    lastUpdated: "November 19, 2026",
+    lastUpdated: "November 20, 2026",
     sources:
       "Naidu et al. 2026 (MoM-z14); Schouws et al. 2025 and Carniani et al. 2024 (JADES-GS-z14-0 and JADES-GS-z14-1); Curtis-Lake et al. 2023 and Hainline et al. 2024 (JADES-GS-z13-0); Donnan et al. 2026 (PAN-z14-1); Wang et al. 2023 (UNCOVER-z12); Witstok et al. 2025 (JADES-GS-z13-1-LA); D'Eugenio et al. 2024 (JADES-GS-z12-0); Castellano et al. 2024, with Zavala et al. 2024 and 2025 (GHZ2); Arrabal Haro et al. 2023 and Larson et al. 2026 (Maisie's Galaxy); Planck Collaboration 2020 (age of the universe); Gott et al. 2005 (radius of the observable universe).",
     methodology:
