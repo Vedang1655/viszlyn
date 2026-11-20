@@ -18,9 +18,14 @@ export const countriesWithMostSatellitesInOrbit2026: RankingArticle = {
   eyebrow: "World",
   title: "The 10 Countries With the Most Satellites in Orbit",
   dek: "Three of every four active satellites in orbit are American, and most of those belong to a single company. Here are the 10 countries with the most satellites, counted from CelesTrak's catalogue of everything in Earth orbit.",
-  publishedDate: "November 19, 2026",
-  lastUpdated: "November 19, 2026",
+  publishedDate: "November 20, 2026",
+  lastUpdated: "November 20, 2026",
   dataPeriod: "CelesTrak SATCAT snapshot of November 19, 2026",
+  heroImage: {
+    src: "/heroes/countries-most-satellites-in-orbit-2026.png",
+    ogSrc: "/heroes/countries-most-satellites-in-orbit-2026-og.png",
+    alt: "Bar chart of active satellites by owner country, November 2026: United States 13,138 (including 11,209 Starlink), China 1,613, United Kingdom 700, Russia 392, Japan 148, Italy 89, France, Germany and India 78 each, South Korea 76. World total 17,444. Source: CelesTrak SATCAT.",
+  },
 
   quickAnswer:
     "The United States has the most satellites in orbit: 13,138 active satellites, about 75% of the world total of 17,444, according to CelesTrak's SATCAT catalogue as of November 19, 2026. Most of them, 11,209, are SpaceX's Starlink satellites. China is second with 1,613 and the United Kingdom third with 700, of which 651 are OneWeb satellites.",
@@ -97,7 +102,6 @@ export const countriesWithMostSatellitesInOrbit2026: RankingArticle = {
       blurb: "France is tied with Germany and India on 78 active satellites. Some French-linked fleets sit outside the French total, because multinational operators are catalogued under their own codes.",
       standoutFact: "Eutelsat, headquartered in Paris, has 28 active satellites catalogued under the multinational EUTE code rather than France.",
       sourceTag: SRC,
-      image: {"src": "/rankings/countries-most-satellites-in-orbit-2026/france.webp", "width": 1200, "height": 800, "alt": "An Ariane 5 rocket on its launch pad at Kourou, French Guiana", "author": "ESA_events", "license": "CC BY-SA 2.0", "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ariane_5_on_the_launch_pad_(17287955801).jpg", "caption": "An Ariane 5 on the launch pad at Kourou."},
       countries: [{ name: "France", flagCode: "fr" }],
     },
     {
@@ -121,7 +125,7 @@ export const countriesWithMostSatellitesInOrbit2026: RankingArticle = {
       blurb: "Japan ranks fifth with 148 active satellites, the largest fleet in Asia after China's.",
       standoutFact: "Japan's QZSS positioning system, known as Michibiki, has operated as a four-satellite constellation since November 2018 and is being expanded into a seven-satellite constellation.",
       sourceTag: SRC,
-      image: {"src": "/rankings/countries-most-satellites-in-orbit-2026/japan.webp", "width": 1200, "height": 799, "alt": "An H-IIA rocket on the launch pad at Tanegashima Space Center", "author": "Bill Ingalls", "license": "Public domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Global_Precipitation_Measurement_(GPM)_Mission_(12812960063).jpg", "caption": "An H-IIA rocket at Tanegashima Space Center."},
+      image: {"src": "/rankings/countries-most-satellites-in-orbit-2026/japan.webp", "width": 1200, "height": 798, "alt": "An H-IIA rocket on the launch pad at Tanegashima Space Center", "author": "Bill Ingalls", "license": "Public domain", "sourceUrl": "https://commons.wikimedia.org/wiki/File:Global_Precipitation_Measurement_(GPM)_Mission_(12812960063).jpg", "caption": "An H-IIA rocket at Tanegashima Space Center."},
       countries: [{ name: "Japan", flagCode: "jp" }],
     },
     {
@@ -184,7 +188,7 @@ export const countriesWithMostSatellitesInOrbit2026: RankingArticle = {
 
   sourceNote: {
     dataPeriod: "CelesTrak SATCAT snapshot of November 19, 2026",
-    lastUpdated: "November 19, 2026",
+    lastUpdated: "November 20, 2026",
     sources:
       "CelesTrak SATCAT (Dr T. S. Kelso), full satellite catalogue downloaded November 19, 2026, with CelesTrak's SATCAT owner codes and format documentation. Country facts: Space.com (10,000th Starlink launch); Xinhua via the State Council Information Office (BeiDou); GOV.UK (OneWeb); Cabinet Office of Japan (QZSS).",
     methodology:
