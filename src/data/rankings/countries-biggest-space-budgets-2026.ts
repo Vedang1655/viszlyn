@@ -7,19 +7,19 @@ const P = "/rankings/countries-biggest-space-budgets-2026";
 export const countriesBiggestSpaceBudgets2026: RankingArticle = {
   slug: "countries-biggest-space-budgets-2026",
 
-  metaTitle: "Which Country Spends the Most on Space? The 10 Biggest Civil Space Budgets | Viszlyn",
+  metaTitle: "The 10 Countries With the Biggest Space Budgets (2026) | Viszlyn",
   metaDescription:
-    "NASA's US$24.44 billion budget is nearly twice the next nine countries' civil space budgets combined. France, Germany, Italy and India follow. The top 10, from official budget documents.",
-  ogTitle: "The Countries With the Biggest Space Budgets",
+    "NASA leads the world with a US$24.44 billion FY2026 budget. Discover the 10 biggest published civil space budgets, from France and Germany to India and Japan.",
+  ogTitle: "Which Countries Spend the Most on Space?",
   ogDescription:
-    "NASA alone outspends the next nine countries combined. France, Germany, Italy and India follow, while China and Russia publish no space budget at all.",
-  twitterTitle: "Which Country Spends the Most on Space?",
+    "NASA dominates civil space spending. Explore the biggest published national and agency-level space budgets, converted into US dollars.",
+  twitterTitle: "The World's Biggest Civil Space Budgets",
   twitterDescription:
-    "US (NASA) $24.44B, France $2.79B, Germany $2.70B, Italy $2.16B, India $1.48B. The 10 biggest civil space budgets, from official sources.",
+    "NASA: $24.44B. France: $2.79B. Germany: $2.70B. Explore 10 major government civil space budgets in 2026.",
 
   eyebrow: "Money",
   title: "The 10 Countries With the Biggest Civil Space Budgets",
-  dek: "NASA's budget alone is nearly twice the civil space budgets of the next nine countries combined. Here are the 10 biggest government civil space budgets, taken from official budget documents and converted to US dollars at one exchange rate.",
+  dek: "NASA's budget alone is nearly twice the combined published budgets of the next nine entries. Here are ten major national civil space programmes, using official budget documents and OECD figures, converted into US dollars at a common exchange rate.",
   publishedDate: "November 21, 2026",
   lastUpdated: "November 21, 2026",
   dataPeriod: "Latest official civil space budgets (2025 or fiscal 2025–27), converted at ECB rates of November 20, 2026",
@@ -30,16 +30,16 @@ export const countriesBiggestSpaceBudgets2026: RankingArticle = {
   },
 
   quickAnswer:
-    "The United States spends the most on civil space: NASA's budget for fiscal 2026 is US$24,438.3 million, set by Public Law 119-74. France is second with €2,537.4 million (about US$2.79 billion) for CNES in 2025, followed by Germany (about US$2.70 billion), Italy (about US$2.16 billion) and India (about US$1.48 billion). China and Russia are not ranked because neither publishes an official civil space budget.",
+    "The United States spends the most on civil space: NASA's budget for fiscal 2026 is US$24,438.3 million, set by Public Law 119-74. France is second with €2,537.4 million (about US$2.79 billion) for CNES in 2025, followed by Germany (about US$2.70 billion), Italy (about US$2.16 billion) and India (about US$1.48 billion). China and Russia are not ranked because they do not publish consolidated civil space budget figures that can be compared with the others.",
   introParagraph:
     "This ranking compares civil government space budgets: the money a government gives its space agency and civil ministries for space, not military space spending. Each figure comes from an official source: the US appropriations act for NASA, CNES's annual report, India's Union Budget, Japan's science ministry (MEXT), the UK Space Agency's audited accounts, and the OECD's compilation of national civil space budgets for Germany, Italy, Canada, South Korea and the Netherlands. Every figure is converted to US dollars at the same European Central Bank rates, from November 20, 2026, so the countries can be compared fairly.",
   calloutBox: {
     label: "Why China and Russia are not on the list",
-    body: "China publishes no official space budget, civil or military, and Russia publishes no official consolidated civil space budget. Both are major space powers, but there is no official figure to rank them on, so they are left out rather than estimated. For scale, the consultancy Novaspace estimates that governments worldwide spent US$137.4 billion on space in 2025, civil and defence combined, with defence making up 54% (Novaspace press release, January 20, 2026).",
+    body: "China and Russia do not publish consolidated civil space budget figures in a directly comparable form. Both are major space powers, but their publicly available spending information cannot be reliably compared with the national civil space budgets in this ranking, so they are left out rather than given estimated figures. For scale, the consultancy Novaspace estimates that governments worldwide spent US$137.4 billion on space in 2025, civil and defence combined, with defence making up 54% (Novaspace press release, January 20, 2026).",
   },
 
   chartTitle: "Civil government space budgets (US$ millions)",
-  chartSource: "Official budgets (US, France, India, Japan, UK) and OECD (others); converted at ECB rates of Nov 20, 2026",
+  chartSource: "Official budgets (US, France, India, Japan, UK) and OECD (others); converted at ECB rates of Nov 20, 2026. Coverage differs by country: see each entry and the methodology",
   chartTapNote: "Tap any country to jump to its details below.",
   entryValueLabel: "Civil space budget:",
   chartItems: [
@@ -75,7 +75,7 @@ export const countriesBiggestSpaceBudgets2026: RankingArticle = {
       category: "Asia",
       origin: "Civil institutional space budget, 2025 (OECD)",
       blurb: "South Korea's civilian institutional space budget reached ₩1,023 billion in 2025, according to the OECD, mainly for space industry and satellite development, followed by space transportation.",
-      standoutFact: "For 2026, the budget of Korea's space agency KASA alone is ₩1.1201 trillion, as confirmed by the National Assembly on December 2, 2025 (Dong-A Science).",
+      standoutFact: "A separate figure, not the same measure as the OECD's 2025 total: the 2026 budget of Korea's space agency KASA alone is ₩1.1201 trillion, as confirmed by the National Assembly on December 2, 2025 (Dong-A Science).",
       sourceTag: `${OECD}; ${FX}`,
       image: { src: `${P}/south-korea.webp`, width: 1200, height: 800, alt: "Falcon 9 rocket launching South Korea's Danuri lunar orbiter", author: "U.S. Space Force photo by Joshua Conti", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Korea_Pathfinder_Lunar_Orbiter_(KPLO)_Launches_from_Cape_Canaveral_Space_Force_Station_(7353885).jpeg", caption: "Launch of South Korea's Danuri lunar orbiter, 2022." },
       countries: [{ name: "South Korea", flagCode: "kr" }],
@@ -110,7 +110,7 @@ export const countriesBiggestSpaceBudgets2026: RankingArticle = {
       earnings: "US$1,017.8 million (£775.5 million)",
       category: "Europe",
       origin: "UK Space Agency spending, 2025–26 (audited outturn)",
-      blurb: "The UK Space Agency spent £775.5 million in the year to March 31, 2026, according to its audited annual accounts. £601.7 million of that, about 78%, was the UK's subscription to the European Space Agency.",
+      blurb: "The UK Space Agency spent £775.5 million in the year to March 31, 2026, according to its audited annual accounts. This is the agency's spending, not every pound of UK government civil space spending. £601.7 million of that, about 78%, was the UK's subscription to the European Space Agency.",
       standoutFact: "It was the agency's last annual report as a standalone body: the UK Space Agency merged into the Department for Science, Innovation and Technology on April 1, 2026.",
       sourceTag: `UK Space Agency, Annual Report and Accounts 2025–26; ${FX}`,
       image: { src: `${P}/united-kingdom.webp`, width: 1200, height: 675, alt: "Latitude Navier rocket engine test firing at SaxaVord Spaceport in Shetland", author: "Latitude", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Latitude_Navier_engine_firing_test_at_SaxaVord_Spaceport_1.jpg", caption: "Engine test at SaxaVord Spaceport, Shetland." },
@@ -158,7 +158,7 @@ export const countriesBiggestSpaceBudgets2026: RankingArticle = {
       earnings: "US$2,788.6 million (€2,537.4 million)",
       category: "Europe",
       origin: "CNES total budget, 2025",
-      blurb: "France's space agency CNES had a total budget of €2,537.4 million in 2025, according to its annual report. That includes France's €897.1 million contribution to ESA, which CNES pays.",
+      blurb: "France's space agency CNES had a total budget of €2,537.4 million in 2025, according to its annual report. This is the whole CNES budget, not a civil-only government allocation: it includes €562.9 million of external contract revenue and France's €897.1 million contribution to ESA, which CNES pays.",
       standoutFact: "CNES also carries out defence-related work (€682.1 million in 2025, under its \"Defence and strategic independence\" theme) and publishes no civil-only split, so France's figure is the agency's total budget.",
       sourceTag: `CNES, Annual Report 2025 (2025 budget, p. 11); ${FX}`,
       image: { src: `${P}/france.webp`, width: 1200, height: 1119, alt: "Ariane 5 rocket launching the James Webb Space Telescope from French Guiana", author: "NASA/Bill Ingalls", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:James_Webb_Space_Telescope_Launch_(NHQ202112250013).jpg", caption: "An Ariane 5 launches the James Webb Space Telescope from Kourou, 2021." },
@@ -171,7 +171,7 @@ export const countriesBiggestSpaceBudgets2026: RankingArticle = {
       category: "Americas",
       origin: "NASA appropriation, fiscal 2026",
       blurb: "Congress gave NASA US$24,438.3 million for fiscal 2026 in Public Law 119-74, enacted on January 23, 2026. The biggest accounts are Exploration (US$7,783.0 million), Science (US$7,250.0 million) and Space Operations (US$4,175.0 million).",
-      standoutFact: "NASA's budget is nearly twice the other nine countries' civil space budgets combined (US$13,133.5 million, calculated).",
+      standoutFact: "NASA's FY2026 budget alone is about 1.86 times the combined published budgets of the other nine entries (US$13,133.5 million, calculated). The comparison is illustrative, because those figures have differing national and agency-level coverage.",
       sourceTag: "Public Law 119-74 (Commerce, Justice, Science and Related Agencies Appropriations Act, 2026)",
       image: { src: `${P}/united-states.webp`, width: 1200, height: 800, alt: "NASA's Space Launch System rocket lifting off on the Artemis II mission", author: "NASA/Michael DeMocker", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Artemis_II_launch_(SLS_MAF_20260401_ArtemisIILaunch_07).jpg", caption: "Artemis II launches from Kennedy Space Center, April 2026." },
       countries: [{ name: "United States", flagCode: "us" }],
@@ -183,7 +183,7 @@ export const countriesBiggestSpaceBudgets2026: RankingArticle = {
     label: "NASA's budget for fiscal 2026",
     comparisonStat: "$13.13B",
     comparisonLabel: "The next nine countries combined (calculated)",
-    note: "The US civil space budget is about 1.86 times the other nine combined, and that is NASA alone, before any military space spending. All US$ conversions and totals are Viszlyn calculations.",
+    note: "NASA's regular FY2026 appropriation is about 1.86 times the combined published budget figures of the other nine entries. This is an illustrative comparison, as the underlying national figures do not all have identical coverage. All US$ conversions and totals are Viszlyn calculations.",
   },
 
   sourceNote: {
@@ -192,7 +192,7 @@ export const countriesBiggestSpaceBudgets2026: RankingArticle = {
     sources:
       "United States: Public Law 119-74 (NASA accounts). France: CNES Annual Report 2025. India: Union Budget 2026–27, Notes on Demands for Grants, Demand No. 95. Japan: MEXT, Space Development and Utilization Subcommittee, 102nd meeting (February 4, 2026), document 102-5. United Kingdom: UK Space Agency Annual Report and Accounts 2025–26. Germany, Italy, Canada, South Korea and the Netherlands: OECD, The Space Economy at a Glance 2026, country profiles. Exchange rates: European Central Bank euro reference rates, November 20, 2026. Context: Novaspace press release, January 20, 2026.",
     methodology:
-      "Countries are ranked by their civil government space budget: space agency and civil ministry spending, excluding military space. Each figure is the latest available from an official source, so fiscal years differ slightly between countries and are stated in each entry. Original-currency figures are as published; US dollar values are Viszlyn conversions at ECB reference rates of November 20, 2026 (US$ per €1: 1.0990), so they can differ slightly from US$ figures printed by the OECD. European countries' figures already include their contributions to the European Space Agency, so ESA's own budget is not added or ranked. Two figures have narrower or wider scope: Japan's is JAXA's initial budget only, and France's is the total CNES budget, which includes some defence-related work. The US figure is NASA's regular appropriation and excludes about US$3.1 billion of extra NASA funding enacted separately in a 2025 reconciliation law. China and Russia are not ranked because neither publishes an official civil space budget.",
+      "Countries are ranked by their civil government space budget: space agency and civil ministry spending, excluding military space. Each figure is the latest available from an official source, so fiscal years differ slightly between countries and are stated in each entry. Original-currency figures are as published; US dollar values are Viszlyn conversions at ECB reference rates of November 20, 2026 (US$ per €1: 1.0990), so they can differ slightly from US$ figures printed by the OECD. European countries' figures already include their contributions to the European Space Agency, so ESA's own budget is not added or ranked. Coverage differs between countries, so this is a comparison of published national and agency-level civil space budgets rather than a perfectly like-for-like one. Japan's figure is JAXA's initial budget only (it excludes a ¥60.0 billion supplementary budget and other ministries' programmes). The UK figure is UK Space Agency spending only. France's figure is the total CNES budget, which includes €682.1 million of defence-related work and €562.9 million of external contract revenue. The German, Italian, Canadian, South Korean and Dutch figures are the OECD's broader institutional civil budgets. The US figure is NASA's regular FY2026 appropriation, not every federal dollar available to NASA: it excludes about US$3.1 billion of extra NASA funding enacted separately in a 2025 reconciliation law. China and Russia are not ranked because they do not publish consolidated civil space budget figures in a directly comparable form.",
     sourceLinks: [
       { label: "US Public Law 119-74 (NASA appropriation, FY2026)", href: "https://www.govinfo.gov/content/pkg/PLAW-119publ74/pdf/PLAW-119publ74.pdf" },
       { label: "CNES Annual Report 2025", href: "https://cnes.fr/sites/default/files/2026-10/rapport-annuel-anglais-2025.pdf" },
@@ -208,12 +208,12 @@ export const countriesBiggestSpaceBudgets2026: RankingArticle = {
     {
       question: "Which country spends the most on space?",
       answer:
-        "The United States. NASA's budget for fiscal 2026 is US$24,438.3 million (Public Law 119-74), nearly twice the civil space budgets of the next nine countries combined. That excludes US military space spending, which is counted separately.",
+        "The United States. NASA's budget for fiscal 2026 is US$24,438.3 million (Public Law 119-74), about 1.86 times the combined published budgets of the next nine entries in this ranking. That excludes US military space spending, which is counted separately.",
     },
     {
       question: "How much does China spend on space?",
       answer:
-        "China does not publish an official space budget, civil or military, so it is not ranked here. Estimates exist from private consultancies, but there is no official figure to compare with other countries' budgets.",
+        "China does not publish a consolidated civil space budget in a form that can be compared with other countries' figures, so it is not ranked here. Estimates exist from private consultancies, but they are not official budget figures.",
     },
     {
       question: "What is ISRO's budget?",

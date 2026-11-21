@@ -75,12 +75,12 @@ const body = `
   <div class="head">
     <div class="eyebrow"><span class="v0">V</span>Ranked · 2026</div>
     <h1>The Biggest<br/><em>Space Budgets</em></h1>
-    <p class="sub">Civil government space budgets, US$<br/>NASA alone ≈ <strong>2×</strong> the next nine combined</p>
+    <p class="sub">Civil government space budgets, US$<br/>NASA alone ≈ <strong>1.86×</strong> the next nine combined</p>
   </div>
   ${items}
   ${puffs}
   <div class="ground"></div>
-  <div class="foot"><span>Rocket area ∝ budget · Sources: NASA (P.L. 119-74), CNES, India Union Budget, MEXT/JAXA, UKSA, OECD · US$ at ECB rates of Nov 20, 2026 · China &amp; Russia publish no budget</span><span class="site">viszlyn.io</span></div>
+  <div class="foot"><span>Rocket area ∝ budget · Sources: NASA (P.L. 119-74), CNES, India Union Budget, MEXT/JAXA, UKSA, OECD · US$ at ECB rates of Nov 20, 2026 · China &amp; Russia not comparable</span><span class="site">viszlyn.io</span></div>
 </div>`;
 
 const css = `
