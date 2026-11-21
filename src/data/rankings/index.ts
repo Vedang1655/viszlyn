@@ -1,3 +1,4 @@
+import { highestMountainsWorld2026 } from "./highest-mountains-world-2026";
 import { countriesBiggestSpaceBudgets2026 } from "./countries-biggest-space-budgets-2026";
 import { countriesWithMostSatellitesInOrbit2026 } from "./countries-most-satellites-in-orbit-2026";
 import { mostDistantGalaxiesEverObserved2026 } from "./most-distant-galaxies-ever-observed-2026";
@@ -66,6 +67,7 @@ import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
   countriesWithMostSatellitesInOrbit2026,
   countriesBiggestSpaceBudgets2026,
+  highestMountainsWorld2026,
   mostDistantGalaxiesEverObserved2026,
   countriesWithMostLakes2026,
   countriesWithMostTimeZones2026,
