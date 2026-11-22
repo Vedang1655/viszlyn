@@ -110,7 +110,7 @@ export const countriesLongestCoastlines2026: RankingArticle = {
       earnings: "25,760 km",
       category: "Oceania",
       origin: "7.24% of the Factbook's world total (Viszlyn calculation)",
-      blurb: "Australia's coastline measures 25,760 km. The Factbook's figures for Australia include Lord Howe Island and Macquarie Island.",
+      blurb: "Australia's coastline measures 25,760 km. Australia's Factbook entry covers Lord Howe Island and Macquarie Island.",
       standoutFact: "It is the largest country entirely in the Southern Hemisphere and the largest country without land borders, according to the Factbook.",
       sourceTag: FBNOTE("Australia"),
       image: { src: `${P}/australia.webp`, width: 1200, height: 800, alt: "The Twelve Apostles limestone stacks on the coast of Victoria, Australia", author: "Dietmar Rabich", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Princetown_(AU),_Port_Campbell_National_Park,_Twelve_Apostles_--_2019_--_0930.jpg", caption: "The Twelve Apostles, Port Campbell National Park, Victoria." },
