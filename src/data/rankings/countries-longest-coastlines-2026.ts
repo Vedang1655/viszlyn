@@ -19,7 +19,7 @@ export const countriesLongestCoastlines2026: RankingArticle = {
 
   eyebrow: "World",
   title: "The 10 Countries With the Longest Coastlines",
-  dek: "Canada's coastline is 202,080 km long, more than half of the CIA World Factbook's world total and about 3.7 times the next country's. Here are the 10 longest coastlines, measured one consistent way.",
+  dek: "Canada's coastline is 202,080 km long, more than half of the CIA World Factbook's world total and about 3.7 times the next country's. Here are the 10 longest coastlines, ranked using one consistent source: the CIA World Factbook.",
   publishedDate: "November 22, 2026",
   lastUpdated: "November 22, 2026",
   dataPeriod: "CIA World Factbook, final edition (January 2026)",
@@ -192,12 +192,13 @@ export const countriesLongestCoastlines2026: RankingArticle = {
     sources:
       "CIA World Factbook, Coastline field and country entries, final edition (last updated January 22, 2026; the CIA took the Factbook offline on February 4, 2026), read from the factbook.json archive of that edition. World Resources Institute (EarthTrends) and the coastline-paradox examples via Wikipedia's list of countries by length of coastline.",
     methodology:
-      "Countries are ranked by the Factbook's published Coastline figure in kilometres, exactly as published. One source is used for every country because coastline length depends on the scale of measurement, so figures from different sources are not comparable. Island coastlines count where the Factbook includes them in the published figure; for Norway, the Factbook lists 58,133 km of island coastlines separately from its 25,148 km figure, and we rank the published figure (see the box above). Only sovereign countries are ranked: Greenland (44,087 km), a self-governing part of the Kingdom of Denmark, is a separate Factbook entry and is not included in Denmark's 7,314 km. If it were ranked, it would sit between Indonesia and Russia. Shares of the world total and ratios between countries are Viszlyn calculations. Because the Factbook has closed, these are its final figures.",
+      "Countries are ranked by the Factbook's published Coastline figure in kilometres, exactly as published. This is a ranking of that published field, not a definitive measurement of every country's total physical coastline: the Factbook does not state the scale behind its figures, and its treatment of islands is not identical for every country. One source is used for every country because coastline length depends on the scale of measurement, so figures from different sources are not comparable. Island coastlines count where the Factbook includes them in the published figure; for Norway, the Factbook lists 58,133 km of island coastlines separately from its 25,148 km figure, and we rank the published figure (see the box above). Only sovereign countries are ranked: Greenland (44,087 km), a self-governing part of the Kingdom of Denmark, is a separate Factbook entry and is not included in Denmark's 7,314 km. If it were ranked, it would sit between Indonesia and Russia. Shares of the world total and ratios between countries are Viszlyn calculations. Because the Factbook has closed, these are its final figures.",
     sourceLinks: [
-      { label: "CIA World Factbook, final edition (factbook.json archive)", href: "https://github.com/factbook/factbook.json" },
-      { label: "Factbook final edition: Canada entry (archived data)", href: "https://raw.githubusercontent.com/factbook/factbook.json/master/north-america/ca.json" },
-      { label: "Factbook final edition: Norway entry (archived data)", href: "https://raw.githubusercontent.com/factbook/factbook.json/master/europe/no.json" },
-      { label: "Wikipedia: List of countries by length of coastline (WRI figures, coastline paradox)", href: "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline" },
+      { label: "CIA World Factbook, final edition (factbook.json archive, pinned version used)", href: "https://github.com/factbook/factbook.json/tree/144d6977b2b01ac1cbd220de754c0a005616760b" },
+      { label: "Factbook final edition: World entry, 356,000 km total (archived data)", href: "https://raw.githubusercontent.com/factbook/factbook.json/144d6977b2b01ac1cbd220de754c0a005616760b/world/xx.json" },
+      { label: "Factbook final edition: Canada entry (archived data)", href: "https://raw.githubusercontent.com/factbook/factbook.json/144d6977b2b01ac1cbd220de754c0a005616760b/north-america/ca.json" },
+      { label: "Factbook final edition: Norway entry (archived data)", href: "https://raw.githubusercontent.com/factbook/factbook.json/144d6977b2b01ac1cbd220de754c0a005616760b/europe/no.json" },
+      { label: "Wikipedia: List of countries by length of coastline (tabulates WRI EarthTrends figures; coastline paradox)", href: "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_length_of_coastline" },
     ],
   },
 
