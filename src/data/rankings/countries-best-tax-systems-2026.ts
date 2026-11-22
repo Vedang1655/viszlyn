@@ -19,7 +19,7 @@ export const countriesBestTaxSystems2026: RankingArticle = {
     "Estonia 100.0. Latvia 92.5. New Zealand 88.2. Canada 15th, US 17th, France last. The 2026 tax competitiveness ranking.",
 
   eyebrow: "Money",
-  title: "The 10 Countries With the Best Tax Systems in 2026",
+  title: "The 10 Countries With the Best Tax Systems in the OECD in 2026",
   dek: "Estonia tops the Tax Foundation's ranking of 38 OECD tax systems for the 13th year in a row, with the three Baltic states all in the top five. The index grades how well a tax system is designed, not how much tax people pay.",
   publishedDate: "November 22, 2026",
   lastUpdated: "November 22, 2026",
@@ -114,9 +114,9 @@ export const countriesBestTaxSystems2026: RankingArticle = {
     },
     {
       rank: 1, name: "Estonia", earnings: "100.0", category: "Europe", origin: comp(2, 1, 24, 1, 7),
-      blurb: "Estonia's 22% corporate tax applies only to distributed profits, its flat 22% individual income tax does not apply to dividend income, its property tax falls only on the value of land, and its territorial system exempts 100% of foreign profits.",
+      blurb: "Estonia's 22% corporate tax applies only to distributed profits, its flat 22% individual income tax does not apply to dividend income, its property tax falls only on the value of land, and its territorial system exempts 100% of qualifying foreign profits, although the Tax Foundation's country profile notes that this system is limited to European countries.",
       standoutFact: "No. 1 for the 13th year in a row, yet only 24th of 38 on consumption taxes (its standard VAT rate is 24%): the index rewards design, not low rates.",
-      sourceTag: TF, countries: [{ name: "Estonia", flagCode: "ee" }],
+      sourceTag: TFP("Estonia"), countries: [{ name: "Estonia", flagCode: "ee" }],
     },
   ],
 
