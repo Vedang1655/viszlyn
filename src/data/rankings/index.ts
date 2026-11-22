@@ -1,3 +1,4 @@
+import { biggestEntertainmentLaunches2026 } from "./biggest-entertainment-launches-2026";
 import { highestMountainsWorld2026 } from "./highest-mountains-world-2026";
 import { countriesBiggestSpaceBudgets2026 } from "./countries-biggest-space-budgets-2026";
 import { countriesWithMostSatellitesInOrbit2026 } from "./countries-most-satellites-in-orbit-2026";
@@ -65,6 +66,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  biggestEntertainmentLaunches2026,
   countriesWithMostSatellitesInOrbit2026,
   countriesBiggestSpaceBudgets2026,
   highestMountainsWorld2026,
