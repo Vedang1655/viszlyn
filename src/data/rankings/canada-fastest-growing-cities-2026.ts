@@ -3,7 +3,7 @@ import { RankingArticle } from "./types";
 export const canadaFastestGrowingCities2026: RankingArticle = {
   slug: "canada-fastest-growing-cities-2026",
 
-  metaTitle: "Fastest-Growing Cities in Canada 2026: Edmonton Leads | Viszlyn",
+  metaTitle: "What Is the Fastest-Growing City in Canada? Edmonton (2026) | Viszlyn",
   metaDescription:
     "The fastest-growing city in Canada is Edmonton, up 3.04% in a year, ahead of Moncton and Calgary. The top 15 of Canada's 41 metro areas, from Statistics Canada, plus the only two that shrank.",
   ogTitle: "Canada's 15 Fastest-Growing Cities",

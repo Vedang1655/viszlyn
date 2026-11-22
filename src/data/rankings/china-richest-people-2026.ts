@@ -198,6 +198,11 @@ export const chinaRichestPeople2026: RankingArticle = {
         "Zhang Yiming, the founder of ByteDance, with 670 billion yuan (US$99.7 billion), according to the Hurun China Rich List 2026. His wealth rose 43% in a year.",
     },
     {
+      question: "Who is the richest person in China according to Forbes?",
+      answer:
+        "Forbes publishes its own billionaire lists using its own valuation methods and dates, so its figures, and sometimes its order, can differ from Hurun's. This ranking uses the Hurun China Rich List 2026, which puts ByteDance founder Zhang Yiming at No. 1 with US$99.7 billion.",
+    },
+    {
       question: "How rich is DeepSeek's founder?",
       answer:
         "Liang Wenfeng, the founder of DeepSeek, debuts on the Hurun China Rich List 2026 at No. 7 with 280 billion yuan (US$41.7 billion).",
