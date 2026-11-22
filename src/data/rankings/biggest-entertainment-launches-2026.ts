@@ -34,7 +34,7 @@ export const biggestEntertainmentLaunches2026: RankingArticle = {
     "Big launches are measured in different ways: box office for films, retail sell-through for games, units for some albums. To compare them fairly, this ranking uses one yardstick: the money earned worldwide in the first three days, which for films means the opening weekend. Film figures are gross box office from Box Office Mojo. Game figures are the publisher's own announced worldwide sell-through, and publishers often give them only as thresholds such as \"more than $800 million\", so the true totals can be higher. Both sides are gross consumer spending, not company revenue. Music and tours are left out because none reports a worldwide first-three-days revenue figure.",
   calloutBox: {
     label: "Where is GTA VI?",
-    body: "Grand Theft Auto VI launched on November 19, 2026. In a press release filed with the SEC on November 20, publisher Take-Two said its \"day one retail sales reached $3.79 billion\", footnoted as \"based on company estimates through end of day November 19th worldwide\". It also said 32.5 million units were sold pre-release. So the figure covers one day, counts pre-release sales and is gross retail spending, not Take-Two's net revenue. Even so, it is about 3.1 times Avengers: Endgame's three-day total (Viszlyn calculation). Because no first-three-days figure has been published as of November 22, 2026, GTA VI is not ranked here. We will update this page if one appears. For reference, the market-intelligence firm Sensor Tower estimated about US$2.36 billion for digital console sales alone through launch day, a narrower measure that excludes physical copies.",
+    body: "Grand Theft Auto VI launched on November 19, 2026. In a press release filed with the SEC on November 20, publisher Take-Two said its \"day one retail sales reached $3.79 billion\", footnoted as \"based on company estimates through end of day November 19th worldwide\". It also said 32.5 million units were sold pre-release. So the figure covers one day, counts pre-release sales and is gross retail spending, not Take-Two's net revenue. Even so, it is about 3.1 times Avengers: Endgame's three-day total (Viszlyn calculation). Because no first-three-days figure has been published as of November 22, 2026, GTA VI is not ranked here. We will update this page if one appears. For reference, the market-intelligence firm Sensor Tower estimated more than US$2.36 billion for digital console sales alone through launch day, a narrower measure that excludes physical copies.",
   },
 
   chartTitle: "Worldwide earnings in the first 3 days (US$ millions)",
@@ -195,7 +195,7 @@ export const biggestEntertainmentLaunches2026: RankingArticle = {
     {
       question: "How much did GTA VI make on its first day?",
       answer:
-        "Take-Two said day-one retail sales reached US$3.79 billion, based on company estimates through the end of November 19, 2026, worldwide. It also said 32.5 million units were sold pre-release. The market-intelligence firm Sensor Tower separately estimated about US$2.36 billion for digital console sales alone through launch day.",
+        "Take-Two said day-one retail sales reached US$3.79 billion, based on company estimates through the end of November 19, 2026, worldwide. It also said 32.5 million units were sold pre-release. The market-intelligence firm Sensor Tower separately estimated more than US$2.36 billion for digital console sales alone through launch day.",
     },
     {
       question: "Why isn't GTA VI ranked in the top 10?",
@@ -222,7 +222,7 @@ export const biggestEntertainmentLaunches2026: RankingArticle = {
   relatedLinks: [
     { title: "The 10 Highest-Paid Athletes in 2026", href: "/rankings/highest-paid-athletes-2026" },
     { title: "The 10 Highest-Earning Creators in 2026", href: "/rankings/highest-earning-creators-2026" },
-    { title: "The World's Most Valuable Companies (2026)", href: "/rankings/worlds-most-valuable-companies-2026" },
-    { title: "The 10 Biggest Tech IPOs", href: "/rankings/biggest-tech-ipos-2026" },
+    { title: "The 10 Most Valuable Companies in the World in 2026", href: "/rankings/worlds-most-valuable-companies-2026" },
+    { title: "6 of the Biggest US Tech IPOs and Listings of 2026 So Far", href: "/rankings/biggest-tech-ipos-2026" },
   ],
 };
