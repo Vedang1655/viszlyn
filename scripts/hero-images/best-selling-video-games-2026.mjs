@@ -10,15 +10,15 @@ const photo = "data:image/jpeg;base64," + readFileSync(new URL("./assets/games-c
 
 const ROWS = [
   ["Minecraft", 425, "425M+", "#5BD16A"],
-  ["GTA V", 230, "230M+*", "#FF5DA2"],
-  ["Red Dead 2", 85, "85M+*", "#FF7A3D"],
-  ["Wii Sports", 82.9, "82.90M†", "#4FC3F7"],
+  ["GTA V", 235, "~235M*", "#FF5DA2"],
+  ["Red Dead 2", 89, "89M+*", "#FF7A3D"],
+  ["Wii Sports", 82.79, "82.79M†", "#4FC3F7"],
   ["PUBG", 75, "75M+", "#F7C948"],
   ["Mario Kart 8 DX", 72, "72.00M", "#E8473F"],
   ["Terraria", 70, "70M", "#4CAF50"],
   ["Skyrim", 65, "65M+", "#B0BEC5"],
   ["Witcher 3", 65, "65M+", "#C0392B"],
-  ["Human: Fall Flat", 55, "55M+", "#FFB74D"],
+  ["Human Fall Flat", 58, "58M+", "#FFB74D"],
 ];
 const RANKS = ["No. 1", "2", "3", "4", "5", "6", "7", "=8", "=8", "10"];
 const GROUND = 548, HMAX = 384, PX = 12;           // pixel size
@@ -45,7 +45,7 @@ const body = `
   <div class="no1"><div class="n1a">No. 1 · ALL TIME</div><div class="n1b">MINECRAFT</div><div class="n1c">425 MILLION+ copies</div></div>
   ${towers}
   <div class="ground"></div>
-  <div class="foot"><span>Height ∝ units · + = "over" · *shipped (sold-in) · †mostly bundled with the Wii · Publisher figures · Photo: superanton, CC0</span><span class="site">viszlyn.io</span></div>
+  <div class="foot"><span>Height ∝ units · + = "over" · *shipped (sold-in) · †incl. copies bundled with the Wii · ~ = "nearly" · Publisher figures · Photo: superanton, CC0</span><span class="site">viszlyn.io</span></div>
 </div>`;
 
 const css = `
