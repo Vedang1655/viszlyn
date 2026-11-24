@@ -76,6 +76,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "CD Projekt reported more than 65 million copies of The Witcher 3 sold, a count as of May 28, 2026 published with its first-half 2026 results on September 2, 2026. The announcement does not give a breakdown by platform or edition.",
       standoutFact: "The whole Witcher series has passed 90 million copies. Skyrim and The Witcher 3 share eighth place because both publishers say only \"over 65 million\".",
       sourceTag: "CD Projekt, \"CD PROJEKT RED wraps up the first half of 2026\" (September 2, 2026)",
+      image: { src: `/rankings/best-selling-video-games-2026/witcher-3.webp`, width: 1200, height: 800, alt: "The Warsaw skyline in winter, with the Palace of Culture and Science", author: "Quintin Soloviev", license: "CC BY 4.0", licenseUrl: "https://creativecommons.org/licenses/by/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Skyline_of_Warsaw,_Poland.jpg", caption: "Warsaw, Poland, home of CD Projekt Red, the studio behind The Witcher 3." },
     },
     {
       rank: 8,
@@ -120,6 +121,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "KRAFTON said PUBG: Battlegrounds had sold more than 75 million copies on PC and consoles when it switched to free-to-play on January 12, 2022. Free players since then are not counted.",
       standoutFact: "The separate free mobile versions, PUBG Mobile and BGMI, are different games and are not included.",
       sourceTag: "KRAFTON press release (January 2022)",
+      image: { src: `/rankings/best-selling-video-games-2026/pubg.webp`, width: 1200, height: 769, alt: "Two parachutists under a bright canopy against a clear blue sky", author: "Irhanz", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Parachuting_sport.jpg", caption: "Parachutists in the sky. PUBG matches begin with players parachuting onto an island." },
     },
     {
       rank: 4,
