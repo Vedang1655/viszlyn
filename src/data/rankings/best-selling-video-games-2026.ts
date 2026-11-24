@@ -64,6 +64,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "Curve Games announced 55 million units sold in January 2025, and its March 2026 Nintendo Switch 2 launch was still reported as \"over 55 million copies\". Curve has since used a 58 million figure, but its materials describe it in some places as players rather than copies, so we rank on the last figure clearly given as copies.",
       standoutFact: "Curve called it the third best-selling indie game when it announced the 55 million milestone.",
       sourceTag: "Curve Games, via PocketGamer.biz (January 2025) and Gematsu (March 2026)",
+      image: { src: `/rankings/best-selling-video-games-2026/human-fall-flat.webp`, width: 1200, height: 675, alt: "A white VR Box virtual reality headset on a shelf", author: "Donald Trung Quoc Don", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:VR_Box_(Virtual_Reality_Glasses),_Krimpen_aan_den_IJssel_(2020).jpg", caption: "A VR headset. Human Fall Flat sells on PC, consoles, mobile and VR." },
     },
     {
       rank: 9,
@@ -75,6 +76,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "CD Projekt reported more than 65 million copies of The Witcher 3 sold, a count as of May 28, 2026 published with its first-half 2026 results on September 2, 2026. The announcement does not give a breakdown by platform or edition.",
       standoutFact: "The whole Witcher series has passed 90 million copies. Skyrim and The Witcher 3 share eighth place because both publishers say only \"over 65 million\".",
       sourceTag: "CD Projekt, \"CD PROJEKT RED wraps up the first half of 2026\" (September 2, 2026)",
+      image: { src: `/rankings/best-selling-video-games-2026/witcher-3.webp`, width: 1200, height: 800, alt: "The Warsaw skyline in winter, with the Palace of Culture and Science", author: "Quintin Soloviev", license: "CC BY 4.0", licenseUrl: "https://creativecommons.org/licenses/by/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Skyline_of_Warsaw,_Poland.jpg", caption: "Warsaw, Poland, home of CD Projekt Red, the studio behind The Witcher 3." },
     },
     {
       rank: 8,
@@ -86,6 +88,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "Bethesda Game Studios said in July 2026 that Skyrim had sold over 65 million copies since its 2011 launch. The note does not say which re-releases or editions are included.",
       standoutFact: "In the same note, Bethesda confirmed The Elder Scrolls VI is now the studio's main focus.",
       sourceTag: "Bethesda Game Studios, \"A note from Bethesda Game Studios\" (July 17, 2026)",
+      image: { src: `/rankings/best-selling-video-games-2026/skyrim.webp`, width: 1200, height: 650, alt: "Snow-capped mountains over a fjord in Lofoten, Norway, under streaks of cirrus cloud", author: "Ximonic (Simo Räsänen)", license: "CC BY-SA 3.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Cirrus_front_over_Austnesfjorden,_Austv%C3%A5g%C3%B8ya,_Lofoten,_Norway,_2015_April.jpg", caption: "Lofoten, Norway: a real Nordic landscape like Skyrim's frozen north." },
     },
     {
       rank: 7,
@@ -96,6 +99,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "Re-Logic marked Terraria's 15th anniversary in May 2026 by announcing 70 million copies sold, more than half of them on PC.",
       standoutFact: "It sold more on mobile (19.7 million) than on consoles (10.7 million).",
       sourceTag: "Re-Logic, \"Celebrating 15 years of Terraria\" (official forum, May 16, 2026); also reported by GamesRadar and PocketGamer.biz",
+      image: { src: `/rankings/best-selling-video-games-2026/terraria.webp`, width: 1200, height: 797, alt: "A custom-built gaming PC with its glass side panel open", author: "BornaKia", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Custom_built_computer_from_2016.jpg", caption: "A gaming PC. More than half of Terraria's copies were sold on PC." },
     },
     {
       rank: 6,
@@ -106,6 +110,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "Nintendo lists Mario Kart 8 Deluxe at 72.00 million units as of September 30, 2026, making it the best-selling game on the Nintendo Switch.",
       standoutFact: "This is the Switch version only. The original Mario Kart 8 on Wii U is counted separately.",
       sourceTag: `${NIN}, Nintendo Switch (as of September 30, 2026)`,
+      image: { src: `/rankings/best-selling-video-games-2026/mario-kart-8-deluxe.webp`, width: 1200, height: 686, alt: "A Nintendo Switch in its dock beside the Joy-Con controllers in their grip", author: "Evan-Amos", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Console-Docked-wJoyConRB.jpg", caption: "The Nintendo Switch, the console Mario Kart 8 Deluxe sells on." },
     },
     {
       rank: 5,
@@ -116,6 +121,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "KRAFTON said PUBG: Battlegrounds had sold more than 75 million copies on PC and consoles when it switched to free-to-play on January 12, 2022. Free players since then are not counted.",
       standoutFact: "The separate free mobile versions, PUBG Mobile and BGMI, are different games and are not included.",
       sourceTag: "KRAFTON press release (January 2022)",
+      image: { src: `/rankings/best-selling-video-games-2026/pubg.webp`, width: 1200, height: 769, alt: "Two parachutists under a bright canopy against a clear blue sky", author: "Irhanz", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Parachuting_sport.jpg", caption: "Parachutists in the sky. PUBG matches begin with players parachuting onto an island." },
     },
     {
       rank: 4,
@@ -126,6 +132,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "Nintendo's Wii software table lists Wii Sports at 82.79 million units as of September 30, 2016, and notes that software units include copies bundled with hardware. The game came packed with the Wii console in many regions, so not all of these copies were bought on their own.",
       standoutFact: "Its total is higher than any Nintendo Switch game, including Mario Kart 8 Deluxe at 72.00 million.",
       sourceTag: `${NIN}, Wii (as of September 30, 2016)`,
+      image: { src: `/rankings/best-selling-video-games-2026/wii-sports.webp`, width: 1200, height: 778, alt: "A red Nintendo Wii Mini console with a matching Wii Remote", author: "Evan-Amos", license: "Public domain", sourceUrl: "https://commons.wikimedia.org/wiki/File:Wii-Mini-Console-Set-H.jpg", caption: "A Wii console and Wii Remote, the hardware Wii Sports was played on." },
     },
     {
       rank: 3,
@@ -136,6 +143,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "Take-Two's quarterly filing of November 9, 2026 says Red Dead Redemption 2 has sold-in more than 85 million units. Take-Two cited a higher figure of over 89 million the same day.",
       standoutFact: "Red Dead Online came free with every copy before getting its own standalone release.",
       sourceTag: TT10Q,
+      image: { src: `/rankings/best-selling-video-games-2026/rdr2.webp`, width: 1200, height: 667, alt: "The sandstone buttes of Monument Valley on the Arizona–Utah border", author: "Mgimelfarb", license: "CC0", licenseUrl: "http://creativecommons.org/publicdomain/zero/1.0/deed.en", sourceUrl: "https://commons.wikimedia.org/wiki/File:Monument_Valley_Arizona_Panoramic.jpg", caption: "Monument Valley, a classic American West landscape like those in the game." },
     },
     {
       rank: 2,
@@ -146,6 +154,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "Take-Two's quarterly filing of November 9, 2026 says GTA V has sold-in over 230 million units, and Take-Two cited a figure of nearly 235 million in November 2026. It has been released across three generations of consoles.",
       standoutFact: "The wider Grand Theft Auto series had sold-in over 475 million units by Take-Two's November 9 filing. GTA VI, released November 19, 2026, sold 32.5 million units before launch.",
       sourceTag: TT10Q,
+      image: { src: `/rankings/best-selling-video-games-2026/gta-v.webp`, width: 1200, height: 770, alt: "The downtown Los Angeles skyline", author: "Levi Clancy", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Skyline_of_Los_Angeles,_Downtown_Los_Angeles,_California_13.jpg", caption: "Los Angeles, the real city that inspired GTA V's Los Santos." },
     },
     {
       rank: 1,
@@ -156,6 +165,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
       blurb: "Microsoft said in autumn 2026 that Minecraft had grown from 350 million to over 425 million units sold. The announcement does not give a breakdown by platform or edition.",
       standoutFact: "That is nearly twice GTA V's shipments (Viszlyn calculation). Minecraft was first released in 2009, with its full release in 2011.",
       sourceTag: "Microsoft, Xbox Wire \"Introducing XP\" (October 8, 2026) and Minecraft Live (September 26, 2026)",
+      image: { src: `/rankings/best-selling-video-games-2026/minecraft.webp`, width: 1200, height: 900, alt: "The entrance of Mojang Studios' headquarters in Stockholm, with the studio's name plate beside the door", author: "TheBrickGraphic", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:Mojang_Studios_2022.jpg", caption: "Mojang Studios in Stockholm, where Minecraft is made." },
     },
   ],
 
