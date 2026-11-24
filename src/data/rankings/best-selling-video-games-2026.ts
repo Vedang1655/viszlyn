@@ -1,0 +1,229 @@
+import { RankingArticle } from "./types";
+
+const TT10Q = "Take-Two Interactive, Form 10-Q for the quarter ended September 30, 2026 (filed November 9, 2026)";
+const NIN = "Nintendo, Top Selling Title Sales Units (IR financial data)";
+
+export const bestSellingVideoGames2026: RankingArticle = {
+  slug: "best-selling-video-games-2026",
+
+  metaTitle: "The 10 Best-Selling Video Games of All Time (2026) | Viszlyn",
+  metaDescription:
+    "Minecraft leads with over 425 million copies, ahead of GTA V (over 230 million shipped) and Red Dead Redemption 2. See the 10 best-selling video games, with each publisher's official figures.",
+  ogTitle: "The Best-Selling Video Games of All Time",
+  ogDescription:
+    "Minecraft, GTA V, Red Dead Redemption 2 and Wii Sports lead the list. Every figure is the publisher's own, with sold and shipped counts labelled.",
+  twitterTitle: "The 10 Best-Selling Video Games Ever (2026)",
+  twitterDescription:
+    "Minecraft 425M+. GTA V 230M+ shipped. RDR2 85M+. Wii Sports 82.90M. The all-time top 10, from publishers' own figures.",
+
+  eyebrow: "Tech",
+  title: "The 10 Best-Selling Video Games of All Time",
+  dek: "Minecraft has sold over 425 million copies, nearly twice GTA V's shipments. The rest of the top 10 ranges from Rockstar blockbusters to a Nintendo pack-in and a two-player physics game, each measured by its publisher's own lifetime figure.",
+  publishedDate: "November 24, 2026",
+  lastUpdated: "November 24, 2026",
+  dataPeriod: "Publisher figures published from 2020 to November 2026",
+  heroImage: {
+    src: "/heroes/best-selling-video-games-2026.png",
+    ogSrc: "/heroes/best-selling-video-games-2026-og.png",
+    alt: "Pixel-art towers showing the best-selling video games by lifetime units: Minecraft over 425 million, GTA V over 230 million shipped, Red Dead Redemption 2 over 85 million shipped, Wii Sports 82.90 million, PUBG over 75 million, Mario Kart 8 Deluxe 72.00 million, Terraria 70 million, Skyrim and The Witcher 3 over 65 million each, and Human: Fall Flat over 55 million.",
+  },
+
+  quickAnswer:
+    "Minecraft is the best-selling video game of all time, with over 425 million units sold according to Microsoft (October 2026). Grand Theft Auto V is second with over 230 million units shipped to retailers and digital stores (Take-Two, November 2026), and Red Dead Redemption 2 third with more than 85 million. Wii Sports (82.90 million, mostly bundled with the Wii) and PUBG: Battlegrounds (more than 75 million paid copies) complete the top five.",
+  introParagraph:
+    "There is no single official league table for game sales, so this ranking uses each publisher's own latest lifetime figure for one game, with all its platforms and editions combined. Publishers count differently, and we label it on every entry. Take-Two reports \"sold-in\" units, meaning copies shipped to retailers plus digital sales, not copies bought by players. Nintendo's figures include digital copies and copies bundled with its consoles. Most others simply say \"sold\". Where a publisher gives a floor such as \"over 65 million\", we rank on that number, so close ranks should be read as approximate. Series totals, player counts and free downloads are not counted.",
+  calloutBox: {
+    label: "Why isn't Tetris here?",
+    body: "Tetris is often called the best-selling game ever, but no publisher reports a lifetime total for one Tetris game. The famous \"520 million\" figure covers every version since 1984 and includes free downloads. The largest single-publisher figure is EA's \"over 100 million paid downloads\" of its mobile Tetris games, announced in January 2010, but it combines several EA versions, covers mobile phones only and has never been updated (EA's Tetris apps closed in 2020). Because every entry in this list is one game's lifetime sales from its publisher, Tetris cannot be ranked on the same terms.",
+  },
+
+  chartTitle: "Lifetime units (millions)",
+  chartSource: "Publisher and platform-holder figures (Microsoft, Take-Two, Nintendo, KRAFTON, Re-Logic, Bethesda, CD Projekt, Curve Games). \"+\" = publisher said \"over\" or \"more than\"",
+  chartTapNote: "Tap any game to jump to its details below.",
+  entryValueLabel: "Lifetime units:",
+  chartItems: [
+    { rank: 1, name: "Minecraft", value: "425M+", raw: 425 },
+    { rank: 2, name: "Grand Theft Auto V (shipped)", value: "230M+", raw: 230 },
+    { rank: 3, name: "Red Dead Redemption 2 (shipped)", value: "85M+", raw: 85 },
+    { rank: 4, name: "Wii Sports (incl. console bundles)", value: "82.90M", raw: 82.9 },
+    { rank: 5, name: "PUBG: Battlegrounds", value: "75M+", raw: 75 },
+    { rank: 6, name: "Mario Kart 8 Deluxe", value: "72.00M", raw: 72 },
+    { rank: 7, name: "Terraria", value: "70M", raw: 70 },
+    { rank: 8, rankLabel: "=8", name: "The Elder Scrolls V: Skyrim", value: "65M+", raw: 65 },
+    { rank: 9, rankLabel: "=8", name: "The Witcher 3: Wild Hunt", value: "65M+", raw: 65 },
+    { rank: 10, name: "Human: Fall Flat", value: "55M+", raw: 55 },
+  ],
+
+  detailedEntries: [
+    {
+      rank: 10,
+      name: "Human: Fall Flat",
+      earnings: "Over 55 million copies",
+      category: "Curve Games · 2016",
+      origin: "Sold · all platforms (PC, consoles, mobile, VR)",
+      blurb: "Curve Games announced 55 million units sold in January 2025, and its March 2026 Nintendo Switch 2 release still described the game as having sold over 55 million copies.",
+      standoutFact: "Curve called it the third best-selling indie game when it announced the 55 million milestone. Later figures of 58 million and more refer to players, not copies, so they are not used here.",
+      sourceTag: "Curve Games, via PocketGamer.biz (January 2025) and Gematsu (March 2026)",
+    },
+    {
+      rank: 9,
+      rankLabel: "=8",
+      name: "The Witcher 3: Wild Hunt",
+      earnings: "Over 65 million copies",
+      category: "CD Projekt Red · 2015",
+      origin: "Sold · all platforms, including Game of the Year and Complete editions",
+      blurb: "CD Projekt reported more than 65 million copies of The Witcher 3 sold, a count as of May 28, 2026 published with its first-half 2026 results on September 2, 2026. The figure includes copies sold separately and in the game's GOTY and Complete editions.",
+      standoutFact: "The whole Witcher series has passed 90 million copies. Skyrim and The Witcher 3 share eighth place because both publishers say only \"over 65 million\".",
+      sourceTag: "CD Projekt, \"CD PROJEKT RED wraps up the first half of 2026\" (September 2, 2026)",
+    },
+    {
+      rank: 8,
+      rankLabel: "=8",
+      name: "The Elder Scrolls V: Skyrim",
+      earnings: "Over 65 million copies",
+      category: "Bethesda Softworks · 2011",
+      origin: "Sold · all editions, from the 2011 original to the Anniversary Edition",
+      blurb: "Bethesda Game Studios said in July 2026 that Skyrim had sold over 65 million copies, a lifetime total that includes its re-releases.",
+      standoutFact: "In the same note, Bethesda confirmed The Elder Scrolls VI is now the studio's main focus.",
+      sourceTag: "Bethesda Game Studios, \"A note from Bethesda Game Studios\" (July 17, 2026)",
+    },
+    {
+      rank: 7,
+      name: "Terraria",
+      earnings: "70 million copies",
+      category: "Re-Logic · 2011",
+      origin: "Sold · PC 39.6 million, mobile 19.7 million, console 10.7 million",
+      blurb: "Re-Logic marked Terraria's 15th anniversary in May 2026 by announcing 70 million copies sold, more than half of them on PC.",
+      standoutFact: "It sold more on mobile (19.7 million) than on consoles (10.7 million).",
+      sourceTag: "Re-Logic, \"Celebrating 15 years of Terraria\" (May 16, 2026), as reported by GamesRadar and others",
+    },
+    {
+      rank: 6,
+      name: "Mario Kart 8 Deluxe",
+      earnings: "72.00 million",
+      category: "Nintendo · 2017",
+      origin: "Nintendo sales units · Switch, including digital and bundled copies",
+      blurb: "Nintendo lists Mario Kart 8 Deluxe at 72.00 million units as of September 30, 2026, making it the best-selling game on the Nintendo Switch.",
+      standoutFact: "This is the Switch version only. The original Mario Kart 8 on Wii U is counted separately.",
+      sourceTag: `${NIN}, Nintendo Switch (as of September 30, 2026)`,
+    },
+    {
+      rank: 5,
+      name: "PUBG: Battlegrounds",
+      earnings: "More than 75 million copies",
+      category: "KRAFTON · 2017",
+      origin: "Sold · paid PC and console copies before it went free-to-play",
+      blurb: "KRAFTON said PUBG: Battlegrounds had sold more than 75 million copies on PC and consoles when it switched to free-to-play on January 12, 2022. Free players since then are not counted.",
+      standoutFact: "The separate free mobile versions, PUBG Mobile and BGMI, are different games and are not included.",
+      sourceTag: "KRAFTON press release (January 2022)",
+    },
+    {
+      rank: 4,
+      name: "Wii Sports",
+      earnings: "82.90 million",
+      category: "Nintendo · 2006",
+      origin: "Nintendo sales units · mostly copies bundled with the Wii console",
+      blurb: "Nintendo's final Wii software figure for Wii Sports is 82.90 million units. The game came packed with the Wii console in most of the world and was sold separately mainly in Japan, so most of these copies were bundled, not bought on their own.",
+      standoutFact: "Its total is higher than any Nintendo Switch game, including Mario Kart 8 Deluxe at 72.00 million, largely thanks to the console bundle.",
+      sourceTag: `${NIN}, Wii (final reported figure, 2020), as reported by Nintendo Life`,
+    },
+    {
+      rank: 3,
+      name: "Red Dead Redemption 2",
+      earnings: "More than 85 million (shipped)",
+      category: "Rockstar Games (Take-Two) · 2018",
+      origin: "Sold-in · copies shipped to retailers plus digital sales",
+      blurb: "Take-Two's November 2026 quarterly filing says Red Dead Redemption 2 has sold-in more than 85 million units. Its investor presentation the same day put the figure at over 89 million.",
+      standoutFact: "Red Dead Online came free with every copy before getting its own standalone release.",
+      sourceTag: TT10Q,
+    },
+    {
+      rank: 2,
+      name: "Grand Theft Auto V",
+      earnings: "Over 230 million (shipped)",
+      category: "Rockstar Games (Take-Two) · 2013",
+      origin: "Sold-in · copies shipped to retailers plus digital sales, across three console generations",
+      blurb: "Take-Two's November 2026 quarterly filing says GTA V has sold-in over 230 million units, and its investor presentation the same day said nearly 235 million. It has been released across three generations of consoles.",
+      standoutFact: "The wider Grand Theft Auto series has sold-in over 475 million units. GTA VI, released November 19, 2026, sold 32.5 million units before launch.",
+      sourceTag: TT10Q,
+    },
+    {
+      rank: 1,
+      name: "Minecraft",
+      earnings: "Over 425 million copies",
+      category: "Mojang Studios (Microsoft) · 2011",
+      origin: "Sold · all platforms and editions combined",
+      blurb: "Microsoft said in autumn 2026 that Minecraft had grown from 350 million to over 425 million units sold. It is one combined total for every edition and platform, from PC to consoles and mobile.",
+      standoutFact: "It is nearly twice GTA V's shipments, and more than the next three games on this list combined.",
+      sourceTag: "Microsoft, Xbox Wire \"Introducing XP\" (October 8, 2026) and Minecraft Live (September 26, 2026)",
+    },
+  ],
+
+  keyTakeaway: {
+    stat: "425M+",
+    label: "Minecraft's lifetime sales",
+    comparisonStat: "397.9M",
+    comparisonLabel: "GTA V, RDR2 and Wii Sports combined",
+    note: "Combined figure is a Viszlyn calculation from the publishers' floors (230M + 85M + 82.90M). GTA V and RDR2 are shipped (sold-in) units, and most Wii Sports copies were bundled with the console.",
+  },
+
+  sourceNote: {
+    dataPeriod: "Publisher figures published from 2020 to November 2026",
+    lastUpdated: "November 24, 2026",
+    sources:
+      "Microsoft (Xbox Wire, October 8, 2026); Take-Two Interactive (Form 10-Q filed November 9, 2026, and investor presentation; Form 8-K, November 20, 2026, for GTA VI); Nintendo (Top Selling Title Sales Units for Wii and Nintendo Switch); KRAFTON (January 2022); Re-Logic (May 2026); Bethesda Game Studios (July 2026); CD Projekt (September 2026); Curve Games (January 2025 and March 2026); Electronic Arts (January 2010, Tetris).",
+    methodology:
+      "Games are ranked by the latest lifetime unit figure published by their publisher or platform holder, for one game with all platforms and editions combined. Counting methods differ and are labelled on each entry: Take-Two reports sold-in units (copies shipped to retail plus digital sales); Nintendo's sales units include digital copies and copies bundled with hardware; other publishers say copies sold. Where a publisher gives a floor (\"over\" or \"more than\"), we rank on that number, so close ranks are approximate; Skyrim and The Witcher 3 are shown as tied. For Take-Two we use its SEC filing; its same-day investor presentation gave slightly higher figures (GTA V nearly 235 million, RDR2 over 89 million), which do not change the ranks. Series totals, player counts and free-to-play downloads are excluded, and figures that combine different versions of a game (such as Tetris) are not ranked. GTA VI has no lifetime figure yet and is not ranked.",
+    sourceLinks: [
+      { label: "Xbox Wire: Introducing XP (Minecraft 425M+)", href: "https://news.xbox.com/en-us/2026/10/08/introducing-xp/" },
+      { label: "Take-Two Form 10-Q, quarter ended Sept 30, 2026 (SEC)", href: "https://www.sec.gov/Archives/edgar/data/946581/000162828026072254/ttwo-20260930.htm" },
+      { label: "Nintendo IR: Top selling titles, Nintendo Switch", href: "https://www.nintendo.co.jp/ir/en/finance/software/switch.html" },
+      { label: "Nintendo Life: Wii top 10 (Wii Sports 82.90M)", href: "https://www.nintendolife.com/news/2020/11/the_top_ten_best-selling_games_for_wii_u_3ds_wii_and_ds_as_of_september_2020" },
+      { label: "KRAFTON: PUBG: Battlegrounds after going free-to-play", href: "https://krafton.com/zh/news/press/pubg-battlegrounds-sees-growth-following-its-recent-transition-to-free-to-play/" },
+      { label: "GamesRadar: Terraria sells over 70 million copies", href: "https://www.gamesradar.com/games/simulation/as-terraria-sells-over-70-million-copies-devs-are-done-with-promising-final-updates-and-say-theyll-continue-beyond-1-4-6/" },
+      { label: "Bethesda: A note from Bethesda Game Studios", href: "https://bethesda.net/en/article/7wrffyXajE4BmCLJVpOkcN/a-note-from-bethesda-game-studios" },
+      { label: "CD Projekt: first half of 2026", href: "https://www.cdprojekt.com/en/media/news/cd-projekt-red-wraps-up-the-first-half-of-2026/" },
+      { label: "Gematsu: Human Fall Flat Switch 2 Edition (55M+ copies)", href: "https://www.gematsu.com/2026/03/human-fall-flat-nintendo-switch-2-edition-now-available" },
+      { label: "EA: Tetris surpasses 100 million paid mobile downloads (2010)", href: "https://news.ea.com/press-releases/press-releases-details/2010/Tetris-Game-Surpasses-100-Million-Paid-Mobile-Downloads-Is-the-Best-Selling-Mobile-Phone-Game-of-All-Time/default.aspx" },
+      { label: "Take-Two Form 8-K, GTA VI launch (SEC)", href: "https://www.sec.gov/Archives/edgar/data/946581/000162828026075217/exhibit9918k.htm" },
+    ],
+  },
+
+  faqItems: [
+    {
+      question: "What is the best-selling video game of all time?",
+      answer:
+        "Minecraft, with over 425 million units sold across all editions and platforms, according to Microsoft in autumn 2026. Grand Theft Auto V is second with over 230 million units shipped (Take-Two).",
+    },
+    {
+      question: "Why isn't Tetris number one?",
+      answer:
+        "No publisher reports a lifetime total for a single Tetris game. Popular figures combine dozens of versions since 1984 and include free downloads, and EA's own figure (over 100 million paid mobile downloads, 2010) mixes several mobile versions and was never updated, so Tetris can't be ranked on the same basis as the other games.",
+    },
+    {
+      question: "How many copies has GTA VI sold?",
+      answer:
+        "Take-Two said GTA VI sold 32.5 million units before its release on November 19, 2026. It has not yet published a lifetime figure. If it passes about 55 million, it would enter this top 10.",
+    },
+    {
+      question: "What does \"sold-in\" or \"shipped\" mean?",
+      answer:
+        "Sold-in counts copies shipped to retailers plus digital sales, not necessarily copies bought by players yet. Take-Two uses this measure for GTA V and Red Dead Redemption 2, so their figures are labelled \"shipped\".",
+    },
+    {
+      question: "Does Wii Sports really count?",
+      answer:
+        "Nintendo counts it, so it is ranked, but most of its 82.90 million copies came bundled with the Wii console rather than being bought separately. Each entry in this list shows how its figure is counted.",
+    },
+    {
+      question: "What is the best-selling Nintendo Switch game?",
+      answer:
+        "Mario Kart 8 Deluxe, with 72.00 million units as of September 30, 2026, ahead of Animal Crossing: New Horizons at 50.63 million.",
+    },
+  ],
+
+  relatedLinks: [
+    { title: "The 10 Biggest Entertainment Launches Ever", href: "/rankings/biggest-entertainment-launches-2026" },
+    { title: "The 10 Highest-Earning Creators in 2026", href: "/rankings/highest-earning-creators-2026" },
+  ],
+};
