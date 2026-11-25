@@ -49,6 +49,7 @@ import { highestNationalDebtToGdp2026 } from "./highest-national-debt-to-gdp-202
 import { countriesBestTaxSystems2026 } from "./countries-best-tax-systems-2026";
 import { countriesLongestCoastlines2026 } from "./countries-longest-coastlines-2026";
 import { bestSellingVideoGames2026 } from "./best-selling-video-games-2026";
+import { longestServingTechCeos2026 } from "./longest-serving-tech-ceos-2026";
 import { RankingArticle } from "./types";
 import { highestMinimumWageByCountry2026 } from "./highest-minimum-wage-by-country-2026";
 import { bigMacIndexMostExpensiveCountries2026 } from "./big-mac-index-most-expensive-countries-2026";
@@ -69,6 +70,7 @@ import { richestCountriesGdpPerCapita2026 } from "./richest-countries-gdp-per-ca
 import { highestRentBurdenCountries2026 } from "./highest-rent-burden-countries-2026";
 
 export const ALL_RANKING_ARTICLES: RankingArticle[] = [
+  longestServingTechCeos2026,
   bestSellingVideoGames2026,
   countriesBestTaxSystems2026,
   countriesLongestCoastlines2026,
