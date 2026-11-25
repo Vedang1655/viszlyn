@@ -17,7 +17,7 @@ export const biggestChipCompanies2026: RankingArticle = {
 
   eyebrow: "Business",
   title: "The World's 10 Biggest Chip Companies by Revenue in 2026",
-  dek: "Ranked by the revenue each company reports for its chip business in its latest fiscal year. AI has put NVIDIA far ahead of every other chipmaker, and the AI memory boom has sent Micron to No. 2.",
+  dek: "Ranked by the revenue each company reports for its chip business in its latest fiscal year. NVIDIA leads this company-reported revenue comparison by a wide margin, and the AI memory boom has sent Micron to No. 2.",
   publishedDate: "November 10, 2026",
   lastUpdated: "November 25, 2026",
   dataPeriod: "Latest full fiscal year reported by November 25, 2026",
@@ -30,16 +30,16 @@ export const biggestChipCompanies2026: RankingArticle = {
   quickAnswer:
     "NVIDIA is the world's biggest chip company by reported revenue, with $215.9 billion in its fiscal year ended January 2026, up 65%. That is NVIDIA's total company revenue, which includes complete systems and software as well as chips. Micron is second with $133.2 billion in its fiscal year ended September 2026, more than three and a half times its previous year, as AI drove demand for memory. TSMC, which manufactures chips for other companies, is third with $122.4 billion. NVIDIA's data center business alone brought in $193.7 billion. These are company-reported figures, not a standardized measure of chip sales like Gartner's.",
   introParagraph:
-    "This ranking uses the revenue each company reports for its chip business, or for the whole company where chips are its main business, in its latest full fiscal year. It is not a standardized market-share ranking: for NVIDIA, for example, the figure is total company revenue, which also includes complete data center systems and software. For companies that also sell other things, only the semiconductor part is counted: Samsung's Device Solutions division, Intel's product segments, Qualcomm's chip business (QCT) and Broadcom's semiconductor segment. Companies end their fiscal years at different times, from November 2025 (Broadcom) to September 2026 (Micron and Qualcomm), so the periods don't line up: this is a table of each company's latest reported year, not one shared 12-month period. TSMC is included even though it is a foundry, a contract manufacturer that makes chips designed by other companies, including NVIDIA, AMD and Apple.",
+    "This ranking uses the revenue each company reports for its chip business, or for the whole company where chips are its main business, in its latest full fiscal year. It puts different revenue measures side by side, so it is not a like-for-like comparison of chip sales or a market-share ranking: for NVIDIA, for example, the figure is total company revenue, which also includes complete data center systems and software. For companies that also sell other things, only the semiconductor part is counted: Samsung's Device Solutions division, Intel's Client Computing and Data Center and AI segments, Qualcomm's chip business (QCT) and Broadcom's semiconductor segment. Companies end their fiscal years at different times, from November 2025 (Broadcom) to September 2026 (Micron and Qualcomm), so the periods don't line up: this is a table of each company's latest reported year, not one shared 12-month period. TSMC is included even though it is a foundry, a contract manufacturer that makes chips designed by other companies, including NVIDIA, AMD and Apple.",
   calloutBox: {
     label: "AI made NVIDIA the giant, and memory the boom",
     body: "NVIDIA's revenue rose from $130.5 billion to $215.9 billion in one fiscal year. Its data center business, which sells the processors and networking used to train and run AI, accounted for $193.7 billion of that, up 68%. AI demand has also lifted memory makers. SK hynix's revenue rose 46.8% in 2025, and Micron's jumped from $37.4 billion to $133.2 billion in its fiscal year ended September 3, 2026. Micron's year runs nine months later than most companies here, so it captures more of the 2026 memory boom; it was also a 53-week year.",
   },
 
   comparisonLabel: "the November 10, 2026 edition",
-  chartTitle: "Company-reported revenue used in this ranking, latest fiscal year (US$ billions)",
+  chartTitle: "Revenue measure used for each company, latest reported fiscal year (US$ billions)",
   chartSource: SRC,
-  chartTapNote: "NVIDIA's figure is total company revenue, including systems and software. For other diversified companies, the ranking uses the stated chip division or segment. These figures are not a standardized measure of chip sales. Tap any company to jump to its full breakdown below.",
+  chartTapNote: "Measures differ: total company revenue for NVIDIA, Micron, TSMC, SK hynix, AMD and MediaTek; chip divisions or segments for Samsung (Device Solutions), Intel (Client Computing + Data Center and AI), Qualcomm (QCT) and Broadcom (semiconductor solutions). Periods differ too: fiscal years ended Sep 3, 2026 (Micron), Sep 27, 2026 (Qualcomm), Jan 25, 2026 (NVIDIA) and Nov 2, 2025 (Broadcom); all others are calendar 2025. Tap any company to jump to its full breakdown below.",
   entryValueLabel: "Reported revenue:",
   chartItems: [
     { rank: 1, name: "NVIDIA", value: "$215.9B", raw: 215.9, prevRank: 1 },
@@ -82,7 +82,7 @@ export const biggestChipCompanies2026: RankingArticle = {
     {
       rank: 8,
       name: "Broadcom",
-      earnings: "$36.9 billion",
+      earnings: "$36.9 billion (semiconductor solutions segment)",
       category: "United States · Chip designer",
       revenueSources: "Custom AI chips, networking, broadband and wireless chips",
       blurb: "Broadcom's semiconductor segment brought in $36,858 million in its fiscal year ended November 2, 2025, up 22.5%. This excludes $27,029 million from its infrastructure software business (VMware).",
@@ -94,7 +94,7 @@ export const biggestChipCompanies2026: RankingArticle = {
     {
       rank: 7,
       name: "Qualcomm",
-      earnings: "$37.2 billion",
+      earnings: "$37.2 billion (QCT segment)",
       category: "United States · Chip designer",
       revenueSources: "Smartphone processors, automotive and IoT chips",
       blurb: "Qualcomm's chip business (QCT) brought in $37,208 million in its fiscal year ended September 27, 2026, down 3.0% from $38,367 million. This excludes its patent licensing business (QTL); total company revenue was $43,120 million.",
@@ -106,7 +106,7 @@ export const biggestChipCompanies2026: RankingArticle = {
     {
       rank: 6,
       name: "Intel",
-      earnings: "$49.1 billion",
+      earnings: "$49.1 billion (Client Computing + Data Center and AI segments)",
       category: "United States · Chip designer and manufacturer",
       revenueSources: "PC processors, data center and AI chips",
       blurb: "Intel's product segments (Client Computing and Data Center and AI) brought in $49,147 million in 2025. Including its foundry business, Intel's total revenue was $52,853 million.",
@@ -123,14 +123,14 @@ export const biggestChipCompanies2026: RankingArticle = {
       revenueSources: "DRAM, high-bandwidth memory (HBM), NAND flash storage",
       blurb: "SK hynix's revenue was a record ₩97.1 trillion in 2025 (about $68.3 billion), up 46.8% from ₩66.2 trillion in 2024.",
       standoutFact: "SK hynix says its revenue from high-bandwidth memory, used in AI processors, more than doubled in 2025.",
-      sourceTag: "SK hynix FY2025 results",
+      sourceTag: "SK hynix FY2025 results (company newsroom)",
       wikipediaUrl: "https://en.wikipedia.org/wiki/SK_Hynix",
       image: { src: "/rankings/biggest-chip-companies-2026/sk-hynix.webp", width: 1200, height: 900, alt: "Close-up of an SK hynix memory chip on a blue circuit board", author: "Raimond Spekking", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:SK_Hynix_-_H5TC4G83MFR-8390.jpg", caption: "An SK hynix DDR3L memory chip." },
     },
     {
       rank: 4,
       name: "Samsung",
-      earnings: "$91.5 billion",
+      earnings: "$91.5 billion (Device Solutions division)",
       category: "South Korea · Memory, chip design and manufacturing",
       revenueSources: "Memory chips, smartphone processors, contract manufacturing (Samsung Foundry)",
       blurb: "Samsung Electronics' chip division (Device Solutions) had sales of ₩130.1 trillion in 2025 (about $91.5 billion), up 17.2% from ₩111.1 trillion in 2024.",
@@ -145,16 +145,16 @@ export const biggestChipCompanies2026: RankingArticle = {
       earnings: "$122.4 billion",
       category: "Taiwan · Foundry (contract manufacturer)",
       revenueSources: "Manufacturing chips designed by other companies, including NVIDIA, AMD and Apple",
-      blurb: "TSMC's net revenue was NT$3,809.05 billion in 2025 (US$122.42 billion, as the company states it), up 31.6% in New Taiwan dollars.",
+      blurb: "TSMC's net revenue was NT$3,809.05 billion in 2025 (US$122.42 billion, as presented in TSMC's 2025 annual report), up 31.6% in New Taiwan dollars.",
       standoutFact: "TSMC doesn't design its own chips; it manufactures them for other companies, which is why some industry rankings, such as Gartner's, leave it out.",
-      sourceTag: "TSMC 4Q25 Management Report",
+      sourceTag: "TSMC 2025 Annual Report; 4Q25 Management Report",
       wikipediaUrl: "https://en.wikipedia.org/wiki/TSMC",
       image: { src: "/rankings/biggest-chip-companies-2026/tsmc.webp", width: 1200, height: 801, alt: "TSMC headquarters and Fab 12A in Hsinchu at dusk, with light trails from traffic", author: "曾 成訓", license: "CC BY 2.0", licenseUrl: "https://creativecommons.org/licenses/by/2.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:TSMC_Fab_12A_02.jpg", caption: "TSMC headquarters and Fab 12A, Hsinchu, Taiwan." },
     },
     {
       rank: 2,
       name: "Micron",
-      earnings: "$133.2 billion",
+      earnings: "$133.2 billion (total; 53-week fiscal year ended Sep 3, 2026)",
       category: "United States · Memory",
       revenueSources: "DRAM, high-bandwidth memory (HBM), NAND flash storage",
       blurb: "Micron's revenue was $133,188 million in its fiscal year ended September 3, 2026, more than three and a half times the $37,378 million of fiscal 2025. That moved it from seventh to second in this ranking.",
@@ -166,11 +166,11 @@ export const biggestChipCompanies2026: RankingArticle = {
     {
       rank: 1,
       name: "NVIDIA",
-      earnings: "$215.9 billion",
+      earnings: "$215.9 billion (total company revenue)",
       category: "United States · Chip designer",
       revenueSources: "AI data center processors and networking, gaming GPUs, automotive",
       blurb: "NVIDIA's revenue was $215,938 million in its fiscal year ended January 25, 2026, up 65% from $130,497 million the year before. This is NVIDIA's total reported company revenue, not a standalone chip-sales figure.",
-      standoutFact: "Its data center business brought in $193.7 billion, about 90% of NVIDIA's total, and more than TSMC's entire revenue. NVIDIA's revenue is about 1.8 times TSMC's, and more than TSMC and Samsung's chip division combined ($214.0 billion).",
+      standoutFact: "Its data center business brought in $193.7 billion, about 90% of NVIDIA's total, and more than TSMC's entire revenue. NVIDIA's total revenue is about 1.8 times TSMC's total revenue, and slightly more than TSMC's revenue plus Samsung's Device Solutions division sales combined ($214.0 billion), although the three figures cover different scopes.",
       sourceTag: "NVIDIA fiscal 2026 results",
       wikipediaUrl: "https://en.wikipedia.org/wiki/Nvidia",
       image: { src: "/rankings/biggest-chip-companies-2026/nvidia.webp", width: 1200, height: 734, alt: "NVIDIA's Endeavor headquarters building and entrance sign in Santa Clara", author: "Coolcaesar", license: "CC BY-SA 4.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/4.0", sourceUrl: "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg", caption: "NVIDIA headquarters (Endeavor building), Santa Clara, California." },
@@ -182,7 +182,7 @@ export const biggestChipCompanies2026: RankingArticle = {
     label: "NVIDIA's revenue in its latest fiscal year, up 65%",
     comparisonStat: "$193.7B",
     comparisonLabel: "NVIDIA's data center revenue alone, more than any other chip company's total",
-    note: "AI is reshaping the chip industry's ranking. NVIDIA's revenue is about 1.8 times TSMC's, and AI memory demand lifted Micron's revenue 256% in its fiscal 2026 and SK hynix's 46.8% in 2025. Intel, long the industry's biggest chipmaker, and Qualcomm are the only top-10 companies whose chip revenue fell. Gartner, which measures chip sales by calendar year and excludes foundries, also ranks NVIDIA first for 2025, at $125.7 billion, making it the first chip vendor ever to pass $100 billion in Gartner's ranking.",
+    note: "AI is reshaping the chip industry's ranking. NVIDIA's revenue is about 1.8 times TSMC's, and AI memory demand lifted Micron's revenue about 256% in FY2026 and SK hynix's 46.8% in 2025. Intel, long the industry's biggest chipmaker, and Qualcomm are the only top-10 companies whose chip revenue fell. Separately, Gartner, which estimates calendar-year semiconductor sales with its own market methodology and excludes foundries, also puts NVIDIA first for 2025, at $125.7 billion. That is a different measure from the company-reported fiscal-year revenue used here, not a check on these figures.",
   },
 
   sourceNote: {
@@ -191,15 +191,16 @@ export const biggestChipCompanies2026: RankingArticle = {
     sources:
       "Company annual results and filings: NVIDIA (fiscal 2026, ended January 25, 2026), Micron (fiscal 2026, ended September 3, 2026, Form 8-K), Qualcomm (fiscal 2026, ended September 27, 2026, Form 10-K), TSMC (4Q25 Management Report), Samsung Electronics (FY2025 results and 2025 4Q Interim Report, Device Solutions division), SK hynix (FY2025 results), Intel, Broadcom, AMD and Texas Instruments (earnings releases and SEC filings), MediaTek (2025 consolidated financial statements). Comparison: Gartner, \"Gartner Says Worldwide Semiconductor Revenue Grew 21% in 2025\" (January 12, 2026). Exchange rate: Federal Reserve H.10.",
     methodology:
-      "Companies are ranked by the revenue they report for their chip business in their latest full fiscal year. These are company-reported figures, not a standardized measure of semiconductor sales, so they are not directly comparable to market-share estimates such as Gartner's. NVIDIA's figure is its total company revenue, which includes complete data center systems and software as well as chips. Where a company has other businesses, only its chip segment is counted: Samsung's Device Solutions division (which includes Samsung Foundry), Intel's Client Computing and Data Center and AI segments (excluding Intel Foundry), Qualcomm's QCT segment (excluding licensing) and Broadcom's semiconductor solutions segment (excluding software). NVIDIA, AMD, Micron, SK hynix, MediaTek and TSMC are counted by total revenue. Fiscal years differ: Broadcom's ended November 2, 2025 (its fiscal 2026 results were not yet published on November 25, 2026), NVIDIA's on January 25, 2026, Micron's on September 3, 2026 (a 53-week year) and Qualcomm's on September 27, 2026; the rest follow the calendar year 2025. This is a table of each company's latest reported year, not a same-period comparison, which favours companies whose years ended later in 2026. TSMC and MediaTek US dollar figures are as the companies state them. Samsung and SK hynix figures are converted by Viszlyn at the 2025 average rate of ₩1,421.40 per US dollar (Federal Reserve H.10). Percentage changes are calculated from the reported figures in each company's own currency. This ranking includes TSMC, a foundry; without it, Texas Instruments ($17.7 billion) would be 10th. Infineon (€16.4 billion in its fiscal year ended September 2026) is also just below MediaTek. Gartner's calendar-year ranking counts only chip sales and excludes foundries, so its figures differ (for example, NVIDIA $125.7 billion); Gartner also includes Apple ($24.6 billion, its estimate of Apple's in-house chips), which reports no chip revenue of its own.",
+      "Companies are ranked by the revenue they report for their chip business in their latest full fiscal year. These are company-reported figures, not a standardized measure of semiconductor sales, so they are not directly comparable to market-share estimates such as Gartner's. NVIDIA's figure is its total company revenue, which includes complete data center systems and software as well as chips. Where a company has other businesses, only its chip segment is counted: Samsung's Device Solutions division (which includes Samsung Foundry), Intel's Client Computing and Data Center and AI segments (excluding Intel Foundry, a separately reported segment whose revenue comes mostly from manufacturing Intel's own products), Qualcomm's QCT segment (excluding licensing) and Broadcom's semiconductor solutions segment (excluding software). NVIDIA, AMD, Micron, SK hynix, MediaTek and TSMC are counted by total revenue. Fiscal years differ: Broadcom's ended November 2, 2025 (its fiscal 2026 results were not yet published on November 25, 2026), NVIDIA's on January 25, 2026, Micron's on September 3, 2026 (a 53-week year) and Qualcomm's on September 27, 2026; the rest follow the calendar year 2025. This is a table of each company's latest reported year, not a same-period comparison, which favours companies whose years ended later in 2026. TSMC is counted by its total revenue because contract chip manufacturing is its core business; its US dollar figure is the one presented in its 2025 annual report. MediaTek's US dollar figure is as the company states it. Samsung and SK hynix figures are converted by Viszlyn at the 2025 average rate of ₩1,421.40 per US dollar (Federal Reserve H.10). Percentage changes are calculated from the reported figures in each company's own currency. This ranking includes TSMC, a foundry; without it, Texas Instruments ($17.7 billion) would be 10th. Infineon (€16.4 billion in its fiscal year ended September 2026) is also just below MediaTek. Gartner's calendar-year ranking counts only chip sales and excludes foundries, so its figures differ (for example, NVIDIA $125.7 billion); Gartner also includes Apple ($24.6 billion, its estimate of Apple's in-house chips), which reports no chip revenue of its own.",
     sourceLinks: [
       { label: "NVIDIA: Financial Results for Fourth Quarter and Fiscal 2026", href: "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2026" },
       { label: "Micron: fiscal Q4 and full-year 2026 results (Form 8-K exhibit)", href: "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm" },
       { label: "Qualcomm Form 10-K, fiscal 2026 (segment information)", href: "https://www.sec.gov/Archives/edgar/data/804328/000080432826000128/qcom-20260927.htm" },
+      { label: "TSMC 2025 Annual Report", href: "https://investor.tsmc.com/static/annualReports/2025/english/index.html" },
       { label: "TSMC 4Q25 Management Report (PDF)", href: "https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-01/00fe50f72b38d74e6b9b066398f020f337cd4e9d/4Q25%20Management%20Report.pdf" },
       { label: "Samsung Electronics: Q4 and FY2025 results", href: "https://news.samsungsemiconductor.com/global/samsung-electronics-announces-fourth-quarter-and-fy-2025-results/" },
       { label: "Samsung Electronics: 2025 4Q Interim Report (DS Division full-year revenue) (PDF)", href: "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_4Q_Interim_Report.pdf" },
-      { label: "SK hynix: FY25 financial results", href: "https://www.prnewswire.com/news-releases/sk-hynix-announces-fy25-financial-results-posts-record-high-results-and-delivers-highest-shareholder-returns-302672384.html" },
+      { label: "SK hynix newsroom: FY25 financial results", href: "https://news.skhynix.com/en/sk-hynix-announces-fy25-financial-results/" },
       { label: "MediaTek: 2025 consolidated financial report (PDF)", href: "https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/Financial%20Reports/2025/Q4%20Consolidated%20Report.pdf" },
       { label: "Gartner: Worldwide semiconductor revenue grew 21% in 2025", href: "https://www.gartner.com/en/newsroom/press-releases/2026-01-12-gartner-says-worldwide-semiconductor-revenue-grew-21-percent-in-2025" },
       { label: "Federal Reserve H.10: Korean won exchange rates", href: "https://www.federalreserve.gov/releases/h10/hist/dat00_ko.htm" },
