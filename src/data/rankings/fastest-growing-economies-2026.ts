@@ -3,9 +3,9 @@ import { RankingArticle } from "./types";
 export const fastestGrowingEconomies2026: RankingArticle = {
   slug: "fastest-growing-economies-2026",
 
-  metaTitle: "Fastest-Growing Economies in 2026: Top 10 Ranked (IMF) | Viszlyn",
+  metaTitle: "GDP Growth by Country 2026: 10 Fastest-Growing Economies (IMF) | Viszlyn",
   metaDescription:
-    "Guyana is the world's fastest-growing economy in 2026 at a projected 22.3%, more than double Taiwan's 10.7%. See the top 10 by real GDP growth, plus what changes in 2027 (IMF, October 2026).",
+    "GDP growth by country in 2026: Guyana leads at a projected 22.3%, ahead of Taiwan (10.7%) and South Sudan (10.5%). The top 10 by real GDP growth, from the IMF's October 2026 outlook.",
   ogTitle: "The 10 Fastest-Growing Economies in 2026",
   ogDescription:
     "Guyana 22.3%. Taiwan 10.7%. South Sudan 10.5%. The world's fastest-growing economies in 2026, and the 2027 rebound that reshuffles the list.",

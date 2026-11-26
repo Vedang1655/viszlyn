@@ -5,9 +5,9 @@ const SRC = "OICA, world motor vehicle production by country, 2025";
 export const biggestCarProducingCountries2026: RankingArticle = {
   slug: "biggest-car-producing-countries-2026",
 
-  metaTitle: "The World's 10 Biggest Car-Producing Countries in 2025, Ranked | Viszlyn",
+  metaTitle: "Which Country Makes the Most Cars? Top 10 Producers (2025 Data) | Viszlyn",
   metaDescription:
-    "China built 34,530,738 vehicles in 2025, 35.8% of the world total and more than the next five countries combined. The top 10 vehicle-producing countries, ranked with OICA data.",
+    "China made 34.53 million vehicles in 2025, 35.8% of the world total and more than the next five countries combined. The US and Japan follow. Top 10 car-producing countries (OICA).",
   ogTitle: "The World's 10 Biggest Car-Producing Countries, Ranked",
   ogDescription:
     "China built 35.8% of the world's vehicles in 2025, more than the US, Japan, India, Germany and South Korea combined. The top 10 producers (OICA).",

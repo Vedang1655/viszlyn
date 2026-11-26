@@ -3,9 +3,9 @@ import { RankingArticle } from "./types";
 export const chinaRichestPeople2026: RankingArticle = {
   slug: "china-richest-people-2026",
 
-  metaTitle: "China's 10 Richest People in 2026: Zhang Yiming Back at No. 1 | Viszlyn",
+  metaTitle: "Richest Person in China 2026: Zhang Yiming Tops the Top 10 | Viszlyn",
   metaDescription:
-    "ByteDance founder Zhang Yiming is China's richest person again with US$99.7 billion, up 43%. DeepSeek's Liang Wenfeng debuts at No. 7. See the full top 10 (data: Hurun China Rich List 2026).",
+    "Who is the richest person in China? ByteDance founder Zhang Yiming, with US$99.7 billion, ahead of Zhong Shanshan and Zeng Yuqun. China's 10 richest people (Hurun China Rich List 2026).",
   ogTitle: "China's 10 Richest People in 2026",
   ogDescription:
     "Zhang Yiming is back on top with US$99.7 billion. DeepSeek's founder debuts at No. 7, and three of the top 10 now make their money from AI. The full ranking.",
