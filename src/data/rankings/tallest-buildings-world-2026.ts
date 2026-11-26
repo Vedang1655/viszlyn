@@ -5,9 +5,9 @@ const SRC = "CTBUH Skyscraper Center";
 export const tallestBuildingsWorld2026: RankingArticle = {
   slug: "tallest-buildings-world-2026",
 
-  metaTitle: "The 20 Tallest Buildings in the World in 2026, Ranked | Viszlyn",
+  metaTitle: "Top 20 Tallest Buildings in the World (2026): Burj Khalifa Still No. 1 | Viszlyn",
   metaDescription:
-    "Burj Khalifa (828 m) is still the world's tallest building, ahead of Merdeka 118 (678.9 m) and Shanghai Tower (632 m). See the top 20, and the tower set to beat it.",
+    "The 20 tallest buildings in the world in 2026: Burj Khalifa (828 m) leads Merdeka 118 (678.9 m) and Shanghai Tower (632 m). Official CTBUH heights, plus the tower set to beat it.",
   ogTitle: "The World's 20 Tallest Buildings in 2026, Ranked",
   ogDescription:
     "Burj Khalifa has been the world's tallest building since 2010. Jeddah Tower, now under construction and planned at over 1,000 metres, is set to take the title.",

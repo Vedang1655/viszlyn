@@ -5,9 +5,9 @@ const SRC = "IMF World Economic Outlook, October 2026";
 export const largestEconomies2030ImfProjections: RankingArticle = {
   slug: "largest-economies-2030-imf-projections",
 
-  metaTitle: "Largest Economies in 2030: IMF Projections Ranked | Viszlyn",
+  metaTitle: "World GDP Ranking 2030: Top 20 Largest Economies (IMF Forecast) | Viszlyn",
   metaDescription:
-    "The IMF projects the US at $38.60 trillion in 2030, ahead of China ($27.08T), Germany ($6.15T) and India ($6.13T). See the top 20 economies of 2030, ranked.",
+    "Which countries will be the largest economies in 2030? The IMF projects the US ($38.60T), China ($27.08T), Germany ($6.15T) and India ($6.13T) on top. The full top 20 by GDP.",
   ogTitle: "The World's 20 Largest Economies in 2030, Ranked",
   ogDescription:
     "India climbs from 6th to 4th and ends 2030 just $24.5 billion behind Germany. Russia falls from 8th to 13th. The IMF's October 2026 projections, ranked.",
