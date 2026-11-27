@@ -34,7 +34,7 @@ const circles = C.map(([rk, n, yr, v, cc, cx, cy, cls]) => {
 }).join("");
 
 const body = `<div class="wrap">
-  <div class="title"><span class="v0">V</span><b>The Biggest IPOs of All Time</b><span class="sub">money raised at pricing, US$</span></div>
+  <div class="title"><div class="eb"><span class="v0">V</span>RANKED · MONEY RAISED AT PRICING (US$)</div><h1>THE BIGGEST <em>IPOs</em><br>OF ALL TIME</h1></div>
   <div class="tag t26">2026 · two new records</div>
   <div class="tag tprev">The biggest before 2026 · 1998–2019</div>
   ${circles}
@@ -47,12 +47,13 @@ const css = `
 .wrap:before{content:"";position:absolute;inset:0;background:
   repeating-linear-gradient(0deg,rgba(255,255,255,.03) 0 1px,transparent 1px 42px),
   repeating-linear-gradient(90deg,rgba(255,255,255,.03) 0 1px,transparent 1px 42px)}
-.title{position:absolute;left:26px;top:20px;display:flex;align-items:center;gap:10px;font-size:19px}
-.title b{font-weight:900;letter-spacing:-.2px}
-.title .sub{font-size:14px;font-weight:600;color:#A9A6BC}
+.title{position:absolute;left:30px;top:22px}
+.eb{display:flex;align-items:center;gap:10px;font-size:14px;font-weight:800;letter-spacing:2px;color:#C9C4DC}
+h1{margin:8px 0 0;font-size:62px;line-height:.98;font-weight:900;letter-spacing:-2px;text-shadow:0 4px 18px rgba(0,0,0,.6)}
+h1 em{font-style:normal;color:#FF7A45}
 .v0{display:grid;place-items:center;width:26px;height:26px;border-radius:6px;background:#FF5D3A;color:#0B0E14;font-weight:900;font-size:16px}
 .tag{position:absolute;font-size:13px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;padding:4px 10px;border-radius:999px}
-.t26{left:220px;top:74px;background:#FF7A45;color:#1A0A00}
+.t26{left:352px;top:186px;background:#FF7A45;color:#1A0A00}
 .tprev{left:770px;top:560px;color:#8FE3D8;border:1px solid rgba(143,227,216,.5)}
 .circ{position:absolute;border-radius:50%;display:grid;place-items:center;box-sizing:border-box}
 .circ.hot{background:radial-gradient(circle at 35% 30%,#FFB37A,#FF6A2B 55%,#C2410C);box-shadow:0 0 60px rgba(255,106,43,.45)}
