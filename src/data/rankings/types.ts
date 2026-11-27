@@ -155,7 +155,7 @@ export type ArticleVideo = {
 };
 
 export type ArticleHeroImage = {
-  /** PNG under /public shown on the article page, e.g. "/heroes/<slug>.png" (2x of width x height) */
+  /** WebP under /public shown on the article page, e.g. "/heroes/<slug>.webp" (2x of width x height) */
   src: string;
   /**
    * Show `src` at the top of the article. Default true. Set false to keep the automatic

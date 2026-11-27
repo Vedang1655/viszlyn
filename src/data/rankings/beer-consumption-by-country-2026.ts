@@ -22,7 +22,7 @@ export const beerConsumptionByCountry2026: RankingArticle = {
   lastUpdated: "November 15, 2026",
   dataPeriod: "Calendar year 2024 (Kirin Holdings report published 22 December 2025)",
   heroImage: {
-    src: "/heroes/beer-consumption-by-country-2026.png",
+    src: "/heroes/beer-consumption-by-country-2026.webp",
     ogSrc: "/heroes/beer-consumption-by-country-2026-og.png",
     alt: "Ten beer glasses filled to each country's 2024 beer consumption per person in litres: Czech Republic 148.8, Lithuania 110.6, Austria 104.6, Ireland 99.0, Croatia 95.1, Estonia 93.2, Spain 91.8, Slovenia 88.4, Romania 87.4 and Germany 86.9. Source: Kirin Holdings.",
   },

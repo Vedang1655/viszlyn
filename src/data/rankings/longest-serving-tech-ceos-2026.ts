@@ -23,7 +23,7 @@ export const longestServingTechCeos2026: RankingArticle = {
   lastUpdated: "November 25, 2026",
   dataPeriod: "Tenures as of November 25, 2026; listed companies worth over US$100 billion on that date",
   heroImage: {
-    src: "/heroes/longest-serving-tech-ceos-2026.png",
+    src: "/heroes/longest-serving-tech-ceos-2026.webp",
     ogSrc: "/heroes/longest-serving-tech-ceos-2026-og.png",
     alt: "Timeline bars showing how long the longest-serving tech CEOs have led their companies: Jensen Huang (Nvidia) since 1993, Ma Huateng (Tencent) since 1998, Marc Benioff (Salesforce) since 2001, Mark Zuckerberg (Meta) since 2004, Alex Karp (Palantir) since 2005, Rick Wallace (KLA) and Hock Tan (Broadcom) since 2006, Michael Dell (Dell) since 2007, and Tobias Lütke (Shopify), Jayshree Ullal (Arista) and Brian Chesky (Airbnb) since 2008.",
   },

@@ -20,7 +20,7 @@ export const ontarioFastestGrowingCities2026: RankingArticle = {
   lastUpdated: "November 15, 2026",
   dataPeriod: "July 1, 2024 to July 1, 2025, Statistics Canada (released January 14, 2026)",
   heroImage: {
-    src: "/heroes/ontario-fastest-growing-cities-2026.png",
+    src: "/heroes/ontario-fastest-growing-cities-2026.webp",
     ogSrc: "/heroes/ontario-fastest-growing-cities-2026-og.png",
     alt: "Ten towers sized by each Ontario metro area's population growth from July 2024 to July 2025: Ottawa (Ontario part) 2.64%, Oshawa 2.33%, Barrie 2.14%, St. Catharines - Niagara 2.02%, Brantford 1.67%, Belleville - Quinte West 1.01%, Hamilton 0.98%, London 0.97%, Peterborough 0.88% and Windsor 0.83%. Source: Statistics Canada.",
   },

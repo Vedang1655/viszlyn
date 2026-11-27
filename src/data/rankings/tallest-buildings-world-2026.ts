@@ -22,7 +22,7 @@ export const tallestBuildingsWorld2026: RankingArticle = {
   lastUpdated: "November 7, 2026",
   dataPeriod: "Completed buildings as of November 2026",
   heroImage: {
-    src: "/heroes/tallest-buildings-world-2026.png",
+    src: "/heroes/tallest-buildings-world-2026.webp",
     ogSrc: "/heroes/tallest-buildings-world-2026-og.png",
     alt: "The world's 10 tallest completed buildings drawn to scale, led by Burj Khalifa at 828 metres, with Jeddah Tower shown as a dashed outline at its planned height of over 1,000 metres. Source: CTBUH.",
   },

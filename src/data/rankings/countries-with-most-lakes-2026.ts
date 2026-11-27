@@ -22,7 +22,7 @@ export const countriesWithMostLakes2026: RankingArticle = {
   lastUpdated: "November 16, 2026",
   dataPeriod: "HydroLAKES global lake inventory (Messager et al., 2016)",
   heroImage: {
-    src: "/heroes/countries-with-most-lakes-2026.png",
+    src: "/heroes/countries-with-most-lakes-2026.webp",
     ogSrc: "/heroes/countries-with-most-lakes-2026-og.png",
     alt: "Ten lakes drawn to scale by each country's number of lakes larger than 10 hectares: Canada about 879,800, Russia 201,200, United States 102,500, China 23,800, Sweden 22,600, Brazil 20,900, Norway 20,000, Argentina 13,600, Kazakhstan 12,400 and Australia 11,400. Source: Messager et al. 2016.",
   },

@@ -23,7 +23,7 @@ export const highestMountainsWorld2026: RankingArticle = {
   lastUpdated: "November 21, 2026",
   dataPeriod: "Official and standard published elevations, as of November 2026",
   heroImage: {
-    src: "/heroes/highest-mountains-world-2026.png",
+    src: "/heroes/highest-mountains-world-2026.webp",
     ogSrc: "/heroes/highest-mountains-world-2026-og.png",
     alt: "Mountain silhouettes drawn to height: Everest 8,848.86 m, K2 8,611 m, Kangchenjunga 8,586 m, Lhotse 8,516 m, Makalu 8,485 m, Cho Oyu 8,188 m, Dhaulagiri I 8,167 m, Manaslu 8,163 m, Nanga Parbat 8,126 m and Annapurna I 8,091 m.",
   },

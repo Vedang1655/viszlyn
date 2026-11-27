@@ -20,7 +20,7 @@ export const mostPopularBabyNamesCanadaProvinces2026: RankingArticle = {
   lastUpdated: "November 15, 2026",
   dataPeriod: "Latest list from each province and territory: mostly 2025 births; Ontario and the Northwest Territories 2024; Newfoundland and Labrador 2020; Yukon 2016–2020",
   heroImage: {
-    src: "/heroes/most-popular-baby-names-canada-provinces-2026.png",
+    src: "/heroes/most-popular-baby-names-canada-provinces-2026.webp",
     ogSrc: "/heroes/most-popular-baby-names-canada-provinces-2026-og.png",
     alt: "Map of Canada showing the No. 1 girls' and boys' baby names in each province and territory: British Columbia, Alberta and Saskatchewan Olivia and Noah (2025); Manitoba Olivia and Noah (reported, 2025); Ontario Olivia and Noah (2024); Québec Emma and Noah (2025); New Brunswick Charlotte and Jack (2025); Nova Scotia Charlotte and Henry (2025); Prince Edward Island Violet and Theodore (reported, 2025); Newfoundland and Labrador Amelia/Emilia and Jaxson/Jaxon/Jackson (2020); Yukon Ava and Henry (2016–2020); Northwest Territories a three-way girls' tie and Noah/Luca (2024); Nunavut no list.",
   },

@@ -22,7 +22,7 @@ export const foreignHoldersUsTreasuries2026: RankingArticle = {
   lastUpdated: "November 18, 2026",
   dataPeriod: "End of September 2026, compared with September 2025 (US Treasury TIC data, released November 18, 2026)",
   heroImage: {
-    src: "/heroes/foreign-holders-us-treasuries-2026.png",
+    src: "/heroes/foreign-holders-us-treasuries-2026.webp",
     ogSrc: "/heroes/foreign-holders-us-treasuries-2026-og.png",
     alt: "Stacks of $100 bills sized by each country's holdings of US Treasury securities in September 2026: Japan $1,063.1 billion, United Kingdom $985.8 billion, China $563.9 billion, then Belgium, Cayman Islands, Canada, Luxembourg, Ireland, France and Taiwan. Source: US Treasury.",
   },

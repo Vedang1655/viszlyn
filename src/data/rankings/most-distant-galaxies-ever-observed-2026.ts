@@ -20,7 +20,7 @@ export const mostDistantGalaxiesEverObserved2026: RankingArticle = {
   lastUpdated: "November 20, 2026",
   dataPeriod: "Spectroscopic redshift confirmations published through November 2026",
   heroImage: {
-    src: "/heroes/most-distant-galaxies-ever-observed-2026.png",
+    src: "/heroes/most-distant-galaxies-ever-observed-2026.webp",
     ogSrc: "/heroes/most-distant-galaxies-ever-observed-2026-og.png",
     alt: "Beams of light from the 10 most distant galaxies with confirmed redshifts: MoM-z14 (z 14.44), JADES-GS-z14-0 (14.1793), JADES-GS-z14-1 (13.90), JADES-GS-z13-0 (13.20), PAN-z14-1 (13.53), JADES-GS-z13-1-LA (13.05), JADES-GS-z12-0 (12.482), UNCOVER-z12 (12.393), GHZ2 (12.342) and Maisie's Galaxy (11.408).",
   },

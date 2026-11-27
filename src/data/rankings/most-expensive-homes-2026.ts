@@ -22,7 +22,7 @@ export const mostExpensiveHomes2026: RankingArticle = {
   lastUpdated: "November 14, 2026",
   dataPeriod: "Completed sales up to November 2026; prices converted to US dollars at ECB reference rates on 6 November 2026",
   heroImage: {
-    src: "/heroes/most-expensive-homes-2026.png",
+    src: "/heroes/most-expensive-homes-2026.webp",
     ogSrc: "/heroes/most-expensive-homes-2026-og.png",
     alt: "Dark and gold ranking graphic: a gold line drawing of a mansion under '#1 Providence House, London, US$354.7 million, £265 million', beside the list #2 Deep Water Bay, Hong Kong US$319.0 million, #3 Château Louis XIV, France US$307.0 million, #4 Rutland Gate, London US$281.1 million, #5 The Peak, Hong Kong US$267.9 million, #6 The Holme, London US$261.0 million, #7 Griffin penthouse, New York US$239.96 million, #8 Hôtel Lambert, Paris over US$223.3 million, #9 Villa Les Cèdres US$223.3 million, #10 Jannard estate, Malibu US$210 million.",
   },

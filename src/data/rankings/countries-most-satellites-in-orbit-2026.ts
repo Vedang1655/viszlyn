@@ -22,7 +22,7 @@ export const countriesWithMostSatellitesInOrbit2026: RankingArticle = {
   lastUpdated: "November 20, 2026",
   dataPeriod: "CelesTrak SATCAT snapshot of November 19, 2026",
   heroImage: {
-    src: "/heroes/countries-most-satellites-in-orbit-2026.png",
+    src: "/heroes/countries-most-satellites-in-orbit-2026.webp",
     ogSrc: "/heroes/countries-most-satellites-in-orbit-2026-og.png",
     alt: "Bar chart of active satellites by owner country, November 2026: United States 13,138 (including 11,209 Starlink), China 1,613, United Kingdom 700, Russia 392, Japan 148, Italy 89, France, Germany and India 78 each, South Korea 76. World total 17,444. Source: CelesTrak SATCAT.",
   },

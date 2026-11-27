@@ -22,7 +22,7 @@ export const mostExpensiveHomesForSale2026: RankingArticle = {
   lastUpdated: "November 15, 2026",
   dataPeriod: "Listings checked as active on 14 November 2026; prices in other currencies converted at ECB reference rates on 13 November 2026",
   heroImage: {
-    src: "/heroes/most-expensive-homes-for-sale-2026.png",
+    src: "/heroes/most-expensive-homes-for-sale-2026.webp",
     ogSrc: "/heroes/most-expensive-homes-for-sale-2026-og.png",
     alt: "FOR SALE signs on a lawn for the 10 most expensive homes on the market in November 2026: Chalon estate Los Angeles US$400 million, Nassim Road bungalow Singapore US$239.1 million (S$308 million), Scarface estate Key Biscayne US$237 million, One Hyde Park penthouse London US$231.5 million (£175 million), former Aldo Gucci estate Palm Beach US$205 million, ocean-to-lake estate Palm Beach US$195 million, Villa Serenity Coral Gables US$172.5 million, La Gorce Island estate Miami Beach US$170 million, and Larry Ellison's North Palm Beach estate and the former Calvin Klein estate in East Hampton tied at US$165 million.",
   },

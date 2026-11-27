@@ -22,7 +22,7 @@ export const indiaHighestPaidWomenExecutives2026: RankingArticle = {
   lastUpdated: "November 15, 2026",
   dataPeriod: "FY26 (year ended March 31, 2026), company annual report disclosures",
   heroImage: {
-    src: "/heroes/india-highest-paid-women-executives-2026.png",
+    src: "/heroes/india-highest-paid-women-executives-2026.webp",
     ogSrc: "/heroes/india-highest-paid-women-executives-2026-og.png",
     alt: "Boardroom nameplates for India's 10 highest-paid women executives in FY26: Kavery Kalanithi, Sun TV, ₹87.50 crore; Nilima Prasad Divi, Divi's Laboratories, ₹34.78 crore; Vinita Singhania, JK Lakshmi Cement, ₹28.68 crore; Vinita Gupta, Lupin, ₹26.69 crore; Vinati Saraf Mutreja, Vinati Organics, ₹21.06 crore; Aarthi Subramanian, TCS, ₹18.34 crore; Priya Nair, Hindustan Unilever, ₹18.19 crore; Falguni Nayar, Nykaa, ₹16.48 crore; Prabha Narasimhan, Colgate-Palmolive (India), ₹12.91 crore; Bhuvaneswari Nara, Heritage Foods, ₹9.60 crore.",
   },

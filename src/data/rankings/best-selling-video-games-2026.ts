@@ -23,7 +23,7 @@ export const bestSellingVideoGames2026: RankingArticle = {
   lastUpdated: "November 24, 2026",
   dataPeriod: "Latest publisher figures available as of November 24, 2026; individual figure dates vary",
   heroImage: {
-    src: "/heroes/best-selling-video-games-2026.png",
+    src: "/heroes/best-selling-video-games-2026.webp",
     ogSrc: "/heroes/best-selling-video-games-2026-og.png",
     alt: "Pixel-art towers showing the best-selling video games by lifetime units: Minecraft over 425 million, GTA V over 230 million shipped, Red Dead Redemption 2 over 85 million shipped, Wii Sports 82.79 million, PUBG over 75 million, Mario Kart 8 Deluxe 72.00 million, Terraria 70 million, Skyrim and The Witcher 3 over 65 million each, and Human Fall Flat over 55 million, beside a photo of hands holding a game controller and a callout naming Minecraft as No. 1.",
   },

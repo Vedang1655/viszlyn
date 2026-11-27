@@ -24,7 +24,7 @@ export const countriesBiggestSpaceBudgets2026: RankingArticle = {
   lastUpdated: "November 21, 2026",
   dataPeriod: "Latest official civil space budgets (2025 or fiscal 2025–27), converted at ECB rates of November 20, 2026",
   heroImage: {
-    src: "/heroes/countries-biggest-space-budgets-2026.png",
+    src: "/heroes/countries-biggest-space-budgets-2026.webp",
     ogSrc: "/heroes/countries-biggest-space-budgets-2026-og.png",
     alt: "Rockets sized by each country's civil space budget: United States (NASA) US$24.44 billion, France $2.79 billion, Germany $2.70 billion, Italy $2.16 billion, India $1.48 billion, United Kingdom $1.02 billion, Japan (JAXA) $974 million, Canada $951 million, South Korea $764 million, Netherlands $296 million.",
   },
