@@ -1,5 +1,5 @@
 // Hero / Discover image for /rankings/biggest-ipos-of-all-time-2026.
-// Proportional circles: circle AREA is proportional to money raised at IPO pricing (before the greenshoe).
+// Proportional circles: circle AREA is proportional to gross proceeds at IPO pricing (before the greenshoe).
 // Data: company prospectuses and pricing announcements (see the article's source note).
 // Run: node scripts/hero-images/biggest-ipos-of-all-time-2026.mjs
 import { readFileSync } from "node:fs";
@@ -34,11 +34,11 @@ const circles = C.map(([rk, n, yr, v, cc, cx, cy, cls]) => {
 }).join("");
 
 const body = `<div class="wrap">
-  <div class="title"><div class="eb"><span class="v0">V</span>RANKED · MONEY RAISED AT PRICING (US$)</div><h1>THE BIGGEST <em>IPOs</em><br>OF ALL TIME</h1></div>
+  <div class="title"><div class="eb"><span class="v0">V</span>RANKED · GROSS PROCEEDS AT PRICING (US$)</div><h1>THE BIGGEST <em>IPOs</em><br>OF ALL TIME</h1></div>
   <div class="tag t26">2026 · two new records</div>
   <div class="tag tprev">The biggest before 2026 · 1998–2019</div>
   ${circles}
-  <div class="foot"><span>Circle area = money raised at IPO pricing, before the greenshoe · Sources: company prospectuses and pricing announcements; ICBC, DoCoMo as reported; SoftBank converted at ¥112.96/US$</span><span class="site">viszlyn.io</span></div>
+  <div class="foot"><span>Circle area = gross proceeds at IPO pricing, before the greenshoe · Sources: company prospectuses and pricing announcements; ICBC, DoCoMo as reported; SoftBank converted at ¥112.96/US$</span><span class="site">viszlyn.io</span></div>
 </div>`;
 
 const css = `

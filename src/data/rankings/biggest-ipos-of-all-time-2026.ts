@@ -9,39 +9,39 @@ export const biggestIposOfAllTime2026: RankingArticle = {
 
   metaTitle: "The 10 Biggest IPOs of All Time (2026): Anthropic Is No. 1 | Viszlyn",
   metaDescription:
-    "Anthropic raised US$81.3 billion in its November 2026 IPO, the biggest ever, ahead of SpaceX (US$75.0 billion, June 2026) and Saudi Aramco (US$25.6 billion, 2019). The full top 10.",
+    "Anthropic's US$81.3 billion IPO tops the all-time ranking, ahead of SpaceX at US$75.0 billion and Saudi Aramco at US$25.6 billion. See the 10 largest offerings by gross proceeds at pricing.",
   ogTitle: "The 10 Biggest IPOs of All Time",
   ogDescription:
-    "Two 2026 listings, Anthropic (US$81.3B) and SpaceX (US$75.0B), each raised about three times more than the previous record, Saudi Aramco's US$25.6B.",
+    "Two 2026 listings, Anthropic (US$81.3B) and SpaceX (US$75.0B), were each about three times the size of the previous record, Saudi Aramco's US$25.6B.",
   twitterTitle: "The 10 Biggest IPOs Ever (2026)",
   twitterDescription:
     "Anthropic US$81.3B. SpaceX US$75.0B. Saudi Aramco US$25.6B. Alibaba US$21.8B. 2026 rewrote the IPO record book twice.",
 
   eyebrow: "Money",
   title: "The 10 Biggest IPOs of All Time",
-  dek: "Ranked by the money raised at pricing. Anthropic and SpaceX, both listed in 2026, each raised about three times as much as Saudi Aramco, which held the record from 2019.",
+  dek: "Ranked by gross proceeds at pricing. Anthropic and SpaceX, both listed in 2026, were each about three times the size of Saudi Aramco's IPO, the record from 2019.",
   publishedDate: "November 27, 2026",
   lastUpdated: "November 27, 2026",
   dataPeriod: "IPOs priced up to November 27, 2026",
   heroImage: {
     src: "/heroes/biggest-ipos-of-all-time-2026.webp",
     ogSrc: "/heroes/biggest-ipos-of-all-time-2026-og.png",
-    alt: "Circles sized by money raised in the 10 biggest IPOs: two huge circles for Anthropic (US$81.3 billion, 2026) and SpaceX (US$75.0 billion, 2026), then much smaller circles for Saudi Aramco (US$25.6 billion), Alibaba, SoftBank Corp., General Motors, Agricultural Bank of China, ICBC, NTT DoCoMo and Visa.",
+    alt: "Circles sized by gross proceeds in the 10 biggest IPOs: two huge circles for Anthropic (US$81.3 billion, 2026) and SpaceX (US$75.0 billion, 2026), then much smaller circles for Saudi Aramco (US$25.6 billion), Alibaba, SoftBank Corp., General Motors, Agricultural Bank of China, ICBC, NTT DoCoMo and Visa.",
   },
 
   quickAnswer:
-    "The biggest IPO of all time is Anthropic's: US$81.34 billion raised when it priced 980 million shares at US$83 on November 18, 2026, according to its final prospectus. With the extra shares its underwriters later bought, the total reached about US$93.5 billion. SpaceX is second with US$75.0 billion (June 2026), and Saudi Aramco, the record holder from 2019 until SpaceX, is third with US$25.6 billion.",
+    "The biggest IPO of all time is Anthropic's. It had a gross offering value of US$81.34 billion when it priced 980 million shares at US$83 on November 18, 2026, according to its final prospectus. Most of the shares were new stock sold by Anthropic; about 23.6 million were sold by existing shareholders. With the extra shares its underwriters later bought, the offering reached about US$93.5 billion. SpaceX is second at US$75.0 billion (June 2026), and Saudi Aramco, the record holder from 2019 until SpaceX, is third at US$25.6 billion.",
   introParagraph:
-    "An initial public offering (IPO) is the first time a company sells its shares to the public. This ranking compares the money raised at the moment each IPO was priced, before the extra \"greenshoe\" shares that banks can sell in the days after a listing. That is the one figure every deal has, stated in the company's own offering documents. The total after the greenshoe is shown for each entry too; it does not change the order of the top nine. Money raised counts every share sold in the offering, whether it was new stock from the company or existing shares sold by owners such as governments and early investors.",
+    "An initial public offering (IPO) is the first time a company sells its shares to the public. This ranking compares gross proceeds at the original offering price, before any extra \"greenshoe\" shares the banks bought afterwards. That gives a consistent starting point for every deal, and the total after the greenshoe is shown separately for each entry; it does not change the order of the top nine. Gross proceeds means the total value of the shares sold, before fees, whoever sold them. It measures the size of the offering, not the money the company received: shares sold by existing owners, such as governments and early investors, pay those owners.",
   calloutBox: {
     label: "2026 broke the record twice",
-    body: "SpaceX's US$75.0 billion IPO in June 2026 nearly tripled Saudi Aramco's 2019 record of US$25.6 billion. It stood for about five months, until Anthropic raised US$81.3 billion in November. Anthropic also sold about US$26.0 billion of non-voting shares in a separate private sale at the same time. That sale was not part of the IPO, so it is not counted here.",
+    body: "SpaceX's US$75.0 billion IPO in June 2026 nearly tripled Saudi Aramco's 2019 record of US$25.6 billion. It stood for about five months, until Anthropic's US$81.3 billion IPO in November. Anthropic also sold about US$26.0 billion of non-voting shares in a separate private sale at the same time. That sale was not part of the IPO, so it is not counted here.",
   },
 
-  chartTitle: "Money raised at IPO pricing, before the greenshoe (US$ billions)",
+  chartTitle: "Gross proceeds at IPO pricing, before the greenshoe (US$ billions)",
   chartSource: "Company prospectuses and offering announcements. SoftBank Corp. converted by Viszlyn; ICBC and NTT DoCoMo as reported at the time",
   chartTapNote: "Tap any company to see the year, exchange and total after the greenshoe.",
-  entryValueLabel: "Raised at pricing:",
+  entryValueLabel: "Gross proceeds at pricing:",
   chartItems: [
     { rank: 1, name: "Anthropic", value: "$81.3B", raw: 81.34, countries: [{ name: "Anthropic (2026)", flagCode: "us" }] },
     { rank: 2, name: "SpaceX", value: "$75.0B", raw: 75.0, countries: [{ name: "SpaceX (2026)", flagCode: "us" }] },
@@ -68,9 +68,9 @@ export const biggestIposOfAllTime2026: RankingArticle = {
     {
       rank: 9, name: "NTT DoCoMo", earnings: "About US$17.95 billion (¥2.1 trillion)", category: "Japan · Mobile phones · October 1998",
       origin: "Tokyo Stock Exchange · ¥3.9 million per share",
-      blurb: "DoCoMo sold 545,000 shares at ¥3.9 million each, about ¥2.1 trillion, of which roughly ¥1.2 trillion was new shares and the rest sold by its parent NTT. These figures come from news reports at the time; Viszlyn could not access a 1998 company filing.",
+      blurb: "The offering totalled 545,000 shares: NTT DoCoMo issued 327,000 new shares and its parent NTT sold 218,000, according to NTT's annual report filed with the SEC. At the reported price of ¥3.9 million a share, that is ¥1,275.3 billion of new shares and ¥850.2 billion sold by NTT (Viszlyn calculation), about ¥2.1 trillion in all. The US dollar total, US$17.95 billion, is as reported at the time.",
       standoutFact: "It ended its first trading day as Japan's third-most valuable company, behind only its parent NTT and Toyota.",
-      sourceTag: "Kyodo News and RCR Wireless (October 1998)",
+      sourceTag: "NTT, Form 20-F (share split); Kyodo News and RCR Wireless (price and US$ total, 1998)",
       countries: [{ name: "Japan", flagCode: "jp" }],
       image: { src: `${P}/docomo.webp`, width: 675, height: 1200, alt: "Sanno Park Tower, a tall pale office tower in Tokyo, against a blue sky", author: "Akonnchiroll", license: "CC BY-SA 4.0", licenseUrl: SA4, sourceUrl: "https://commons.wikimedia.org/wiki/File:Sanno_Park_Tower.jpg", caption: "Sanno Park Tower, Tokyo, NTT DoCoMo's headquarters." },
     },
@@ -132,7 +132,7 @@ export const biggestIposOfAllTime2026: RankingArticle = {
       rank: 2, name: "SpaceX", earnings: "US$75.0 billion at pricing · US$86.25 billion after the greenshoe", category: "United States · Space · June 2026",
       origin: "Nasdaq Global Select Market and Nasdaq Texas · US$135 per share",
       blurb: "SpaceX sold 555,555,555 shares at US$135 for US$74,999,999,925, according to its final prospectus, all of it new stock sold by the company. With the underwriters' extra shares the gross total was US$86.25 billion.",
-      standoutFact: "SpaceX's own closing announcement cites about US$85.7 billion; its quarterly report shows that is the amount after US$575 million of fees and costs.",
+      standoutFact: "SpaceX's SEC filing reports US$85.675 billion of net proceeds after US$575 million of underwriting commissions and offering costs; its closing announcement describes about US$85.7 billion as gross proceeds. The gross value of the full offering was about US$86.25 billion.",
       sourceTag: "SpaceX, final prospectus (Form 424B4) and Form 10-Q (Q2 2026)",
       countries: [{ name: "United States", flagCode: "us" }],
       image: { src: `${P}/spacex.webp`, width: 1200, height: 800, alt: "SpaceX's white headquarters and factory building in Hawthorne, California", author: "SpaceX", license: "CC0", licenseUrl: CC0, sourceUrl: "https://commons.wikimedia.org/wiki/File:SpaceX_Headquarters,_Hawthorne,_CA.jpg", caption: "SpaceX headquarters and factory, Hawthorne, California." },
@@ -140,7 +140,7 @@ export const biggestIposOfAllTime2026: RankingArticle = {
     {
       rank: 1, name: "Anthropic", earnings: "US$81.34 billion at pricing · about US$93.5 billion after the greenshoe", category: "United States · Artificial intelligence · November 2026",
       origin: "Nasdaq Global Select Market (ticker ANT) · US$83 per share",
-      blurb: "Anthropic, the maker of the Claude AI models, sold 980 million shares at US$83 for US$81,340,000,000, according to its final prospectus. The company sold about 956 million of those shares and existing holders about 24 million. Its underwriters then bought all 147 million extra shares, and Anthropic says the IPO raised about US$93.5 billion in total.",
+      blurb: "Anthropic, the maker of the Claude AI models, priced a 980-million-share offering at US$83, a gross value of US$81,340,000,000, according to its final prospectus. Anthropic sold 956.35 million of the shares and existing shareholders 23.65 million (about US$1.96 billion); Anthropic's own proceeds after underwriting discounts were US$78.84 billion. Its underwriters then bought all 147 million extra shares, taking the offering to about US$93.5 billion, of which Anthropic says it received about US$91.6 billion.",
       standoutFact: "A separate private sale of non-voting shares at the same price, about US$26.0 billion, is not part of the IPO and is not counted here.",
       sourceTag: "Anthropic, PBC, final prospectus (Form 424B4) and closing announcement",
       countries: [{ name: "United States", flagCode: "us" }],
@@ -149,10 +149,10 @@ export const biggestIposOfAllTime2026: RankingArticle = {
 
   keyTakeaway: {
     stat: "$156B",
-    label: "raised by 2026's two record IPOs, Anthropic and SpaceX, at pricing",
+    label: "gross offering value of 2026's two record IPOs, Anthropic and SpaceX, at pricing",
     comparisonStat: "$163B",
-    comparisonLabel: "raised by the other eight IPOs in the top 10 combined, from 1998 to 2019",
-    note: "Both totals are Viszlyn's sums of the base deal figures in this ranking (US$156.34 billion and US$162.90 billion). In 2026 alone, two IPOs raised nearly as much as the eight biggest IPOs of the previous 28 years.",
+    comparisonLabel: "gross offering value of the other eight deals in the top 10 combined, from 1998 to 2019",
+    note: "Both totals are Viszlyn's sums of the base deal figures in this ranking (US$156.34 billion and US$162.90 billion). In 2026 alone, two IPOs were nearly as big as the other eight deals in the top 10, from 1998 to 2019, put together.",
   },
 
   sourceNote: {
@@ -161,7 +161,7 @@ export const biggestIposOfAllTime2026: RankingArticle = {
     sources:
       "Final prospectuses (Form 424B4 or 424B1) filed with the US SEC for Anthropic, SpaceX, Alibaba, General Motors and Visa; Saudi Aramco's final offer price announcement; SoftBank Group's share disposal announcement; Agricultural Bank of China's HKEX announcements and Q3 2010 report; Anthropic's and SpaceX's closing announcements and SpaceX's Q2 2026 Form 10-Q. ICBC (FinanceAsia, 2006) and NTT DoCoMo (Kyodo News and RCR Wireless, 1998) use figures reported at the time. Exchange rate: US Federal Reserve H.10.",
     methodology:
-      "IPOs are ranked by gross proceeds at pricing, before any over-allotment (greenshoe) option: the amount stated in each company's pricing documents. Totals after the greenshoe are shown for each entry. They keep the same order for the top nine; on that basis Hong Kong insurer AIA (US$20.51 billion after its greenshoe, 2010) would replace Visa at No. 10. Proceeds count all shares sold in the offering, both new shares and existing shares sold by owners. Where a company published a US dollar figure at the time, that figure is used; otherwise the amount is converted at the Federal Reserve H.10 rate on the pricing date (SoftBank Corp.: ¥112.96 per US$1). Dual listings (Agricultural Bank of China, ICBC) are counted once with both tranches added together. General Motors counts its common and convertible preferred offerings together, as the deal was priced and reported. Later sell-downs of already-listed companies are excluded. Just outside the top 10: AIA (about US$17.8 billion at pricing, 2010), Enel (€16.55 billion, about US$17.4 billion, 1999) and Facebook (US$16.0 billion, 2012).",
+      "IPOs are ranked by the gross value of the shares and eligible equity securities sold at the original offering price, before any over-allotment (greenshoe) option. This measures the size of the public offering, not the amount the company received: proceeds from existing shares go to the selling shareholders, and underwriting fees and other costs are not deducted. Totals after the greenshoe are shown separately. On that basis the top nine keep the same order, and Hong Kong insurer AIA (US$20.51 billion after its greenshoe, 2010) would replace Visa at No. 10; on the base-deal basis AIA's about US$17.8 billion is just below Visa's US$17.864 billion. The ranking includes both new shares and existing shares sold by owners. It also includes General Motors' convertible preferred-stock offering, which was priced and reported alongside its common-stock IPO; the common stock alone was about US$15.8 billion. SoftBank Corp.'s 2018 listing counts as an IPO although all the shares were sold by its parent, SoftBank Group. Where a company published a US dollar figure at the time, that figure is used; otherwise the amount is converted at the Federal Reserve H.10 rate on the pricing date (SoftBank Corp.: ¥112.96 per US$1). Dual listings (Agricultural Bank of China, ICBC) are counted once, with both tranches added together. Later offerings and additional listings by companies that were already public are excluded: SK hynix's US$26.5 billion Nasdaq ADR offering in July 2026 is left out because the company was already listed in South Korea. ICBC's totals are as reported at the time; NTT DoCoMo's share split comes from NTT's SEC filing and its US dollar total from reports at the time. Figures are not adjusted for inflation. Just outside the top 10: AIA (about US$17.8 billion at pricing, 2010), Enel (€16.55 billion, about US$17.4 billion, 1999) and Facebook (US$16.0 billion, 2012).",
     sourceLinks: [
       { label: "Anthropic: final prospectus (Form 424B4)", href: "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm" },
       { label: "Anthropic: IPO closing announcement", href: "https://www.anthropic.com/news/ipo-close" },
@@ -172,6 +172,8 @@ export const biggestIposOfAllTime2026: RankingArticle = {
       { label: "General Motors: final prospectus (Form 424B1)", href: "https://www.sec.gov/Archives/edgar/data/1467858/000119312510263484/d424b1.htm" },
       { label: "Agricultural Bank of China: HKEX announcement (PDF)", href: "https://www1.hkexnews.hk/listedco/listconews/sehk/2010/0729/ltn20100729037.pdf" },
       { label: "FinanceAsia: ICBC prices record IPO (2006)", href: "https://www.financeasia.com/article/icbc-surprises-no-one-by-pricing-record-ipo-at-the-top/66944" },
+      { label: "NTT Form 20-F (DoCoMo 1998 listing details)", href: "https://www.sec.gov/Archives/edgar/data/769594/000119312507146359/d20f.htm" },
+      { label: "SK hynix ADR offering (July 2026)", href: "https://www.nst.com.my/amp/business/corporate/2026/07/1484990/sk-hynix-raises-us265-billion-us-offering-after-pricing-adrs" },
       { label: "RCR Wireless: NTT DoCoMo IPO (1998)", href: "https://www.rcrwireless.com/19981101/archived-articles/ntt-docomo-launches-largest-ipo-in-japanese-history" },
       { label: "Visa: final prospectus (Form 424B4)", href: "https://www.sec.gov/Archives/edgar/data/1403161/000119312508060989/d424b4.htm" },
     ],
@@ -181,7 +183,7 @@ export const biggestIposOfAllTime2026: RankingArticle = {
     {
       question: "What is the biggest IPO of all time?",
       answer:
-        "Anthropic's, priced on November 18, 2026: US$81.34 billion at pricing and about US$93.5 billion after its underwriters bought extra shares. It began trading on the Nasdaq on November 19, 2026 under the ticker ANT.",
+        "Anthropic's, priced on November 18, 2026: a gross offering value of US$81.34 billion at pricing and about US$93.5 billion after its underwriters bought extra shares. It began trading on the Nasdaq on November 19, 2026 under the ticker ANT.",
     },
     {
       question: "Is SpaceX's IPO bigger than Saudi Aramco's?",
@@ -191,12 +193,17 @@ export const biggestIposOfAllTime2026: RankingArticle = {
     {
       question: "Did Anthropic raise US$119.5 billion?",
       answer:
-        "Not in its IPO. That figure adds a separate private sale of about US$26.0 billion of non-voting shares, made at the same price, to the IPO. The IPO itself raised US$81.34 billion at pricing and about US$93.5 billion after the greenshoe.",
+        "Not in its IPO. That figure adds a separate private sale of about US$26.0 billion of non-voting shares, made at the same price, to the IPO. The IPO itself had a gross value of US$81.34 billion at pricing and about US$93.5 billion after the greenshoe.",
     },
     {
       question: "What is a greenshoe?",
       answer:
-        "An option that lets the banks running an IPO sell extra shares, typically up to 15% more than planned, in the weeks after the listing if demand is strong. This ranking uses the amount raised before that option, because every IPO has that figure on its pricing day.",
+        "An option that lets the underwriters buy additional shares from the company or the selling shareholders, usually up to 15% of the original offering, to cover extra demand and support orderly trading. This ranking uses the original offering size before that option.",
+    },
+    {
+      question: "Why isn't SK hynix's US$26.5 billion Nasdaq offering on the list?",
+      answer:
+        "SK hynix was already listed in South Korea, so its July 2026 sale of American depositary shares on the Nasdaq was an additional US listing, not an initial public offering.",
     },
     {
       question: "Why does Saudi Aramco show US$25.6 billion, not US$29.4 billion?",
