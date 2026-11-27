@@ -23,7 +23,7 @@ export const biggestEntertainmentLaunches2026: RankingArticle = {
   lastUpdated: "November 22, 2026",
   dataPeriod: "Launches from 2013 to 2026; figures as published through November 22, 2026",
   heroImage: {
-    src: "/heroes/biggest-entertainment-launches-2026.png",
+    src: "/heroes/biggest-entertainment-launches-2026.webp",
     ogSrc: "/heroes/biggest-entertainment-launches-2026-og.png",
     alt: "Bar chart of the biggest entertainment launches by first-3-days worldwide earnings: Avengers: Endgame US$1,223.6 million, GTA V over US$1,000 million, Spider-Man: Brand New Day US$932.1 million, Call of Duty: Modern Warfare II over US$800 million, Red Dead Redemption 2 over US$725 million, Avengers: Infinity War US$640.5 million, Spider-Man: No Way Home US$600.5 million, Call of Duty: Modern Warfare over US$600 million, Zootopia 2 US$560.3 million and Call of Duty: Black Ops III over US$550 million, beside a tall unranked bar for GTA VI's US$3.79 billion day-one retail sales.",
   },

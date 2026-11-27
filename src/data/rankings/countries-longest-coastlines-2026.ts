@@ -24,7 +24,7 @@ export const countriesLongestCoastlines2026: RankingArticle = {
   lastUpdated: "November 22, 2026",
   dataPeriod: "CIA World Factbook, final edition (January 2026)",
   heroImage: {
-    src: "/heroes/countries-longest-coastlines-2026.png",
+    src: "/heroes/countries-longest-coastlines-2026.webp",
     ogSrc: "/heroes/countries-longest-coastlines-2026-og.png",
     alt: "Wavy shoreline bars showing the 10 longest coastlines: Canada 202,080 km, Indonesia 54,716 km, Russia 37,653 km, Philippines 36,289 km, Japan 29,751 km, Australia 25,760 km, Norway 25,148 km, United States 19,924 km, New Zealand 15,134 km and China 14,500 km, over a photo of Baffin Island's coast.",
   },

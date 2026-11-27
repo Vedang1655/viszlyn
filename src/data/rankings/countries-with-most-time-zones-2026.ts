@@ -22,7 +22,7 @@ export const countriesWithMostTimeZones2026: RankingArticle = {
   lastUpdated: "November 16, 2026",
   dataPeriod: "Time-zone rules in force in November 2026; seasonal daylight-saving offsets excluded",
   heroImage: {
-    src: "/heroes/countries-with-most-time-zones-2026.png",
+    src: "/heroes/countries-with-most-time-zones-2026.webp",
     ogSrc: "/heroes/countries-with-most-time-zones-2026-og.png",
     alt: "A wall of world clocks, each filled to the number of time zones in a country out of 12: France 12, Russia 11, United States 11, United Kingdom 9, Australia 9, Canada 5, New Zealand 5, Brazil 4, Mexico 4 and Denmark 4.",
   },

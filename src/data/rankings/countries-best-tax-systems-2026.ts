@@ -25,7 +25,7 @@ export const countriesBestTaxSystems2026: RankingArticle = {
   lastUpdated: "November 22, 2026",
   dataPeriod: "International Tax Competitiveness Index 2026 (data as of July 2026)",
   heroImage: {
-    src: "/heroes/countries-best-tax-systems-2026.png",
+    src: "/heroes/countries-best-tax-systems-2026.webp",
     ogSrc: "/heroes/countries-best-tax-systems-2026-og.png",
     alt: "A receipt-style ranking of the best tax systems in the OECD in 2026: Estonia 100.0, Latvia 92.5, New Zealand 88.2, Switzerland 86.8, Lithuania 82.6, Luxembourg 81.9, Czech Republic 79.4, Australia 78.9, Turkey 76.0 and Hungary 75.6, with Canada 15th, the United States 17th and France last.",
   },
