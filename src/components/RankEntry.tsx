@@ -49,7 +49,7 @@ export function RankEntry({
         {rankLabel ?? rank}
       </span>
       <div className="flex-1 min-w-0">
-        {countries && countries.length > 0 ? (
+        {countries && countries.length > 0 && countries.some((c) => c.name === name || name.startsWith(c.name) || c.name.startsWith(name)) ? (
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 mb-1">
             {countries.map((c) => (
               <span key={c.flagCode} className="inline-flex items-center gap-1.5">
@@ -64,6 +64,20 @@ export function RankEntry({
           </div>
         ) : (
           <div className="flex flex-wrap items-baseline gap-x-2">
+            {countries && countries.length > 0 && (
+              <span className="inline-flex items-center gap-1 self-center">
+                {countries.map((c) => (
+                  <span
+                    key={c.flagCode}
+                    className={`fi fi-${c.flagCode} rounded-[2px] shrink-0`}
+                    style={{ width: "20px", height: "14px" }}
+                    title={c.name}
+                    aria-label={c.name}
+                    role="img"
+                  />
+                ))}
+              </span>
+            )}
             {wikipediaUrl ? (
               <a
                 href={wikipediaUrl}

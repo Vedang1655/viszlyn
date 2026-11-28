@@ -65,6 +65,18 @@ export function RankName({
   countries?: CountryFlag[];
   className?: string;
 }) {
+  // Country rankings: the entry IS a country, so show each flag with its country name.
+  // Anything else (a company, a mountain): show the flags, then the entry's own name.
+  if (countries && countries.length > 0 && !countries.some((c) => c.name === name || name.startsWith(c.name) || c.name.startsWith(name))) {
+    return (
+      <span className={`flex items-center gap-1.5 min-w-0 ${className}`}>
+        {countries.map((c) => (
+          <FlagChip key={c.flagCode} code={c.flagCode} />
+        ))}
+        <span className="truncate min-w-0">{name}</span>
+      </span>
+    );
+  }
   if (countries && countries.length > 0) {
     return (
       <span className={`flex flex-wrap items-center gap-x-1.5 gap-y-1 min-w-0 ${className}`}>
