@@ -76,7 +76,7 @@ export const biggestTechIpos2026: RankingArticle = {
       category: "Software and apps",
       origin: "Italy · Nasdaq: BSP · July 1, 2026",
       blurb:
-        "Italy-based Bending Spoons, which buys and runs internet software products, priced its IPO at $29 a share on June 30. The base offering was 57,971,015 shares: 34.4 million new shares from the company (about $998 million at the offer price) and 23.6 million sold by existing shareholders (about $684 million), for $1,681,159,435 in all. Its underwriters also had an option on up to 8.7 million more shares, which is excluded here.",
+        "Italy-based Bending Spoons, which buys and runs internet software products, priced its IPO at $29 a share on June 30. The base offering was 57,971,015 shares (34.4 million new shares from the company and 23.6 million sold by existing shareholders), for $1,681,159,435 in all. At the $29 offer price, those shares represented about $998 million in gross offer value for Bending Spoons and $684 million for selling shareholders. Its underwriters also had an option on up to 8.7 million more shares, which is excluded here.",
       standoutFact:
         "Bending Spoons is not a US company: it is headquartered in Italy and chose Nasdaq for its first listing.",
       sourceTag: "Bending Spoons pricing announcement (Business Wire); Viszlyn calculation",
@@ -124,10 +124,10 @@ export const biggestTechIpos2026: RankingArticle = {
       category: "Space and satellites",
       origin: "Nasdaq: SPCX · June 12, 2026",
       blurb:
-        "SpaceX priced 555.6 million shares at $135 each, all new stock sold by the company, and began trading on Nasdaq on June 12. Its underwriters later bought all 83.3 million extra shares, taking the gross total to about $86.25 billion, according to its final prospectus and closing announcement. It held the IPO record for about five months, until Anthropic's offering in November.",
+        "SpaceX priced 555.6 million shares at $135 each, all new stock sold by the company, and began trading on Nasdaq on June 12. Its underwriters later bought all 83.3 million extra shares. At $135 per share, the full offering had a gross value of about $86.25 billion; SpaceX's SEC filing reports $85.675 billion in net proceeds after $575 million in underwriting commissions and offering costs. It held the IPO record for about five months, until Anthropic's offering in November.",
       standoutFact:
-        "The previous record was Saudi Aramco's 2019 base offering of about $25.6 billion (about $29.4 billion with its overallotment option), per Visual Capitalist, so SpaceX's base offering is nearly three times as large. Some outlets cite a slightly lower figure of about $24.9 billion.",
-      sourceTag: "SpaceX final prospectus (Form 424B4); TechCrunch; Visual Capitalist",
+        "The previous record was Saudi Aramco's 2019 base offering: 3 billion shares at SAR 32, or SAR 96 billion (about $25.6 billion, and about $29.4 billion with its option), according to Aramco's final price announcement. SpaceX's base offering is nearly three times as large.",
+      sourceTag: "SpaceX final prospectus (Form 424B4) and Q2 2026 Form 10-Q; Saudi Aramco final price announcement; TechCrunch",
     },
     {
       rank: 1,
@@ -147,7 +147,7 @@ export const biggestTechIpos2026: RankingArticle = {
     stat: "$81.34B",
     label: "Anthropic's base offering, the largest IPO ever",
     comparisonStat: "$1.02B",
-    comparisonLabel: "raised by X-energy, the smallest company on this list",
+    comparisonLabel: "X-energy's base-offering value, the smallest on this list",
     note: "Anthropic's base offering was about 80 times X-energy's. Together, Anthropic and SpaceX ($156.3 billion) were about four times the other six deals combined (about $38.3 billion). All figures are nominal, not adjusted for inflation.",
   },
 
@@ -155,13 +155,14 @@ export const biggestTechIpos2026: RankingArticle = {
     dataPeriod: "Listings priced from January 1 to November 27, 2026",
     lastUpdated: "November 28, 2026",
     sources:
-      "Anthropic and SpaceX final prospectuses and closing announcements, TechCrunch, Yahoo Finance, Reuters via Investing.com, Barchart, Cerebras and Bending Spoons announcements, IPO Buzz, Value The Markets, Axios Pro, CTVC, Visual Capitalist, Fervo Energy SEC filing",
+      "Anthropic and SpaceX final prospectuses and closing announcements, TechCrunch, Yahoo Finance, Reuters via Investing.com, Barchart, Cerebras and Bending Spoons announcements, Saudi Aramco final price announcement, IPO Buzz, Value The Markets, Axios Pro, CTVC, Fervo Energy SEC filing",
     methodology:
       "This ranking compares the base-offering gross proceeds of selected technology IPOs and public listings on US exchanges priced from January 1 through November 27, 2026 and trading by that date, including companies based outside the US. Proceeds are shares sold in the base offering multiplied by the offer price, before underwriting discounts, commissions and other expenses. Underwriters' overallotment options are excluded, even when exercised later; for example, Anthropic's total rose to about $93.5 billion, SpaceX's to about $86.25 billion and Fervo Energy's to about $2.2 billion after their options were exercised. Anthropic's separate private placement is excluded. SK hynix is included because its US American depositary share offering was one of the year's largest technology share sales, although the company was already publicly listed in South Korea. The list is a selection of major deals and has not been verified as a complete census of every qualifying listing. Technology companies include software, chip, AI, quantum and venture-backed clean-energy technology developers; industrial and equipment manufacturers such as INNIO and Madison Air are excluded. Claims of the largest IPO ever refer to nominal base-offering gross proceeds, not adjusted for inflation. It is not a ranking by valuation or first-day performance. Reported totals may differ when sources include overallotment shares or use rounded figures.",
     sourceLinks: [
       { label: "Anthropic: final prospectus (Form 424B4)", href: "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm" },
       { label: "Anthropic: IPO closing announcement", href: "https://www.anthropic.com/news/ipo-close" },
       { label: "SpaceX: final prospectus (Form 424B4)", href: "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm" },
+      { label: "SpaceX: IPO closing announcement", href: "https://ir.spacex.com/updates/releases-details/2026/Space-Exploration-Technologies-Corp--Announces-Closing-of-Initial-Public-Offering-Including-Full-Exercise-of-Underwriters-Option-to-Purchase-Additional-Shares-2026-RgoR-Y1Vwh/default.aspx" },
       { label: "TechCrunch: SpaceX officially prices shares at $135", href: "https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/" },
       { label: "Yahoo Finance: SK hynix Nasdaq debut", href: "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaq-debut-26-113118390.html" },
       { label: "Cerebras: closing of initial public offering", href: "https://www.cerebras.ai/press-release/cerebras-systems-announces-closing-of-initial-public-offering" },
@@ -173,7 +174,7 @@ export const biggestTechIpos2026: RankingArticle = {
       { label: "CTVC: Fervo and X-energy IPOs draw clean firms' cost curve", href: "https://www.ctvc.co/fervo-and-x-energys-ipos-draw-clean-firms-cost-curve-295" },
       { label: "Axios Pro: Fervo prices above range at $27", href: "https://www.axios.com/pro/climate-deals/2026/05/13/fervo-prices-27-upsized" },
       { label: "TechCrunch: OpenAI files confidentially for IPO", href: "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/" },
-      { label: "Visual Capitalist: Ranked, the biggest IPOs in history", href: "https://www.visualcapitalist.com/ranked-the-biggest-ipos-in-history-spacex/" },
+      { label: "Saudi Aramco: final offer price announcement (PDF)", href: "https://www.aramco.com/-/media/images/investors/saudi-aramco-final-price-announcement-en.pdf" },
     ],
   },
 
